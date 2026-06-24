@@ -1,0 +1,78 @@
+name: Daily AI Drops Post
+
+on:
+  schedule:
+    # Run once daily at 09:00 UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate Content and Render Image (Step 1)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ID: ${{ secrets.INSTAGRAM_BUSINESS_ID }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY: ${{ github.event.repository.name }}
+        run: |
+          python main.py
+
+      - name: Commit and Push Image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/daily_ai_drop.png
+          git commit -m "Auto-update daily AI drop image" || echo "No changes to commit"
+          git push
+
+      - name: Wait for GitHub Pages Deployment and Verify URL
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY: ${{ github.event.repository.name }}
+        run: |
+          IMAGE_URL="https://${GITHUB_USERNAME}.github.io/${GITHUB_REPOSITORY}/daily_ai_drop.png"
+          echo "Polling URL: $IMAGE_URL"
+          
+          # Wait up to 3 minutes for deployment
+          for i in {1..18}; do
+            STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" "$IMAGE_URL")
+            if [ "$STATUS" -eq 200 ]; then
+              echo "Image is publicly available (HTTP 200)."
+              exit 0
+            fi
+            echo "Attempt $i: Received HTTP $STATUS. Waiting 10 seconds..."
+            sleep 10
+          done
+          
+          echo "Error: Image failed to become available after 3 minutes."
+          exit 1
+
+      - name: Publish to Instagram (Step 2)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ID: ${{ secrets.INSTAGRAM_BUSINESS_ID }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY: ${{ github.event.repository.name }}
+        run: |
+          python publish_instagram.py
