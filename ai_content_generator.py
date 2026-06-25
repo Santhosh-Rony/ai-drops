@@ -26,12 +26,16 @@ def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> P
     if is_passage:
         models_to_try = [
             "openai/gpt-oss-120b:free",
-            "google/gemma-4-31b-it:free",
-            "qwen/qwen3-next-80b-a3b-instruct:free"    
+            "meta-llama/llama-3-8b-instruct:free",
+            "mistralai/mistral-7b-instruct:free",
+            "qwen/qwen3-next-80b-a3b-instruct:free",
+            "google/gemma-4-31b-it:free"
         ]
     else:
         models_to_try = [
             "openai/gpt-oss-120b:free",
+            "meta-llama/llama-3-8b-instruct:free",
+            "mistralai/mistral-7b-instruct:free",
             "qwen/qwen3-next-80b-a3b-instruct:free",
             "google/gemma-4-31b-it:free"
         ]
@@ -74,9 +78,12 @@ def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> P
                 else:
                     raise e
 
+            if not response or not hasattr(response, "choices") or not response.choices:
+                raise ValueError(f"OpenRouter returned an empty or invalid response object for {model_name}.")
+                
             content_text = response.choices[0].message.content
             if not content_text:
-                raise ValueError("Empty response from OpenRouter")
+                raise ValueError("Empty text content from OpenRouter.")
 
             logger.debug(f"OpenRouter raw response from {model_name}: {content_text}")
             
