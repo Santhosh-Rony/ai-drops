@@ -37,8 +37,8 @@ class GithubPagesUploader(BaseUploader):
         logger.info(f"Copied image to {target_path} for GitHub Actions to commit.")
         
         # 2. Build public URL
-        # URL structure: https://{GITHUB_USERNAME}.github.io/{GITHUB_REPOSITORY}/{filename}
-        public_url = f"https://{Config.GITHUB_USERNAME}.github.io/{Config.GITHUB_REPOSITORY}/{filename}"
+        # URL structure: https://{GITHUB_USERNAME}.github.io/{GITHUB_REPOSITORY}/docs/{filename}
+        public_url = f"https://{Config.GITHUB_USERNAME}.github.io/{Config.GITHUB_REPOSITORY}/docs/{filename}"
         logger.info(f"Expected public URL generated: {public_url}")
         
         return public_url
