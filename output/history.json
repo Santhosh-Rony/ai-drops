@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Claude Tag",
-        "BioNeMo Agent Toolkit",
-        "Seedance 2.5",
         "Gemini 3.5 Flash",
         "Mistral OCR 4",
         "DFlash Speculative"
