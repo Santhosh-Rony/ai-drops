@@ -2,8 +2,8 @@ name: Daily AI Drops Post
 
 on:
   schedule:
-    # Run at 1:40 PM IST (08:10 UTC)
-    - cron: '10 8 * * *'
+    # Run at 9:00 AM IST (03:30 UTC)
+    - cron: '30 3 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
