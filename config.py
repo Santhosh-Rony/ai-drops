@@ -9,6 +9,7 @@ load_dotenv()
 class Config:
     # API Keys
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+    OPENROUTER_FALLBACK_API_KEY = os.getenv("OPENROUTER_FALLBACK_API_KEY")
     INSTAGRAM_ACCESS_TOKEN = os.getenv("INSTAGRAM_ACCESS_TOKEN")
     INSTAGRAM_BUSINESS_ID = os.getenv("INSTAGRAM_BUSINESS_ID")
 
@@ -17,7 +18,8 @@ class Config:
     GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY")
 
     # Font Configuration
-    FONT_PATH = "assets/font.ttf"
+    FONT_PATH = "assets/Montserrat-VariableFont_wght.ttf"
+    FONT_ITALIC_PATH = "assets/Montserrat-Italic-VariableFont_wght.ttf"
 
     # Template Directories
     TEMPLATES_DIR = "templates"

@@ -28,8 +28,8 @@ class GithubPagesUploader(BaseUploader):
         docs_dir = "docs"
         os.makedirs(docs_dir, exist_ok=True)
         
-        # The filename should always be daily_ai_drop.png to keep the URL constant
-        filename = "daily_ai_drop.png"
+        # Extract the dynamic filename (e.g. airdrop_date_time.png) from the path
+        filename = os.path.basename(image_path)
         target_path = os.path.join(docs_dir, filename)
         
         # 1. Copy the file into the GitHub Pages directory

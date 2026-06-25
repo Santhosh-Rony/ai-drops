@@ -6,6 +6,7 @@ from config import Config
 from ai_content_generator import generate_ai_content
 from template_renderer import get_template_for_day, render_post
 from image_uploader import upload_image
+from history import load_history, save_history
 
 def main():
     """
@@ -19,14 +20,22 @@ def main():
         Config.validate()
         
         # 2. Discover & Generate Content using OpenAI (Strict JSON structure via prompt.py)
-        post_content = generate_ai_content()
+        # Load history to prevent hallucinations/duplicate posts
+        past_tools = load_history()
+        post_content = generate_ai_content(excluded_tools=past_tools)
+        
+        # Save newly generated tools to history
+        new_tool_names = [post_content.tool_1.name, post_content.tool_2.name, post_content.tool_3.name]
+        save_history(new_tool_names)
         
         # 3. Select the correct background template based on the day of the week
         template_path, region_config = get_template_for_day()
         logger.info(f"Selected template: {template_path}")
         
         # 4. Render the Image using Pillow (Text-overlay only. No AI image generation)
-        output_filename = "daily_ai_drop.png"
+        import datetime
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        output_filename = f"aidrop_{timestamp}.png"
         output_path = os.path.join(Config.OUTPUT_DIR, output_filename)
         render_post(post_content, template_path, region_config, output_path)
         logger.info(f"Rendered final image locally at {output_path}")
