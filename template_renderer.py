@@ -13,7 +13,7 @@ def get_template_for_day() -> Tuple[str, Dict]:
     """
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     today_index = datetime.datetime.now().weekday()
-    day_name = days[today_index]
+    day_name = days[today_index].lower()
     
     template_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name}.png")
     json_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name}.json")
