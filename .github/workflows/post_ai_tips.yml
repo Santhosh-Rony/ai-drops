@@ -1,9 +1,9 @@
-name: Daily AI Drops Post
+name: Daily AI Tips Post
 
 on:
   schedule:
-    # Run at 7:00 AM IST (01:30 UTC)
-    - cron: '30 1 * * *'
+    # Run at 12:00 PM IST (06:30 UTC)
+    - cron: '30 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
           INSTAGRAM_BUSINESS_ID: ${{ secrets.INSTAGRAM_BUSINESS_ID }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_REPOSITORY: ${{ github.event.repository.name }}
-          POST_TYPE: drops
+          POST_TYPE: tips
         run: |
           python main.py
 

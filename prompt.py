@@ -1,6 +1,3 @@
-# This file contains all OpenAI prompts used in the application.
-# Keeping prompts here allows for easy modification without changing application logic.
-
 def get_ai_drops_prompt(excluded_tools: list[str] = None) -> str:
     exclusion_text = ""
     if excluded_tools:
@@ -27,19 +24,19 @@ Format:
 {{
     "header": "AI DROPS",
     "tool_1": {{
-        "name": "Tool Name Here",
+        "title": "Tool Name Here",
         "point_1": "Usage / Benefit 1 here",
         "point_2": "Usage / Benefit 2 here",
         "point_3": "Usage / Benefit 3 here"
     }},
     "tool_2": {{
-        "name": "Tool Name Here",
+        "title": "Tool Name Here",
         "point_1": "Usage / Benefit 1 here",
         "point_2": "Usage / Benefit 2 here",
         "point_3": "Usage / Benefit 3 here"
     }},
     "tool_3": {{
-        "name": "Tool Name Here",
+        "title": "Tool Name Here",
         "point_1": "Usage / Benefit 1 here",
         "point_2": "Usage / Benefit 2 here",
         "point_3": "Usage / Benefit 3 here"
@@ -60,4 +57,74 @@ Rules:
 * No explanations
 * No surrounding text"""
 
-SYSTEM_PROMPT = "You are a helpful assistant that strictly outputs valid JSON data matching the requested schema. You use web search capabilities to find the latest announcements."
+def get_ai_tips_prompt(core_idea: str) -> str:
+    return f"""You are an expert AI educator. Your task is to generate exactly 3 highly actionable, unique, and valuable AI Tips based entirely on the following core idea:
+
+Core Idea for Today: "{core_idea}"
+
+Return ONLY valid JSON.
+
+Format:
+{{
+    "header": "AI TIPS",
+    "tool_1": {{
+        "title": "# Tip 1",
+        "passage": "Write a clear, easy-to-understand 360-character tip here."
+    }},
+    "tool_2": {{
+        "title": "# Tip 2",
+        "passage": "Write the second 360-character tip here."
+    }},
+    "tool_3": {{
+        "title": "# Tip 3",
+        "passage": "Write the third 360-character tip here."
+    }},
+    "caption": "Write an engaging Instagram caption about {core_idea}...",
+    "hashtags": "#aitips #ai #artificialintelligence #productivity"
+}}
+
+Rules:
+* You MUST provide exactly 3 tips related to the core idea.
+* The titles MUST literally be '# Tip 1', '# Tip 2', and '# Tip 3'.
+* Each tip must be provided as a single passage of text (maximum 360 characters). Do NOT use bullet points. Make it a fluid, easy-to-understand paragraph.
+* Header must ALWAYS be exactly 'AI TIPS'.
+* The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
+* JSON only. No markdown formatting blocks. No extra text.
+"""
+
+def get_ai_prompts_prompt(core_idea: str) -> str:
+    return f"""You are a master prompt engineer. Your task is to generate exactly 3 highly effective, ready-to-use AI Prompts based entirely on the following core idea:
+
+Core Idea for Today: "{core_idea}"
+
+Return ONLY valid JSON.
+
+Format:
+{{
+    "header": "AI PROMPTS",
+    "tool_1": {{
+        "title": "# Prompt 1",
+        "passage": "Write a highly effective, ready-to-copy AI prompt here (max 360 characters)."
+    }},
+    "tool_2": {{
+        "title": "# Prompt 2",
+        "passage": "Write the second 360-character prompt here."
+    }},
+    "tool_3": {{
+        "title": "# Prompt 3",
+        "passage": "Write the third 360-character prompt here."
+    }},
+    "caption": "Write an engaging Instagram caption about AI prompts for {core_idea}...",
+    "hashtags": "#aiprompts #promptengineering #ai #chatgpt"
+}}
+
+Rules:
+* You MUST provide exactly 3 distinct AI prompts related to the core idea.
+* The titles MUST literally be '# Prompt 1', '# Prompt 2', and '# Prompt 3'.
+* Each prompt must be a single passage of text (maximum 360 characters). It should be a direct prompt the user can copy and paste into an AI.
+* Header must ALWAYS be exactly 'AI PROMPTS'.
+* The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
+* JSON only. No markdown formatting blocks. No extra text.
+"""
+
+SYSTEM_PROMPT = "You are a helpful assistant that strictly outputs valid JSON data matching the requested schema. You are an expert at clear, concise writing."

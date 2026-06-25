@@ -1,11 +1,32 @@
 import os
 import json
 import datetime
+import textwrap
 from typing import Tuple, Dict
 from PIL import Image, ImageDraw, ImageFont
 from config import Config
 from logger import logger
 from models import PostContent
+
+def wrap_text_to_pixels(text: str, font, max_width: int, draw) -> str:
+    """Wraps text to fit within a specific pixel width."""
+    lines = []
+    words = text.split()
+    current_line = []
+    
+    for word in words:
+        current_line.append(word)
+        test_line = " ".join(current_line)
+        left, top, right, bottom = draw.textbbox((0, 0), test_line, font=font)
+        if (right - left) > max_width and len(current_line) > 1:
+            current_line.pop()
+            lines.append(" ".join(current_line))
+            current_line = [word]
+            
+    if current_line:
+        lines.append(" ".join(current_line))
+        
+    return "\n".join(lines)
 
 def get_template_for_day() -> Tuple[str, Dict]:
     """
@@ -104,7 +125,29 @@ def render_text_in_region(draw, text: str, region: dict, font_path: str, overrid
     # Draw main text in pure white with a whisper-thin stroke to maintain crispness
     draw.text((draw_x, y), text, font=font, fill=color, stroke_width=1, stroke_fill=stroke_color)
 
-def render_post(content: PostContent, template_path: str, region_config: dict, output_path: str):
+def render_passage_in_region(draw, text: str, region: dict, font_path: str, override_y: int = None):
+    """
+    Renders multi-line text (passages) for Tips and Prompts.
+    """
+    if not region or not text:
+        return
+        
+    x = region.get("x", 0)
+    y = override_y if override_y is not None else region.get("y", 0)
+    max_w = region.get("max_width", 500)
+    
+    color = (255, 255, 255, 255)
+    stroke_color = (255, 255, 255, 25)
+    
+    # We use a slightly smaller default font for passages to ensure they fit 180 chars
+    font_size = region.get("min_font_size", 28) 
+    font = load_font(font_path, font_size)
+    
+    wrapped_text = wrap_text_to_pixels(text, font, max_w, draw)
+    
+    draw.multiline_text((x, y), wrapped_text, font=font, fill=color, spacing=15, stroke_width=1, stroke_fill=stroke_color)
+
+def render_post(content: PostContent, template_path: str, region_config: dict, output_path: str, is_passage: bool = False):
     """
     Renders the post content into the given template using dynamic spacing and style overrides.
     """
@@ -162,24 +205,30 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             def render_tool_block(tool_data, block_idx: int, base_y: float):
                 prefix = f"tool_{block_idx}"
                 
-                # Render Tool Name (Title Case: First Letter Capital of Every Word)
-                render_text_in_region(draw, tool_data.name, region_config[f"{prefix}_name"], Config.FONT_PATH, override_y=int(base_y), force_title=True)
+                # Render Block Title (Tool Name or # Tip 1)
+                render_text_in_region(draw, tool_data.title, region_config[f"{prefix}_name"], Config.FONT_PATH, override_y=int(base_y), force_title=True)
                 
-                # Render Bullet Points (Sentence Case: First starting letter capital only)
-                bullet_y = int(base_y) + 85
-                if tool_data.point_1:
-                    formatted_point = tool_data.point_1.capitalize()
-                    render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_1"], Config.FONT_PATH, override_y=bullet_y)
-                
-                bullet_y += 65
-                if tool_data.point_2:
-                    formatted_point = tool_data.point_2.capitalize()
-                    render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_2"], Config.FONT_PATH, override_y=bullet_y)
-                
-                bullet_y += 65
-                if tool_data.point_3:
-                    formatted_point = tool_data.point_3.capitalize()
-                    render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_3"], Config.FONT_PATH, override_y=bullet_y)
+                if is_passage:
+                    # Render passage
+                    passage_y = int(base_y) + 90
+                    passage_region = region_config[f"{prefix}_point_1"]
+                    render_passage_in_region(draw, tool_data.passage, passage_region, Config.FONT_PATH, override_y=passage_y)
+                else:
+                    # Render Bullet Points
+                    bullet_y = int(base_y) + 85
+                    if tool_data.point_1:
+                        formatted_point = tool_data.point_1.capitalize()
+                        render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_1"], Config.FONT_PATH, override_y=bullet_y)
+                    
+                    bullet_y += 65
+                    if tool_data.point_2:
+                        formatted_point = tool_data.point_2.capitalize()
+                        render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_2"], Config.FONT_PATH, override_y=bullet_y)
+                    
+                    bullet_y += 65
+                    if tool_data.point_3:
+                        formatted_point = tool_data.point_3.capitalize()
+                        render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_3"], Config.FONT_PATH, override_y=bullet_y)
 
             # Render the 3 tool blocks dynamically spaced out
             render_tool_block(content.tool_1, 1, start_y)

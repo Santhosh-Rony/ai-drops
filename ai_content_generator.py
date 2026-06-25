@@ -4,10 +4,10 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 from config import Config
 from logger import logger
 from models import PostContent
-from prompt import get_ai_drops_prompt, SYSTEM_PROMPT
+from prompt import SYSTEM_PROMPT
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
-def _generate_with_key(api_key: str, excluded_tools: list[str]) -> PostContent:
+def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> PostContent:
     """
     Calls OpenRouter to generate the AI drops content with retries.
     It implements a fallback mechanism across multiple free models.
@@ -22,21 +22,28 @@ def _generate_with_key(api_key: str, excluded_tools: list[str]) -> PostContent:
         }
     )
 
-    # Models to try in order of preference
-    models_to_try = [
-        "openai/gpt-oss-120b:free",
-        "qwen/qwen3-next-80b-a3b-instruct:free"
-    ]
+    # Models to try in order of preference depending on content type
+    if is_passage:
+        models_to_try = [
+            "openai/gpt-oss-120b:free",
+            "google/gemma-4-31b-it:free",
+            "qwen/qwen3-next-80b-a3b-instruct:free"    
+        ]
+    else:
+        models_to_try = [
+            "openai/gpt-oss-120b:free",
+            "qwen/qwen3-next-80b-a3b-instruct:free",
+            "google/gemma-4-31b-it:free"
+        ]
     
     # Attach web search plugin specifically for OpenRouter generic models
     extra_body = {
         "plugins": [
             {"id": "web", "max_results": 5}
         ]
-    }
+    } if not is_passage else {} # Web search is only needed for Drops, not for Tips/Prompts
 
     last_exception = None
-    dynamic_prompt = get_ai_drops_prompt(excluded_tools)
 
     for model_name in models_to_try:
         logger.info(f"Attempting content generation using model: {model_name}")
@@ -86,8 +93,8 @@ def _generate_with_key(api_key: str, excluded_tools: list[str]) -> PostContent:
             post_content = PostContent.from_dict(data)
             
             # Apply strict length constraints
-            post_content.trim_to_limits()
-            post_content.validate()
+            post_content.trim_to_limits(is_passage)
+            post_content.validate(is_passage)
             
             logger.info(f"Content generation completed successfully using {model_name}")
             return post_content
@@ -104,19 +111,16 @@ def _generate_with_key(api_key: str, excluded_tools: list[str]) -> PostContent:
     else:
         raise RuntimeError("Content generation failed across all models.")
 
-def generate_ai_content(excluded_tools: list[str] = None) -> PostContent:
+def generate_ai_content(dynamic_prompt: str, is_passage: bool = False) -> PostContent:
     """
     Main entrypoint.
     Attempts to generate using the PRIMARY API Key (up to 3 times via @retry).
     If it completely exhausts the primary key limits, it pivots to the FALLBACK API Key.
     """
     logger.info("Starting AI content generation pipeline with PRIMARY API key.")
-    
-    if excluded_tools is None:
-        excluded_tools = []
         
     try:
-        return _generate_with_key(Config.OPENROUTER_API_KEY, excluded_tools)
+        return _generate_with_key(Config.OPENROUTER_API_KEY, dynamic_prompt, is_passage)
     except Exception as primary_error:
         logger.error(f"PRIMARY API Key exhausted all 3 attempts! Error: {primary_error}")
         
@@ -124,7 +128,7 @@ def generate_ai_content(excluded_tools: list[str] = None) -> PostContent:
         if Config.OPENROUTER_FALLBACK_API_KEY:
             logger.info("🔥 FATAL PRIMARY FAILURE: Pivoting to FALLBACK API Key...")
             try:
-                return _generate_with_key(Config.OPENROUTER_FALLBACK_API_KEY, excluded_tools)
+                return _generate_with_key(Config.OPENROUTER_FALLBACK_API_KEY, dynamic_prompt, is_passage)
             except Exception as fallback_error:
                 logger.error(f"FALLBACK API Key also exhausted all attempts! Fatal Error: {fallback_error}")
                 raise RuntimeError("Total failure across both Primary and Fallback API keys.") from fallback_error
