@@ -13,9 +13,10 @@ class Config:
     INSTAGRAM_ACCESS_TOKEN = os.getenv("INSTAGRAM_ACCESS_TOKEN")
     INSTAGRAM_BUSINESS_ID = os.getenv("INSTAGRAM_BUSINESS_ID")
 
-    # GitHub Pages Config
-    GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")
-    GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY")
+    # GitHub Actions sets GITHUB_REPOSITORY to "owner/repo" by default. We only want "repo".
+    GITHUB_USERNAME = os.environ.get("GITHUB_USERNAME")
+    raw_repo = os.environ.get("GITHUB_REPOSITORY")
+    GITHUB_REPOSITORY = raw_repo.split("/")[-1] if raw_repo else None
 
     # Font Configuration
     FONT_PATH = "assets/Montserrat-VariableFont_wght.ttf"
