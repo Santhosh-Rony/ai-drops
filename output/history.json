@@ -2,6 +2,9 @@
     "tools": [
         "Gemini 3.5 Flash",
         "Mistral OCR 4",
-        "DFlash Speculative"
+        "DFlash Speculative",
+        "CUGA Framework",
+        "Claude Tag",
+        "Hermes /learn"
     ]
 }
