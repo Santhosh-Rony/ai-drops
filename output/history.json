@@ -1,5 +1,7 @@
 {
     "tools": [
-        
+        "Claude Tag",
+        "BioNeMo Agent Toolkit",
+        "CUGA Framework"
     ]
 }
