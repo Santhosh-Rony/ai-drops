@@ -1,12 +1,28 @@
 import os
 import sys
 import json
+import glob
 from logger import logger
 from config import Config
 from ai_content_generator import generate_ai_content
 from template_renderer import get_template_for_day, render_post
 from image_uploader import upload_image
 from history import load_history, save_history
+
+def cleanup_old_images():
+    """
+    Deletes previously generated images to prevent the repository from bloating.
+    This guarantees only 1 image exists in the repo at any given time.
+    """
+    logger.info("Cleaning up old generated images...")
+    for folder in [Config.OUTPUT_DIR, "docs"]:
+        if os.path.exists(folder):
+            for file_path in glob.glob(os.path.join(folder, "aidrop_*.png")):
+                try:
+                    os.remove(file_path)
+                    logger.info(f"Deleted old image: {file_path}")
+                except Exception as e:
+                    logger.warning(f"Could not delete old image {file_path}: {e}")
 
 def main():
     """
@@ -15,6 +31,9 @@ def main():
     """
     try:
         logger.info("Starting Step 1: AI Content Generation & Image Rendering")
+        
+        # 0. Clean up yesterday's images so they don't bloat the repository
+        cleanup_old_images()
         
         # 1. Validate Environment variables
         Config.validate()

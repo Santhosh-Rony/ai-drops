@@ -138,6 +138,19 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             }
             # Use Italic font for date
             render_text_in_region(draw, date_str, date_region, Config.FONT_ITALIC_PATH)
+            
+            # 2b. Render Watermark in the bottom right corner
+            watermark_str = "@Everything__about_ai"
+            watermark_region = {
+                "x": img_width - 60 - 400, # Same right padding as the date
+                "y": img_height - 60 - 30, # Pushed down to the bottom border
+                "max_width": 400,
+                "align": "right",
+                "max_font_size": 16, 
+                "min_font_size": 12  
+            }
+            # Use Italic font for watermark to match the date style
+            render_text_in_region(draw, watermark_str, watermark_region, Config.FONT_ITALIC_PATH)
 
             # 3. Dynamic Vertical Spacing for the 3 Tools
             start_y = line_y + 60
