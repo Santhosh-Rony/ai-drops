@@ -13,20 +13,30 @@ def get_template_for_day() -> Tuple[str, Dict]:
     """
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     today_index = datetime.datetime.now().weekday()
-    day_name = days[today_index].lower()
+    day_name_lower = days[today_index].lower()
+    day_name_capital = days[today_index]
     
-    template_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name}.png")
-    json_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name}.json")
+    # Try lowercase first (standardized)
+    template_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name_lower}.png")
+    json_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name_lower}.json")
     
     if not os.path.exists(template_path) or not os.path.exists(json_path):
-        logger.warning(f"Template files for {day_name} not found. Searching for fallback templates.")
+        # Fallback to Capitalized (in case Linux server has original casing)
+        template_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name_capital}.png")
+        json_path = os.path.join(Config.TEMPLATES_DIR, f"{day_name_capital}.json")
+        
+    if not os.path.exists(template_path) or not os.path.exists(json_path):
+        logger.warning(f"Template files for {day_name_capital} not found. Searching for fallback templates.")
         for fallback_day in days:
-            fallback_img = os.path.join(Config.TEMPLATES_DIR, f"{fallback_day}.png")
-            fallback_json = os.path.join(Config.TEMPLATES_DIR, f"{fallback_day}.json")
-            if os.path.exists(fallback_img) and os.path.exists(fallback_json):
-                logger.info(f"Using fallback template: {fallback_day}")
-                template_path = fallback_img
-                json_path = fallback_json
+            for case_format in [fallback_day.lower(), fallback_day]:
+                fallback_img = os.path.join(Config.TEMPLATES_DIR, f"{case_format}.png")
+                fallback_json = os.path.join(Config.TEMPLATES_DIR, f"{case_format}.json")
+                if os.path.exists(fallback_img) and os.path.exists(fallback_json):
+                    logger.info(f"Using fallback template: {case_format}")
+                    template_path = fallback_img
+                    json_path = fallback_json
+                    break
+            if os.path.exists(template_path):
                 break
         else:
             raise FileNotFoundError(f"No valid template sets found in {Config.TEMPLATES_DIR}.")
