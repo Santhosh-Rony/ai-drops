@@ -1,0 +1,19 @@
+[
+    {
+        "date": "June 26, 2026",
+        "items": [
+            {
+                "title": "MiMo-V2 Omni",
+                "description": "\u2022 Sees, hears, and acts in real time\n\u2022 Handles long audio and video streams\n\u2022 Runs browser and office tasks via API"
+            },
+            {
+                "title": "NVIDIA Agent Toolkit",
+                "description": "\u2022 Builds secure, specialized AI agents\n\u2022 Offers sandboxed runtime with RBAC\n\u2022 Integrates Llama 3.1, Nemotron\u20114, NIM"
+            },
+            {
+                "title": "Un-0 Image Generator",
+                "description": "\u2022 Creates images using coupled oscillators\n\u2022 Matches early GAN quality on ImageNet 64\u00d764\n\u2022 Open weights for research and experimentation"
+            }
+        ]
+    }
+]
