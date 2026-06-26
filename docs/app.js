@@ -63,24 +63,45 @@ function renderDropCard(item) {
 }
 
 function renderTipCard(item) {
+    let itemsHTML = '';
+    if (item.items && Array.isArray(item.items)) {
+        item.items.forEach(tip => {
+            itemsHTML += `
+                <div class="drop-item">
+                    <div class="drop-item-title">${tip.title}</div>
+                    <div class="card-content">${tip.content.replace(/\n/g, '<br>')}</div>
+                </div>
+            `;
+        });
+    }
+
     return `
         <div class="card">
             <div class="card-date">${item.date}</div>
-            <div class="card-title">${item.title}</div>
-            <div class="card-content">${item.content.replace(/\n/g, '<br>')}</div>
+            ${itemsHTML}
         </div>
     `;
 }
 
 function renderPromptCard(item) {
-    // Safe escaping for the data attribute
-    const escapedContent = item.content.replace(/"/g, '&quot;');
+    let itemsHTML = '';
+    if (item.items && Array.isArray(item.items)) {
+        item.items.forEach(prompt => {
+            const escapedContent = prompt.content.replace(/"/g, '&quot;');
+            itemsHTML += `
+                <div class="drop-item">
+                    <div class="drop-item-title">${prompt.title}</div>
+                    <div class="card-content">${prompt.content.replace(/\n/g, '<br>')}</div>
+                    <button class="copy-btn" data-prompt="${escapedContent}">Copy Prompt</button>
+                </div>
+            `;
+        });
+    }
+
     return `
         <div class="card">
             <div class="card-date">${item.date}</div>
-            <div class="card-title">${item.title}</div>
-            <div class="card-content">${item.content.replace(/\n/g, '<br>')}</div>
-            <button class="copy-btn" data-prompt="${escapedContent}">Copy Prompt</button>
+            ${itemsHTML}
         </div>
     `;
 }

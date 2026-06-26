@@ -1,12 +1,36 @@
 [
     {
         "date": "June 26, 2026",
-        "title": "# Prompt 1",
-        "content": "Create a 5\u2011minute YouTube video script about \"how to start a home garden\". Include a catchy intro, three clear steps, a short personal story, and a call\u2011to\u2011action encouraging viewers to subscribe. Write in a friendly, conversational tone."
+        "items": [
+            {
+                "title": "# Prompt 1",
+                "content": "Create a catchy Instagram caption for a photo of a coffee cup on a rainy morning. Mention the cozy feeling, the smell of coffee, and add a playful emoji. Keep it under 150 characters."
+            },
+            {
+                "title": "# Prompt 2",
+                "content": "Write an Instagram caption for a travel selfie in front of a famous landmark. Highlight excitement, a fun fact about the place, and end with a call to action for followers to share their own trips."
+            },
+            {
+                "title": "# Prompt 3",
+                "content": "Generate a short, witty caption for a pet photo where the dog is wearing sunglasses. Include a pun, a friendly tone, and a relevant hashtag."
+            }
+        ]
     },
     {
-        "date": "June 26, 2026",
-        "title": "# Prompt 1",
-        "content": "Write a 800\u2011word blog post about the benefits of remote work. Include an engaging hook, three clear sections with subheadings, real\u2011world examples, and a concluding call\u2011to\u2011action. Use a friendly, conversational tone and add a short FAQ at the end."
+        "date": "June 25, 2026",
+        "items": [
+            {
+                "title": "# Prompt 1",
+                "content": "Create a LinkedIn post announcing a new product launch. Include a catchy opening line, three key benefits, a brief story or statistic, a call to action, and two relevant hashtags. Keep the tone professional yet friendly, and limit the post to 150 words."
+            },
+            {
+                "title": "# Prompt 2",
+                "content": "Write a LinkedIn post that shares a personal career lesson. Start with a hook, describe the challenge, explain what you learned, and end with a question that encourages comments. Use simple language, keep it under 120 words, and add one hashtag."
+            },
+            {
+                "title": "# Prompt 3",
+                "content": "Generate a LinkedIn post promoting an upcoming webinar on AI trends. Mention the date, speaker name, three topics covered, why it matters to the reader, and a link placeholder. Use an enthusiastic tone, keep it under 130 words, and add two hashtags."
+            }
+        ]
     }
 ]

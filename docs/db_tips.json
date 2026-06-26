@@ -1,7 +1,36 @@
 [
     {
         "date": "June 26, 2026",
-        "title": "# Tip 1",
-        "content": "When you give a model a few examples of the task you want, it learns the pattern faster. Choose 2\u20114 clear examples that cover the main cases, then ask the model to continue. This \u201cfew\u2011shot\u201d approach works better than a blank prompt for many problems."
+        "items": [
+            {
+                "title": "# Tip 1",
+                "content": "Start every request by giving the model a clear role, like \"You are a friendly tutor\" or \"Act as a market analyst.\" The role sets the tone and limits, so the AI answers in the right voice and depth, making your output more useful and on-point."
+            },
+            {
+                "title": "# Tip 2",
+                "content": "Combine role prompting with a short task description. For example: \"You are a travel planner. Suggest a 3-day itinerary for a family with kids in Tokyo.\" The role frames expertise, while the task tells the AI exactly what to produce, reducing vague replies."
+            },
+            {
+                "title": "# Tip 3",
+                "content": "Refresh the role when the conversation shifts. If you move from brainstorming ideas to checking facts, say \"Now you are a fact-checker. Verify these statements.\" Updating the role keeps the model focused and prevents mix-ups."
+            }
+        ]
+    },
+    {
+        "date": "June 25, 2026",
+        "items": [
+            {
+                "title": "# Tip 1",
+                "content": "When you ask an AI, include exact details like the format, length, and style you want. Instead of saying \"write a story,\" say \"write a 200-word sci-fi story in first person, with a twist ending.\" Clear specifics guide the model to give you exactly what you need."
+            },
+            {
+                "title": "# Tip 2",
+                "content": "Add context that narrows the scope. If you need a marketing tagline, mention the product, target audience, and tone (e.g., \"fun, eco-friendly\"). This prevents vague answers and helps the AI generate copy that fits your real situation."
+            },
+            {
+                "title": "# Tip 3",
+                "content": "Use concrete examples to illustrate your request. Instead of \"explain AI,\" say \"explain AI to a 10-year-old using a soccer game analogy.\" Specific examples shape the response, making it easier to understand and apply."
+            }
+        ]
     }
 ]

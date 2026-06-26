@@ -60,8 +60,20 @@ def save_to_database(post_content: PostContent, post_type: str):
         db_path = DB_TIPS if post_type == "tips" else DB_PROMPTS
         new_entry = {
             "date": timestamp,
-            "title": post_content.tool_1.title,
-            "content": post_content.tool_1.passage
+            "items": [
+                {
+                    "title": post_content.tool_1.title,
+                    "content": post_content.tool_1.passage
+                },
+                {
+                    "title": post_content.tool_2.title,
+                    "content": post_content.tool_2.passage
+                },
+                {
+                    "title": post_content.tool_3.title,
+                    "content": post_content.tool_3.passage
+                }
+            ]
         }
     else:
         logger.warning(f"Unknown post_type for database: {post_type}")
