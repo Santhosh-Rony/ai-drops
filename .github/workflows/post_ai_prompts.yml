@@ -1,10 +1,7 @@
 name: Daily AI Prompts Post
 
 on:
-  schedule:
-    # Run at 6:00 PM IST (12:30 UTC)
-    - cron: '30 12 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch: # Triggered by cron-job.org or manual click
 
 permissions:
   contents: write
