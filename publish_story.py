@@ -1,5 +1,6 @@
 import os
 import sys
+import datetime
 from logger import logger
 from config import Config
 from instagram_publisher import publish_story
@@ -15,12 +16,16 @@ def main():
         # 1. Validate Environment variables
         Config.validate()
         
-        # 2. Define the static public URL of the story image
-        # Because we changed the GitHub Pages root to /docs, the URL is just /story_bg.png
-        image_url = f"https://{Config.GITHUB_USERNAME}.github.io/{Config.GITHUB_REPOSITORY}/story_bg.png"
+        # 2. Determine the day of the week to pick the correct template
+        # Use lowercase to prevent Linux case-sensitivity issues
+        day_of_week = datetime.datetime.now().strftime("%A").lower()
+        file_name = f"story_template_{day_of_week}.png"
+        
+        # 3. Define the static public URL of the story image
+        image_url = f"https://{Config.GITHUB_USERNAME}.github.io/{Config.GITHUB_REPOSITORY}/{file_name}"
         logger.info(f"Using Story Image URL: {image_url}")
         
-        # 3. Publish Story to Instagram
+        # 4. Publish Story to Instagram
         post_id = publish_story(image_url)
         
         logger.info(f"Successfully published Instagram Story with ID: {post_id}")
