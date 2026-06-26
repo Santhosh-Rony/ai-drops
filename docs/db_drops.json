@@ -3,6 +3,23 @@
         "date": "June 26, 2026",
         "items": [
             {
+                "title": "Ornith-1.0",
+                "description": "\u2022 Writes its own coding harness\n\u2022 Open\u2011source, MIT\u2011licensed models\n\u2022 State\u2011of\u2011the\u2011art results up to 397B"
+            },
+            {
+                "title": "Chaser\u2011Claude Slack",
+                "description": "\u2022 AI can assign tasks in Slack\n\u2022 Integrates with Claude via MCP\n\u2022 Tracks and auto\u2011reminds on work"
+            },
+            {
+                "title": "SeniorSafe",
+                "description": "\u2022 Stops real\u2011time phone fraud\n\u2022 Blocks AI\u2011deepfake scam calls\n\u2022 Protects seniors without user effort"
+            }
+        ]
+    },
+    {
+        "date": "June 26, 2026",
+        "items": [
+            {
                 "title": "MiMo-V2 Omni",
                 "description": "\u2022 Sees, hears, and acts in real time\n\u2022 Handles long audio and video streams\n\u2022 Runs browser and office tasks via API"
             },
