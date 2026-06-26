@@ -121,24 +121,38 @@ def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> P
 def generate_ai_content(dynamic_prompt: str, is_passage: bool = False) -> PostContent:
     """
     Main entrypoint.
-    Attempts to generate using the PRIMARY API Key (up to 3 times via @retry).
-    If it completely exhausts the primary key limits, it pivots to the FALLBACK API Key.
+    Loops through all available API keys in order. If one fails completely (exhausts 3 retries),
+    it pivots to the next one in the daisy-chain.
     """
-    logger.info("Starting AI content generation pipeline with PRIMARY API key.")
+    api_keys = [
+        Config.OPENROUTER_API_KEY,
+        Config.OPENROUTER_FALLBACK_API_KEY,
+        Config.OPENROUTER_FALLBACK_API_KEY_1,
+        Config.OPENROUTER_FALLBACK_API_KEY_2,
+        Config.OPENROUTER_FALLBACK_API_KEY_3
+    ]
+    
+    # Filter out empty keys
+    valid_keys = [k for k in api_keys if k and k.strip()]
+    
+    if not valid_keys:
+        logger.error("No valid OpenRouter API keys found in .env!")
+        raise RuntimeError("Missing API keys.")
         
-    try:
-        return _generate_with_key(Config.OPENROUTER_API_KEY, dynamic_prompt, is_passage)
-    except Exception as primary_error:
-        logger.error(f"PRIMARY API Key exhausted all 3 attempts! Error: {primary_error}")
-        
-        # Check if the user has provided a fallback key in .env
-        if Config.OPENROUTER_FALLBACK_API_KEY:
-            logger.info("🔥 FATAL PRIMARY FAILURE: Pivoting to FALLBACK API Key...")
-            try:
-                return _generate_with_key(Config.OPENROUTER_FALLBACK_API_KEY, dynamic_prompt, is_passage)
-            except Exception as fallback_error:
-                logger.error(f"FALLBACK API Key also exhausted all attempts! Fatal Error: {fallback_error}")
-                raise RuntimeError("Total failure across both Primary and Fallback API keys.") from fallback_error
-        else:
-            logger.error("No fallback API key configured in .env. Failsafe aborted.")
-            raise RuntimeError("Primary key failed and no fallback key exists.") from primary_error
+    logger.info(f"Starting AI content generation pipeline. Loaded {len(valid_keys)} active API keys.")
+    
+    last_error = None
+    for idx, key in enumerate(valid_keys):
+        key_label = f"Key #{idx+1}"
+        logger.info(f"Attempting content generation using {key_label}...")
+        try:
+            return _generate_with_key(key, dynamic_prompt, is_passage)
+        except Exception as e:
+            logger.error(f"🔥 FATAL FAILURE on {key_label}: {e}")
+            last_error = e
+            if idx < len(valid_keys) - 1:
+                logger.info(f"Pivoting to next fallback API key ({idx+2})...")
+            continue
+            
+    logger.error("All available API keys have been exhausted! Script is completely locked out.")
+    raise RuntimeError(f"Total failure across all {len(valid_keys)} possible API keys.") from last_error
