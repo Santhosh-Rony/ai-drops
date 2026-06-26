@@ -1,0 +1,7 @@
+[
+    {
+        "date": "June 26, 2026",
+        "title": "# Tip 1",
+        "content": "When you give a model a few examples of the task you want, it learns the pattern faster. Choose 2\u20114 clear examples that cover the main cases, then ask the model to continue. This \u201cfew\u2011shot\u201d approach works better than a blank prompt for many problems."
+    }
+]
