@@ -69,6 +69,8 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     margin: 1rem 2rem;
+    flex-wrap: nowrap; /* Prevent icon from breaking to new line */
+    gap: 1rem;
 }
 .navbar h1 {
     font-weight: 800;
@@ -277,10 +279,18 @@ body {
         font-size: 2rem;
     }
     .navbar {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 0.5rem;
+        padding: 0.75rem 1rem;
     }
     .navbar h1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        white-space: nowrap; /* Ensure text never wraps on small screens */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media (max-width: 350px) {
+    .navbar h1 {
+        font-size: 0.95rem;
     }
 }
