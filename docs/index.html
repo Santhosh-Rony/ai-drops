@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything About AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <nav class="navbar glass">
+        <h1>Everything About <span>AI</span></h1>
+        <!-- Replace with your actual IG link later -->
+        <a href="https://instagram.com/" target="_blank" class="ig-btn">Follow on Instagram</a>
+    </nav>
+
+    <header class="hero">
+        <h2>Your Daily AI Arsenal</h2>
+        <p>The latest drops, actionable tips, and copy-paste prompts updated daily.</p>
+    </header>
+
+    <main class="grid-container">
+        <!-- AI Drops Column -->
+        <section class="column glass" id="col-drops">
+            <div class="column-header">
+                <h3>🚀 AI Drops</h3>
+                <p>The latest tools & news</p>
+            </div>
+            <div class="feed" id="feed-drops">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- AI Tips Column -->
+        <section class="column glass" id="col-tips">
+            <div class="column-header">
+                <h3>💡 AI Tips</h3>
+                <p>Actionable daily hacks</p>
+            </div>
+            <div class="feed" id="feed-tips">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- AI Prompts Column -->
+        <section class="column glass" id="col-prompts">
+            <div class="column-header">
+                <h3>✍️ AI Prompts</h3>
+                <p>Copy & paste workflows</p>
+            </div>
+            <div class="feed" id="feed-prompts">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden glass">
+        <span id="toast-msg">Prompt Copied!</span>
+        <a href="https://instagram.com/" target="_blank">Follow us on IG for more</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -8,6 +8,7 @@ from ai_content_generator import generate_ai_content
 from template_renderer import get_template_for_day, render_post
 from image_uploader import upload_image
 from history import load_history, save_history
+from database import save_to_database
 from state_manager import get_next_idea_index
 from core_ideas import AI_TIPS_IDEAS, AI_PROMPTS_IDEAS
 from prompt import get_ai_drops_prompt, get_ai_tips_prompt, get_ai_prompts_prompt
@@ -104,6 +105,9 @@ def main():
         metadata_path = os.path.join(Config.OUTPUT_DIR, "post_metadata.json")
         with open(metadata_path, 'w', encoding='utf-8') as f:
             json.dump(metadata, f, indent=4)
+            
+        # 8. Save post to the Everything About AI Web App Database
+        save_to_database(post_content, post_type)
             
         logger.info(f"Metadata saved to {metadata_path}. Generation complete. Awaiting GitHub Actions sync.")
         
