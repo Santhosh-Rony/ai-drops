@@ -70,8 +70,8 @@ def save_to_database(post_content: PostContent, post_type: str):
     data = load_db(db_path)
     data.insert(0, new_entry) # Add to the top of the feed
     
-    # Keep the last 100 entries
-    if len(data) > 100:
-        data = data[:100]
+    # Keep only the last 7 entries (7 days limit)
+    if len(data) > 7:
+        data = data[:7]
         
     save_db(db_path, data)

@@ -262,8 +262,16 @@ body {
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr;
+        padding: 0 1rem 2rem 1rem;
     }
     .hero h2 {
         font-size: 2rem;
+    }
+    .navbar {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .navbar h1 {
+        font-size: 1.2rem;
     }
 }
