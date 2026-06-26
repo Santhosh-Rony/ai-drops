@@ -2,6 +2,11 @@
     {
         "date": "June 26, 2026",
         "title": "# Prompt 1",
+        "content": "Create a 5\u2011minute YouTube video script about \"how to start a home garden\". Include a catchy intro, three clear steps, a short personal story, and a call\u2011to\u2011action encouraging viewers to subscribe. Write in a friendly, conversational tone."
+    },
+    {
+        "date": "June 26, 2026",
+        "title": "# Prompt 1",
         "content": "Write a 800\u2011word blog post about the benefits of remote work. Include an engaging hook, three clear sections with subheadings, real\u2011world examples, and a concluding call\u2011to\u2011action. Use a friendly, conversational tone and add a short FAQ at the end."
     }
 ]
