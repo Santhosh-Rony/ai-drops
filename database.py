@@ -44,15 +44,15 @@ def save_to_database(post_content: PostContent, post_type: str):
             "items": [
                 {
                     "title": post_content.tool_1.title,
-                    "description": post_content.tool_1.description
+                    "description": f"• {post_content.tool_1.point_1}\n• {post_content.tool_1.point_2}\n• {post_content.tool_1.point_3}"
                 },
                 {
                     "title": post_content.tool_2.title,
-                    "description": post_content.tool_2.description
+                    "description": f"• {post_content.tool_2.point_1}\n• {post_content.tool_2.point_2}\n• {post_content.tool_2.point_3}"
                 },
                 {
                     "title": post_content.tool_3.title,
-                    "description": post_content.tool_3.description
+                    "description": f"• {post_content.tool_3.point_1}\n• {post_content.tool_3.point_2}\n• {post_content.tool_3.point_3}"
                 }
             ]
         }
@@ -60,8 +60,8 @@ def save_to_database(post_content: PostContent, post_type: str):
         db_path = DB_TIPS if post_type == "tips" else DB_PROMPTS
         new_entry = {
             "date": timestamp,
-            "title": post_content.passage_title,
-            "content": post_content.passage_content
+            "title": post_content.tool_1.title,
+            "content": post_content.tool_1.passage
         }
     else:
         logger.warning(f"Unknown post_type for database: {post_type}")
