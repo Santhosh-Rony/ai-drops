@@ -82,11 +82,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-main);
-    transition: color 0.2s, transform 0.2s;
+    transition: transform 0.2s;
 }
 .ig-icon:hover {
-    color: #e1306c; /* Instagram Pink/Red on hover */
     transform: scale(1.1);
 }
 
@@ -226,6 +224,10 @@ body {
 
 /* Footer */
 .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 2rem 1rem 6rem 1rem; /* Extra padding at bottom for toast */
     color: var(--text-dim);
