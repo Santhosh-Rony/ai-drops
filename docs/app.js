@@ -112,18 +112,14 @@ function attachCopyListeners(container) {
         btn.addEventListener('click', (e) => {
             const promptText = e.target.getAttribute('data-prompt');
             navigator.clipboard.writeText(promptText).then(() => {
-                showToast();
+                const button = e.target;
+                button.classList.add('copied');
+                
+                // Remove the class after animation completes (2s)
+                setTimeout(() => {
+                    button.classList.remove('copied');
+                }, 2000);
             });
         });
     });
-}
-
-function showToast() {
-    const toast = document.getElementById('toast');
-    toast.classList.add('show');
-    
-    // Hide after 4 seconds
-    setTimeout(() => {
-        toast.classList.remove('show');
-    }, 4000);
 }

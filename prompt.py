@@ -5,11 +5,12 @@ def get_ai_drops_prompt(excluded_tools: list[str] = None) -> str:
         for tool in excluded_tools:
             exclusion_text += f"- {tool}\n"
             
-    return f"""Search the web for the 3 most interesting AI tools, AI product launches, or major AI updates released within the last 24 hours.
+    return f"""Search the web for the 3 most interesting AI tools, AI product launches, or major AI updates released within the last 24-48 hours.
 
 Search Strategy:
-First, search for AI software tools released in the last 24 hours.
-If there are fewer than 3 major software tools, expand your search horizontally to include ANY major AI developments:
+1. FIRST, do a targeted web search on the 15 most anticipated and trending AI companies to see if they released any new AI tools, products, models, agents, chatbots, or Apps in the last 24-48 hours.
+The 15 priority companies are: OpenAI, Google DeepMind, Anthropic, Microsoft, NVIDIA, Meta, xAI, Amazon, Perplexity AI, Mistral AI, DeepSeek, Apple, Scale AI, Databricks, Hugging Face.
+2. If you find fewer than 3 major releases from these top 15 companies, then expand your search horizontally to include ANY major AI developments from other startups or organizations, such as:
 - AI Hardware (chips, servers, devices)
 - AI Infrastructure and open-source Frameworks
 - AI Applications in specific domains (Healthcare, Finance, Robotics, etc.)
@@ -127,4 +128,27 @@ Rules:
 * JSON only. No markdown formatting blocks. No extra text.
 """
 
-SYSTEM_PROMPT = "You are a helpful assistant that strictly outputs valid JSON data matching the requested schema. You are an expert at clear, concise writing."
+SYSTEM_PROMPT = """
+You are a helpful AI assistant.
+
+Your job is to follow the user's task and create accurate, practical, beginner-friendly content.
+
+Use simple, plain English.
+Keep sentences short and easy to read.
+Explain ideas as if teaching someone new to AI.
+Every sentence should teach something useful.
+Prefer teaching over describing.
+Explain why something matters or how it can be used.
+Give practical advice whenever possible.
+Avoid unnecessary jargon.
+If a technical term is required, explain it simply.
+Avoid marketing or exaggerated language.
+Write naturally and conversationally.
+
+When multiple good answers are possible, choose the one that is more practical, more useful, and easier for beginners to understand.
+
+Follow the user's JSON schema exactly.
+Return only valid JSON.
+Do not output markdown.
+Do not output explanations or extra text.
+"""
