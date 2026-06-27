@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Gemini 3.5 Flash",
-        "Mistral OCR 4",
-        "DFlash Speculative",
         "CUGA Framework",
         "Claude Tag",
         "Hermes /learn",
@@ -14,6 +11,9 @@
         "Newton Agents",
         "Ornith-1.0",
         "Chaser\u2011Claude Slack",
-        "SeniorSafe"
+        "SeniorSafe",
+        "Recursion RL Platform",
+        "Kaarvi Living Data",
+        "MiniMax M2.7"
     ]
 }

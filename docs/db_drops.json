@@ -1,18 +1,35 @@
 [
     {
+        "date": "June 27, 2026",
+        "items": [
+            {
+                "title": "Recursion RL Platform",
+                "description": "\u2022 Turn production runs into training data\n\u2022 Real\u2011time evaluation of enterprise workflows\n\u2022 Continuous model improvement on live tasks"
+            },
+            {
+                "title": "Kaarvi Living Data",
+                "description": "\u2022 Conversational analytics without SQL\n\u2022 No\u2011code pipelines that auto\u2011generate code\n\u2022 Dashboards auto\u2011refresh via Live Sync"
+            },
+            {
+                "title": "MiniMax M2.7",
+                "description": "\u2022 Self\u2011evolving model builds its own harness\n\u2022 Handles full project delivery and bug fixes\n\u2022 Maintains 97% skill adherence across 40+ tools"
+            }
+        ]
+    },
+    {
         "date": "June 26, 2026",
         "items": [
             {
                 "title": "Updoc Clinical AI",
-                "description": "• FDA-cleared AI agents for real-time care\n• Integrates directly with EHR systems\n• Automates meds, labs, and care coordination"
+                "description": "\u2022 FDA-cleared AI agents for real-time care\n\u2022 Integrates directly with EHR systems\n\u2022 Automates meds, labs, and care coordination"
             },
             {
                 "title": "Proof X401 Protocol",
-                "description": "• Verifies who authorizes AI agent actions\n• Works with payments, identity, and intent APIs\n• Open, issuer-neutral spec with live demos"
+                "description": "\u2022 Verifies who authorizes AI agent actions\n\u2022 Works with payments, identity, and intent APIs\n\u2022 Open, issuer-neutral spec with live demos"
             },
             {
                 "title": "Newton Agents",
-                "description": "• Physical AI agents detect equipment faults\n• Analyze sensor data, video, and context instantly\n• Deployable on cloud, edge, or on-premise"
+                "description": "\u2022 Physical AI agents detect equipment faults\n\u2022 Analyze sensor data, video, and context instantly\n\u2022 Deployable on cloud, edge, or on-premise"
             }
         ]
     },
@@ -21,15 +38,15 @@
         "items": [
             {
                 "title": "Openthinkeragent-32B",
-                "description": "• Open-source 32b coding agent\n• 26% pass on terminal bench\n• All data and weights released"
+                "description": "\u2022 Open-source 32b coding agent\n\u2022 26% pass on terminal bench\n\u2022 All data and weights released"
             },
             {
                 "title": "Self-Harness",
-                "description": "• Agents rewrite their own scaffolding\n• Boosts terminal-bench 2.0 by 21.4 pts\n• No model weight changes needed"
+                "description": "\u2022 Agents rewrite their own scaffolding\n\u2022 Boosts terminal-bench 2.0 by 21.4 pts\n\u2022 No model weight changes needed"
             },
             {
                 "title": "Sakana Fugu Ultra",
-                "description": "• 1m-token context window\n• Matches top anthropic models on benchmarks\n• Multi-model orchestration via single API"
+                "description": "\u2022 1m-token context window\n\u2022 Matches top anthropic models on benchmarks\n\u2022 Multi-model orchestration via single API"
             }
         ]
     }
