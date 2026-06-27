@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 27, 2026",
+        "items": [
+            {
+                "title": "# Perfect Resume Summary",
+                "content": "Write a concise, 3\u2011sentence professional summary for a resume. Include the job title, years of experience, top skill, and a measurable achievement. Make it sound confident and tailored to a marketing manager role."
+            },
+            {
+                "title": "# Action\u2011Verb Bullet Builder",
+                "content": "Create five resume bullet points for a software engineer. Start each with a strong action verb, mention the technology used, and add a result with numbers (e.g., % increase, users served). Keep each bullet under 20 words."
+            },
+            {
+                "title": "# Keyword Optimizer",
+                "content": "List the top 10 keywords that an applicant tracking system would look for in a data analyst resume. Include both hard skills and soft skills, and explain briefly how to weave each keyword into the work experience section."
+            }
+        ]
+    },
+    {
         "date": "June 26, 2026",
         "items": [
             {
