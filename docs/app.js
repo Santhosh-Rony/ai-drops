@@ -113,11 +113,12 @@ function attachCopyListeners(container) {
             const promptText = e.target.getAttribute('data-prompt');
             navigator.clipboard.writeText(promptText).then(() => {
                 const button = e.target;
-                button.classList.add('copied');
+                const originalText = button.textContent;
+                button.textContent = 'Copied!';
                 
-                // Remove the class after animation completes (2s)
+                // Revert text after 2 seconds
                 setTimeout(() => {
-                    button.classList.remove('copied');
+                    button.textContent = originalText;
                 }, 2000);
             });
         });

@@ -225,41 +225,7 @@ body {
     border-color: var(--accent);
 }
 
-/* Tooltip for Copy Button */
-.copy-btn.copied::after {
-    content: 'Copied!';
-    position: absolute;
-    bottom: calc(100% + 5px);
-    left: 50%;
-    background: #fff;
-    color: #0f172a;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    pointer-events: none;
-    white-space: nowrap;
-    opacity: 0;
-    animation: tooltipFade 2s ease forwards;
-    z-index: 10;
-}
-.copy-btn.copied::before {
-    content: '';
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #fff transparent transparent transparent;
-    opacity: 0;
-    animation: tooltipFade 2s ease forwards;
-    z-index: 10;
-}
-@keyframes tooltipFade {
-    0% { opacity: 0; transform: translateX(-50%) translateY(4px); }
-    15% { opacity: 1; transform: translateX(-50%) translateY(0); }
-    85% { opacity: 1; transform: translateX(-50%) translateY(0); }
-    100% { opacity: 0; transform: translateX(-50%) translateY(-4px); }
-}
+
 
 /* Footer */
 .footer {
