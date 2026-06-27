@@ -139,8 +139,9 @@ def render_passage_in_region(draw, text: str, region: dict, font_path: str, over
     color = (255, 255, 255, 255)
     stroke_color = (255, 255, 255, 25)
     
-    # We use a slightly smaller default font for passages to ensure they fit 180 chars
-    font_size = region.get("min_font_size", 28) 
+    # We lock the passage font size at 28px for excellent mobile readability.
+    # This disconnects it from the JSON's min_font_size (24px) which is meant for bullet points.
+    font_size = 28
     font = load_font(font_path, font_size)
     
     wrapped_text = wrap_text_to_pixels(text, font, max_w, draw)
