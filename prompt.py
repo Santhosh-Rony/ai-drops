@@ -69,15 +69,15 @@ Format:
 {{
     "header": "AI TIPS",
     "tool_1": {{
-        "title": "# Tip 1",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with # (e.g., '# Automate Your Inbox')",
         "passage": "Write a clear, easy-to-understand 360-character tip here."
     }},
     "tool_2": {{
-        "title": "# Tip 2",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
         "passage": "Write the second 360-character tip here."
     }},
     "tool_3": {{
-        "title": "# Tip 3",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
         "passage": "Write the third 360-character tip here."
     }},
     "caption": "Write an engaging Instagram caption about {core_idea}...",
@@ -86,7 +86,7 @@ Format:
 
 Rules:
 * You MUST provide exactly 3 tips related to the core idea.
-* The titles MUST literally be '# Tip 1', '# Tip 2', and '# Tip 3'.
+* The titles MUST NOT be '# Tip 1'. Instead, the title MUST be a highly catchy and understandable 3-4 word "Hook" or "Scenario" that instantly grabs attention. It MUST start with a hashtag (#) (e.g., '# Automate Your Inbox', '# Learn 10x Faster', '# Never Write Code').
 * Each tip must be provided as a single passage of text (maximum 360 characters). Do NOT use bullet points. Make it a fluid, easy-to-understand paragraph.
 * Header must ALWAYS be exactly 'AI TIPS'.
 * The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
@@ -104,15 +104,15 @@ Format:
 {{
     "header": "AI PROMPTS",
     "tool_1": {{
-        "title": "# Prompt 1",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with # (e.g., '# Acing Job Interviews')",
         "passage": "Write a highly effective, ready-to-copy AI prompt here (max 360 characters)."
     }},
     "tool_2": {{
-        "title": "# Prompt 2",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
         "passage": "Write the second 360-character prompt here."
     }},
     "tool_3": {{
-        "title": "# Prompt 3",
+        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
         "passage": "Write the third 360-character prompt here."
     }},
     "caption": "Write an engaging Instagram caption about AI prompts for {core_idea}...",
@@ -121,7 +121,7 @@ Format:
 
 Rules:
 * You MUST provide exactly 3 distinct AI prompts related to the core idea.
-* The titles MUST literally be '# Prompt 1', '# Prompt 2', and '# Prompt 3'.
+* The titles MUST NOT be '# Prompt 1'. Instead, the title MUST be a highly catchy and understandable 3-4 word "Hook" or "Scenario" that instantly grabs attention. It MUST start with a hashtag (#) (e.g., '# Crush Job Interviews', '# Write Viral Emails', '# Learn Complex Topics').
 * Each prompt must be a single passage of text (maximum 360 characters). It should be a direct prompt the user can copy and paste into an AI.
 * Header must ALWAYS be exactly 'AI PROMPTS'.
 * The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
