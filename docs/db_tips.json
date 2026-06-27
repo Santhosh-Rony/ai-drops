@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 27, 2026",
+        "items": [
+            {
+                "title": "# Tip 1",
+                "content": "When you ask an AI to solve a problem, start by breaking the task into tiny steps. Tell the model: first do X, then Y, then Z. This forces the AI to think logically and reduces mistakes, because each part is easier to check before moving on."
+            },
+            {
+                "title": "# Tip 2",
+                "content": "Use the phrase \u201cStep\u2011by\u2011step:\u201d in your prompt. It signals the AI to outline the process before giving the answer. The model will list the steps, let you verify each one, and only then produce the final result, making the output more reliable."
+            },
+            {
+                "title": "# Tip 3",
+                "content": "After the AI gives a solution, review each step yourself. If a step looks wrong, ask the model to correct just that part. This iterative loop keeps the answer accurate and teaches you how the AI thinks, so you learn together."
+            }
+        ]
+    },
+    {
         "date": "June 26, 2026",
         "items": [
             {
