@@ -1,8 +1,5 @@
 {
     "tools": [
-        "CUGA Framework",
-        "Claude Tag",
-        "Hermes /learn",
         "OpenThinkerAgent-32B",
         "Self-Harness",
         "Sakana Fugu Ultra",
@@ -14,6 +11,9 @@
         "SeniorSafe",
         "Recursion RL Platform",
         "Kaarvi Living Data",
-        "MiniMax M2.7"
+        "MiniMax M2.7",
+        "Gemini 3.5 Flash",
+        "Runway Agent 2.0",
+        "Google Interactions API"
     ]
 }

@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 28, 2026",
+        "items": [
+            {
+                "title": "Gemini 3.5 Flash",
+                "description": "\u2022 Agents can browse web and control desktop apps\n\u2022 Built\u2011in safety checks stop risky actions\n\u2022 Boosts long\u2011run automation for businesses"
+            },
+            {
+                "title": "Runway Agent 2.0",
+                "description": "\u2022 Creates ads, videos, and posts from a single chat\n\u2022 Learns from your performance data to improve assets\n\u2022 Generates formats for every platform automatically"
+            },
+            {
+                "title": "Google Interactions API",
+                "description": "\u2022 One call launches a full\u2011stack AI agent in a sandbox\n\u2022 Supports background runs and mixed tool calls\n\u2022 Keeps state for long\u2011running, multi\u2011step tasks"
+            }
+        ]
+    },
+    {
         "date": "June 27, 2026",
         "items": [
             {
