@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 28, 2026",
+        "items": [
+            {
+                "title": "# Specify Exact Layout",
+                "content": "Tell the model exactly how you want the answer to look. Mention headings, bullet points, or tables in the prompt. This removes guesswork, saves time, and gives consistent results, especially when you need data ready for reports or presentations."
+            },
+            {
+                "title": "# Use JSON Templates",
+                "content": "Wrap your request in a small JSON example that shows the keys and value types you expect. The model will follow that shape, making it easy to copy\u2011paste into code or spreadsheets without extra cleaning."
+            },
+            {
+                "title": "# Define Length Limits",
+                "content": "State a word or character limit in the prompt, like \u201cAnswer in 50 words or less.\u201d This keeps replies short, avoids overflow, and helps you fit the output into chat windows, emails, or mobile screens."
+            }
+        ]
+    },
+    {
         "date": "June 27, 2026",
         "items": [
             {
