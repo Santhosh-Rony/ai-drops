@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 28, 2026",
+        "items": [
+            {
+                "title": "# Perfect Cover Letter",
+                "content": "Write a cover letter for a [Job Title] at [Company Name]. Include a brief intro, two key achievements that match the job description, and a closing that shows enthusiasm. Use a professional tone, keep it under 300 words, and format with proper salutations."
+            },
+            {
+                "title": "# Tailor Your Pitch",
+                "content": "Create a customized cover letter for a marketing coordinator role at a startup. Highlight my experience with social media campaigns, data\u2011driven results, and teamwork. Mention why I love fast\u2011paced environments and end with a call to discuss how I can add value."
+            },
+            {
+                "title": "# Stand Out Quickly",
+                "content": "Generate a concise cover letter (150\u2011200 words) for an entry\u2011level software engineer position. Start with a hook about my passion for coding, list one project that used Python and teamwork, and close with a confident statement about contributing to the company's tech goals."
+            }
+        ]
+    },
+    {
         "date": "June 27, 2026",
         "items": [
             {
