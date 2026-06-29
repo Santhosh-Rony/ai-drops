@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 29, 2026",
+        "items": [
+            {
+                "title": "# Clarify With Queries",
+                "content": "When an AI gives a vague answer, ask a follow\u2011up that narrows the scope. For example, say \u201cCan you give me three specific steps?\u201d This pushes the model to produce concrete, actionable information instead of generic text, saving you time and effort."
+            },
+            {
+                "title": "# Deepen Understanding",
+                "content": "Use follow\u2011up questions to explore the why behind an answer. Ask \u201cWhy does this method work?\u201d or \u201cWhat are the risks?\u201d This reveals hidden details, helps you learn the reasoning, and lets you apply the insight more confidently in real tasks."
+            },
+            {
+                "title": "# Refine Results Fast",
+                "content": "If the first reply isn\u2019t perfect, request a revision with a clear tweak: \u201cCan you rewrite that using simpler language?\u201d or \u201cShow the same idea in a table.\u201d Precise follow\u2011ups quickly turn a rough draft into a polished output."
+            }
+        ]
+    },
+    {
         "date": "June 28, 2026",
         "items": [
             {
