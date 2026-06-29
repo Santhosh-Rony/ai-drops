@@ -10,7 +10,7 @@ def get_ai_drops_prompt(excluded_tools: list[str] = None) -> str:
 Search Strategy:
 
 ### Stage 1 (Highest Priority)
-Perform a targeted search across the following 15 leading AI companies for newly released or significantly updated AI Chatbots or AI Assistants within the last 22 hours.
+Perform a targeted web search across the following 15 leading AI companies for newly released or significantly updated AI Chatbots or AI Assistants including their version numbers (eg; chatgpt 5.5) within the last 22 hours.
 
 Priority companies:
 - OpenAI
