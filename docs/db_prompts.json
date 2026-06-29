@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 29, 2026",
+        "items": [
+            {
+                "title": "# Ace Any Interview",
+                "content": "Act as a friendly interview coach. Ask me common questions for a software engineer role, then give brief feedback on my answers and one tip to improve each response. Keep the tone supportive and use simple language."
+            },
+            {
+                "title": "# Mock Interview Sprint",
+                "content": "Run a 5\u2011minute mock interview for a marketing manager position. Pose one question at a time, wait for my reply, then grade my answer on clarity, relevance, and confidence, and suggest one concrete example I could add."
+            },
+            {
+                "title": "# STAR Story Builder",
+                "content": "Help me craft a STAR (Situation, Task, Action, Result) story for the question: \"Tell me about a time you solved a tough problem.\" Ask for each part, then combine them into a concise 2\u2011sentence answer."
+            }
+        ]
+    },
+    {
         "date": "June 28, 2026",
         "items": [
             {
