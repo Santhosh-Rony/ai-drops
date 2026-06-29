@@ -5,12 +5,13 @@ def get_ai_drops_prompt(excluded_tools: list[str] = None) -> str:
         for tool in excluded_tools:
             exclusion_text += f"- {tool}\n"
             
-    return f"""Search the web for the 3 most interesting AI tools, AI product launches, or major AI updates released within the last 24 hours.
+    return f"""Search the web for the 3 most interesting AI Chatbots, AI Assistants released within the last 22 hours.
 
 Search Strategy:
-1. FIRST, do a targeted web search on the 15 most anticipated and trending AI companies to see if they released any new AI tools, products, models, agents, chatbots, or Apps in the last 24 hours.
+1. FIRST, do a targeted web search on the 15 most anticipated and trending AI companies to see if they released any new AI Chatbots, AI Assistants in the last 22 hours.
 The 15 priority companies are: OpenAI, Google DeepMind, Anthropic, Microsoft, NVIDIA, Meta, xAI, Amazon, Perplexity AI, Mistral AI, DeepSeek, Apple, Scale AI, Databricks, Hugging Face.
-2. If you find fewer than 3 major releases from these top 15 companies, then expand your search horizontally to include ANY major AI developments from other startups or organizations, such as:
+2. If you find fewer than 3 major releases from these top 15 companies, then expand your search horizontally to include ANY major AI developments from the above 15 priority companies or startups or organizations, such as:
+- AI tools, AI product launches, models, agents, Apps or major AI updates 
 - AI Hardware (chips, servers, devices)
 - AI Infrastructure and open-source Frameworks
 - AI Applications in specific domains (Healthcare, Finance, Robotics, etc.)
