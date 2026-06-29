@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 29, 2026",
+        "items": [
+            {
+                "title": "Conductor",
+                "description": "\u2022 Build voice agents by typing plain English\n\u2022 See every change in the flow before deployment\n\u2022 Cuts build time by 2.5x with 70% test automation"
+            },
+            {
+                "title": "Gemma 4",
+                "description": "\u2022 Open\u2011weight models on Amazon Bedrock\n\u2022 Supports text & image, reasoning, function calls\n\u2022 Choose size for cost, latency, or performance"
+            },
+            {
+                "title": "Interactions API",
+                "description": "\u2022 Single call to run autonomous agents\n\u2022 Add background execution and tool mixing\n\u2022 Unified schema simplifies agent development"
+            }
+        ]
+    },
+    {
         "date": "June 28, 2026",
         "items": [
             {

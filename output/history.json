@@ -1,8 +1,5 @@
 {
     "tools": [
-        "OpenThinkerAgent-32B",
-        "Self-Harness",
-        "Sakana Fugu Ultra",
         "UpDoc Clinical AI",
         "Proof x401 Protocol",
         "Newton Agents",
@@ -14,6 +11,9 @@
         "MiniMax M2.7",
         "Gemini 3.5 Flash",
         "Runway Agent 2.0",
-        "Google Interactions API"
+        "Google Interactions API",
+        "Conductor",
+        "Gemma 4",
+        "Interactions API"
     ]
 }
