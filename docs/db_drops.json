@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 30, 2026",
+        "items": [
+            {
+                "title": "GPT\u20115.5 Instant",
+                "description": "\u2022 Better understands user intent\n\u2022 Improved shopping and local recommendations\n\u2022 Handles complex constraints across turns"
+            },
+            {
+                "title": "Claude Tag",
+                "description": "\u2022 Works as a Slack teammate\n\u2022 Async task delegation for teams\n\u2022 Can monitor metrics and trigger actions"
+            },
+            {
+                "title": "Siri AI",
+                "description": "\u2022 Personal context from messages, photos, email\n\u2022 On\u2011screen awareness to act on screen content\n\u2022 Integrated writing tools and app actions"
+            }
+        ]
+    },
+    {
         "date": "June 29, 2026",
         "items": [
             {

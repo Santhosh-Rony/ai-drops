@@ -1,8 +1,5 @@
 {
     "tools": [
-        "UpDoc Clinical AI",
-        "Proof x401 Protocol",
-        "Newton Agents",
         "Ornith-1.0",
         "Chaser\u2011Claude Slack",
         "SeniorSafe",
@@ -14,6 +11,9 @@
         "Google Interactions API",
         "Conductor",
         "Gemma 4",
-        "Interactions API"
+        "Interactions API",
+        "GPT\u20115.5 Instant",
+        "Claude Tag",
+        "Siri AI"
     ]
 }
