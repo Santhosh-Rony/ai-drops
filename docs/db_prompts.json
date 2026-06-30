@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 30, 2026",
+        "items": [
+            {
+                "title": "# Write Winning Emails",
+                "content": "Create a short, friendly email to a potential client. Mention their recent blog post, explain how our service can help them, and ask for a 15\u2011minute call. Keep it under 150 words, use a clear subject line, and end with a polite sign\u2011off."
+            },
+            {
+                "title": "# Craft Apology Note",
+                "content": "Write a sincere apology email to a customer who received a delayed shipment. Acknowledge the mistake, explain briefly why it happened, offer a discount code, and promise faster service next time. Keep tone caring and under 120 words."
+            },
+            {
+                "title": "# Boost Referral Requests",
+                "content": "Generate an email asking a satisfied client for a referral. Thank them for their business, highlight a recent success, and request an introduction to anyone who might need similar help. Include a short incentive and keep the message under 130 words."
+            }
+        ]
+    },
+    {
         "date": "June 29, 2026",
         "items": [
             {
