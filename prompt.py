@@ -58,6 +58,7 @@ If Stages 1 and 2 together still produce fewer than 3 qualifying results, expand
 As long as it is highly relevant to the AI industry and released recently, it is valid.{exclusion_text}
 
 Selection Rules:
+- Validate that every selected release was published within the last 22 hours. If any selected release is older than 22 hours or its publication time cannot be verified, discard it and continue searching.
 - Always prioritize results from the earliest possible stage.
 - Do not move to the next stage unless fewer than 3 qualifying results are found.
 - Once 3 qualifying results are collected, stop expanding the search.
