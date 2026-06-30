@@ -1,5 +1,22 @@
 [
     {
+        "date": "June 30, 2026",
+        "items": [
+            {
+                "title": "# Master Your Meetings",
+                "content": "Use AI transcription tools to record your meetings. Instead of taking manual notes, ask the AI to summarize the key decisions and list the next steps. This saves you hours of typing and ensures you never miss an important detail. It lets you focus on the conversation rather than your notepad."
+            },
+            {
+                "title": "# Stop Staring Blankly",
+                "content": "Beat writer's block by asking AI to create a rough outline for your report or email. Don't ask it to write the whole thing; just ask for five main points to cover. This gives you a structure to follow, making it much faster to fill in the details with your own voice and expertise."
+            },
+            {
+                "title": "# Clean Your Inbox",
+                "content": "Paste a long, confusing email thread into an AI and ask it to explain the current status in three simple sentences. This helps you understand complex conversations quickly without reading every single reply. It is a great way to catch up on projects and respond to people faster."
+            }
+        ]
+    },
+    {
         "date": "June 29, 2026",
         "items": [
             {
