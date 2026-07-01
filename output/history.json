@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Ornith-1.0",
-        "Chaser\u2011Claude Slack",
-        "SeniorSafe",
         "Recursion RL Platform",
         "Kaarvi Living Data",
         "MiniMax M2.7",
@@ -14,6 +11,9 @@
         "Interactions API",
         "GPT\u20115.5 Instant",
         "Claude Tag",
-        "Siri AI"
+        "Siri AI",
+        "Claude Sonnet 5",
+        "Microsoft Service Agent",
+        "OpenAI GPT\u20115.6 (Sol)"
     ]
 }
