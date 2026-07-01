@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 01, 2026",
+        "items": [
+            {
+                "title": "# Summarize Papers Fast",
+                "content": "Use a free AI summarizer to turn long research PDFs into short bullet points. Copy the abstract or upload the file, let the model create a 5\u2011sentence summary, then skim the key ideas in seconds. This saves hours of reading and helps you decide what to read next."
+            },
+            {
+                "title": "# Find Sources Instantly",
+                "content": "Ask an AI chatbot for recent studies on your topic and request links to open\u2011access papers. The model can pull titles, authors, and URLs, giving you a ready\u2011made reading list. It speeds up literature review and ensures you don't miss new findings."
+            },
+            {
+                "title": "# Generate Research Questions",
+                "content": "Prompt an AI to suggest fresh research questions based on a short description of your field. The model can combine trends, gaps, and emerging tech to give you 3\u20115 concrete questions to explore, jump\u2011starting project ideas and grant proposals."
+            }
+        ]
+    },
+    {
         "date": "June 30, 2026",
         "items": [
             {
