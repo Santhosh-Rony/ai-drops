@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 01, 2026",
+        "items": [
+            {
+                "title": "# Cold Email Magic",
+                "content": "Write a short cold outreach email for a SaaS product. Mention the prospect's recent blog post, explain one clear benefit, include a friendly question, and end with a short call to action. Keep it under 150 words and use a polite tone."
+            },
+            {
+                "title": "# Follow\u2011Up Boost",
+                "content": "Create a follow\u2011up message to send 3 days after no reply. Restate the main value, add a new short case study, ask if they need more info, and suggest a quick 15\u2011minute call. Keep it concise, warm, and under 120 words."
+            },
+            {
+                "title": "# LinkedIn Connection Pitch",
+                "content": "Generate a LinkedIn connection request note for a sales leader. Highlight a shared interest, mention how your solution can save their team time, and invite a brief chat. Limit to 300 characters and use a friendly professional tone."
+            }
+        ]
+    },
+    {
         "date": "June 30, 2026",
         "items": [
             {
