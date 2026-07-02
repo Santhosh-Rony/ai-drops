@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 02, 2026",
+        "items": [
+            {
+                "title": "# Brainstorm in Seconds",
+                "content": "Ask an AI to list ideas for your article topic. Give a short prompt like \"Give me 10 blog ideas about remote work.\" The AI returns fresh angles instantly, so you spend less time staring at a blank page and more time writing."
+            },
+            {
+                "title": "# Perfect First Draft",
+                "content": "Start a paragraph and let the AI finish it. Type a sentence such as \"The future of AI in education will\" and ask the model to continue. It provides a coherent draft you can edit, turning writer\u2019s block into a quick start."
+            },
+            {
+                "title": "# Edit Like a Pro",
+                "content": "Paste a paragraph into an AI and request a rewrite for clarity or tone. Say, \"Make this sound friendly and concise.\" The AI highlights awkward phrasing and offers smoother alternatives, helping you polish your work fast."
+            }
+        ]
+    },
+    {
         "date": "July 01, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Tip 3",
                 "content": "Refresh the role when the conversation shifts. If you move from brainstorming ideas to checking facts, say \"Now you are a fact-checker. Verify these statements.\" Updating the role keeps the model focused and prevents mix-ups."
-            }
-        ]
-    },
-    {
-        "date": "June 25, 2026",
-        "items": [
-            {
-                "title": "# Tip 1",
-                "content": "When you ask an AI, include exact details like the format, length, and style you want. Instead of saying \"write a story,\" say \"write a 200-word sci-fi story in first person, with a twist ending.\" Clear specifics guide the model to give you exactly what you need."
-            },
-            {
-                "title": "# Tip 2",
-                "content": "Add context that narrows the scope. If you need a marketing tagline, mention the product, target audience, and tone (e.g., \"fun, eco-friendly\"). This prevents vague answers and helps the AI generate copy that fits your real situation."
-            },
-            {
-                "title": "# Tip 3",
-                "content": "Use concrete examples to illustrate your request. Instead of \"explain AI,\" say \"explain AI to a 10-year-old using a soccer game analogy.\" Specific examples shape the response, making it easier to understand and apply."
             }
         ]
     }
