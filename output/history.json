@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Recursion RL Platform",
-        "Kaarvi Living Data",
-        "MiniMax M2.7",
         "Gemini 3.5 Flash",
         "Runway Agent 2.0",
         "Google Interactions API",
@@ -14,6 +11,9 @@
         "Siri AI",
         "Claude Sonnet 5",
         "Microsoft Service Agent",
-        "OpenAI GPT\u20115.6 (Sol)"
+        "OpenAI GPT\u20115.6 (Sol)",
+        "Voice Agent Builder",
+        "Kimi K2.7 Code",
+        "Conversational Analytics"
     ]
 }

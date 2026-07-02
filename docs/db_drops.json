@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 02, 2026",
+        "items": [
+            {
+                "title": "Voice Agent Builder",
+                "description": "\u2022 Create a voice bot in 2 minutes, no code\n\u2022 Built\u2011in telephony, docs, tools, and guardrails\n\u2022 Pay only for audio minutes used"
+            },
+            {
+                "title": "Kimi K2.7 Code",
+                "description": "\u2022 Low\u2011cost coding assistant in GitHub Copilot\n\u2022 Runs on Azure, selectable in VS\u202fCode\n\u2022 Great for everyday code suggestions"
+            },
+            {
+                "title": "Conversational Analytics",
+                "description": "\u2022 Ask natural\u2011language questions to BigQuery data\n\u2022 Agent shows step\u2011by\u2011step reasoning and SQL\n\u2022 Turns raw data into instant insights"
+            }
+        ]
+    },
+    {
         "date": "July 01, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Newton Agents",
                 "description": "\u2022 Physical AI agents detect equipment faults\n\u2022 Analyze sensor data, video, and context instantly\n\u2022 Deployable on cloud, edge, or on-premise"
-            }
-        ]
-    },
-    {
-        "date": "June 25, 2026",
-        "items": [
-            {
-                "title": "Openthinkeragent-32B",
-                "description": "\u2022 Open-source 32b coding agent\n\u2022 26% pass on terminal bench\n\u2022 All data and weights released"
-            },
-            {
-                "title": "Self-Harness",
-                "description": "\u2022 Agents rewrite their own scaffolding\n\u2022 Boosts terminal-bench 2.0 by 21.4 pts\n\u2022 No model weight changes needed"
-            },
-            {
-                "title": "Sakana Fugu Ultra",
-                "description": "\u2022 1m-token context window\n\u2022 Matches top anthropic models on benchmarks\n\u2022 Multi-model orchestration via single API"
             }
         ]
     }
