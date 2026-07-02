@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 02, 2026",
+        "items": [
+            {
+                "title": "# Test Market Demand",
+                "content": "Act as a market researcher. I have a business idea: [briefly describe idea]. List the top 5 questions I should ask potential customers, suggest where to find them, and explain what answers would indicate strong demand."
+            },
+            {
+                "title": "# Spot Problem Fit",
+                "content": "Pretend you are a startup mentor. For my idea [brief description], identify the main problem it solves, describe the ideal user, and give three simple ways to prove the problem exists before building anything."
+            },
+            {
+                "title": "# Quick MVP Check",
+                "content": "You are a product tester. Outline a 3\u2011day MVP experiment for my concept [brief description], list the minimum features needed, and tell me which metrics (e.g., sign\u2011ups, feedback score) prove the idea is worth pursuing."
+            }
+        ]
+    },
+    {
         "date": "July 01, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Prompt 3",
                 "content": "Generate a short, witty caption for a pet photo where the dog is wearing sunglasses. Include a pun, a friendly tone, and a relevant hashtag."
-            }
-        ]
-    },
-    {
-        "date": "June 25, 2026",
-        "items": [
-            {
-                "title": "# Prompt 1",
-                "content": "Create a LinkedIn post announcing a new product launch. Include a catchy opening line, three key benefits, a brief story or statistic, a call to action, and two relevant hashtags. Keep the tone professional yet friendly, and limit the post to 150 words."
-            },
-            {
-                "title": "# Prompt 2",
-                "content": "Write a LinkedIn post that shares a personal career lesson. Start with a hook, describe the challenge, explain what you learned, and end with a question that encourages comments. Use simple language, keep it under 120 words, and add one hashtag."
-            },
-            {
-                "title": "# Prompt 3",
-                "content": "Generate a LinkedIn post promoting an upcoming webinar on AI trends. Mention the date, speaker name, three topics covered, why it matters to the reader, and a link placeholder. Use an enthusiastic tone, keep it under 130 words, and add two hashtags."
             }
         ]
     }
