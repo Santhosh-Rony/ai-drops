@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 03, 2026",
+        "items": [
+            {
+                "title": "# Instant Subject Lines",
+                "content": "Ask an AI to suggest three subject lines that match the email purpose and tone. Pick the one that feels most urgent or curious. This saves time, raises open rates, and lets you focus on the body instead of staring at a blank line."
+            },
+            {
+                "title": "# One\u2011Click Summaries",
+                "content": "Paste a long email thread into an AI and request a short summary. Use the summary to craft your reply quickly, keeping key points front and center. It cuts down reading time and helps you stay on topic without missing details."
+            },
+            {
+                "title": "# Tone\u2011Adjust Drafts",
+                "content": "Write a quick draft, then tell the AI to rewrite it in a friendly, formal, or persuasive tone. The AI reshapes phrasing while keeping your message, so you can match the recipient\u2019s style without re\u2011writing everything."
+            }
+        ]
+    },
+    {
         "date": "July 02, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Tip 3",
                 "content": "After the AI gives a solution, review each step yourself. If a step looks wrong, ask the model to correct just that part. This iterative loop keeps the answer accurate and teaches you how the AI thinks, so you learn together."
-            }
-        ]
-    },
-    {
-        "date": "June 26, 2026",
-        "items": [
-            {
-                "title": "# Tip 1",
-                "content": "Start every request by giving the model a clear role, like \"You are a friendly tutor\" or \"Act as a market analyst.\" The role sets the tone and limits, so the AI answers in the right voice and depth, making your output more useful and on-point."
-            },
-            {
-                "title": "# Tip 2",
-                "content": "Combine role prompting with a short task description. For example: \"You are a travel planner. Suggest a 3-day itinerary for a family with kids in Tokyo.\" The role frames expertise, while the task tells the AI exactly what to produce, reducing vague replies."
-            },
-            {
-                "title": "# Tip 3",
-                "content": "Refresh the role when the conversation shifts. If you move from brainstorming ideas to checking facts, say \"Now you are a fact-checker. Verify these statements.\" Updating the role keeps the model focused and prevents mix-ups."
             }
         ]
     }
