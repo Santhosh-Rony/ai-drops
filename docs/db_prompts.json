@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 03, 2026",
+        "items": [
+            {
+                "title": "# Spot Trends Fast",
+                "content": "Act as a market analyst. List the top five emerging consumer trends in the fitness industry for the next 12 months, using recent news, social media buzz, and sales data. Include a brief reason for each trend and a simple example of a product that could meet it."
+            },
+            {
+                "title": "# Competitor Snapshot",
+                "content": "Pretend you are a business strategist. Compare three leading brands in the plant\u2011based snack market. Provide a table showing each brand's price range, main flavors, distribution channels, and one strength and weakness. Keep the info clear and easy to read."
+            },
+            {
+                "title": "# Customer Voice Map",
+                "content": "Imagine you are conducting a survey for a new eco\u2011friendly water bottle. Generate ten short, open\u2011ended questions that reveal why people would buy or avoid it, focusing on price, design, sustainability, and daily use. Make each question simple and unbiased."
+            }
+        ]
+    },
+    {
         "date": "July 02, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Keyword Optimizer",
                 "content": "List the top 10 keywords that an applicant tracking system would look for in a data analyst resume. Include both hard skills and soft skills, and explain briefly how to weave each keyword into the work experience section."
-            }
-        ]
-    },
-    {
-        "date": "June 26, 2026",
-        "items": [
-            {
-                "title": "# Prompt 1",
-                "content": "Create a catchy Instagram caption for a photo of a coffee cup on a rainy morning. Mention the cozy feeling, the smell of coffee, and add a playful emoji. Keep it under 150 characters."
-            },
-            {
-                "title": "# Prompt 2",
-                "content": "Write an Instagram caption for a travel selfie in front of a famous landmark. Highlight excitement, a fun fact about the place, and end with a call to action for followers to share their own trips."
-            },
-            {
-                "title": "# Prompt 3",
-                "content": "Generate a short, witty caption for a pet photo where the dog is wearing sunglasses. Include a pun, a friendly tone, and a relevant hashtag."
             }
         ]
     }
