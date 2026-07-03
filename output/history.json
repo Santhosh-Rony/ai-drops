@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Gemini 3.5 Flash",
-        "Runway Agent 2.0",
-        "Google Interactions API",
         "Conductor",
         "Gemma 4",
         "Interactions API",
@@ -14,6 +11,9 @@
         "OpenAI GPT\u20115.6 (Sol)",
         "Voice Agent Builder",
         "Kimi K2.7 Code",
-        "Conversational Analytics"
+        "Conversational Analytics",
+        "Claude Code Dynamic",
+        "Alibaba Page Agent",
+        "Voice Agent Builder"
     ]
 }

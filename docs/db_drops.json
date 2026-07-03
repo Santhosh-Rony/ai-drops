@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 03, 2026",
+        "items": [
+            {
+                "title": "Claude Code Dynamic",
+                "description": "\u2022 Run up to 1,000 parallel AI sub\u2011agents\n\u2022 Orchestrate complex tasks in one script\n\u2022 Now GA for all paid Claude Code plans"
+            },
+            {
+                "title": "Alibaba Page Agent",
+                "description": "\u2022 Control web pages with natural language\n\u2022 Runs as JavaScript inside the browser\n\u2022 Works with any OpenAI\u2011compatible model"
+            },
+            {
+                "title": "Voice Agent Builder",
+                "description": "\u2022 Create production voice agents in 2 minutes\n\u2022 No code, built\u2011in telephony and tools\n\u2022 Pay only for audio minutes used"
+            }
+        ]
+    },
+    {
         "date": "July 02, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "MiniMax M2.7",
                 "description": "\u2022 Self\u2011evolving model builds its own harness\n\u2022 Handles full project delivery and bug fixes\n\u2022 Maintains 97% skill adherence across 40+ tools"
-            }
-        ]
-    },
-    {
-        "date": "June 26, 2026",
-        "items": [
-            {
-                "title": "Updoc Clinical AI",
-                "description": "\u2022 FDA-cleared AI agents for real-time care\n\u2022 Integrates directly with EHR systems\n\u2022 Automates meds, labs, and care coordination"
-            },
-            {
-                "title": "Proof X401 Protocol",
-                "description": "\u2022 Verifies who authorizes AI agent actions\n\u2022 Works with payments, identity, and intent APIs\n\u2022 Open, issuer-neutral spec with live demos"
-            },
-            {
-                "title": "Newton Agents",
-                "description": "\u2022 Physical AI agents detect equipment faults\n\u2022 Analyze sensor data, video, and context instantly\n\u2022 Deployable on cloud, edge, or on-premise"
             }
         ]
     }
