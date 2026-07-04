@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 04, 2026",
+        "items": [
+            {
+                "title": "Grok Build 0.2.84",
+                "description": "\u2022 Shows reasoning steps while coding\n\u2022 Live voice dictation via /voice command\n\u2022 Auto\u2011converts GIF, BMP, TIFF images"
+            },
+            {
+                "title": "Muse Spark Watermelon",
+                "description": "\u2022 Sharper code suggestions\n\u2022 Better agentic task handling\n\u2022 Lower cost for enterprise use"
+            },
+            {
+                "title": "MAI\u2011Thinking\u20111",
+                "description": "\u2022 Runs complex math reasoning\n\u2022 Supports function calling\n\u2022 Compatible with OpenAI chat API"
+            }
+        ]
+    },
+    {
         "date": "July 03, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Google Interactions API",
                 "description": "\u2022 One call launches a full\u2011stack AI agent in a sandbox\n\u2022 Supports background runs and mixed tool calls\n\u2022 Keeps state for long\u2011running, multi\u2011step tasks"
-            }
-        ]
-    },
-    {
-        "date": "June 27, 2026",
-        "items": [
-            {
-                "title": "Recursion RL Platform",
-                "description": "\u2022 Turn production runs into training data\n\u2022 Real\u2011time evaluation of enterprise workflows\n\u2022 Continuous model improvement on live tasks"
-            },
-            {
-                "title": "Kaarvi Living Data",
-                "description": "\u2022 Conversational analytics without SQL\n\u2022 No\u2011code pipelines that auto\u2011generate code\n\u2022 Dashboards auto\u2011refresh via Live Sync"
-            },
-            {
-                "title": "MiniMax M2.7",
-                "description": "\u2022 Self\u2011evolving model builds its own harness\n\u2022 Handles full project delivery and bug fixes\n\u2022 Maintains 97% skill adherence across 40+ tools"
             }
         ]
     }
