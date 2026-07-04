@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 04, 2026",
+        "items": [
+            {
+                "title": "# Cold Email Mastery",
+                "content": "Create a 150-word cold email template for a B2B SaaS product. Include a friendly greeting, a brief problem statement, a clear value proposition, a single call\u2011to\u2011action, and a polite sign\u2011off. Make the tone professional yet approachable and use simple language."
+            },
+            {
+                "title": "# Follow\u2011Up Boost",
+                "content": "Write a three\u2011step follow\u2011up sequence (each 80\u2011100 words) for a prospect who opened the first email but didn\u2019t reply. First message: friendly reminder, second: add a new benefit, third: offer a quick call. Keep tone helpful and respectful."
+            },
+            {
+                "title": "# Social Outreach Script",
+                "content": "Generate a LinkedIn direct\u2011message script to introduce a consulting service. Start with a personalized compliment, mention a common connection or interest, briefly explain the service\u2019s benefit, and ask for a 15\u2011minute chat. Keep it under 200 characters."
+            }
+        ]
+    },
+    {
         "date": "July 03, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Stand Out Quickly",
                 "content": "Generate a concise cover letter (150\u2011200 words) for an entry\u2011level software engineer position. Start with a hook about my passion for coding, list one project that used Python and teamwork, and close with a confident statement about contributing to the company's tech goals."
-            }
-        ]
-    },
-    {
-        "date": "June 27, 2026",
-        "items": [
-            {
-                "title": "# Perfect Resume Summary",
-                "content": "Write a concise, 3\u2011sentence professional summary for a resume. Include the job title, years of experience, top skill, and a measurable achievement. Make it sound confident and tailored to a marketing manager role."
-            },
-            {
-                "title": "# Action\u2011Verb Bullet Builder",
-                "content": "Create five resume bullet points for a software engineer. Start each with a strong action verb, mention the technology used, and add a result with numbers (e.g., % increase, users served). Keep each bullet under 20 words."
-            },
-            {
-                "title": "# Keyword Optimizer",
-                "content": "List the top 10 keywords that an applicant tracking system would look for in a data analyst resume. Include both hard skills and soft skills, and explain briefly how to weave each keyword into the work experience section."
             }
         ]
     }
