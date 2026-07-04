@@ -33,7 +33,7 @@ def get_template_for_day() -> Tuple[str, Dict]:
     Returns the template image path and its associated JSON configuration for the current day.
     """
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    today_index = 4 # HARDCODED TO FRIDAY
+    today_index = datetime.datetime.now().weekday()
     day_name_lower = days[today_index].lower()
     day_name_capital = days[today_index]
     
