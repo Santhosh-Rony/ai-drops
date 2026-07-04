@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Claude Sonnet 5",
-        "Microsoft Service Agent",
-        "OpenAI GPT\u20115.6 (Sol)",
         "Voice Agent Builder",
         "Kimi K2.7 Code",
         "Conversational Analytics",
@@ -14,6 +11,9 @@
         "MAI\u2011Thinking\u20111",
         "ChatGPT GPT-5.5",
         "Leanstral 1.5",
-        "MAI\u2011Thinking\u20111"
+        "MAI\u2011Thinking\u20111",
+        "OpenAI ChatGPT",
+        "xAI Voice Agent",
+        "Meta Muse Spark"
     ]
 }

@@ -3,6 +3,23 @@
         "date": "July 04, 2026",
         "items": [
             {
+                "title": "OpenAI ChatGPT",
+                "description": "\u2022 Remembers longer conversations\n\u2022 Works for free users\n\u2022 Better at staying on topic"
+            },
+            {
+                "title": "xAI Voice Agent",
+                "description": "\u2022 Build voice agents without code\n\u2022 Uses Grok Voice model\n\u2022 Runs in minutes"
+            },
+            {
+                "title": "Meta Muse Spark",
+                "description": "\u2022 Improved coding help\n\u2022 Stronger AI agents\n\u2022 More enterprise friendly"
+            }
+        ]
+    },
+    {
+        "date": "July 04, 2026",
+        "items": [
+            {
                 "title": "ChatGPT GPT-5.5",
                 "description": "\u2022 Better memory across long chats\n\u2022 Free users get the upgrade too\n\u2022 Helps avoid repeating info"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Siri AI",
                 "description": "\u2022 Personal context from messages, photos, email\n\u2022 On\u2011screen awareness to act on screen content\n\u2022 Integrated writing tools and app actions"
-            }
-        ]
-    },
-    {
-        "date": "June 29, 2026",
-        "items": [
-            {
-                "title": "Conductor",
-                "description": "\u2022 Build voice agents by typing plain English\n\u2022 See every change in the flow before deployment\n\u2022 Cuts build time by 2.5x with 70% test automation"
-            },
-            {
-                "title": "Gemma 4",
-                "description": "\u2022 Open\u2011weight models on Amazon Bedrock\n\u2022 Supports text & image, reasoning, function calls\n\u2022 Choose size for cost, latency, or performance"
-            },
-            {
-                "title": "Interactions API",
-                "description": "\u2022 Single call to run autonomous agents\n\u2022 Add background execution and tool mixing\n\u2022 Unified schema simplifies agent development"
             }
         ]
     }
