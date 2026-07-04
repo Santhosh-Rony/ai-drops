@@ -3,6 +3,23 @@
         "date": "July 04, 2026",
         "items": [
             {
+                "title": "ChatGPT GPT-5.5",
+                "description": "\u2022 Better memory across long chats\n\u2022 Free users get the upgrade too\n\u2022 Helps avoid repeating info"
+            },
+            {
+                "title": "Leanstral 1.5",
+                "description": "\u2022 Solves math proofs in Lean 4\n\u2022 Free API for developers\n\u2022 State\u2011of\u2011the\u2011art on PutnamBench"
+            },
+            {
+                "title": "MAI\u2011Thinking\u20111",
+                "description": "\u2022 Strong reasoning on math tasks\n\u2022 Supports 256k\u2011token context\n\u2022 Works with OpenAI chat API"
+            }
+        ]
+    },
+    {
+        "date": "July 04, 2026",
+        "items": [
+            {
                 "title": "Grok Build 0.2.84",
                 "description": "\u2022 Shows reasoning steps while coding\n\u2022 Live voice dictation via /voice command\n\u2022 Auto\u2011converts GIF, BMP, TIFF images"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Interactions API",
                 "description": "\u2022 Single call to run autonomous agents\n\u2022 Add background execution and tool mixing\n\u2022 Unified schema simplifies agent development"
-            }
-        ]
-    },
-    {
-        "date": "June 28, 2026",
-        "items": [
-            {
-                "title": "Gemini 3.5 Flash",
-                "description": "\u2022 Agents can browse web and control desktop apps\n\u2022 Built\u2011in safety checks stop risky actions\n\u2022 Boosts long\u2011run automation for businesses"
-            },
-            {
-                "title": "Runway Agent 2.0",
-                "description": "\u2022 Creates ads, videos, and posts from a single chat\n\u2022 Learns from your performance data to improve assets\n\u2022 Generates formats for every platform automatically"
-            },
-            {
-                "title": "Google Interactions API",
-                "description": "\u2022 One call launches a full\u2011stack AI agent in a sandbox\n\u2022 Supports background runs and mixed tool calls\n\u2022 Keeps state for long\u2011running, multi\u2011step tasks"
             }
         ]
     }
