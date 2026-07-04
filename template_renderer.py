@@ -171,7 +171,7 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
                 line_y = header_y + header_max_h + 10
             
             # 2. Render Dynamic Date in the top right corner (pushed to border)
-            date_str = "Friday, July 03, 2026" # HARDCODED DATE
+            date_str = datetime.datetime.now().strftime("%A, %B %d, %Y")
             date_region = {
                 "x": img_width - 60 - 400, # Tighter right padding
                 "y": 60, # Moved down slightly
