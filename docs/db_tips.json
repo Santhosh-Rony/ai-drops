@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 04, 2026",
+        "items": [
+            {
+                "title": "# Capture Live Notes",
+                "content": "During a meeting, turn on a speech\u2011to\u2011text AI tool and let it record everything. The AI will add timestamps and speaker labels automatically. After the call, you get a full transcript you can edit quickly into a short summary, saving hours of manual typing."
+            },
+            {
+                "title": "# Summarize in Seconds",
+                "content": "Paste the meeting transcript into a summarizing AI, ask it to highlight key decisions, action items, and deadlines in bullet form. The AI condenses long talks into a clear 5\u2011point recap, making it easy for teammates to see what matters without reading the whole text."
+            },
+            {
+                "title": "# Auto\u2011Email Follow\u2011Up",
+                "content": "Link your AI summarizer to your email client. After the summary is created, set the AI to draft a brief follow\u2011up email that includes the summary and assigns tasks to each person. Review the draft, hit send, and everyone gets a consistent recap instantly."
+            }
+        ]
+    },
+    {
         "date": "July 03, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Define Length Limits",
                 "content": "State a word or character limit in the prompt, like \u201cAnswer in 50 words or less.\u201d This keeps replies short, avoids overflow, and helps you fit the output into chat windows, emails, or mobile screens."
-            }
-        ]
-    },
-    {
-        "date": "June 27, 2026",
-        "items": [
-            {
-                "title": "# Tip 1",
-                "content": "When you ask an AI to solve a problem, start by breaking the task into tiny steps. Tell the model: first do X, then Y, then Z. This forces the AI to think logically and reduces mistakes, because each part is easier to check before moving on."
-            },
-            {
-                "title": "# Tip 2",
-                "content": "Use the phrase \u201cStep\u2011by\u2011step:\u201d in your prompt. It signals the AI to outline the process before giving the answer. The model will list the steps, let you verify each one, and only then produce the final result, making the output more reliable."
-            },
-            {
-                "title": "# Tip 3",
-                "content": "After the AI gives a solution, review each step yourself. If a step looks wrong, ask the model to correct just that part. This iterative loop keeps the answer accurate and teaches you how the AI thinks, so you learn together."
             }
         ]
     }
