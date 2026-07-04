@@ -3,6 +3,23 @@
         "date": "July 04, 2026",
         "items": [
             {
+                "title": "# Spot Trends Fast",
+                "content": "You are a market analyst. List the top five emerging consumer trends in the US for the next 12 months, include brief data sources, why they matter, and a simple action each brand can take to profit."
+            },
+            {
+                "title": "# Competitor Gap Finder",
+                "content": "Act as a competitive researcher. Compare three main rivals in the sustainable fashion market on price, product range, marketing channels, and customer sentiment. Highlight one clear gap each competitor leaves open for a new entrant."
+            },
+            {
+                "title": "# Survey Insight Builder",
+                "content": "Create a short online survey (8 questions) to gauge interest in a subscription box for home\u2011cooking kits. Include two demographic questions, three preference questions, and three willingness\u2011to\u2011pay questions. Add a brief intro and thank\u2011you note."
+            }
+        ]
+    },
+    {
+        "date": "July 04, 2026",
+        "items": [
+            {
                 "title": "# Cold Email Mastery",
                 "content": "Create a 150-word cold email template for a B2B SaaS product. Include a friendly greeting, a brief problem statement, a clear value proposition, a single call\u2011to\u2011action, and a polite sign\u2011off. Make the tone professional yet approachable and use simple language."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# STAR Story Builder",
                 "content": "Help me craft a STAR (Situation, Task, Action, Result) story for the question: \"Tell me about a time you solved a tough problem.\" Ask for each part, then combine them into a concise 2\u2011sentence answer."
-            }
-        ]
-    },
-    {
-        "date": "June 28, 2026",
-        "items": [
-            {
-                "title": "# Perfect Cover Letter",
-                "content": "Write a cover letter for a [Job Title] at [Company Name]. Include a brief intro, two key achievements that match the job description, and a closing that shows enthusiasm. Use a professional tone, keep it under 300 words, and format with proper salutations."
-            },
-            {
-                "title": "# Tailor Your Pitch",
-                "content": "Create a customized cover letter for a marketing coordinator role at a startup. Highlight my experience with social media campaigns, data\u2011driven results, and teamwork. Mention why I love fast\u2011paced environments and end with a call to discuss how I can add value."
-            },
-            {
-                "title": "# Stand Out Quickly",
-                "content": "Generate a concise cover letter (150\u2011200 words) for an entry\u2011level software engineer position. Start with a hook about my passion for coding, list one project that used Python and teamwork, and close with a confident statement about contributing to the company's tech goals."
             }
         ]
     }
