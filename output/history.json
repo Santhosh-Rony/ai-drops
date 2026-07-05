@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Voice Agent Builder",
-        "Kimi K2.7 Code",
-        "Conversational Analytics",
         "Claude Code Dynamic",
         "Alibaba Page Agent",
         "Voice Agent Builder",
@@ -14,6 +11,9 @@
         "MAI\u2011Thinking\u20111",
         "OpenAI ChatGPT",
         "xAI Voice Agent",
-        "Meta Muse Spark"
+        "Meta Muse Spark",
+        "Claude Fable 5",
+        "Naver AI Tab Lite",
+        "Grok Voice Agent Builder"
     ]
 }

@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 05, 2026",
+        "items": [
+            {
+                "title": "Claude Fable 5",
+                "description": "\u2022 High\u2011capacity chatbot for long conversations\n\u2022 Adds stricter safety filters for security queries\n\u2022 Available via Anthropic API for developers"
+            },
+            {
+                "title": "Naver AI Tab Lite",
+                "description": "\u2022 Fast, low\u2011cost model for search\u2011assistant chats\n\u2022 Reduces hallucinations by up to 30%\n\u2022 Runs on lightweight SLM architecture"
+            },
+            {
+                "title": "Grok Voice Agent Builder",
+                "description": "\u2022 Create voice agents in under 2 minutes, no code\n\u2022 Built\u2011in telephony, knowledge retrieval, and tool use\n\u2022 Charges only for audio minutes, no extra platform fee"
+            }
+        ]
+    },
+    {
         "date": "July 04, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "OpenAI GPT\u20115.6 (Sol)",
                 "description": "\u2022 High\u2011capability model for code and research\n\u2022 Tiered pricing for input and output tokens\n\u2022 Limited preview with government safety review"
-            }
-        ]
-    },
-    {
-        "date": "June 30, 2026",
-        "items": [
-            {
-                "title": "GPT\u20115.5 Instant",
-                "description": "\u2022 Better understands user intent\n\u2022 Improved shopping and local recommendations\n\u2022 Handles complex constraints across turns"
-            },
-            {
-                "title": "Claude Tag",
-                "description": "\u2022 Works as a Slack teammate\n\u2022 Async task delegation for teams\n\u2022 Can monitor metrics and trigger actions"
-            },
-            {
-                "title": "Siri AI",
-                "description": "\u2022 Personal context from messages, photos, email\n\u2022 On\u2011screen awareness to act on screen content\n\u2022 Integrated writing tools and app actions"
             }
         ]
     }
