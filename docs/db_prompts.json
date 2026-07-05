@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 05, 2026",
+        "items": [
+            {
+                "title": "# Spy On Rivals",
+                "content": "List the top 5 competitors in my market. For each, give their main product, pricing, key strengths, weaknesses, and recent marketing moves. Summarize this in a table and add a short suggestion on how I can differentiate my offering."
+            },
+            {
+                "title": "# Benchmark Feature Gaps",
+                "content": "Compare my product's features with those of the three leading competitors. Mark which features I have, lack, or exceed. Highlight the biggest gaps and suggest one quick improvement to close each gap."
+            },
+            {
+                "title": "# Social Sentiment Scan",
+                "content": "Gather recent customer comments about my top three rivals from social media and review sites. Identify the most common praise and complaints for each. Provide a 2\u2011sentence insight on what customers value most and what they dislike."
+            }
+        ]
+    },
+    {
         "date": "July 04, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Boost Referral Requests",
                 "content": "Generate an email asking a satisfied client for a referral. Thank them for their business, highlight a recent success, and request an introduction to anyone who might need similar help. Include a short incentive and keep the message under 130 words."
-            }
-        ]
-    },
-    {
-        "date": "June 29, 2026",
-        "items": [
-            {
-                "title": "# Ace Any Interview",
-                "content": "Act as a friendly interview coach. Ask me common questions for a software engineer role, then give brief feedback on my answers and one tip to improve each response. Keep the tone supportive and use simple language."
-            },
-            {
-                "title": "# Mock Interview Sprint",
-                "content": "Run a 5\u2011minute mock interview for a marketing manager position. Pose one question at a time, wait for my reply, then grade my answer on clarity, relevance, and confidence, and suggest one concrete example I could add."
-            },
-            {
-                "title": "# STAR Story Builder",
-                "content": "Help me craft a STAR (Situation, Task, Action, Result) story for the question: \"Tell me about a time you solved a tough problem.\" Ask for each part, then combine them into a concise 2\u2011sentence answer."
             }
         ]
     }
