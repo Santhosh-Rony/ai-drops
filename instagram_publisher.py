@@ -60,6 +60,10 @@ def publish_media(image_url: str, caption: str) -> str:
     """
     Orchestrates the two-step Instagram publishing process.
     """
+    # Protect against AI hallucinating endless hashtags and exceeding Instagram's 2200 char limit
+    if len(caption) > 2100:
+        logger.warning(f"Caption length ({len(caption)}) exceeds safe limits. Truncating to 2100 chars.")
+        caption = caption[:2100] + "..."
     access_token = Config.INSTAGRAM_ACCESS_TOKEN
     business_id = Config.INSTAGRAM_BUSINESS_ID
     
