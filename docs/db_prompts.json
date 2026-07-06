@@ -3,6 +3,23 @@
         "date": "July 06, 2026",
         "items": [
             {
+                "title": "# Quick Apology Reply",
+                "content": "Write a friendly apology email for a customer who received a delayed order. Include: sincere sorry, brief reason, new delivery date, and a small discount code. Keep tone warm, professional, and under 150 words."
+            },
+            {
+                "title": "# Friendly FAQ Answer",
+                "content": "Create a short chat reply that explains how to reset a forgotten password. Use simple steps, mention where to click, and reassure the user it\u2019s safe. Limit to three sentences and keep the tone helpful."
+            },
+            {
+                "title": "# Positive Upsell Message",
+                "content": "Draft a polite response to a customer who just bought a basic plan, suggesting they upgrade to premium for extra features. Highlight two key benefits, add a limited\u2011time free trial, and thank them for their purchase."
+            }
+        ]
+    },
+    {
+        "date": "July 06, 2026",
+        "items": [
+            {
                 "title": "# Viral Product Launch",
                 "content": "Create a step\u2011by\u2011step marketing campaign for a new tech gadget. Include 3 social media platforms, 2 email ideas, a launch event concept, and a budget outline. Use simple language and give clear actions for a small team."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# Customer Voice Map",
                 "content": "Imagine you are conducting a survey for a new eco\u2011friendly water bottle. Generate ten short, open\u2011ended questions that reveal why people would buy or avoid it, focusing on price, design, sustainability, and daily use. Make each question simple and unbiased."
-            }
-        ]
-    },
-    {
-        "date": "July 02, 2026",
-        "items": [
-            {
-                "title": "# Test Market Demand",
-                "content": "Act as a market researcher. I have a business idea: [briefly describe idea]. List the top 5 questions I should ask potential customers, suggest where to find them, and explain what answers would indicate strong demand."
-            },
-            {
-                "title": "# Spot Problem Fit",
-                "content": "Pretend you are a startup mentor. For my idea [brief description], identify the main problem it solves, describe the ideal user, and give three simple ways to prove the problem exists before building anything."
-            },
-            {
-                "title": "# Quick MVP Check",
-                "content": "You are a product tester. Outline a 3\u2011day MVP experiment for my concept [brief description], list the minimum features needed, and tell me which metrics (e.g., sign\u2011ups, feedback score) prove the idea is worth pursuing."
             }
         ]
     }
