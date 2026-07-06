@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Claude Code Dynamic",
-        "Alibaba Page Agent",
-        "Voice Agent Builder",
         "Grok Build 0.2.84",
         "Muse Spark Watermelon",
         "MAI\u2011Thinking\u20111",
@@ -14,6 +11,9 @@
         "Meta Muse Spark",
         "Claude Fable 5",
         "Naver AI Tab Lite",
-        "Grok Voice Agent Builder"
+        "Grok Voice Agent Builder",
+        "GPT-5.6",
+        "Conversational Analytics",
+        "Naver AI Tab"
     ]
 }

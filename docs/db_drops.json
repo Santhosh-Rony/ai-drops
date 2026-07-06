@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 06, 2026",
+        "items": [
+            {
+                "title": "GPT-5.6",
+                "description": "\u2022 Handles multi\u2011step workflows\n\u2022 Better reasoning and lower hallucinations\n\u2022 Supports tool use and code debugging"
+            },
+            {
+                "title": "Conversational Analytics",
+                "description": "\u2022 Ask natural\u2011language queries on BigQuery data\n\u2022 Shows step\u2011by\u2011step SQL reasoning\n\u2022 Generates visual reports automatically"
+            },
+            {
+                "title": "Naver AI Tab",
+                "description": "\u2022 Faster responses with lightweight model\n\u2022 30% fewer hallucinations\n\u2022 Uses reinforcement learning for clarifying questions"
+            }
+        ]
+    },
+    {
         "date": "July 05, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Conversational Analytics",
                 "description": "\u2022 Ask natural\u2011language questions to BigQuery data\n\u2022 Agent shows step\u2011by\u2011step reasoning and SQL\n\u2022 Turns raw data into instant insights"
-            }
-        ]
-    },
-    {
-        "date": "July 01, 2026",
-        "items": [
-            {
-                "title": "Claude Sonnet 5",
-                "description": "\u2022 Better reasoning and tool use\n\u2022 Lower cost than Opus models\n\u2022 Built\u2011in cyber safety safeguards"
-            },
-            {
-                "title": "Microsoft Service Agent",
-                "description": "\u2022 Summarizes cases and customer context fast\n\u2022 Updates tickets and drafts replies inside chat\n\u2022 Works across Dynamics 365, Teams, Outlook"
-            },
-            {
-                "title": "OpenAI GPT\u20115.6 (Sol)",
-                "description": "\u2022 High\u2011capability model for code and research\n\u2022 Tiered pricing for input and output tokens\n\u2022 Limited preview with government safety review"
             }
         ]
     }
