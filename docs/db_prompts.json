@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 06, 2026",
+        "items": [
+            {
+                "title": "# Spy Market Moves",
+                "content": "List the top 5 competitors in my industry, summarize their latest product releases, pricing, and marketing messages. Highlight any new features or promotions they launched in the past 3 months and note gaps I could exploit."
+            },
+            {
+                "title": "# Beat Their SEO",
+                "content": "Analyze the SEO strengths of my three main rivals. Provide their top 10 ranking keywords, backlink count, and content topics. Suggest three easy-to-rank keywords I can target and two content ideas to outrank them."
+            },
+            {
+                "title": "# Social Sentiment Scan",
+                "content": "Gather recent social media mentions of my two biggest competitors. Summarize common customer complaints and praises in bullet points. Identify one area where they are weak and propose a quick improvement for my brand."
+            }
+        ]
+    },
+    {
         "date": "July 05, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# LinkedIn Connection Pitch",
                 "content": "Generate a LinkedIn connection request note for a sales leader. Highlight a shared interest, mention how your solution can save their team time, and invite a brief chat. Limit to 300 characters and use a friendly professional tone."
-            }
-        ]
-    },
-    {
-        "date": "June 30, 2026",
-        "items": [
-            {
-                "title": "# Write Winning Emails",
-                "content": "Create a short, friendly email to a potential client. Mention their recent blog post, explain how our service can help them, and ask for a 15\u2011minute call. Keep it under 150 words, use a clear subject line, and end with a polite sign\u2011off."
-            },
-            {
-                "title": "# Craft Apology Note",
-                "content": "Write a sincere apology email to a customer who received a delayed shipment. Acknowledge the mistake, explain briefly why it happened, offer a discount code, and promise faster service next time. Keep tone caring and under 120 words."
-            },
-            {
-                "title": "# Boost Referral Requests",
-                "content": "Generate an email asking a satisfied client for a referral. Thank them for their business, highlight a recent success, and request an introduction to anyone who might need similar help. Include a short incentive and keep the message under 130 words."
             }
         ]
     }
