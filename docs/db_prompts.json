@@ -3,6 +3,23 @@
         "date": "July 06, 2026",
         "items": [
             {
+                "title": "# Viral Product Launch",
+                "content": "Create a step\u2011by\u2011step marketing campaign for a new tech gadget. Include 3 social media platforms, 2 email ideas, a launch event concept, and a budget outline. Use simple language and give clear actions for a small team."
+            },
+            {
+                "title": "# Seasonal Sale Boost",
+                "content": "Design a 4\u2011week promotional plan for a summer clothing sale. List weekly themes, 3 Instagram post ideas, a discount code strategy, and a short ad copy. Keep the plan easy to follow and suitable for a boutique store."
+            },
+            {
+                "title": "# Brand Storytelling Sprint",
+                "content": "Write a quick brand storytelling campaign for a coffee shop. Provide a core story hook, 2 blog post outlines, 3 Instagram Reel scripts, and a loyalty program teaser. Make each piece short, friendly, and ready to publish."
+            }
+        ]
+    },
+    {
+        "date": "July 06, 2026",
+        "items": [
+            {
                 "title": "# Spy Market Moves",
                 "content": "List the top 5 competitors in my industry, summarize their latest product releases, pricing, and marketing messages. Highlight any new features or promotions they launched in the past 3 months and note gaps I could exploit."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# Quick MVP Check",
                 "content": "You are a product tester. Outline a 3\u2011day MVP experiment for my concept [brief description], list the minimum features needed, and tell me which metrics (e.g., sign\u2011ups, feedback score) prove the idea is worth pursuing."
-            }
-        ]
-    },
-    {
-        "date": "July 01, 2026",
-        "items": [
-            {
-                "title": "# Cold Email Magic",
-                "content": "Write a short cold outreach email for a SaaS product. Mention the prospect's recent blog post, explain one clear benefit, include a friendly question, and end with a short call to action. Keep it under 150 words and use a polite tone."
-            },
-            {
-                "title": "# Follow\u2011Up Boost",
-                "content": "Create a follow\u2011up message to send 3 days after no reply. Restate the main value, add a new short case study, ask if they need more info, and suggest a quick 15\u2011minute call. Keep it concise, warm, and under 120 words."
-            },
-            {
-                "title": "# LinkedIn Connection Pitch",
-                "content": "Generate a LinkedIn connection request note for a sales leader. Highlight a shared interest, mention how your solution can save their team time, and invite a brief chat. Limit to 300 characters and use a friendly professional tone."
             }
         ]
     }
