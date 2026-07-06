@@ -3,6 +3,23 @@
         "date": "July 06, 2026",
         "items": [
             {
+                "title": "Fugu Orchestrator",
+                "description": "\u2022 Combines multiple top LLMs for one API\n\u2022 Selects best model per task automatically\n\u2022 Easy one\u2011line install for Ubuntu/macOS"
+            },
+            {
+                "title": "Gemini Chat 3.1",
+                "description": "\u2022 Google's latest conversational model\n\u2022 Improved reasoning and lower hallucinations\n\u2022 Integrated into Google services instantly"
+            },
+            {
+                "title": "Claude Assistant 4",
+                "description": "\u2022 Anthropic's newest chat assistant\n\u2022 Better tool use and multi\u2011step planning\n\u2022 Focus on safe, reliable answers"
+            }
+        ]
+    },
+    {
+        "date": "July 06, 2026",
+        "items": [
+            {
                 "title": "GPT-5.6",
                 "description": "\u2022 Handles multi\u2011step workflows\n\u2022 Better reasoning and lower hallucinations\n\u2022 Supports tool use and code debugging"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Voice Agent Builder",
                 "description": "\u2022 Create production voice agents in 2 minutes\n\u2022 No code, built\u2011in telephony and tools\n\u2022 Pay only for audio minutes used"
-            }
-        ]
-    },
-    {
-        "date": "July 02, 2026",
-        "items": [
-            {
-                "title": "Voice Agent Builder",
-                "description": "\u2022 Create a voice bot in 2 minutes, no code\n\u2022 Built\u2011in telephony, docs, tools, and guardrails\n\u2022 Pay only for audio minutes used"
-            },
-            {
-                "title": "Kimi K2.7 Code",
-                "description": "\u2022 Low\u2011cost coding assistant in GitHub Copilot\n\u2022 Runs on Azure, selectable in VS\u202fCode\n\u2022 Great for everyday code suggestions"
-            },
-            {
-                "title": "Conversational Analytics",
-                "description": "\u2022 Ask natural\u2011language questions to BigQuery data\n\u2022 Agent shows step\u2011by\u2011step reasoning and SQL\n\u2022 Turns raw data into instant insights"
             }
         ]
     }
