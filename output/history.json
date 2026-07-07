@@ -1,8 +1,5 @@
 {
     "tools": [
-        "ChatGPT GPT-5.5",
-        "Leanstral 1.5",
-        "MAI\u2011Thinking\u20111",
         "OpenAI ChatGPT",
         "xAI Voice Agent",
         "Meta Muse Spark",
@@ -14,6 +11,9 @@
         "Naver AI Tab",
         "Fugu Orchestrator",
         "Gemini Chat 3.1",
-        "Claude Assistant 4"
+        "Claude Assistant 4",
+        "Gemini Advanced",
+        "Perplexity AI",
+        "Llama 3"
     ]
 }

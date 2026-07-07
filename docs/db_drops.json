@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 07, 2026",
+        "items": [
+            {
+                "title": "Gemini Advanced",
+                "description": "\u2022 Handles complex tasks and large inputs.\n\u2022 Analyzes documents, videos, and audio files.\n\u2022 Creates detailed summaries and creative content."
+            },
+            {
+                "title": "Perplexity AI",
+                "description": "\u2022 Answers questions with cited sources.\n\u2022 Summarizes web pages and articles quickly.\n\u2022 Helps research topics accurately."
+            },
+            {
+                "title": "Llama 3",
+                "description": "\u2022 Runs locally on your own hardware.\n\u2022 Customize for specific business needs.\n\u2022 Develop new AI applications easily."
+            }
+        ]
+    },
+    {
         "date": "July 06, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "MAI\u2011Thinking\u20111",
                 "description": "\u2022 Runs complex math reasoning\n\u2022 Supports function calling\n\u2022 Compatible with OpenAI chat API"
-            }
-        ]
-    },
-    {
-        "date": "July 03, 2026",
-        "items": [
-            {
-                "title": "Claude Code Dynamic",
-                "description": "\u2022 Run up to 1,000 parallel AI sub\u2011agents\n\u2022 Orchestrate complex tasks in one script\n\u2022 Now GA for all paid Claude Code plans"
-            },
-            {
-                "title": "Alibaba Page Agent",
-                "description": "\u2022 Control web pages with natural language\n\u2022 Runs as JavaScript inside the browser\n\u2022 Works with any OpenAI\u2011compatible model"
-            },
-            {
-                "title": "Voice Agent Builder",
-                "description": "\u2022 Create production voice agents in 2 minutes\n\u2022 No code, built\u2011in telephony and tools\n\u2022 Pay only for audio minutes used"
             }
         ]
     }
