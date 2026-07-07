@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 07, 2026",
+        "items": [
+            {
+                "title": "#GenerateContentIdeas",
+                "content": "Feeling stuck on what to post next? Use AI to brainstorm fresh content ideas for your blog, social media, or ad campaigns. Simply describe your product or service and ask for 10 unique topics. This saves hours of thinking and ensures a steady stream of engaging material, helping you reach your audience consistently with new and relevant discussions."
+            },
+            {
+                "title": "#DraftSocialPosts",
+                "content": "Quickly create engaging social media posts. Give AI a product feature or event, and ask it to write a short caption for Instagram, Facebook, or LinkedIn, including relevant emojis and calls to action. This speeds up your social media management, allowing you to maintain an active online presence without the daily struggle of crafting each post from scratch."
+            },
+            {
+                "title": "#WriteEmailHeadlines",
+                "content": "Boost your email open rates with compelling subject lines. Ask AI to generate 5-10 catchy subject lines for your marketing emails, specifying the email's purpose and key offer. It understands what makes people click, helping you stand out in crowded inboxes. This simple trick can significantly improve the performance of your email campaigns."
+            }
+        ]
+    },
+    {
         "date": "July 06, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Generate Research Questions",
                 "content": "Prompt an AI to suggest fresh research questions based on a short description of your field. The model can combine trends, gaps, and emerging tech to give you 3\u20115 concrete questions to explore, jump\u2011starting project ideas and grant proposals."
-            }
-        ]
-    },
-    {
-        "date": "June 30, 2026",
-        "items": [
-            {
-                "title": "# Master Your Meetings",
-                "content": "Use AI transcription tools to record your meetings. Instead of taking manual notes, ask the AI to summarize the key decisions and list the next steps. This saves you hours of typing and ensures you never miss an important detail. It lets you focus on the conversation rather than your notepad."
-            },
-            {
-                "title": "# Stop Staring Blankly",
-                "content": "Beat writer's block by asking AI to create a rough outline for your report or email. Don't ask it to write the whole thing; just ask for five main points to cover. This gives you a structure to follow, making it much faster to fill in the details with your own voice and expertise."
-            },
-            {
-                "title": "# Clean Your Inbox",
-                "content": "Paste a long, confusing email thread into an AI and ask it to explain the current status in three simple sentences. This helps you understand complex conversations quickly without reading every single reply. It is a great way to catch up on projects and respond to people faster."
             }
         ]
     }
