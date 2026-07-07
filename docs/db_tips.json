@@ -3,6 +3,23 @@
         "date": "July 07, 2026",
         "items": [
             {
+                "title": "# Tailor Your Resume",
+                "content": "Use AI to quickly compare your resume against a job description. It highlights missing keywords and helps you customize your experience for a perfect match."
+            },
+            {
+                "title": "# Strengthen Bullet Points",
+                "content": "Feed your work experience to AI and ask it to rewrite bullet points. It can make them more impactful, action-oriented, and results-focused."
+            },
+            {
+                "title": "# Draft Cover Letters",
+                "content": "Provide AI with your resume and the job posting. It can generate a personalized cover letter draft, saving you significant writing time."
+            }
+        ]
+    },
+    {
+        "date": "July 07, 2026",
+        "items": [
+            {
                 "title": "#GenerateContentIdeas",
                 "content": "Feeling stuck on what to post next? Use AI to brainstorm fresh content ideas for your blog, social media, or ad campaigns. Simply describe your product or service and ask for 10 unique topics. This saves hours of thinking and ensures a steady stream of engaging material, helping you reach your audience consistently with new and relevant discussions."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# Edit Like a Pro",
                 "content": "Paste a paragraph into an AI and request a rewrite for clarity or tone. Say, \"Make this sound friendly and concise.\" The AI highlights awkward phrasing and offers smoother alternatives, helping you polish your work fast."
-            }
-        ]
-    },
-    {
-        "date": "July 01, 2026",
-        "items": [
-            {
-                "title": "# Summarize Papers Fast",
-                "content": "Use a free AI summarizer to turn long research PDFs into short bullet points. Copy the abstract or upload the file, let the model create a 5\u2011sentence summary, then skim the key ideas in seconds. This saves hours of reading and helps you decide what to read next."
-            },
-            {
-                "title": "# Find Sources Instantly",
-                "content": "Ask an AI chatbot for recent studies on your topic and request links to open\u2011access papers. The model can pull titles, authors, and URLs, giving you a ready\u2011made reading list. It speeds up literature review and ensures you don't miss new findings."
-            },
-            {
-                "title": "# Generate Research Questions",
-                "content": "Prompt an AI to suggest fresh research questions based on a short description of your field. The model can combine trends, gaps, and emerging tech to give you 3\u20115 concrete questions to explore, jump\u2011starting project ideas and grant proposals."
             }
         ]
     }
