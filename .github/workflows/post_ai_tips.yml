@@ -26,6 +26,7 @@ jobs:
 
       - name: Generate Content and Render Image (Step 1)
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_FALLBACK_API_KEY: ${{ secrets.OPENROUTER_FALLBACK_API_KEY }}
           OPENROUTER_FALLBACK_API_KEY_1: ${{ secrets.OPENROUTER_FALLBACK_API_KEY_1 }}
@@ -71,6 +72,7 @@ jobs:
 
       - name: Publish to Instagram (Step 2)
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_FALLBACK_API_KEY: ${{ secrets.OPENROUTER_FALLBACK_API_KEY }}
           OPENROUTER_FALLBACK_API_KEY_1: ${{ secrets.OPENROUTER_FALLBACK_API_KEY_1 }}

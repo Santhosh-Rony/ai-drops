@@ -1,10 +1,87 @@
 import json
 from openai import OpenAI
+from google import genai
+from google.genai import types
 from tenacity import retry, stop_after_attempt, wait_exponential
 from config import Config
 from logger import logger
 from models import PostContent
 from prompt import SYSTEM_PROMPT
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
+def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
+    logger.info("GEMINI_API_KEY found. Attempting generation with Gemini...")
+    client = genai.Client(api_key=Config.GEMINI_API_KEY)
+    
+    gemini_schema = {
+        "type": "OBJECT",
+        "properties": {
+            "header": {"type": "STRING"},
+            "tool_1": {
+                "type": "OBJECT",
+                "properties": {
+                    "title": {"type": "STRING"},
+                    "point_1": {"type": "STRING"},
+                    "point_2": {"type": "STRING"},
+                    "point_3": {"type": "STRING"},
+                    "passage": {"type": "STRING"}
+                }
+            },
+            "tool_2": {
+                "type": "OBJECT",
+                "properties": {
+                    "title": {"type": "STRING"},
+                    "point_1": {"type": "STRING"},
+                    "point_2": {"type": "STRING"},
+                    "point_3": {"type": "STRING"},
+                    "passage": {"type": "STRING"}
+                }
+            },
+            "tool_3": {
+                "type": "OBJECT",
+                "properties": {
+                    "title": {"type": "STRING"},
+                    "point_1": {"type": "STRING"},
+                    "point_2": {"type": "STRING"},
+                    "point_3": {"type": "STRING"},
+                    "passage": {"type": "STRING"}
+                }
+            },
+            "caption": {"type": "STRING"},
+            "hashtags": {"type": "STRING"}
+        },
+        "required": ["header", "tool_1", "tool_2", "tool_3", "caption", "hashtags"]
+    }
+    
+    # Prepend SYSTEM_PROMPT to the prompt since Gemini has strict roles
+    full_prompt = f"SYSTEM INSTRUCTIONS:\n{SYSTEM_PROMPT}\n\nUSER REQUEST:\n{dynamic_prompt}"
+    
+    try:
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=full_prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=gemini_schema,
+                temperature=0.7,
+            ),
+        )
+        
+        content_text = response.text
+        if not content_text:
+            raise ValueError("Empty text content from Gemini.")
+            
+        data = json.loads(content_text)
+        post_content = PostContent.from_dict(data)
+        
+        post_content.trim_to_limits(is_passage)
+        post_content.validate(is_passage)
+        
+        logger.info("Content generation completed successfully using Gemini.")
+        return post_content
+    except Exception as e:
+        logger.warning(f"Failed to generate content with Gemini. Error: {e}")
+        raise
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
 def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> PostContent:
@@ -141,6 +218,16 @@ def generate_ai_content(dynamic_prompt: str, is_passage: bool = False) -> PostCo
         
     logger.info(f"Starting AI content generation pipeline. Loaded {len(valid_keys)} active API keys.")
     
+    # Try Gemini First
+    if Config.GEMINI_API_KEY and Config.GEMINI_API_KEY.strip():
+        try:
+            return _generate_with_gemini(dynamic_prompt, is_passage)
+        except Exception as e:
+            logger.error(f"🔥 FATAL FAILURE on Gemini: {e}")
+            logger.info("Pivoting to fallback OpenRouter API keys...")
+    else:
+        logger.info("GEMINI_API_KEY not found. Defaulting to OpenRouter...")
+        
     last_error = None
     for idx, key in enumerate(valid_keys):
         key_label = f"Key #{idx+1}"
