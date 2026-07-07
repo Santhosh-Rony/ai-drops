@@ -3,6 +3,23 @@
         "date": "July 07, 2026",
         "items": [
             {
+                "title": "Google Docs AI Proof",
+                "description": "\u2022 Catch grammar errors fast\n\u2022 Suggest style improvements\n\u2022 Enhance writing clarity"
+            },
+            {
+                "title": "Canva Magic Video",
+                "description": "\u2022 Generate short videos\n\u2022 Create from text prompts\n\u2022 Add quick background music"
+            },
+            {
+                "title": "RunwayML Motion Ctrl",
+                "description": "\u2022 Fine-tune video motion\n\u2022 Control object movement\n\u2022 Improve video consistency"
+            }
+        ]
+    },
+    {
+        "date": "July 07, 2026",
+        "items": [
+            {
                 "title": "Gemini Advanced",
                 "description": "\u2022 Handles complex tasks and large inputs.\n\u2022 Analyzes documents, videos, and audio files.\n\u2022 Creates detailed summaries and creative content."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "MAI\u2011Thinking\u20111",
                 "description": "\u2022 Strong reasoning on math tasks\n\u2022 Supports 256k\u2011token context\n\u2022 Works with OpenAI chat API"
-            }
-        ]
-    },
-    {
-        "date": "July 04, 2026",
-        "items": [
-            {
-                "title": "Grok Build 0.2.84",
-                "description": "\u2022 Shows reasoning steps while coding\n\u2022 Live voice dictation via /voice command\n\u2022 Auto\u2011converts GIF, BMP, TIFF images"
-            },
-            {
-                "title": "Muse Spark Watermelon",
-                "description": "\u2022 Sharper code suggestions\n\u2022 Better agentic task handling\n\u2022 Lower cost for enterprise use"
-            },
-            {
-                "title": "MAI\u2011Thinking\u20111",
-                "description": "\u2022 Runs complex math reasoning\n\u2022 Supports function calling\n\u2022 Compatible with OpenAI chat API"
             }
         ]
     }

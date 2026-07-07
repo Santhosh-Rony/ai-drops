@@ -1,8 +1,5 @@
 {
     "tools": [
-        "OpenAI ChatGPT",
-        "xAI Voice Agent",
-        "Meta Muse Spark",
         "Claude Fable 5",
         "Naver AI Tab Lite",
         "Grok Voice Agent Builder",
@@ -14,6 +11,9 @@
         "Claude Assistant 4",
         "Gemini Advanced",
         "Perplexity AI",
-        "Llama 3"
+        "Llama 3",
+        "Google Docs AI Proof",
+        "Canva Magic Video",
+        "RunwayML Motion Ctrl"
     ]
 }
