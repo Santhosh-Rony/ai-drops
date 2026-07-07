@@ -56,8 +56,8 @@ jobs:
           IMAGE_URL=$(python -c 'import json; print(json.load(open("output/post_metadata.json"))["image_url"])')
           echo "Polling URL: $IMAGE_URL"
           
-          # Wait up to 6 minutes for deployment
-          for i in {1..36}; do
+          # Wait up to 12 minutes for deployment
+          for i in {1..72}; do
             STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" "$IMAGE_URL")
             if [ "$STATUS" -eq 200 ]; then
               echo "Image is publicly available (HTTP 200)."
@@ -67,7 +67,7 @@ jobs:
             sleep 10
           done
           
-          echo "Error: Image failed to become available after 6 minutes."
+          echo "Error: Image failed to become available after 12 minutes."
           exit 1
 
       - name: Publish to Instagram (Step 2)

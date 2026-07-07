@@ -1,202 +1,170 @@
 def get_ai_drops_prompt(excluded_tools: list[str] = None) -> str:
     exclusion_text = ""
     if excluded_tools:
-        exclusion_text = "\n\nCRITICAL RULE: DO NOT include any of the following tools, as they have already been covered recently:\n"
+        exclusion_text = "\n<critical_rule>\nDO NOT include any of the following tools, as they have already been covered recently:\n"
         for tool in excluded_tools:
             exclusion_text += f"- {tool}\n"
+        exclusion_text += "</critical_rule>\n"
             
-    return f"""Search the web for the 3 most interesting AI Chatbots or AI Assistants released within the last 22 hours.
+    return f"""<role>
+You are a pragmatic AI industry analyst. Your job is to curate the 3 most impactful, useful, and recent AI tools, chatbots, models, or assistants.
+</role>
 
-Search Strategy:
+<task>
+Select exactly 3 significant AI tools, products, or models that are highly relevant right now.
+Prioritize tools that provide genuine, practical utility to everyday users or developers. 
+Avoid rumors, minor patches, or vaporware.
+{exclusion_text}
+</task>
 
-### Stage 1 (Highest Priority)
-Perform a targeted web search across the following 15 leading AI companies for newly released or significantly updated AI Chatbots or AI Assistants including their version numbers (eg; chatgpt 5.5) within the last 22 hours.
+<constraints>
+1. Exactly 3 tools are required.
+2. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
+3. For each tool, provide exactly 3 use-cases or benefits.
+4. Each use-case MUST be extremely concise, plain English, and fit within 60 characters maximum.
+5. The header MUST be exactly "AI DROPS".
+6. The caption MUST be engaging, avoiding cringey marketing buzzwords.
+</constraints>
 
-Priority companies:
-- OpenAI
-- Google DeepMind
-- Anthropic
-- Microsoft
-- NVIDIA
-- Meta
-- xAI
-- Amazon
-- Perplexity AI
-- Mistral AI
-- DeepSeek
-- Apple
-- Scale AI
-- Databricks
-- Hugging Face
-
-Only consider:
-- AI Chatbots
-- AI Assistants
-
-### Stage 2 (Expand Chatbot/Assistant Search)
-If Stage 1 produces fewer than 3 qualifying results, expand the search to include startups, research labs, organizations, and other AI companies.
-
-Still ONLY consider:
-- AI Chatbots
-- AI Assistants
-
-### Stage 3 (Expand to Broader AI Industry)
-If Stages 1 and 2 together still produce fewer than 3 qualifying results, expand the search to include any major AI developments released within the last 22 hours, including:
-
-- AI tools
-- AI product launches
-- AI models
-- AI agents
-- AI applications
-- AI hardware (chips, servers, AI devices)
-- AI infrastructure
-- Open-source frameworks
-- Major AI research papers
-- Open-weight model releases
-- Significant AI updates from startups, enterprises, or research organizations
-
-As long as it is highly relevant to the AI industry and released recently, it is valid.{exclusion_text}
-
-Selection Rules:
-- Validate that every selected release was published within the last 22 hours. If any selected release is older than 22 hours or its publication time cannot be verified, discard it and continue searching.
-- Always prioritize results from the earliest possible stage.
-- Do not move to the next stage unless fewer than 3 qualifying results are found.
-- Once 3 qualifying results are collected, stop expanding the search.
-- Prefer launches over rumors, teasers, or minor announcements.
-- Only include releases that occurred within the last 22 hours.
-
-You MUST always return exactly 3 tools. Never return fewer than 3 tools.
-
-Return ONLY valid JSON.
-
-Format:
+<json_format>
 {{
     "header": "AI DROPS",
     "tool_1": {{
-        "title": "Tool Name Here",
-        "point_1": "Usage / Benefit 1 here",
-        "point_2": "Usage / Benefit 2 here",
-        "point_3": "Usage / Benefit 3 here"
+        "title": "<Tool Name (max 25 chars)>",
+        "point_1": "<Benefit 1 (max 60 chars)>",
+        "point_2": "<Benefit 2 (max 60 chars)>",
+        "point_3": "<Benefit 3 (max 60 chars)>"
     }},
     "tool_2": {{
-        "title": "Tool Name Here",
-        "point_1": "Usage / Benefit 1 here",
-        "point_2": "Usage / Benefit 2 here",
-        "point_3": "Usage / Benefit 3 here"
+        "title": "<Tool Name (max 25 chars)>",
+        "point_1": "<Benefit 1 (max 60 chars)>",
+        "point_2": "<Benefit 2 (max 60 chars)>",
+        "point_3": "<Benefit 3 (max 60 chars)>"
     }},
     "tool_3": {{
-        "title": "Tool Name Here",
-        "point_1": "Usage / Benefit 1 here",
-        "point_2": "Usage / Benefit 2 here",
-        "point_3": "Usage / Benefit 3 here"
+        "title": "<Tool Name (max 25 chars)>",
+        "point_1": "<Benefit 1 (max 60 chars)>",
+        "point_2": "<Benefit 2 (max 60 chars)>",
+        "point_3": "<Benefit 3 (max 60 chars)>"
     }},
-    "caption": "Write a compelling Instagram caption here...",
+    "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aidrops #ai #artificialintelligence"
 }}
-
-Rules:
-* First, strictly follow the Search Strategy above to identify the final 3 qualifying releases. Ignore all character-length constraints during the search and selection process.
-* Second, after selecting the final 3 releases, shorten the content to fit our strict design constraints without losing the core meaning:
-  - Tool name: If the real tool name is larger than 25 characters, you MUST provide a shorter version of the tool name that fits under 25 characters but people can still easily understand.
-  - Usage/Benefit: If the real benefit is 100-200 characters long, you MUST provide a shorter version that fits under 60 characters. Use extremely simple, plain English so anyone can understand.
-* Header must ALWAYS be exactly 'AI DROPS'. Never generate custom headlines.
-* Exact structure with 3 tools is mandatory
-* JSON only
-* No markdown formatting tags like ```json
-* No explanations
-* No surrounding text"""
+</json_format>
+"""
 
 def get_ai_tips_prompt(core_idea: str) -> str:
-    return f"""You are an expert AI educator. Your task is to generate exactly 3 highly actionable, unique, and valuable AI Tips based entirely on the following core idea:
+    return f"""<role>
+You are a highly practical AI productivity coach. Your goal is to teach beginners how to save time using AI without overwhelming them.
+</role>
 
-Core Idea for Today: "{core_idea}"
+<task>
+Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entirely on this core idea: "{core_idea}"
+</task>
 
-Return ONLY valid JSON.
+<guidelines>
+- Focus on practical, real-world applications (e.g., summarizing long emails, formatting data, brainstorming).
+- Write in a fluid, easy-to-read paragraph. DO NOT use bullet points or numbered lists in the passage.
+- Explain 'why' and 'how' simply. Avoid theoretical fluff.
+- Language must be natural, straightforward, and entirely free of complex tech jargon.
+- The title for each tip MUST be a catchy 3-4 word Hook or Scenario starting with a hashtag (#) (e.g., '# Automate Your Inbox', '# Summarize Long PDFs').
+</guidelines>
 
-Format:
+<constraints>
+1. Exactly 3 tips required.
+2. The header MUST be exactly "AI TIPS".
+3. Each passage MUST NOT exceed 360 characters.
+4. Do not use markdown blocks outside the JSON.
+</constraints>
+
+<json_format>
 {{
     "header": "AI TIPS",
     "tool_1": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with # (e.g., '# Automate Your Inbox')",
-        "passage": "Write a clear, easy-to-understand 360-character tip here."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
     }},
     "tool_2": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
-        "passage": "Write the second 360-character tip here."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
     }},
     "tool_3": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
-        "passage": "Write the third 360-character tip here."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
     }},
-    "caption": "Write an engaging Instagram caption about {core_idea}...",
+    "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aitips #ai #artificialintelligence #productivity"
 }}
-
-Rules:
-* You MUST provide exactly 3 tips related to the core idea.
-* The titles MUST NOT be '# Tip 1'. Instead, the title MUST be a highly catchy and understandable 3-4 word "Hook" or "Scenario" that instantly grabs attention. It MUST start with a hashtag (#) (e.g., '# Automate Your Inbox', '# Learn 10x Faster', '# Never Write Code').
-* Each tip must be provided as a single passage of text (maximum 360 characters). Do NOT use bullet points. Make it a fluid, easy-to-understand paragraph.
-* Header must ALWAYS be exactly 'AI TIPS'.
-* The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
-* JSON only. No markdown formatting blocks. No extra text.
+</json_format>
 """
 
 def get_ai_prompts_prompt(core_idea: str) -> str:
-    return f"""You are a master prompt engineer. Your task is to generate exactly 3 highly effective, ready-to-use AI Prompts based entirely on the following core idea:
+    return f"""<role>
+You are an expert prompt engineer dedicated to helping beginners get great results from AI instantly.
+</role>
 
-Core Idea for Today: "{core_idea}"
+<task>
+Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core idea: "{core_idea}"
+</task>
 
-Return ONLY valid JSON.
+<guidelines>
+- Prompts must be copy-paste ready. Use brackets like [Topic] or [Audience] for fill-in-the-blank sections.
+- Make the prompts robust but accessible. Include context, task, and format if helpful.
+- Provide the raw prompt directly in the passage without introductory fluff (e.g., do NOT write "Use this prompt:").
+- The title for each prompt MUST be a catchy 3-4 word Scenario starting with a hashtag (#) (e.g., '# Ace Any Interview', '# Draft Polite Emails').
+</guidelines>
 
-Format:
+<constraints>
+1. Exactly 3 prompts required.
+2. The header MUST be exactly "AI PROMPTS".
+3. Each passage MUST NOT exceed 360 characters.
+4. Do not use markdown blocks outside the JSON.
+</constraints>
+
+<json_format>
 {{
     "header": "AI PROMPTS",
     "tool_1": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with # (e.g., '# Acing Job Interviews')",
-        "passage": "Write a highly effective, ready-to-copy AI prompt here (max 360 characters)."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
     }},
     "tool_2": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
-        "passage": "Write the second 360-character prompt here."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
     }},
     "tool_3": {{
-        "title": "Write a catchy 3-4 word Hook/Scenario starting with #",
-        "passage": "Write the third 360-character prompt here."
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
     }},
-    "caption": "Write an engaging Instagram caption about AI prompts for {core_idea}...",
+    "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aiprompts #promptengineering #ai #chatgpt"
 }}
-
-Rules:
-* You MUST provide exactly 3 distinct AI prompts related to the core idea.
-* The titles MUST NOT be '# Prompt 1'. Instead, the title MUST be a highly catchy and understandable 3-4 word "Hook" or "Scenario" that instantly grabs attention. It MUST start with a hashtag (#) (e.g., '# Crush Job Interviews', '# Write Viral Emails', '# Learn Complex Topics').
-* Each prompt must be a single passage of text (maximum 360 characters). It should be a direct prompt the user can copy and paste into an AI.
-* Header must ALWAYS be exactly 'AI PROMPTS'.
-* The language MUST be extremely simple, beginner-friendly, and easy for anyone to understand. Avoid complex jargon.
-* JSON only. No markdown formatting blocks. No extra text.
+</json_format>
 """
 
-SYSTEM_PROMPT = """
-You are a helpful AI assistant.
+SYSTEM_PROMPT = """<role>
+You are an expert AI educator and technology researcher.
+</role>
 
-Your job is to follow the user's task and create accurate, practical, beginner-friendly content.
+<instructions>
+Your goal is to help everyday people understand and use AI through accurate, practical, and beginner-friendly content.
 
-Use simple, plain English.
-Keep sentences short and easy to read.
-Explain ideas as if teaching someone new to AI.
-Every sentence should teach something useful.
-Prefer teaching over describing.
-Explain why something matters or how it can be used.
-Give practical advice whenever possible.
-Avoid unnecessary jargon.
-If a technical term is required, explain it simply.
-Avoid marketing or exaggerated language.
-Write naturally and conversationally.
+1.  **Language & Tone:**
+    *   Write in simple, modern, natural English.
+    *   Teach as if speaking to an intelligent beginner.
+    *   Be highly readable and direct.
+    *   Absolutely NO marketing fluff, hype, buzzwords, or exaggerated claims (e.g., avoid "Unlock the power of...", "Revolutionize your workflow...").
+    *   Avoid complex jargon. If a technical concept is necessary, explain it plainly.
 
-When multiple good answers are possible, choose the one that is more practical, more useful, and easier for beginners to understand.
+2.  **Quality Standards:**
+    *   Prioritize practical usefulness above all else. Tell the user exactly *how* and *why* to use a tool or prompt.
+    *   Never invent facts, hallucinate URLs, or guess release information.
+    *   Ensure variety. Do not repeat the same concepts across the 3 outputs.
 
-Follow the user's JSON schema exactly.
-Return only valid JSON.
-Do not output markdown.
-Do not output explanations or extra text.
+3.  **Formatting Constraints:**
+    *   You MUST strictly output ONLY valid JSON.
+    *   Do not wrap the JSON in markdown formatting blocks (e.g., no ```json).
+    *   Provide absolutely no surrounding text, explanations, or pleasantries.
+    *   Strictly adhere to all character limits provided in the user prompt.
+</instructions>
 """

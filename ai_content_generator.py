@@ -103,16 +103,12 @@ def _generate_with_key(api_key: str, dynamic_prompt: str, is_passage: bool) -> P
     if is_passage:
         models_to_try = [
             "openai/gpt-oss-120b:free",
-            "meta-llama/llama-3-8b-instruct:free",
-            "mistralai/mistral-7b-instruct:free",
             "qwen/qwen3-next-80b-a3b-instruct:free",
             "google/gemma-4-31b-it:free"
         ]
     else:
         models_to_try = [
             "openai/gpt-oss-120b:free",
-            "meta-llama/llama-3-8b-instruct:free",
-            "mistralai/mistral-7b-instruct:free",
             "qwen/qwen3-next-80b-a3b-instruct:free",
             "google/gemma-4-31b-it:free"
         ]
