@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 07, 2026",
+        "items": [
+            {
+                "title": "# Quick Meeting Recap",
+                "content": "Summarize the following meeting transcript. Identify key decisions, action items with owners and deadlines, and any open questions. Format as bullet points for easy reading. Transcript: [Paste meeting transcript here]"
+            },
+            {
+                "title": "# Executive Briefing Digest",
+                "content": "You are a senior analyst. Summarize the following meeting transcript for an executive audience. Focus on high-level outcomes, strategic implications, and next steps that require executive attention. Keep the summary concise. Transcript: [Paste meeting transcript here]"
+            },
+            {
+                "title": "# Meeting Follow-up Email",
+                "content": "Draft a follow-up email to attendees summarizing our recent meeting. Include the main topic, key decisions made, action items with owners and deadlines, and a polite closing. The tone should be professional and concise. Meeting details: [Paste meeting summary or transcript snippets here]. Attendees: [List attendees]"
+            }
+        ]
+    },
+    {
         "date": "July 06, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Social Outreach Script",
                 "content": "Generate a LinkedIn direct\u2011message script to introduce a consulting service. Start with a personalized compliment, mention a common connection or interest, briefly explain the service\u2019s benefit, and ask for a 15\u2011minute chat. Keep it under 200 characters."
-            }
-        ]
-    },
-    {
-        "date": "July 03, 2026",
-        "items": [
-            {
-                "title": "# Spot Trends Fast",
-                "content": "Act as a market analyst. List the top five emerging consumer trends in the fitness industry for the next 12 months, using recent news, social media buzz, and sales data. Include a brief reason for each trend and a simple example of a product that could meet it."
-            },
-            {
-                "title": "# Competitor Snapshot",
-                "content": "Pretend you are a business strategist. Compare three leading brands in the plant\u2011based snack market. Provide a table showing each brand's price range, main flavors, distribution channels, and one strength and weakness. Keep the info clear and easy to read."
-            },
-            {
-                "title": "# Customer Voice Map",
-                "content": "Imagine you are conducting a survey for a new eco\u2011friendly water bottle. Generate ten short, open\u2011ended questions that reveal why people would buy or avoid it, focusing on price, design, sustainability, and daily use. Make each question simple and unbiased."
             }
         ]
     }
