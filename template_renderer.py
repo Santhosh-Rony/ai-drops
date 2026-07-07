@@ -33,7 +33,7 @@ def get_template_for_day() -> Tuple[str, Dict]:
     Returns the template image path and its associated JSON configuration for the current day.
     """
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    today_index = 0 # HARDCODED TO MONDAY
+    today_index = datetime.datetime.now().weekday()
     day_name_lower = days[today_index].lower()
     day_name_capital = days[today_index]
     
@@ -171,7 +171,7 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
                 line_y = header_y + header_max_h + 10
             
             # 2. Render Dynamic Date in the top right corner (pushed to border)
-            date_str = "Monday, July 06, 2026" # HARDCODED DATE
+            date_str = datetime.datetime.now().strftime("%A, %B %d, %Y")
             date_region = {
                 "x": img_width - 60 - 400, # Tighter right padding
                 "y": 60, # Moved down slightly
