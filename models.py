@@ -23,7 +23,7 @@ class ContentBlock:
     def trim_to_limits(self, is_passage: bool = False):
         if is_passage:
             self.title = trim_text(self.title, 40)
-            self.passage = trim_text(self.passage, 360)
+            self.passage = trim_text(self.passage, 200)
         else:
             self.title = trim_text(self.title, 25)
             self.point_1 = trim_text(self.point_1, 60)

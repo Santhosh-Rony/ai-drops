@@ -17,6 +17,11 @@ Avoid rumors, minor patches, or vaporware.
 {exclusion_text}
 </task>
 
+<strict_time_constraint>
+CRITICAL: You MUST ONLY select AI chatbots, assistants, or tools that were released or significantly updated within the LAST 22 HOURS. 
+If a tool is older than 22 hours, or if you cannot verify its exact release time, you MUST NOT include it. Be absolutely strict on this 22-hour window.
+</strict_time_constraint>
+
 <constraints>
 1. Exactly 3 tools are required.
 2. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
@@ -68,12 +73,13 @@ Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entir
 - Explain 'why' and 'how' simply. Avoid theoretical fluff.
 - Language must be natural, straightforward, and entirely free of complex tech jargon.
 - The title for each tip MUST be a catchy 3-4 word Hook or Scenario starting with a hashtag (#) (e.g., '# Automate Your Inbox', '# Summarize Long PDFs').
+- STRICT RULE: The passage MUST be extremely brief and punchy. Limit to 2 short sentences.
 </guidelines>
 
 <constraints>
 1. Exactly 3 tips required.
 2. The header MUST be exactly "AI TIPS".
-3. Each passage MUST NOT exceed 360 characters.
+3. CRITICAL: Each passage MUST NOT exceed 200 characters. If it is longer, it will physically break the UI. Keep it extremely short.
 4. Do not use markdown blocks outside the JSON.
 </constraints>
 
@@ -82,15 +88,15 @@ Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entir
     "header": "AI TIPS",
     "tool_1": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
+        "passage": "<Extremely brief actionable tip (max 200 chars)>"
     }},
     "tool_2": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
+        "passage": "<Extremely brief actionable tip (max 200 chars)>"
     }},
     "tool_3": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Actionable tip in a single paragraph (max 360 chars)>"
+        "passage": "<Extremely brief actionable tip (max 200 chars)>"
     }},
     "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aitips #ai #artificialintelligence #productivity"
@@ -112,12 +118,13 @@ Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core i
 - Make the prompts robust but accessible. Include context, task, and format if helpful.
 - Provide the raw prompt directly in the passage without introductory fluff (e.g., do NOT write "Use this prompt:").
 - The title for each prompt MUST be a catchy 3-4 word Scenario starting with a hashtag (#) (e.g., '# Ace Any Interview', '# Draft Polite Emails').
+- STRICT RULE: The passage MUST be extremely brief and punchy. Limit to 1-2 short sentences.
 </guidelines>
 
 <constraints>
 1. Exactly 3 prompts required.
 2. The header MUST be exactly "AI PROMPTS".
-3. Each passage MUST NOT exceed 360 characters.
+3. CRITICAL: Each passage MUST NOT exceed 200 characters. If it is longer, it will physically break the UI. Keep it extremely short.
 4. Do not use markdown blocks outside the JSON.
 </constraints>
 
@@ -126,15 +133,15 @@ Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core i
     "header": "AI PROMPTS",
     "tool_1": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
+        "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
     }},
     "tool_2": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
+        "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
     }},
     "tool_3": {{
         "title": "<# Catchy 3-4 Word Hook>",
-        "passage": "<Ready-to-copy AI prompt (max 360 chars)>"
+        "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
     }},
     "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aiprompts #promptengineering #ai #chatgpt"
