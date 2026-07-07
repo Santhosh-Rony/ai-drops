@@ -3,6 +3,23 @@
         "date": "July 07, 2026",
         "items": [
             {
+                "title": "# Outline Presentation Flow",
+                "content": "Act as a presentation expert. Create a detailed 10-slide outline for a presentation on [Topic] for a [Audience]. Include key points for each slide, a clear introduction, and a strong conclusion."
+            },
+            {
+                "title": "# Develop Slide Content",
+                "content": "Write the full content for a single presentation slide on [Specific Point of Topic]. The audience is [Audience]. Focus on clarity, conciseness, and engaging bullet points. Include a title."
+            },
+            {
+                "title": "# Write Engaging Intro",
+                "content": "Draft a compelling 1-minute introduction speech for a presentation about [Topic]. The goal is to capture the attention of [Audience] and clearly state the presentation's value. Make it impactful."
+            }
+        ]
+    },
+    {
+        "date": "July 07, 2026",
+        "items": [
+            {
                 "title": "# Quick Meeting Recap",
                 "content": "Summarize the following meeting transcript. Identify key decisions, action items with owners and deadlines, and any open questions. Format as bullet points for easy reading. Transcript: [Paste meeting transcript here]"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# Survey Insight Builder",
                 "content": "Create a short online survey (8 questions) to gauge interest in a subscription box for home\u2011cooking kits. Include two demographic questions, three preference questions, and three willingness\u2011to\u2011pay questions. Add a brief intro and thank\u2011you note."
-            }
-        ]
-    },
-    {
-        "date": "July 04, 2026",
-        "items": [
-            {
-                "title": "# Cold Email Mastery",
-                "content": "Create a 150-word cold email template for a B2B SaaS product. Include a friendly greeting, a brief problem statement, a clear value proposition, a single call\u2011to\u2011action, and a polite sign\u2011off. Make the tone professional yet approachable and use simple language."
-            },
-            {
-                "title": "# Follow\u2011Up Boost",
-                "content": "Write a three\u2011step follow\u2011up sequence (each 80\u2011100 words) for a prospect who opened the first email but didn\u2019t reply. First message: friendly reminder, second: add a new benefit, third: offer a quick call. Keep tone helpful and respectful."
-            },
-            {
-                "title": "# Social Outreach Script",
-                "content": "Generate a LinkedIn direct\u2011message script to introduce a consulting service. Start with a personalized compliment, mention a common connection or interest, briefly explain the service\u2019s benefit, and ask for a 15\u2011minute chat. Keep it under 200 characters."
             }
         ]
     }
