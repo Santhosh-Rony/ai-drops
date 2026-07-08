@@ -3,6 +3,23 @@
         "date": "July 08, 2026",
         "items": [
             {
+                "title": "Meta Muse",
+                "description": "\u2022 Generate diverse images.\n\u2022 Transform photo styles.\n\u2022 Restyle rooms, products."
+            },
+            {
+                "title": "Nano Banana 2 Lite",
+                "description": "\u2022 Generate images for creativity.\n\u2022 Create video content.\n\u2022 Expand dev creative tools."
+            },
+            {
+                "title": "Gemini Omni Flash",
+                "description": "\u2022 Generate images for creativity.\n\u2022 Create video content.\n\u2022 Expand dev creative tools."
+            }
+        ]
+    },
+    {
+        "date": "July 08, 2026",
+        "items": [
+            {
                 "title": "ChatGPT",
                 "description": "\u2022 Create custom AI assistants\n\u2022 Upload docs for analysis\n\u2022 Get real-time web info"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Grok Voice Agent Builder",
                 "description": "\u2022 Create voice agents in under 2 minutes, no code\n\u2022 Built\u2011in telephony, knowledge retrieval, and tool use\n\u2022 Charges only for audio minutes, no extra platform fee"
-            }
-        ]
-    },
-    {
-        "date": "July 04, 2026",
-        "items": [
-            {
-                "title": "OpenAI ChatGPT",
-                "description": "\u2022 Remembers longer conversations\n\u2022 Works for free users\n\u2022 Better at staying on topic"
-            },
-            {
-                "title": "xAI Voice Agent",
-                "description": "\u2022 Build voice agents without code\n\u2022 Uses Grok Voice model\n\u2022 Runs in minutes"
-            },
-            {
-                "title": "Meta Muse Spark",
-                "description": "\u2022 Improved coding help\n\u2022 Stronger AI agents\n\u2022 More enterprise friendly"
             }
         ]
     }

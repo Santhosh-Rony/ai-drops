@@ -1,8 +1,5 @@
 {
     "tools": [
-        "GPT-5.6",
-        "Conversational Analytics",
-        "Naver AI Tab",
         "Fugu Orchestrator",
         "Gemini Chat 3.1",
         "Claude Assistant 4",
@@ -14,6 +11,9 @@
         "RunwayML Motion Ctrl",
         "ChatGPT",
         "MS Copilot",
-        "Midjourney"
+        "Midjourney",
+        "Meta Muse",
+        "Nano Banana 2 Lite",
+        "Gemini Omni Flash"
     ]
 }
