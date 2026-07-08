@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 08, 2026",
+        "items": [
+            {
+                "title": "# Practice Interview Answers",
+                "content": "Use AI to simulate common interview questions and generate example answers. This helps you refine your responses and build confidence before the big day."
+            },
+            {
+                "title": "# Tailor Your Resume",
+                "content": "Input the job description into an AI tool and ask it to highlight keywords. Then, use these insights to optimize your resume and cover letter for that specific role."
+            },
+            {
+                "title": "# Draft Follow-Up Emails",
+                "content": "After an interview, ask AI to draft a professional and personalized thank-you email. Provide key details from your conversation to make it unique and impactful."
+            }
+        ]
+    },
+    {
         "date": "July 07, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Tone\u2011Adjust Drafts",
                 "content": "Write a quick draft, then tell the AI to rewrite it in a friendly, formal, or persuasive tone. The AI reshapes phrasing while keeping your message, so you can match the recipient\u2019s style without re\u2011writing everything."
-            }
-        ]
-    },
-    {
-        "date": "July 02, 2026",
-        "items": [
-            {
-                "title": "# Brainstorm in Seconds",
-                "content": "Ask an AI to list ideas for your article topic. Give a short prompt like \"Give me 10 blog ideas about remote work.\" The AI returns fresh angles instantly, so you spend less time staring at a blank page and more time writing."
-            },
-            {
-                "title": "# Perfect First Draft",
-                "content": "Start a paragraph and let the AI finish it. Type a sentence such as \"The future of AI in education will\" and ask the model to continue. It provides a coherent draft you can edit, turning writer\u2019s block into a quick start."
-            },
-            {
-                "title": "# Edit Like a Pro",
-                "content": "Paste a paragraph into an AI and request a rewrite for clarity or tone. Say, \"Make this sound friendly and concise.\" The AI highlights awkward phrasing and offers smoother alternatives, helping you polish your work fast."
             }
         ]
     }
