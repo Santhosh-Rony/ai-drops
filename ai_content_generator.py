@@ -59,23 +59,37 @@ def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
     # Enable Google Search grounding specifically for AI Drops (is_passage=False)
     tools = [{"google_search": {}}] if not is_passage else None
     
+    config_kwargs = {
+        "temperature": 0.7,
+        "tools": tools,
+    }
+    
+    # Gemini API does not allow response_mime_type alongside tools
+    if not tools:
+        config_kwargs["response_mime_type"] = "application/json"
+        config_kwargs["response_schema"] = gemini_schema
+    
     try:
         response = client.models.generate_content(
             model='gemini-2.5-flash',
             contents=full_prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=gemini_schema,
-                temperature=0.7,
-                tools=tools,
-            ),
+            config=types.GenerateContentConfig(**config_kwargs)
         )
         
         content_text = response.text
         if not content_text:
             raise ValueError("Empty text content from Gemini.")
             
-        data = json.loads(content_text)
+        # Robust JSON Parsing to ignore markdown or tool outputs
+        start_idx = content_text.find('{')
+        end_idx = content_text.rfind('}')
+        
+        if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+            json_string = content_text[start_idx:end_idx+1]
+            data = json.loads(json_string)
+        else:
+            raise ValueError("No JSON object '{...}' found in the Gemini response.")
+            
         post_content = PostContent.from_dict(data)
         
         post_content.trim_to_limits(is_passage)
