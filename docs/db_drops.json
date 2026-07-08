@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 08, 2026",
+        "items": [
+            {
+                "title": "ChatGPT",
+                "description": "\u2022 Create custom AI assistants\n\u2022 Upload docs for analysis\n\u2022 Get real-time web info"
+            },
+            {
+                "title": "MS Copilot",
+                "description": "\u2022 Summarize long emails\n\u2022 Draft documents in Word\n\u2022 Analyze Excel data fast"
+            },
+            {
+                "title": "Midjourney",
+                "description": "\u2022 Generate high-quality images\n\u2022 Improved text rendering\n\u2022 More consistent character art"
+            }
+        ]
+    },
+    {
         "date": "July 07, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Meta Muse Spark",
                 "description": "\u2022 Improved coding help\n\u2022 Stronger AI agents\n\u2022 More enterprise friendly"
-            }
-        ]
-    },
-    {
-        "date": "July 04, 2026",
-        "items": [
-            {
-                "title": "ChatGPT GPT-5.5",
-                "description": "\u2022 Better memory across long chats\n\u2022 Free users get the upgrade too\n\u2022 Helps avoid repeating info"
-            },
-            {
-                "title": "Leanstral 1.5",
-                "description": "\u2022 Solves math proofs in Lean 4\n\u2022 Free API for developers\n\u2022 State\u2011of\u2011the\u2011art on PutnamBench"
-            },
-            {
-                "title": "MAI\u2011Thinking\u20111",
-                "description": "\u2022 Strong reasoning on math tasks\n\u2022 Supports 256k\u2011token context\n\u2022 Works with OpenAI chat API"
             }
         ]
     }

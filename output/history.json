@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Claude Fable 5",
-        "Naver AI Tab Lite",
-        "Grok Voice Agent Builder",
         "GPT-5.6",
         "Conversational Analytics",
         "Naver AI Tab",
@@ -14,6 +11,9 @@
         "Llama 3",
         "Google Docs AI Proof",
         "Canva Magic Video",
-        "RunwayML Motion Ctrl"
+        "RunwayML Motion Ctrl",
+        "ChatGPT",
+        "MS Copilot",
+        "Midjourney"
     ]
 }
