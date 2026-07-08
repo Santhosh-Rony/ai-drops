@@ -56,6 +56,9 @@ def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
     # Prepend SYSTEM_PROMPT to the prompt since Gemini has strict roles
     full_prompt = f"SYSTEM INSTRUCTIONS:\n{SYSTEM_PROMPT}\n\nUSER REQUEST:\n{dynamic_prompt}"
     
+    # Enable Google Search grounding specifically for AI Drops (is_passage=False)
+    tools = [{"google_search": {}}] if not is_passage else None
+    
     try:
         response = client.models.generate_content(
             model='gemini-2.5-flash',
@@ -64,6 +67,7 @@ def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
                 response_mime_type="application/json",
                 response_schema=gemini_schema,
                 temperature=0.7,
+                tools=tools,
             ),
         )
         
