@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 09, 2026",
+        "items": [
+            {
+                "title": "# Find Code Bugs",
+                "content": "Analyze this [programming language] code for errors. Explain the bug, its cause, and provide the corrected code. Code: ```[Paste your code here]```"
+            },
+            {
+                "title": "# Refactor Code Smarter",
+                "content": "Review this [programming language] code. Suggest optimizations for performance and readability, and provide the improved code. Code: ```[Paste your code here]```"
+            },
+            {
+                "title": "# Understand Complex Code",
+                "content": "Explain this [programming language] code line-by-line in simple terms, focusing on its purpose and logic. Code: ```[Paste your code here]```"
+            }
+        ]
+    },
+    {
         "date": "July 08, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Social Sentiment Scan",
                 "content": "Gather recent social media mentions of my two biggest competitors. Summarize common customer complaints and praises in bullet points. Identify one area where they are weak and propose a quick improvement for my brand."
-            }
-        ]
-    },
-    {
-        "date": "July 05, 2026",
-        "items": [
-            {
-                "title": "# Spy On Rivals",
-                "content": "List the top 5 competitors in my market. For each, give their main product, pricing, key strengths, weaknesses, and recent marketing moves. Summarize this in a table and add a short suggestion on how I can differentiate my offering."
-            },
-            {
-                "title": "# Benchmark Feature Gaps",
-                "content": "Compare my product's features with those of the three leading competitors. Mark which features I have, lack, or exceed. Highlight the biggest gaps and suggest one quick improvement to close each gap."
-            },
-            {
-                "title": "# Social Sentiment Scan",
-                "content": "Gather recent customer comments about my top three rivals from social media and review sites. Identify the most common praise and complaints for each. Provide a 2\u2011sentence insight on what customers value most and what they dislike."
             }
         ]
     }
