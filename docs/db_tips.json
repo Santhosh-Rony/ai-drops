@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 09, 2026",
+        "items": [
+            {
+                "title": "#Summarize Any Text",
+                "content": "Paste long articles or notes into an AI tool and ask for a summary. This quickly extracts key points, saving you time and helping you grasp core ideas faster."
+            },
+            {
+                "title": "#Explain Complex Ideas",
+                "content": "Input a difficult concept or jargon into AI and ask it to explain it simply. It breaks down complex topics into easy-to-understand language, perfect for quick learning."
+            },
+            {
+                "title": "#Generate Study Questions",
+                "content": "Feed your study materials into an AI and ask it to create quiz questions or flashcards. This helps test your understanding and reinforces what you've learned effectively."
+            }
+        ]
+    },
+    {
         "date": "July 08, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Auto\u2011Email Follow\u2011Up",
                 "content": "Link your AI summarizer to your email client. After the summary is created, set the AI to draft a brief follow\u2011up email that includes the summary and assigns tasks to each person. Review the draft, hit send, and everyone gets a consistent recap instantly."
-            }
-        ]
-    },
-    {
-        "date": "July 03, 2026",
-        "items": [
-            {
-                "title": "# Instant Subject Lines",
-                "content": "Ask an AI to suggest three subject lines that match the email purpose and tone. Pick the one that feels most urgent or curious. This saves time, raises open rates, and lets you focus on the body instead of staring at a blank line."
-            },
-            {
-                "title": "# One\u2011Click Summaries",
-                "content": "Paste a long email thread into an AI and request a short summary. Use the summary to craft your reply quickly, keeping key points front and center. It cuts down reading time and helps you stay on topic without missing details."
-            },
-            {
-                "title": "# Tone\u2011Adjust Drafts",
-                "content": "Write a quick draft, then tell the AI to rewrite it in a friendly, formal, or persuasive tone. The AI reshapes phrasing while keeping your message, so you can match the recipient\u2019s style without re\u2011writing everything."
             }
         ]
     }
