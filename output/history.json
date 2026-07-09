@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Fugu Orchestrator",
-        "Gemini Chat 3.1",
-        "Claude Assistant 4",
         "Gemini Advanced",
         "Perplexity AI",
         "Llama 3",
@@ -14,6 +11,9 @@
         "Midjourney",
         "Meta Muse",
         "Nano Banana 2 Lite",
-        "Gemini Omni Flash"
+        "Gemini Omni Flash",
+        "GPT-Live",
+        "Claude Cowork",
+        "Superhuman Docs"
     ]
 }

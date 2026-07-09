@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 09, 2026",
+        "items": [
+            {
+                "title": "GPT-Live",
+                "description": "\u2022 More natural voice conversations\n\u2022 Listens and speaks simultaneously\n\u2022 Handles complex queries with GPT-5.5"
+            },
+            {
+                "title": "Claude Cowork",
+                "description": "\u2022 Automate multi-step tasks\n\u2022 Access tasks across devices\n\u2022 Schedule automated workflows"
+            },
+            {
+                "title": "Superhuman Docs",
+                "description": "\u2022 AI assistance within documents\n\u2022 Collaborative document creation\n\u2022 Streamlined team workflows"
+            }
+        ]
+    },
+    {
         "date": "July 08, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Naver AI Tab",
                 "description": "\u2022 Faster responses with lightweight model\n\u2022 30% fewer hallucinations\n\u2022 Uses reinforcement learning for clarifying questions"
-            }
-        ]
-    },
-    {
-        "date": "July 05, 2026",
-        "items": [
-            {
-                "title": "Claude Fable 5",
-                "description": "\u2022 High\u2011capacity chatbot for long conversations\n\u2022 Adds stricter safety filters for security queries\n\u2022 Available via Anthropic API for developers"
-            },
-            {
-                "title": "Naver AI Tab Lite",
-                "description": "\u2022 Fast, low\u2011cost model for search\u2011assistant chats\n\u2022 Reduces hallucinations by up to 30%\n\u2022 Runs on lightweight SLM architecture"
-            },
-            {
-                "title": "Grok Voice Agent Builder",
-                "description": "\u2022 Create voice agents in under 2 minutes, no code\n\u2022 Built\u2011in telephony, knowledge retrieval, and tool use\n\u2022 Charges only for audio minutes, no extra platform fee"
             }
         ]
     }
