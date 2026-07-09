@@ -3,6 +3,23 @@
         "date": "July 09, 2026",
         "items": [
             {
+                "title": "# Skill Breakdown Plan",
+                "content": "Act as an expert tutor. Create a structured 5-step learning plan for [New Skill], including key concepts, resources, and practical exercises suitable for a [Beginner/Intermediate] learner."
+            },
+            {
+                "title": "# Explain Complex Topics",
+                "content": "Explain [Complex Topic within New Skill] to me as if I'm a [Child/High School Student], using simple analogies and avoiding jargon. Provide 3 key takeaways."
+            },
+            {
+                "title": "# Practice Scenario Generator",
+                "content": "Generate 3 realistic practice scenarios for someone learning [New Skill], focusing on [Specific Aspect]. For each scenario, include a problem and what skills are needed to solve it."
+            }
+        ]
+    },
+    {
+        "date": "July 09, 2026",
+        "items": [
+            {
                 "title": "# Find Code Bugs",
                 "content": "Analyze this [programming language] code for errors. Explain the bug, its cause, and provide the corrected code. Code: ```[Paste your code here]```"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "# Brand Storytelling Sprint",
                 "content": "Write a quick brand storytelling campaign for a coffee shop. Provide a core story hook, 2 blog post outlines, 3 Instagram Reel scripts, and a loyalty program teaser. Make each piece short, friendly, and ready to publish."
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "# Spy Market Moves",
-                "content": "List the top 5 competitors in my industry, summarize their latest product releases, pricing, and marketing messages. Highlight any new features or promotions they launched in the past 3 months and note gaps I could exploit."
-            },
-            {
-                "title": "# Beat Their SEO",
-                "content": "Analyze the SEO strengths of my three main rivals. Provide their top 10 ranking keywords, backlink count, and content topics. Suggest three easy-to-rank keywords I can target and two content ideas to outrank them."
-            },
-            {
-                "title": "# Social Sentiment Scan",
-                "content": "Gather recent social media mentions of my two biggest competitors. Summarize common customer complaints and praises in bullet points. Identify one area where they are weak and propose a quick improvement for my brand."
             }
         ]
     }
