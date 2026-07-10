@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 10, 2026",
+        "items": [
+            {
+                "title": "#DebugCodeFaster",
+                "content": "Stuck on an error? Ask AI to review your code and suggest fixes. It can quickly pinpoint issues and explain solutions, saving you hours of frustration."
+            },
+            {
+                "title": "#GenerateBoilerplateCode",
+                "content": "Need a quick script or a basic function? Describe what you need in plain language. AI can generate starting code, giving you a strong foundation to build upon."
+            },
+            {
+                "title": "#UnderstandComplexCode",
+                "content": "Encountered unfamiliar code? Paste it into an AI tool and ask for an explanation. It can break down complex logic into simple terms, helping you learn faster."
+            }
+        ]
+    },
+    {
         "date": "July 09, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Polish in Seconds",
                 "content": "Copy your raw text into an AI and ask for a rewrite that is clear, concise, and error\u2011free. Specify the audience, like \"for beginners\" or \"for marketers\". The AI will tighten language, fix grammar, and improve flow instantly."
-            }
-        ]
-    },
-    {
-        "date": "July 04, 2026",
-        "items": [
-            {
-                "title": "# Capture Live Notes",
-                "content": "During a meeting, turn on a speech\u2011to\u2011text AI tool and let it record everything. The AI will add timestamps and speaker labels automatically. After the call, you get a full transcript you can edit quickly into a short summary, saving hours of manual typing."
-            },
-            {
-                "title": "# Summarize in Seconds",
-                "content": "Paste the meeting transcript into a summarizing AI, ask it to highlight key decisions, action items, and deadlines in bullet form. The AI condenses long talks into a clear 5\u2011point recap, making it easy for teammates to see what matters without reading the whole text."
-            },
-            {
-                "title": "# Auto\u2011Email Follow\u2011Up",
-                "content": "Link your AI summarizer to your email client. After the summary is created, set the AI to draft a brief follow\u2011up email that includes the summary and assigns tasks to each person. Review the draft, hit send, and everyone gets a consistent recap instantly."
             }
         ]
     }
