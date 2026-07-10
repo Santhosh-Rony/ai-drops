@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 10, 2026",
+        "items": [
+            {
+                "title": "# Bullet Point Summary",
+                "content": "Summarize the following text into 5-7 key bullet points, focusing on main ideas and essential details for [Topic]: [Paste Text Here]"
+            },
+            {
+                "title": "# Generate Study Questions",
+                "content": "From the following [Topic] material, generate 10 detailed study questions and their answers. Format as Q: [Question] A: [Answer]. [Paste Text Here]"
+            },
+            {
+                "title": "# Comprehensive Study Guide",
+                "content": "Create a detailed study guide for [Exam/Subject] covering [Key Concepts]. Include definitions, important formulas/theories, and examples relevant to [Your Learning Goal]. Use clear headings."
+            }
+        ]
+    },
+    {
         "date": "July 09, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Positive Upsell Message",
                 "content": "Draft a polite response to a customer who just bought a basic plan, suggesting they upgrade to premium for extra features. Highlight two key benefits, add a limited\u2011time free trial, and thank them for their purchase."
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "# Viral Product Launch",
-                "content": "Create a step\u2011by\u2011step marketing campaign for a new tech gadget. Include 3 social media platforms, 2 email ideas, a launch event concept, and a budget outline. Use simple language and give clear actions for a small team."
-            },
-            {
-                "title": "# Seasonal Sale Boost",
-                "content": "Design a 4\u2011week promotional plan for a summer clothing sale. List weekly themes, 3 Instagram post ideas, a discount code strategy, and a short ad copy. Keep the plan easy to follow and suitable for a boutique store."
-            },
-            {
-                "title": "# Brand Storytelling Sprint",
-                "content": "Write a quick brand storytelling campaign for a coffee shop. Provide a core story hook, 2 blog post outlines, 3 Instagram Reel scripts, and a loyalty program teaser. Make each piece short, friendly, and ready to publish."
             }
         ]
     }
