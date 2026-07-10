@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 10, 2026",
+        "items": [
+            {
+                "title": "GPT-5.6",
+                "description": "\u2022 Boosts coding & knowledge work\n\u2022 Offers better performance per cost\n\u2022 Accelerates complex task completion"
+            },
+            {
+                "title": "Framer 3.0",
+                "description": "\u2022 Builds websites with AI chat\n\u2022 Adjusts layouts via natural language\n\u2022 Automatically fixes broken links"
+            },
+            {
+                "title": "Five9 Voice AI Agents",
+                "description": "\u2022 Automates customer phone support\n\u2022 Handles complex voice conversations\n\u2022 Reduces call center operating costs"
+            }
+        ]
+    },
+    {
         "date": "July 09, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Claude Assistant 4",
                 "description": "\u2022 Anthropic's newest chat assistant\n\u2022 Better tool use and multi\u2011step planning\n\u2022 Focus on safe, reliable answers"
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "GPT-5.6",
-                "description": "\u2022 Handles multi\u2011step workflows\n\u2022 Better reasoning and lower hallucinations\n\u2022 Supports tool use and code debugging"
-            },
-            {
-                "title": "Conversational Analytics",
-                "description": "\u2022 Ask natural\u2011language queries on BigQuery data\n\u2022 Shows step\u2011by\u2011step SQL reasoning\n\u2022 Generates visual reports automatically"
-            },
-            {
-                "title": "Naver AI Tab",
-                "description": "\u2022 Faster responses with lightweight model\n\u2022 30% fewer hallucinations\n\u2022 Uses reinforcement learning for clarifying questions"
             }
         ]
     }
