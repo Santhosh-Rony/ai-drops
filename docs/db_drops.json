@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 11, 2026",
+        "items": [
+            {
+                "title": "LangChain NemoClaw",
+                "description": "\u2022 Build secure AI agents\n\u2022 Define agent tool access\n\u2022 Govern agent behavior"
+            },
+            {
+                "title": "ZCode",
+                "description": "\u2022 Agent-based code dev\n\u2022 Supports multi-stage tasks\n\u2022 Affordable for developers"
+            },
+            {
+                "title": "Grok 4.5",
+                "description": "\u2022 Optimized for coding\n\u2022 Aids finance tasks\n\u2022 Supports autonomous ops"
+            }
+        ]
+    },
+    {
         "date": "July 10, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Llama 3",
                 "description": "\u2022 Runs locally on your own hardware.\n\u2022 Customize for specific business needs.\n\u2022 Develop new AI applications easily."
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "Fugu Orchestrator",
-                "description": "\u2022 Combines multiple top LLMs for one API\n\u2022 Selects best model per task automatically\n\u2022 Easy one\u2011line install for Ubuntu/macOS"
-            },
-            {
-                "title": "Gemini Chat 3.1",
-                "description": "\u2022 Google's latest conversational model\n\u2022 Improved reasoning and lower hallucinations\n\u2022 Integrated into Google services instantly"
-            },
-            {
-                "title": "Claude Assistant 4",
-                "description": "\u2022 Anthropic's newest chat assistant\n\u2022 Better tool use and multi\u2011step planning\n\u2022 Focus on safe, reliable answers"
             }
         ]
     }

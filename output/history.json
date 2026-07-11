@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Google Docs AI Proof",
-        "Canva Magic Video",
-        "RunwayML Motion Ctrl",
         "ChatGPT",
         "MS Copilot",
         "Midjourney",
@@ -14,6 +11,9 @@
         "Superhuman Docs",
         "GPT-5.6",
         "Framer 3.0",
-        "Five9 Voice AI Agents"
+        "Five9 Voice AI Agents",
+        "LangChain NemoClaw",
+        "ZCode",
+        "Grok 4.5"
     ]
 }
