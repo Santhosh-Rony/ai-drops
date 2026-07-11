@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 11, 2026",
+        "items": [
+            {
+                "title": "# Task Assistant Agent",
+                "content": "Design an AI agent for [specific task]. Define its goal, required capabilities, and output format. Detail its interaction style for a [target user] and key steps it takes."
+            },
+            {
+                "title": "# Research Bot Blueprint",
+                "content": "Outline an AI agent for researching [topic]. Specify its data sources, information synthesis process, and how it presents findings. Define its persona for a [user type]."
+            },
+            {
+                "title": "# Creative Content Creator",
+                "content": "Develop an AI agent to generate [content type] for [purpose]. Define its persona, tone, and the steps it takes from initial input to final output. Include example prompts."
+            }
+        ]
+    },
+    {
         "date": "July 10, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Meeting Follow-up Email",
                 "content": "Draft a follow-up email to attendees summarizing our recent meeting. Include the main topic, key decisions made, action items with owners and deadlines, and a polite closing. The tone should be professional and concise. Meeting details: [Paste meeting summary or transcript snippets here]. Attendees: [List attendees]"
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "# Quick Apology Reply",
-                "content": "Write a friendly apology email for a customer who received a delayed order. Include: sincere sorry, brief reason, new delivery date, and a small discount code. Keep tone warm, professional, and under 150 words."
-            },
-            {
-                "title": "# Friendly FAQ Answer",
-                "content": "Create a short chat reply that explains how to reset a forgotten password. Use simple steps, mention where to click, and reassure the user it\u2019s safe. Limit to three sentences and keep the tone helpful."
-            },
-            {
-                "title": "# Positive Upsell Message",
-                "content": "Draft a polite response to a customer who just bought a basic plan, suggesting they upgrade to premium for extra features. Highlight two key benefits, add a limited\u2011time free trial, and thank them for their purchase."
             }
         ]
     }
