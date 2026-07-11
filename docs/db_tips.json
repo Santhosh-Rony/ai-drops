@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 11, 2026",
+        "items": [
+            {
+                "title": "#Digest Long Emails",
+                "content": "Use an AI agent to quickly read through lengthy email threads or documents and extract key decisions. This saves time sifting through details, letting you focus on what truly matters."
+            },
+            {
+                "title": "#Format Messy Data",
+                "content": "Deploy an AI agent to clean up inconsistent spreadsheet data, standardize formats, or categorize information automatically. It transforms raw data into usable formats, reducing manual effort and"
+            },
+            {
+                "title": "#Generate Fresh Ideas",
+                "content": "Engage an AI agent to brainstorm diverse ideas for projects, campaigns, or problem-solving by offering various perspectives. This helps overcome creative blocks and expands your thought process"
+            }
+        ]
+    },
+    {
         "date": "July 10, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Create Ads Automatically",
                 "content": "Feed your product description into an AI copywriter and ask for three short ad headlines and body texts. Pick the best one, add a simple image, and launch a low\u2011budget test ad. The AI saves hours of brainstorming and speeds up market entry."
-            }
-        ]
-    },
-    {
-        "date": "July 05, 2026",
-        "items": [
-            {
-                "title": "# Generate Fresh Ideas",
-                "content": "Ask an AI to list 10 angles for your next blog post. Give it a short description of your topic and ask for variations like \"how\u2011to\", \"listicle\", or \"story\" formats. This gives you a quick idea pool, so you never stare at a blank page again."
-            },
-            {
-                "title": "# Speed Up Drafting",
-                "content": "Start a paragraph and let the AI finish it. Write the first sentence, then prompt the model with \"continue this in a friendly tone\". The AI will produce a full draft you can edit, cutting writing time by half while keeping your voice."
-            },
-            {
-                "title": "# Polish in Seconds",
-                "content": "Copy your raw text into an AI and ask for a rewrite that is clear, concise, and error\u2011free. Specify the audience, like \"for beginners\" or \"for marketers\". The AI will tighten language, fix grammar, and improve flow instantly."
             }
         ]
     }
