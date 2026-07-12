@@ -1,8 +1,5 @@
 {
     "tools": [
-        "ChatGPT",
-        "MS Copilot",
-        "Midjourney",
         "Meta Muse",
         "Nano Banana 2 Lite",
         "Gemini Omni Flash",
@@ -14,6 +11,9 @@
         "Five9 Voice AI Agents",
         "LangChain NemoClaw",
         "ZCode",
-        "Grok 4.5"
+        "Grok 4.5",
+        "Gemini 3.5 Flash Comp Use",
+        "Gemma 4 12B",
+        "Lucid Smart Eyewear AI"
     ]
 }

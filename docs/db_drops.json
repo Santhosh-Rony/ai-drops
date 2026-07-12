@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 12, 2026",
+        "items": [
+            {
+                "title": "Gemini 3.5 Flash Comp Use",
+                "description": "\u2022 Automate browser tasks\n\u2022 Control software interfaces\n\u2022 Build fast AI agents"
+            },
+            {
+                "title": "Gemma 4 12B",
+                "description": "\u2022 Multimodal data handling\n\u2022 Streamlined architecture\n\u2022 Compact model size"
+            },
+            {
+                "title": "Lucid Smart Eyewear AI",
+                "description": "\u2022 Hands-free AI queries\n\u2022 Image/document analysis\n\u2022 Switch AI models easily"
+            }
+        ]
+    },
+    {
         "date": "July 11, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "RunwayML Motion Ctrl",
                 "description": "\u2022 Fine-tune video motion\n\u2022 Control object movement\n\u2022 Improve video consistency"
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "Gemini Advanced",
-                "description": "\u2022 Handles complex tasks and large inputs.\n\u2022 Analyzes documents, videos, and audio files.\n\u2022 Creates detailed summaries and creative content."
-            },
-            {
-                "title": "Perplexity AI",
-                "description": "\u2022 Answers questions with cited sources.\n\u2022 Summarizes web pages and articles quickly.\n\u2022 Helps research topics accurately."
-            },
-            {
-                "title": "Llama 3",
-                "description": "\u2022 Runs locally on your own hardware.\n\u2022 Customize for specific business needs.\n\u2022 Develop new AI applications easily."
             }
         ]
     }
