@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 12, 2026",
+        "items": [
+            {
+                "title": "#VerifyAIFacts",
+                "content": "AI can sometimes invent information, known as hallucination. Always double-check critical details with reliable sources before trusting them, especially for important decisions."
+            },
+            {
+                "title": "#ChallengeAIAnswers",
+                "content": "If an AI sounds too confident but feels off, ask it for its sources or to explain its reasoning step-by-step. This helps uncover made-up details or logical errors."
+            },
+            {
+                "title": "#BroadenAIPerspective",
+                "content": "AI's answers reflect its training data, which can have biases or be incomplete. Provide specific context or ask for opposing viewpoints to get a more balanced and accurate response."
+            }
+        ]
+    },
+    {
         "date": "July 11, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "#WriteEmailHeadlines",
                 "content": "Boost your email open rates with compelling subject lines. Ask AI to generate 5-10 catchy subject lines for your marketing emails, specifying the email's purpose and key offer. It understands what makes people click, helping you stand out in crowded inboxes. This simple trick can significantly improve the performance of your email campaigns."
-            }
-        ]
-    },
-    {
-        "date": "July 06, 2026",
-        "items": [
-            {
-                "title": "# Find Gaps Fast",
-                "content": "Use a simple AI keyword scanner like ChatGPT to list common customer complaints in your niche. Turn each complaint into a product idea by asking the model for a solution concept. This quickly reveals unmet needs you can turn into a new business."
-            },
-            {
-                "title": "# Test Pricing Instantly",
-                "content": "Ask an AI to generate multiple price points for your service and predict how different customers might react. Then run a quick poll with those options on social media. The feedback tells you the sweet spot before you spend any money on development."
-            },
-            {
-                "title": "# Create Ads Automatically",
-                "content": "Feed your product description into an AI copywriter and ask for three short ad headlines and body texts. Pick the best one, add a simple image, and launch a low\u2011budget test ad. The AI saves hours of brainstorming and speeds up market entry."
             }
         ]
     }
