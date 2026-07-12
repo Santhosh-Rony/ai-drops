@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 12, 2026",
+        "items": [
+            {
+                "title": "# Content Calendar Ideas",
+                "content": "Generate 10 engaging social media post ideas for a personal brand focused on [Your Niche/Industry]. Include hooks and calls to action. Target audience: [Your Audience]."
+            },
+            {
+                "title": "# Craft Professional Bio",
+                "content": "Write a concise, impactful professional bio (150 words) for [Your Name]. Highlight my expertise in [Key Skills] and passion for [Your Mission]. Intended for [Platform, e.g., LinkedIn/Website]."
+            },
+            {
+                "title": "# Networking Message Draft",
+                "content": "Draft a personalized outreach message (2-3 sentences) to [Name/Role] at [Company]. Express interest in [Specific Area] and suggest a brief virtual coffee chat. My goal is [Your Goal]."
+            }
+        ]
+    },
+    {
         "date": "July 11, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Write Engaging Intro",
                 "content": "Draft a compelling 1-minute introduction speech for a presentation about [Topic]. The goal is to capture the attention of [Audience] and clearly state the presentation's value. Make it impactful."
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "# Quick Meeting Recap",
-                "content": "Summarize the following meeting transcript. Identify key decisions, action items with owners and deadlines, and any open questions. Format as bullet points for easy reading. Transcript: [Paste meeting transcript here]"
-            },
-            {
-                "title": "# Executive Briefing Digest",
-                "content": "You are a senior analyst. Summarize the following meeting transcript for an executive audience. Focus on high-level outcomes, strategic implications, and next steps that require executive attention. Keep the summary concise. Transcript: [Paste meeting transcript here]"
-            },
-            {
-                "title": "# Meeting Follow-up Email",
-                "content": "Draft a follow-up email to attendees summarizing our recent meeting. Include the main topic, key decisions made, action items with owners and deadlines, and a polite closing. The tone should be professional and concise. Meeting details: [Paste meeting summary or transcript snippets here]. Attendees: [List attendees]"
             }
         ]
     }
