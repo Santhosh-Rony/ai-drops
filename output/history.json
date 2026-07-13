@@ -1,8 +1,5 @@
 {
     "tools": [
-        "Meta Muse",
-        "Nano Banana 2 Lite",
-        "Gemini Omni Flash",
         "GPT-Live",
         "Claude Cowork",
         "Superhuman Docs",
@@ -14,6 +11,9 @@
         "Grok 4.5",
         "Gemini 3.5 Flash Comp Use",
         "Gemma 4 12B",
-        "Lucid Smart Eyewear AI"
+        "Lucid Smart Eyewear AI",
+        "Akillion",
+        "Claude Sonnet 5",
+        "Kimi K2.7 in Copilot"
     ]
 }

@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 13, 2026",
+        "items": [
+            {
+                "title": "Akillion",
+                "description": "\u2022 Run custom LLMs and AI bots\n\u2022 Personalized voter communication\n\u2022 Gather data on voter preferences"
+            },
+            {
+                "title": "Claude Sonnet 5",
+                "description": "\u2022 Achieves Opus-class reasoning\n\u2022 Agentic mid-tier model for tasks\n\u2022 Features 1M token context window"
+            },
+            {
+                "title": "Kimi K2.7 in Copilot",
+                "description": "\u2022 Open-weight model for coding\n\u2022 Integrated directly into GitHub Copilot\n\u2022 Offers flexible access for developers"
+            }
+        ]
+    },
+    {
         "date": "July 12, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Midjourney",
                 "description": "\u2022 Generate high-quality images\n\u2022 Improved text rendering\n\u2022 More consistent character art"
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "Google Docs AI Proof",
-                "description": "\u2022 Catch grammar errors fast\n\u2022 Suggest style improvements\n\u2022 Enhance writing clarity"
-            },
-            {
-                "title": "Canva Magic Video",
-                "description": "\u2022 Generate short videos\n\u2022 Create from text prompts\n\u2022 Add quick background music"
-            },
-            {
-                "title": "RunwayML Motion Ctrl",
-                "description": "\u2022 Fine-tune video motion\n\u2022 Control object movement\n\u2022 Improve video consistency"
             }
         ]
     }
