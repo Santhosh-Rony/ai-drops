@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 13, 2026",
+        "items": [
+            {
+                "title": "#Personalized Workout Plans",
+                "content": "Ask AI to create a workout routine tailored to your goals and available equipment. It can suggest exercises, sets, and reps for you."
+            },
+            {
+                "title": "#Meal Prep Ideas",
+                "content": "Use AI to generate healthy meal ideas based on your dietary preferences or restrictions. It can help you plan your weekly grocery list efficiently."
+            },
+            {
+                "title": "#Summarize Health Articles",
+                "content": "Paste long health articles or research papers into an AI to get quick summaries. Understand complex information faster without reading everything."
+            }
+        ]
+    },
+    {
         "date": "July 12, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Draft Cover Letters",
                 "content": "Provide AI with your resume and the job posting. It can generate a personalized cover letter draft, saving you significant writing time."
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "#GenerateContentIdeas",
-                "content": "Feeling stuck on what to post next? Use AI to brainstorm fresh content ideas for your blog, social media, or ad campaigns. Simply describe your product or service and ask for 10 unique topics. This saves hours of thinking and ensures a steady stream of engaging material, helping you reach your audience consistently with new and relevant discussions."
-            },
-            {
-                "title": "#DraftSocialPosts",
-                "content": "Quickly create engaging social media posts. Give AI a product feature or event, and ask it to write a short caption for Instagram, Facebook, or LinkedIn, including relevant emojis and calls to action. This speeds up your social media management, allowing you to maintain an active online presence without the daily struggle of crafting each post from scratch."
-            },
-            {
-                "title": "#WriteEmailHeadlines",
-                "content": "Boost your email open rates with compelling subject lines. Ask AI to generate 5-10 catchy subject lines for your marketing emails, specifying the email's purpose and key offer. It understands what makes people click, helping you stand out in crowded inboxes. This simple trick can significantly improve the performance of your email campaigns."
             }
         ]
     }
