@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 13, 2026",
+        "items": [
+            {
+                "title": "# Script Salary Discussion",
+                "content": "Draft a script for a salary raise discussion with my manager. I want to ask for [desired percentage/amount]. Highlight my recent achievements: [List 2-3 achievements relevant to your request]."
+            },
+            {
+                "title": "# Research Salary Ranges",
+                "content": "What is the average salary range for a [Your Job Title] in [Your City/Region] with [Number] years of experience? Provide data sources if possible to support your findings."
+            },
+            {
+                "title": "# Craft Follow-Up Email",
+                "content": "Write a polite follow-up email to my manager, [Manager's Name], after our salary discussion yesterday. Reiterate my interest in the role and express enthusiasm for a positive outcome."
+            }
+        ]
+    },
+    {
         "date": "July 12, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Debug & Improve",
                 "content": "Review this [programming language] code for errors and suggest improvements for [efficiency/readability/bug fixing]: [Insert code here]"
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "# Outline Presentation Flow",
-                "content": "Act as a presentation expert. Create a detailed 10-slide outline for a presentation on [Topic] for a [Audience]. Include key points for each slide, a clear introduction, and a strong conclusion."
-            },
-            {
-                "title": "# Develop Slide Content",
-                "content": "Write the full content for a single presentation slide on [Specific Point of Topic]. The audience is [Audience]. Focus on clarity, conciseness, and engaging bullet points. Include a title."
-            },
-            {
-                "title": "# Write Engaging Intro",
-                "content": "Draft a compelling 1-minute introduction speech for a presentation about [Topic]. The goal is to capture the attention of [Audience] and clearly state the presentation's value. Make it impactful."
             }
         ]
     }
