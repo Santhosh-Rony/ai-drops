@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 14, 2026",
+        "items": [
+            {
+                "title": "# Connect With Recruiters",
+                "content": "Write a cold DM to a recruiter on [Platform] for the [Job Title] role. Mention my experience in [Relevant Experience] and ask for a brief chat. Keep it concise and professional."
+            },
+            {
+                "title": "# Pitch New Clients",
+                "content": "Draft a cold email to [Company Name]'s [Contact Person/Role]. Introduce my service, [Your Service], and explain how it solves [Their Problem]. Suggest a 15-min call. Be direct and value-focused."
+            },
+            {
+                "title": "# Network With Experts",
+                "content": "Generate a polite cold email to [Expert Name] about their work on [Specific Topic]. Express genuine interest in [Specific Detail/Project] and ask if they'd be open to a brief virtual coffee chat. Be"
+            }
+        ]
+    },
+    {
         "date": "July 13, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Understand Complex Code",
                 "content": "Explain this [programming language] code line-by-line in simple terms, focusing on its purpose and logic. Code: ```[Paste your code here]```"
-            }
-        ]
-    },
-    {
-        "date": "July 08, 2026",
-        "items": [
-            {
-                "title": "# Explain Code Simply",
-                "content": "Explain the following [programming language] code block in simple terms, focusing on its purpose and how it works: [Insert code here]"
-            },
-            {
-                "title": "# Write New Code",
-                "content": "Write a [programming language] function that [describe task, e.g., 'sorts a list of numbers']. Include comments and an example usage."
-            },
-            {
-                "title": "# Debug & Improve",
-                "content": "Review this [programming language] code for errors and suggest improvements for [efficiency/readability/bug fixing]: [Insert code here]"
             }
         ]
     }
