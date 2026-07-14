@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 14, 2026",
+        "items": [
+            {
+                "title": "# Plan Trip Itinerary",
+                "content": "Ask AI to create a detailed daily itinerary for your destination, including activities and estimated times. Specify your interests and budget for a personalized travel plan."
+            },
+            {
+                "title": "# Find Local Eateries",
+                "content": "Prompt AI for recommendations on authentic local restaurants or hidden attractions near your hotel. Include your dietary preferences or specific interests for tailored suggestions."
+            },
+            {
+                "title": "# Generate Packing List",
+                "content": "Have AI generate a packing list based on your destination, trip duration, and planned activities. It can even suggest items based on local weather forecasts."
+            }
+        ]
+    },
+    {
         "date": "July 13, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Draft Follow-Up Emails",
                 "content": "After an interview, ask AI to draft a professional and personalized thank-you email. Provide key details from your conversation to make it unique and impactful."
-            }
-        ]
-    },
-    {
-        "date": "July 07, 2026",
-        "items": [
-            {
-                "title": "# Tailor Your Resume",
-                "content": "Use AI to quickly compare your resume against a job description. It highlights missing keywords and helps you customize your experience for a perfect match."
-            },
-            {
-                "title": "# Strengthen Bullet Points",
-                "content": "Feed your work experience to AI and ask it to rewrite bullet points. It can make them more impactful, action-oriented, and results-focused."
-            },
-            {
-                "title": "# Draft Cover Letters",
-                "content": "Provide AI with your resume and the job posting. It can generate a personalized cover letter draft, saving you significant writing time."
             }
         ]
     }
