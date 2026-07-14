@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 14, 2026",
+        "items": [
+            {
+                "title": "ChatGPT Work",
+                "description": "\u2022 Gathers info across apps/files.\n\u2022 Generates spreadsheets, slides, docs.\n\u2022 Stays with tasks for extended periods."
+            },
+            {
+                "title": "Apple Siri AI",
+                "description": "\u2022 Improved personal context.\n\u2022 More natural conversations.\n\u2022 Testable via public beta."
+            },
+            {
+                "title": "Cloudflare x402 Gateway",
+                "description": "\u2022 Automates online payments.\n\u2022 Instant payments for digital services.\n\u2022 Enables AI agent monetization."
+            }
+        ]
+    },
+    {
         "date": "July 13, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Gemini Omni Flash",
                 "description": "\u2022 Generate images for creativity.\n\u2022 Create video content.\n\u2022 Expand dev creative tools."
-            }
-        ]
-    },
-    {
-        "date": "July 08, 2026",
-        "items": [
-            {
-                "title": "ChatGPT",
-                "description": "\u2022 Create custom AI assistants\n\u2022 Upload docs for analysis\n\u2022 Get real-time web info"
-            },
-            {
-                "title": "MS Copilot",
-                "description": "\u2022 Summarize long emails\n\u2022 Draft documents in Word\n\u2022 Analyze Excel data fast"
-            },
-            {
-                "title": "Midjourney",
-                "description": "\u2022 Generate high-quality images\n\u2022 Improved text rendering\n\u2022 More consistent character art"
             }
         ]
     }
