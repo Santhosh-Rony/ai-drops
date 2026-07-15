@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 15, 2026",
+        "items": [
+            {
+                "title": "# Track Spending Easily",
+                "content": "Use AI tools to automatically categorize your bank transactions. This helps you quickly see where your money goes without manual sorting."
+            },
+            {
+                "title": "# Summarize Market News",
+                "content": "Feed long financial articles into an AI to get quick summaries. Understand market trends faster without reading every detail."
+            },
+            {
+                "title": "# Create Smart Budgets",
+                "content": "Ask AI for personalized budget ideas based on your income and goals. It can suggest practical ways to save and manage debt."
+            }
+        ]
+    },
+    {
         "date": "July 14, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "#Generate Study Questions",
                 "content": "Feed your study materials into an AI and ask it to create quiz questions or flashcards. This helps test your understanding and reinforces what you've learned effectively."
-            }
-        ]
-    },
-    {
-        "date": "July 08, 2026",
-        "items": [
-            {
-                "title": "# Practice Interview Answers",
-                "content": "Use AI to simulate common interview questions and generate example answers. This helps you refine your responses and build confidence before the big day."
-            },
-            {
-                "title": "# Tailor Your Resume",
-                "content": "Input the job description into an AI tool and ask it to highlight keywords. Then, use these insights to optimize your resume and cover letter for that specific role."
-            },
-            {
-                "title": "# Draft Follow-Up Emails",
-                "content": "After an interview, ask AI to draft a professional and personalized thank-you email. Provide key details from your conversation to make it unique and impactful."
             }
         ]
     }
