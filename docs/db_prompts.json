@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 15, 2026",
+        "items": [
+            {
+                "title": "# Plan Daily Itinerary",
+                "content": "Create a 3-day itinerary for [City] for [Number] people, focused on [Interests]. Include [Number] activities/day, meal suggestions, and travel times. Output as a bulleted list."
+            },
+            {
+                "title": "# Generate Packing List",
+                "content": "Generate a packing list for a [Number]-day trip to [Destination] in [Month/Season]. Consider [Activities] and weather. Categorize items."
+            },
+            {
+                "title": "# Estimate Trip Costs",
+                "content": "Estimate a budget for a [Number]-day trip to [Destination] for [Number] adults. Include flights, accommodation, food, activities, and transport. Provide low/mid/high ranges."
+            }
+        ]
+    },
+    {
         "date": "July 14, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "# Practice Scenario Generator",
                 "content": "Generate 3 realistic practice scenarios for someone learning [New Skill], focusing on [Specific Aspect]. For each scenario, include a problem and what skills are needed to solve it."
-            }
-        ]
-    },
-    {
-        "date": "July 09, 2026",
-        "items": [
-            {
-                "title": "# Find Code Bugs",
-                "content": "Analyze this [programming language] code for errors. Explain the bug, its cause, and provide the corrected code. Code: ```[Paste your code here]```"
-            },
-            {
-                "title": "# Refactor Code Smarter",
-                "content": "Review this [programming language] code. Suggest optimizations for performance and readability, and provide the improved code. Code: ```[Paste your code here]```"
-            },
-            {
-                "title": "# Understand Complex Code",
-                "content": "Explain this [programming language] code line-by-line in simple terms, focusing on its purpose and logic. Code: ```[Paste your code here]```"
             }
         ]
     }
