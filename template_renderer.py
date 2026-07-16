@@ -139,9 +139,9 @@ def render_passage_in_region(draw, text: str, region: dict, font_path: str, over
     color = (255, 255, 255, 255)
     stroke_color = (255, 255, 255, 25)
     
-    # We lock the passage font size at 28px for excellent mobile readability.
+    # We lock the passage font size at 40px for excellent mobile readability.
     # This disconnects it from the JSON's min_font_size (24px) which is meant for bullet points.
-    font_size = 28
+    font_size = 40
     font = load_font(font_path, font_size)
     
     wrapped_text = wrap_text_to_pixels(text, font, max_w, draw)
@@ -164,9 +164,11 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             # 1. Render Header (Always uppercase)
             if "header" in region_config:
                 header_text = content.header.upper()
-                render_text_in_region(draw, header_text, region_config["header"], Config.FONT_PATH)
+                header_y = 180  # Pushed slightly up, still in Safe zone
+                region_config["header"]["max_font_size"] = 100 # Make header larger
+                region_config["header"]["min_font_size"] = 70
+                render_text_in_region(draw, header_text, region_config["header"], Config.FONT_PATH, override_y=header_y)
                 
-                header_y = region_config["header"].get("y", 80)
                 header_max_h = region_config["header"].get("max_height", 100)
                 line_y = header_y + header_max_h + 10
             
@@ -174,7 +176,7 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             date_str = datetime.datetime.now().strftime("%A, %B %d, %Y")
             date_region = {
                 "x": img_width - 60 - 400, # Tighter right padding
-                "y": 60, # Moved down slightly
+                "y": 120, # Moved slightly up per user request
                 "max_width": 400,
                 "align": "right",
                 "max_font_size": 16, # Reduced from 25
@@ -187,18 +189,18 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             watermark_str = "@Everything__about_ai"
             watermark_region = {
                 "x": img_width - 60 - 400, # Same right padding as the date
-                "y": img_height - 60 - 30, # Pushed down to the bottom border
+                "y": img_height - 150, # Moved up to perfectly mirror the date's gap from the top border
                 "max_width": 400,
                 "align": "right",
-                "max_font_size": 16, 
-                "min_font_size": 12  
+                "max_font_size": 22, 
+                "min_font_size": 16  
             }
             # Use Italic font for watermark to match the date style
             render_text_in_region(draw, watermark_str, watermark_region, Config.FONT_ITALIC_PATH)
 
             # 3. Dynamic Vertical Spacing for the 3 Tools
-            start_y = line_y + 60
-            end_y = img_height - 150 # Leave padding at the bottom
+            start_y = line_y + 80
+            end_y = img_height - 250 # Push content further down to fill empty space
             
             usable_height = end_y - start_y
             block_height = usable_height / 3.0 # Allocate 1/3rd of the space to each tool
@@ -206,27 +208,40 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             def render_tool_block(tool_data, block_idx: int, base_y: float):
                 prefix = f"tool_{block_idx}"
                 
+                # Dynamically increase font sizes for Reels
+                if f"{prefix}_name" in region_config:
+                    region_config[f"{prefix}_name"]["max_font_size"] = 65
+                    region_config[f"{prefix}_name"]["min_font_size"] = 45
+                
+                for pt_idx in range(1, 4):
+                    pt_key = f"{prefix}_point_{pt_idx}"
+                    if pt_key in region_config:
+                        region_config[pt_key]["max_font_size"] = 40
+                        region_config[pt_key]["min_font_size"] = 28
+                
                 # Render Block Title (Tool Name or # Tip 1)
                 render_text_in_region(draw, tool_data.title, region_config[f"{prefix}_name"], Config.FONT_PATH, override_y=int(base_y), force_title=True)
                 
                 if is_passage:
                     # Render passage
-                    passage_y = int(base_y) + 90
+                    passage_y = int(base_y) + 100
                     passage_region = region_config[f"{prefix}_point_1"]
                     render_passage_in_region(draw, tool_data.passage, passage_region, Config.FONT_PATH, override_y=passage_y)
                 else:
-                    # Render Bullet Points
-                    bullet_y = int(base_y) + 85
+                    # Render Bullet Points with much larger vertical spacing
+                    bullet_spacing = 95
+                    bullet_y = int(base_y) + 110
+                    
                     if tool_data.point_1:
                         formatted_point = tool_data.point_1.capitalize()
                         render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_1"], Config.FONT_PATH, override_y=bullet_y)
                     
-                    bullet_y += 65
+                    bullet_y += bullet_spacing
                     if tool_data.point_2:
                         formatted_point = tool_data.point_2.capitalize()
                         render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_2"], Config.FONT_PATH, override_y=bullet_y)
                     
-                    bullet_y += 65
+                    bullet_y += bullet_spacing
                     if tool_data.point_3:
                         formatted_point = tool_data.point_3.capitalize()
                         render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_3"], Config.FONT_PATH, override_y=bullet_y)

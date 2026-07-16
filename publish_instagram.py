@@ -24,18 +24,18 @@ def main():
         with open(metadata_path, 'r', encoding='utf-8') as f:
             metadata = json.load(f)
             
-        image_url = metadata.get("image_url")
+        video_url = metadata.get("video_url")
         caption = metadata.get("caption")
         
-        if not image_url or not caption:
-            raise ValueError("Invalid metadata. Missing image_url or caption.")
+        if not video_url or not caption:
+            raise ValueError("Invalid metadata. Missing video_url or caption.")
             
-        logger.info(f"Loaded public URL: {image_url}")
+        logger.info(f"Loaded public URL: {video_url}")
         
         # 3. Publish to Instagram
         # Note: instagram_publisher.py only knows about the public URL and caption.
         # It is completely unaware of GitHub Pages or Git operations.
-        post_id = publish_media(image_url, caption)
+        post_id = publish_media(video_url, caption)
         
         logger.info(f"Successfully published Instagram post with ID: {post_id}")
         

@@ -12,7 +12,7 @@ def load_state() -> dict:
                 return json.load(f)
         except Exception as e:
             logger.warning(f"Failed to load state: {e}. Starting fresh.")
-    return {"tips_index": 0, "prompts_index": 0}
+    return {"tips_index": 0, "prompts_index": 0, "music_index": 1}
 
 def save_state(state: dict):
     os.makedirs(Config.OUTPUT_DIR, exist_ok=True)
@@ -36,4 +36,20 @@ def get_next_idea_index(post_type: str, list_length: int) -> int:
         return 0
         
     save_state(state)
+    return current_index
+
+def get_next_music_index(total_music_files: int = 14) -> int:
+    """Returns the current music index (1-based) and automatically increments/saves state."""
+    state = load_state()
+    
+    current_index = state.get("music_index", 1)
+    
+    # Increment for next time, looping back to 1 if we exceed total
+    next_index = current_index + 1
+    if next_index > total_music_files:
+        next_index = 1
+        
+    state["music_index"] = next_index
+    save_state(state)
+    
     return current_index

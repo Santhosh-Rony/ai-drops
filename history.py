@@ -17,7 +17,7 @@ def load_history() -> list[str]:
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            return data.get("tools", [])
+            return [t.lower().strip() for t in data.get("tools", [])]
     except Exception as e:
         logger.warning(f"Could not read history file, starting fresh. Error: {e}")
         return []
@@ -28,8 +28,9 @@ def save_history(new_tools: list[str]):
     """
     current_history = load_history()
     
-    # Add new tools to the end
-    current_history.extend(new_tools)
+    # Add new tools to the end (normalized)
+    normalized_new = [t.lower().strip() for t in new_tools]
+    current_history.extend(normalized_new)
     
     # Trim to MAX_HISTORY_ITEMS (keep the most recent ones at the end of the list)
     if len(current_history) > MAX_HISTORY_ITEMS:

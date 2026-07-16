@@ -9,6 +9,34 @@ from models import PostContent
 from prompt import SYSTEM_PROMPT
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
+def perform_gemini_research(research_prompt: str) -> str:
+    """
+    Call 1 of the two-step drops process: Performs a grounded web search to gather facts
+    before attempting to format the output as JSON.
+    """
+    logger.info("Performing grounded Gemini research...")
+    client = genai.Client(api_key=Config.GEMINI_API_KEY)
+    
+    config_kwargs = {
+        "temperature": 1.0,
+        "tools": [{"google_search": {}}],
+    }
+    
+    try:
+        response = client.models.generate_content(
+            model='gemini-2.5-flash',
+            contents=research_prompt,
+            config=types.GenerateContentConfig(**config_kwargs)
+        )
+        if not response.text:
+            raise ValueError("Research call returned empty text.")
+        logger.info("Grounded research completed.")
+        return response.text
+    except Exception as e:
+        logger.warning(f"Failed to perform Gemini research. Error: {e}")
+        raise
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
 def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
     logger.info("GEMINI_API_KEY found. Attempting generation with Gemini...")
     client = genai.Client(api_key=Config.GEMINI_API_KEY)
@@ -56,18 +84,13 @@ def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
     # Prepend SYSTEM_PROMPT to the prompt since Gemini has strict roles
     full_prompt = f"SYSTEM INSTRUCTIONS:\n{SYSTEM_PROMPT}\n\nUSER REQUEST:\n{dynamic_prompt}"
     
-    # Enable Google Search grounding specifically for AI Drops (is_passage=False)
-    tools = [{"google_search": {}}] if not is_passage else None
-    
+    # Removed google_search tools entirely because response_mime_type and tools conflict.
+    # Grounding is now handled via perform_gemini_research beforehand.
     config_kwargs = {
         "temperature": 0.7,
-        "tools": tools,
+        "response_mime_type": "application/json",
+        "response_schema": gemini_schema
     }
-    
-    # Gemini API does not allow response_mime_type alongside tools
-    if not tools:
-        config_kwargs["response_mime_type"] = "application/json"
-        config_kwargs["response_schema"] = gemini_schema
     
     try:
         response = client.models.generate_content(

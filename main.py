@@ -56,8 +56,19 @@ def main():
         dynamic_prompt = ""
         
         if post_type == "drops":
+            from prompt import get_ai_drops_research_prompt
+            from ai_content_generator import perform_gemini_research
+            from datetime import datetime, timezone
+            
             past_tools = load_history()
-            dynamic_prompt = get_ai_drops_prompt(excluded_tools=past_tools)
+            now_iso = datetime.now(timezone.utc).isoformat()
+            
+            # Call 1: Grounded Research
+            research_prompt = get_ai_drops_research_prompt(now_iso, excluded_tools=past_tools)
+            research_notes = perform_gemini_research(research_prompt)
+            
+            # Call 2: JSON Formatting
+            dynamic_prompt = get_ai_drops_prompt(now_iso, research_notes, excluded_tools=past_tools)
         elif post_type == "tips":
             is_passage = True
             idx = get_next_idea_index("tips", len(AI_TIPS_IDEAS))
@@ -79,6 +90,13 @@ def main():
         # Save newly generated tools to history (Only for Drops)
         if post_type == "drops":
             new_tool_names = [post_content.tool_1.title, post_content.tool_2.title, post_content.tool_3.title]
+            
+            # Strict Programmatic Deduplication Check
+            normalized_past = [t.lower().strip() for t in load_history()]
+            for new_tool in new_tool_names:
+                if new_tool.lower().strip() in normalized_past:
+                    raise RuntimeError(f"Duplicate Catch! AI hallucinated an old tool '{new_tool}' despite strict prompts. Failing pipeline safely.")
+                    
             save_history(new_tool_names)
         
         # 4. Select the correct background template based on the day of the week
@@ -94,12 +112,24 @@ def main():
         render_post(post_content, template_path, region_config, output_path, is_passage=is_passage)
         logger.info(f"Rendered final image locally at {output_path}")
         
-        # 6. Prepare Image for GitHub Pages
-        image_url = upload_image(output_path)
+        # 5b. Generate Video Reel
+        from state_manager import get_next_music_index
+        from video_generator import generate_video
+        
+        music_index = get_next_music_index()
+        audio_path = os.path.join("music", f"music{music_index}.mp3")
+        video_output_filename = f"{prefix}_{timestamp}.mp4"
+        video_output_path = os.path.join(Config.OUTPUT_DIR, video_output_filename)
+        
+        logger.info(f"Selected music track: {audio_path}")
+        generate_video(output_path, audio_path, video_output_path, duration=10)
+        
+        # 6. Prepare Media for GitHub Pages
+        video_url = upload_image(video_output_path)
         
         # 7. Save metadata for publish_instagram.py
         metadata = {
-            "image_url": image_url,
+            "video_url": video_url,
             "caption": f"{post_content.caption}\n\n{post_content.hashtags}"
         }
         metadata_path = os.path.join(Config.OUTPUT_DIR, "post_metadata.json")

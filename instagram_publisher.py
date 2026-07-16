@@ -6,15 +6,16 @@ from config import Config
 from logger import logger
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
-def create_media_container(image_url: str, caption: str, business_id: str, access_token: str) -> str:
+def create_media_container(video_url: str, caption: str, business_id: str, access_token: str) -> str:
     """
-    Step 1 of Graph API: Create a media container from an image URL.
+    Step 1 of Graph API: Create a media container from a video URL for REELS.
     """
     logger.info("Instagram upload started (Creating Media Container)")
     url = f"https://graph.instagram.com/v25.0/{business_id}/media"
     
     params = {
-        "image_url": image_url,
+        "video_url": video_url,
+        "media_type": "REELS",
         "caption": caption,
         "access_token": access_token
     }
@@ -56,7 +57,7 @@ def publish_post(container_id: str, business_id: str, access_token: str) -> str:
             logger.error(f"Instagram API Response: {response.text}")
         raise
 
-def publish_media(image_url: str, caption: str) -> str:
+def publish_media(video_url: str, caption: str) -> str:
     """
     Orchestrates the two-step Instagram publishing process.
     """
@@ -70,7 +71,7 @@ def publish_media(image_url: str, caption: str) -> str:
     if not access_token or not business_id:
         raise ValueError("Instagram credentials missing. Cannot publish.")
         
-    container_id = create_media_container(image_url, caption, business_id, access_token)
+    container_id = create_media_container(video_url, caption, business_id, access_token)
     if not container_id:
         raise RuntimeError("Failed to retrieve a valid container_id from Instagram API")
         

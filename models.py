@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import Dict, Any, Optional
+import re
 
 def trim_text(text: str, max_length: int) -> str:
     if not text:
@@ -21,6 +22,11 @@ class ContentBlock:
     passage: str = "" # Used for Tips/Prompts
 
     def trim_to_limits(self, is_passage: bool = False):
+        # Programmatic fallback: Fix CamelCase hashtags (e.g. #ContentIdeaGenerator -> # Content Idea Generator)
+        if self.title.startswith("#") and " " not in self.title:
+            fixed_title = re.sub(r'(?<!^)([A-Z])', r' \1', self.title[1:])
+            self.title = f"# {fixed_title.strip()}"
+            
         if is_passage:
             self.title = trim_text(self.title, 40)
             self.passage = trim_text(self.passage, 200)

@@ -1,19 +1,14 @@
 {
     "tools": [
-        "Gemini 3.5 Flash Comp Use",
-        "Gemma 4 12B",
-        "Lucid Smart Eyewear AI",
-        "Akillion",
-        "Claude Sonnet 5",
-        "Kimi K2.7 in Copilot",
-        "ChatGPT Work",
-        "Apple Siri AI",
-        "Cloudflare x402 Gateway",
-        "OpenAI GPT Live",
-        "Meta Muse Spark 1.1",
-        "AWS Security Hub Update",
-        "Meta Business Agent Plat",
-        "Webair AI Company Brain",
-        "Gemini 3.5 Live Translate"
+        "chatgpt work",
+        "apple siri ai",
+        "cloudflare x402 gateway",
+        "openai gpt live",
+        "meta muse spark 1.1",
+        "aws security hub update",
+        "meta business agent plat",
+        "webair ai company brain",
+        "gemini 3.5 live translate"
+        
     ]
 }
