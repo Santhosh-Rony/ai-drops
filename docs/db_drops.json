@@ -3,6 +3,23 @@
         "date": "July 16, 2026",
         "items": [
             {
+                "title": "Anthropic Claude 5",
+                "description": "\u2022 Develop diverse AI applications\n\u2022 Enhance cybersecurity defense\n\u2022 Generate complex content & reason"
+            },
+            {
+                "title": "IBM Power Auton. Ops",
+                "description": "\u2022 Monitor IBM Power systems continuously\n\u2022 Resolve operational issues automatically\n\u2022 Speed up capacity management 15x"
+            },
+            {
+                "title": "MIT GIFT System",
+                "description": "\u2022 Streamline rapid prototyping from 2D designs\n\u2022 Reduce design & manufacturing costs\n\u2022 Discover novel design solutions"
+            }
+        ]
+    },
+    {
+        "date": "July 16, 2026",
+        "items": [
+            {
                 "title": "Thinking Machines Inkling",
                 "description": "\u2022 Custom AI App Development\n\u2022 Multimodal Content Generation\n\u2022 Resource-Optimized AI Deployments"
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Lucid Smart Eyewear AI",
                 "description": "\u2022 Hands-free AI queries\n\u2022 Image/document analysis\n\u2022 Switch AI models easily"
-            }
-        ]
-    },
-    {
-        "date": "July 11, 2026",
-        "items": [
-            {
-                "title": "LangChain NemoClaw",
-                "description": "\u2022 Build secure AI agents\n\u2022 Define agent tool access\n\u2022 Govern agent behavior"
-            },
-            {
-                "title": "ZCode",
-                "description": "\u2022 Agent-based code dev\n\u2022 Supports multi-stage tasks\n\u2022 Affordable for developers"
-            },
-            {
-                "title": "Grok 4.5",
-                "description": "\u2022 Optimized for coding\n\u2022 Aids finance tasks\n\u2022 Supports autonomous ops"
             }
         ]
     }
