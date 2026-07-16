@@ -3,6 +3,23 @@
         "date": "July 16, 2026",
         "items": [
             {
+                "title": "Thinking Machines Inkling",
+                "description": "\u2022 Custom AI App Development\n\u2022 Multimodal Content Generation\n\u2022 Resource-Optimized AI Deployments"
+            },
+            {
+                "title": "Nokia AI-RAN Platform",
+                "description": "\u2022 Enhance Network Efficiency\n\u2022 Flexible AI Integration\n\u2022 New Telecom Revenue Streams"
+            },
+            {
+                "title": "NVIDIA VSS & DeepStream",
+                "description": "\u2022 Develop Intelligent Vision AI Agents\n\u2022 Automate Large-Scale Video Monitoring\n\u2022 Real-time Multi-Sensor Video Analytics"
+            }
+        ]
+    },
+    {
+        "date": "July 16, 2026",
+        "items": [
+            {
                 "title": "Meta Business Agent Plat",
                 "description": "\u2022 Build custom AI agents for business.\n\u2022 Automate customer conversations.\n\u2022 Integrate with WhatsApp, Messenger."
             },
@@ -98,23 +115,6 @@
             {
                 "title": "Grok 4.5",
                 "description": "\u2022 Optimized for coding\n\u2022 Aids finance tasks\n\u2022 Supports autonomous ops"
-            }
-        ]
-    },
-    {
-        "date": "July 10, 2026",
-        "items": [
-            {
-                "title": "GPT-5.6",
-                "description": "\u2022 Boosts coding & knowledge work\n\u2022 Offers better performance per cost\n\u2022 Accelerates complex task completion"
-            },
-            {
-                "title": "Framer 3.0",
-                "description": "\u2022 Builds websites with AI chat\n\u2022 Adjusts layouts via natural language\n\u2022 Automatically fixes broken links"
-            },
-            {
-                "title": "Five9 Voice AI Agents",
-                "description": "\u2022 Automates customer phone support\n\u2022 Handles complex voice conversations\n\u2022 Reduces call center operating costs"
             }
         ]
     }
