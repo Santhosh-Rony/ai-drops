@@ -32,7 +32,9 @@ def create_media_container(video_url: str, caption: str, business_id: str, acces
             logger.error(f"Instagram API Response: {response.text}")
         raise
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
+# Video processing for REELS can take up to 60 seconds on Instagram's backend.
+# We increase retries to 12 and wait 5-15 seconds between attempts.
+@retry(stop=stop_after_attempt(12), wait=wait_exponential(multiplier=1, min=5, max=15), reraise=True)
 def publish_post(container_id: str, business_id: str, access_token: str) -> str:
     """
     Step 2 of Graph API: Publish the created media container to the feed.
