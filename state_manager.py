@@ -44,6 +44,10 @@ def get_next_music_index(total_music_files: int = 14) -> int:
     
     current_index = state.get("music_index", 1)
     
+    # Boundary fallback in case state.json has corrupted data (like 0)
+    if current_index < 1 or current_index > total_music_files:
+        current_index = 1
+    
     # Increment for next time, looping back to 1 if we exceed total
     next_index = current_index + 1
     if next_index > total_music_files:
