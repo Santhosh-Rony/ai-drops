@@ -22,6 +22,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
           pip install -r requirements.txt
 
       - name: Generate Content and Render Image (Step 1)
@@ -53,21 +55,21 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_REPOSITORY: ${{ github.event.repository.name }}
         run: |
-          IMAGE_URL=$(python -c 'import json; print(json.load(open("output/post_metadata.json"))["image_url"])')
-          echo "Polling URL: $IMAGE_URL"
+          VIDEO_URL=$(python -c 'import json; print(json.load(open("output/post_metadata.json"))["video_url"])')
+          echo "Polling URL: $VIDEO_URL"
           
           # Wait up to 12 minutes for deployment
           for i in {1..72}; do
-            STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" "$IMAGE_URL")
+            STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" "$VIDEO_URL")
             if [ "$STATUS" -eq 200 ]; then
-              echo "Image is publicly available (HTTP 200)."
+              echo "Video is publicly available (HTTP 200)."
               exit 0
             fi
             echo "Attempt $i: Received HTTP $STATUS. Waiting 10 seconds..."
             sleep 10
           done
           
-          echo "Error: Image failed to become available after 12 minutes."
+          echo "Error: Video failed to become available after 12 minutes."
           exit 1
 
       - name: Publish to Instagram (Step 2)
