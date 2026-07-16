@@ -1,8 +1,5 @@
 {
     "tools": [
-        "LangChain NemoClaw",
-        "ZCode",
-        "Grok 4.5",
         "Gemini 3.5 Flash Comp Use",
         "Gemma 4 12B",
         "Lucid Smart Eyewear AI",
@@ -14,6 +11,9 @@
         "Cloudflare x402 Gateway",
         "OpenAI GPT Live",
         "Meta Muse Spark 1.1",
-        "AWS Security Hub Update"
+        "AWS Security Hub Update",
+        "Meta Business Agent Plat",
+        "Webair AI Company Brain",
+        "Gemini 3.5 Live Translate"
     ]
 }

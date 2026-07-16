@@ -1,5 +1,22 @@
 [
     {
+        "date": "July 16, 2026",
+        "items": [
+            {
+                "title": "Meta Business Agent Plat",
+                "description": "\u2022 Build custom AI agents for business.\n\u2022 Automate customer conversations.\n\u2022 Integrate with WhatsApp, Messenger."
+            },
+            {
+                "title": "Webair AI Company Brain",
+                "description": "\u2022 Text your business for answers.\n\u2022 Private memory from your tools.\n\u2022 Automate daily work tasks."
+            },
+            {
+                "title": "Gemini 3.5 Live Translate",
+                "description": "\u2022 Real-time speech translation.\n\u2022 Supports 70+ languages.\n\u2022 Natural, continuous dialogue."
+            }
+        ]
+    },
+    {
         "date": "July 15, 2026",
         "items": [
             {
@@ -98,23 +115,6 @@
             {
                 "title": "Five9 Voice AI Agents",
                 "description": "\u2022 Automates customer phone support\n\u2022 Handles complex voice conversations\n\u2022 Reduces call center operating costs"
-            }
-        ]
-    },
-    {
-        "date": "July 09, 2026",
-        "items": [
-            {
-                "title": "GPT-Live",
-                "description": "\u2022 More natural voice conversations\n\u2022 Listens and speaks simultaneously\n\u2022 Handles complex queries with GPT-5.5"
-            },
-            {
-                "title": "Claude Cowork",
-                "description": "\u2022 Automate multi-step tasks\n\u2022 Access tasks across devices\n\u2022 Schedule automated workflows"
-            },
-            {
-                "title": "Superhuman Docs",
-                "description": "\u2022 AI assistance within documents\n\u2022 Collaborative document creation\n\u2022 Streamlined team workflows"
             }
         ]
     }
