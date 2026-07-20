@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 20, 2026",
+        "items": [
+            {
+                "title": "# Craft Engaging Captions",
+                "content": "Write an Instagram caption for a photo of [Photo Description]. Make it [Tone] and include a call to action to [Call to Action]. Keep it under 2200 characters."
+            },
+            {
+                "title": "# Launch Product Buzz",
+                "content": "Generate an Instagram caption announcing the launch of [Product Name]. Highlight [Key Benefit 1] and [Key Benefit 2]. Encourage users to [Call to Action]. Use emojis."
+            },
+            {
+                "title": "# Promote Event Hype",
+                "content": "Create an Instagram caption to promote [Event Name] on [Date] at [Location]. Describe why people should attend. Include relevant hashtags and a link to [Registration Link]."
+            },
+            {
+                "title": "# Share Personal Story",
+                "content": "Write an Instagram caption sharing a brief personal story about [Topic/Experience]. Focus on [Emotion/Lesson Learned]. Ask a question to encourage engagement in the comments."
+            }
+        ]
+    },
+    {
         "date": "July 15, 2026",
         "items": [
             {
@@ -98,23 +119,6 @@
             {
                 "title": "# Comprehensive Study Guide",
                 "content": "Create a detailed study guide for [Exam/Subject] covering [Key Concepts]. Include definitions, important formulas/theories, and examples relevant to [Your Learning Goal]. Use clear headings."
-            }
-        ]
-    },
-    {
-        "date": "July 09, 2026",
-        "items": [
-            {
-                "title": "# Skill Breakdown Plan",
-                "content": "Act as an expert tutor. Create a structured 5-step learning plan for [New Skill], including key concepts, resources, and practical exercises suitable for a [Beginner/Intermediate] learner."
-            },
-            {
-                "title": "# Explain Complex Topics",
-                "content": "Explain [Complex Topic within New Skill] to me as if I'm a [Child/High School Student], using simple analogies and avoiding jargon. Provide 3 key takeaways."
-            },
-            {
-                "title": "# Practice Scenario Generator",
-                "content": "Generate 3 realistic practice scenarios for someone learning [New Skill], focusing on [Specific Aspect]. For each scenario, include a problem and what skills are needed to solve it."
             }
         ]
     }

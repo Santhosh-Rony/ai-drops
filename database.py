@@ -53,6 +53,10 @@ def save_to_database(post_content: PostContent, post_type: str):
                 {
                     "title": post_content.tool_3.title,
                     "description": f"• {post_content.tool_3.point_1}\n• {post_content.tool_3.point_2}\n• {post_content.tool_3.point_3}"
+                },
+                {
+                    "title": post_content.tool_4.title,
+                    "description": f"• {post_content.tool_4.point_1}\n• {post_content.tool_4.point_2}\n• {post_content.tool_4.point_3}"
                 }
             ]
         }
@@ -72,6 +76,10 @@ def save_to_database(post_content: PostContent, post_type: str):
                 {
                     "title": post_content.tool_3.title,
                     "content": post_content.tool_3.passage
+                },
+                {
+                    "title": post_content.tool_4.title,
+                    "content": post_content.tool_4.passage
                 }
             ]
         }

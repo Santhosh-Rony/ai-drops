@@ -139,9 +139,9 @@ def render_passage_in_region(draw, text: str, region: dict, font_path: str, over
     color = (255, 255, 255, 255)
     stroke_color = (255, 255, 255, 25)
     
-    # We lock the passage font size at 40px for excellent mobile readability.
+    # We lock the passage font size at 32px for excellent mobile readability.
     # This disconnects it from the JSON's min_font_size (24px) which is meant for bullet points.
-    font_size = 40
+    font_size = 32
     font = load_font(font_path, font_size)
     
     wrapped_text = wrap_text_to_pixels(text, font, max_w, draw)
@@ -156,7 +156,9 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
     
     try:
         with Image.open(template_path) as img:
-            draw = ImageDraw.Draw(img)
+            # Convert to RGBA to ensure alpha transparency works for drawing
+            img = img.convert("RGBA")
+            draw = ImageDraw.Draw(img, "RGBA")
             img_width, img_height = img.size
             
             line_y = 180 # Default line Y
@@ -164,73 +166,89 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
             # 1. Render Header (Always uppercase)
             if "header" in region_config:
                 header_text = content.header.upper()
-                header_y = 180  # Pushed slightly up, still in Safe zone
-                region_config["header"]["max_font_size"] = 100 # Make header larger
-                region_config["header"]["min_font_size"] = 70
+                header_y = 220  # Moved slightly higher to use upper space
+                region_config["header"]["max_font_size"] = 80
+                region_config["header"]["min_font_size"] = 60
                 render_text_in_region(draw, header_text, region_config["header"], Config.FONT_PATH, override_y=header_y)
                 
-                header_max_h = region_config["header"].get("max_height", 100)
+                header_max_h = region_config["header"].get("max_height", 80)
                 line_y = header_y + header_max_h + 10
             
             # 2. Render Dynamic Date in the top right corner (pushed to border)
             date_str = datetime.datetime.now().strftime("%A, %B %d, %Y")
             date_region = {
-                "x": img_width - 60 - 400, # Tighter right padding
-                "y": 120, # Moved slightly up per user request
-                "max_width": 400,
-                "align": "right",
-                "max_font_size": 16, # Reduced from 25
-                "min_font_size": 12  # Reduced from 18
+                "x": 0,
+                "y": 1715, # Positioned directly above the watermark
+                "max_width": img_width,
+                "align": "center",
+                "max_font_size": 16,
+                "min_font_size": 12
             }
             # Use Italic font for date
             render_text_in_region(draw, date_str, date_region, Config.FONT_ITALIC_PATH)
             
-            # 2b. Render Watermark in the bottom right corner
+            # 2a. Draw a divider line exactly matching the width of the date text
+            date_font = load_font(Config.FONT_ITALIC_PATH, 16)
+            left, top, right, bottom = draw.textbbox((0, 0), date_str, font=date_font)
+            date_text_width = right - left
+            divider_y = 1740
+            start_x = (img_width - date_text_width) // 2
+            # Use 50 for alpha to make it transparent and subtle
+            draw.line([(start_x, divider_y), (start_x + date_text_width, divider_y)], fill=(255, 255, 255, 50), width=2)
+            
             watermark_str = "@Everything__about_ai"
             watermark_region = {
-                "x": img_width - 60 - 400, # Same right padding as the date
-                "y": img_height - 150, # Moved up to perfectly mirror the date's gap from the top border
-                "max_width": 400,
-                "align": "right",
+                "x": 0,
+                "y": 1750, # Leaves the exact same physical gap from the bottom border as the date has from the top border
+                "max_width": img_width,
+                "align": "center",
                 "max_font_size": 22, 
                 "min_font_size": 16  
             }
             # Use Italic font for watermark to match the date style
             render_text_in_region(draw, watermark_str, watermark_region, Config.FONT_ITALIC_PATH)
 
-            # 3. Dynamic Vertical Spacing for the 3 Tools
-            start_y = line_y + 80
-            end_y = img_height - 250 # Push content further down to fill empty space
+            # 3. Dynamic Vertical Spacing for the 4 Tools
+            start_y = line_y + 60
+            end_y = 1580 # Expanded to give more room to 4 tools
             
             usable_height = end_y - start_y
-            block_height = usable_height / 3.0 # Allocate 1/3rd of the space to each tool
+            block_height = usable_height / 4.0 # Allocate 1/4th of the space to each tool
             
             def render_tool_block(tool_data, block_idx: int, base_y: float):
+                if not tool_data:
+                    return
+                    
                 prefix = f"tool_{block_idx}"
                 
-                # Dynamically increase font sizes for Reels
+                # If this tool (like tool_4) is not explicitly defined in the template JSON, 
+                # fallback to using tool_1's horizontal coordinates and bounds.
+                if f"{prefix}_name" not in region_config:
+                    prefix = "tool_1"
+                
+                # Dynamically set premium typography font sizes
                 if f"{prefix}_name" in region_config:
-                    region_config[f"{prefix}_name"]["max_font_size"] = 65
-                    region_config[f"{prefix}_name"]["min_font_size"] = 45
+                    region_config[f"{prefix}_name"]["max_font_size"] = 50
+                    region_config[f"{prefix}_name"]["min_font_size"] = 40
                 
                 for pt_idx in range(1, 4):
                     pt_key = f"{prefix}_point_{pt_idx}"
                     if pt_key in region_config:
-                        region_config[pt_key]["max_font_size"] = 40
-                        region_config[pt_key]["min_font_size"] = 28
+                        region_config[pt_key]["max_font_size"] = 32
+                        region_config[pt_key]["min_font_size"] = 26
                 
                 # Render Block Title (Tool Name or # Tip 1)
                 render_text_in_region(draw, tool_data.title, region_config[f"{prefix}_name"], Config.FONT_PATH, override_y=int(base_y), force_title=True)
                 
                 if is_passage:
                     # Render passage
-                    passage_y = int(base_y) + 100
+                    passage_y = int(base_y) + 85
                     passage_region = region_config[f"{prefix}_point_1"]
                     render_passage_in_region(draw, tool_data.passage, passage_region, Config.FONT_PATH, override_y=passage_y)
                 else:
-                    # Render Bullet Points with much larger vertical spacing
-                    bullet_spacing = 95
-                    bullet_y = int(base_y) + 110
+                    # Render Bullet Points with much tighter vertical grouping to prevent 4-tool overlap
+                    bullet_spacing = 50
+                    bullet_y = int(base_y) + 90
                     
                     if tool_data.point_1:
                         formatted_point = tool_data.point_1.capitalize()
@@ -246,13 +264,15 @@ def render_post(content: PostContent, template_path: str, region_config: dict, o
                         formatted_point = tool_data.point_3.capitalize()
                         render_text_in_region(draw, f"• {formatted_point}", region_config[f"{prefix}_point_3"], Config.FONT_PATH, override_y=bullet_y)
 
-            # Render the 3 tool blocks dynamically spaced out
+            # Render the 4 tool blocks dynamically spaced out
             render_tool_block(content.tool_1, 1, start_y)
             render_tool_block(content.tool_2, 2, start_y + block_height)
             render_tool_block(content.tool_3, 3, start_y + (block_height * 2))
+            render_tool_block(content.tool_4, 4, start_y + (block_height * 3))
             
             # Ensure output directory exists
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            # Convert back to RGB if saving as JPEG, but we use PNG which supports RGBA
             img.save(output_path, "PNG", quality=95)
             logger.info("Template rendering completed successfully with dynamic spacing")
             

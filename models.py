@@ -52,6 +52,7 @@ class PostContent:
     tool_1: ContentBlock
     tool_2: ContentBlock
     tool_3: ContentBlock
+    tool_4: ContentBlock
     caption: str
     hashtags: str
 
@@ -62,6 +63,7 @@ class PostContent:
             tool_1=ContentBlock(**data.get("tool_1", {})),
             tool_2=ContentBlock(**data.get("tool_2", {})),
             tool_3=ContentBlock(**data.get("tool_3", {})),
+            tool_4=ContentBlock(**data.get("tool_4", {})),
             caption=data.get("caption", ""),
             hashtags=data.get("hashtags", "")
         )
@@ -70,6 +72,7 @@ class PostContent:
         self.tool_1.trim_to_limits(is_passage)
         self.tool_2.trim_to_limits(is_passage)
         self.tool_3.trim_to_limits(is_passage)
+        self.tool_4.trim_to_limits(is_passage)
 
     def validate(self, is_passage: bool = False):
         if not self.header:
@@ -77,3 +80,14 @@ class PostContent:
         self.tool_1.validate(is_passage)
         self.tool_2.validate(is_passage)
         self.tool_3.validate(is_passage)
+        self.tool_4.validate(is_passage)
+        
+        # Enforce strict uniqueness (case-insensitive)
+        titles = [
+            self.tool_1.title.strip().lower(), 
+            self.tool_2.title.strip().lower(), 
+            self.tool_3.title.strip().lower(), 
+            self.tool_4.title.strip().lower()
+        ]
+        if len(set(titles)) != 4:
+            raise ValueError(f"AI generated duplicate tools/tips in the same payload: {titles}")

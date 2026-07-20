@@ -75,10 +75,20 @@ def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
                     "passage": {"type": "STRING"}
                 }
             },
+            "tool_4": {
+                "type": "OBJECT",
+                "properties": {
+                    "title": {"type": "STRING"},
+                    "point_1": {"type": "STRING"},
+                    "point_2": {"type": "STRING"},
+                    "point_3": {"type": "STRING"},
+                    "passage": {"type": "STRING"}
+                }
+            },
             "caption": {"type": "STRING"},
             "hashtags": {"type": "STRING"}
         },
-        "required": ["header", "tool_1", "tool_2", "tool_3", "caption", "hashtags"]
+        "required": ["header", "tool_1", "tool_2", "tool_3", "tool_4", "caption", "hashtags"]
     }
     
     # Prepend SYSTEM_PROMPT to the prompt since Gemini has strict roles

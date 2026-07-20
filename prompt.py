@@ -7,18 +7,18 @@ def get_ai_drops_research_prompt(now_iso: str, excluded_tools: list[str] = None)
         exclusion_text += "</critical_rule>\n"
             
     return f"""<role>
-You are an expert AI industry researcher. Your job is to search the web and find the 3 most impactful, useful, and recent AI tools, chatbots, or models.
+You are an expert AI industry researcher. Your job is to search the web and find the 4 most impactful, useful, and recent AI tools, chatbots, or models.
 </role>
 
 <task>
-Perform a web search to find exactly 3 genuinely new AI tools or products.
+Perform a web search to find exactly 4 genuinely new AI tools or products.
 Today's Date/Time is: {now_iso}.
 {exclusion_text}
 </task>
 
 <strict_time_constraint>
 CRITICAL: You MUST ONLY select tools that were released or significantly updated within the LAST 24 HOURS based on the current time ({now_iso}).
-If fewer than 3 genuinely new tools exist, you MUST explicitly admit it in your notes rather than padding the list with older tools from your memory.
+If fewer than 4 genuinely new tools exist, you MUST explicitly admit it in your notes rather than padding the list with older tools from your memory.
 </strict_time_constraint>
 
 <output_format>
@@ -39,7 +39,7 @@ You are a strict data formatter. Your job is to format the provided research not
 </role>
 
 <task>
-Format exactly 3 AI tools from the provided research notes.
+Format exactly 4 AI tools from the provided research notes.
 Current Time: {now_iso}
 {exclusion_text}
 </task>
@@ -53,12 +53,13 @@ CRITICAL: You MUST ONLY use the tools present in the <research_notes> block. Und
 </strict_formatting_rules>
 
 <constraints>
-1. Exactly 3 tools are required. Pick the best 3 from the research notes.
-2. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
-3. For each tool, provide exactly 3 use-cases or benefits.
-4. Each use-case MUST be extremely concise, plain English, and fit within 60 characters maximum.
-5. The header MUST be exactly "AI DROPS".
-6. The caption MUST be highly optimized for Instagram Reels. Keep it very short (under 3 sentences), start with a punchy hook, and include a clear call-to-action (e.g. "Save this reel!" or "Drop a 🚀"). Avoid cringey marketing buzzwords.
+1. Exactly 4 tools are required. Pick the best 4 from the research notes.
+2. CRITICAL: All 4 tools MUST be completely unique. Do NOT repeat the same tool twice.
+3. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
+4. For each tool, provide exactly 3 use-cases or benefits.
+5. Each use-case MUST be extremely concise, plain English, and fit within 60 characters maximum.
+6. The header MUST be exactly "AI DROPS".
+7. The caption MUST be highly optimized for Instagram Reels. Keep it very short (under 3 sentences), start with a punchy hook, and include a clear call-to-action (e.g. "Save this reel!" or "Drop a 🚀"). Avoid cringey marketing buzzwords.
 </constraints>
 
 <json_format>
@@ -82,6 +83,12 @@ CRITICAL: You MUST ONLY use the tools present in the <research_notes> block. Und
         "point_2": "<Benefit 2 (max 60 chars)>",
         "point_3": "<Benefit 3 (max 60 chars)>"
     }},
+    "tool_4": {{
+        "title": "<Tool Name (max 25 chars)>",
+        "point_1": "<Benefit 1 (max 60 chars)>",
+        "point_2": "<Benefit 2 (max 60 chars)>",
+        "point_3": "<Benefit 3 (max 60 chars)>"
+    }},
     "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aidrops #ai #artificialintelligence"
 }}
@@ -94,7 +101,7 @@ You are a highly practical AI productivity coach. Your goal is to teach beginner
 </role>
 
 <task>
-Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entirely on this core idea: "{core_idea}"
+Generate exactly 4 actionable, unique, and highly valuable AI Tips focused entirely on this core idea: "{core_idea}"
 </task>
 
 <guidelines>
@@ -108,7 +115,7 @@ Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entir
 </guidelines>
 
 <constraints>
-1. Exactly 3 tips required.
+1. Exactly 4 tips required.
 2. The header MUST be exactly "AI TIPS".
 3. CRITICAL: Each passage MUST NOT exceed 200 characters. If it is longer, it will physically break the UI. Keep it extremely short.
 4. Do not use markdown blocks outside the JSON.
@@ -129,6 +136,10 @@ Generate exactly 3 actionable, unique, and highly valuable AI Tips focused entir
         "title": "<# Catchy 3-4 Word Hook>",
         "passage": "<Extremely brief actionable tip (max 200 chars)>"
     }},
+    "tool_4": {{
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Extremely brief actionable tip (max 200 chars)>"
+    }},
     "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aitips #ai #artificialintelligence #productivity"
 }}
@@ -141,7 +152,7 @@ You are an expert prompt engineer dedicated to helping beginners get great resul
 </role>
 
 <task>
-Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core idea: "{core_idea}"
+Create exactly 4 highly effective, ready-to-copy AI Prompts based on this core idea: "{core_idea}"
 </task>
 
 <guidelines>
@@ -154,7 +165,7 @@ Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core i
 </guidelines>
 
 <constraints>
-1. Exactly 3 prompts required.
+1. Exactly 4 prompts required.
 2. The header MUST be exactly "AI PROMPTS".
 3. CRITICAL: Each passage MUST NOT exceed 200 characters. If it is longer, it will physically break the UI. Keep it extremely short.
 4. Do not use markdown blocks outside the JSON.
@@ -172,6 +183,10 @@ Create exactly 3 highly effective, ready-to-copy AI Prompts based on this core i
         "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
     }},
     "tool_3": {{
+        "title": "<# Catchy 3-4 Word Hook>",
+        "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
+    }},
+    "tool_4": {{
         "title": "<# Catchy 3-4 Word Hook>",
         "passage": "<Extremely brief ready-to-copy AI prompt (max 200 chars)>"
     }},
@@ -198,7 +213,7 @@ Your goal is to help everyday people understand and use AI through accurate, pra
 2.  **Quality Standards:**
     *   Prioritize practical usefulness above all else. Tell the user exactly *how* and *why* to use a tool or prompt.
     *   Never invent facts, hallucinate URLs, or guess release information.
-    *   Ensure variety. Do not repeat the same concepts across the 3 outputs.
+    *   Ensure variety. Do not repeat the same concepts across the 4 outputs.
 
 3.  **Formatting Constraints:**
     *   You MUST strictly output ONLY valid JSON.

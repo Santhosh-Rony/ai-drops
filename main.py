@@ -15,17 +15,19 @@ from prompt import get_ai_drops_prompt, get_ai_tips_prompt, get_ai_prompts_promp
 
 def cleanup_old_images(prefix: str):
     """
-    Deletes previously generated images matching the current prefix to prevent repo bloat.
+    Deletes previously generated images and videos matching the current prefix to prevent repo bloat.
     """
-    logger.info(f"Cleaning up old generated {prefix} images...")
+    logger.info(f"Cleaning up old generated {prefix} media...")
     for folder in [Config.OUTPUT_DIR, "docs"]:
         if os.path.exists(folder):
-            for file_path in glob.glob(os.path.join(folder, f"{prefix}_*.png")):
-                try:
-                    os.remove(file_path)
-                    logger.info(f"Deleted old image: {file_path}")
-                except Exception as e:
-                    logger.warning(f"Could not delete old image {file_path}: {e}")
+            # Clean up both PNG and MP4 files
+            for ext in ["png", "mp4"]:
+                for file_path in glob.glob(os.path.join(folder, f"{prefix}_*.{ext}")):
+                    try:
+                        os.remove(file_path)
+                        logger.info(f"Deleted old file: {file_path}")
+                    except Exception as e:
+                        logger.warning(f"Could not delete old file {file_path}: {e}")
 
 def main():
     """
@@ -89,7 +91,7 @@ def main():
         
         # Save newly generated tools to history (Only for Drops)
         if post_type == "drops":
-            new_tool_names = [post_content.tool_1.title, post_content.tool_2.title, post_content.tool_3.title]
+            new_tool_names = [post_content.tool_1.title, post_content.tool_2.title, post_content.tool_3.title, post_content.tool_4.title]
             
             # Strict Programmatic Deduplication Check
             normalized_past = [t.lower().strip() for t in load_history()]

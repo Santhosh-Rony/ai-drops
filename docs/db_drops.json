@@ -1,120 +1,144 @@
 [
     {
-        "date": "July 16, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "Anthropic Claude 5",
-                "description": "\u2022 Develop diverse AI applications\n\u2022 Enhance cybersecurity defense\n\u2022 Generate complex content & reason"
+                "title": "Kimi K3",
+                "description": "\u2022 Long-context reasoning\n\u2022 Complex problem-solving\n\u2022 Aids coding & agent workflows"
             },
             {
-                "title": "IBM Power Auton. Ops",
-                "description": "\u2022 Monitor IBM Power systems continuously\n\u2022 Resolve operational issues automatically\n\u2022 Speed up capacity management 15x"
+                "title": "Qwen3.8 Max AI Model",
+                "description": "\u2022 Powerful global AI model\n\u2022 Enhances enterprise AI apps\n\u2022 High computational power"
             },
             {
-                "title": "MIT GIFT System",
-                "description": "\u2022 Streamline rapid prototyping from 2D designs\n\u2022 Reduce design & manufacturing costs\n\u2022 Discover novel design solutions"
+                "title": "Project Perception",
+                "description": "\u2022 Finds software vulnerabilities\n\u2022 Fixes code & cloud issues\n\u2022 Cost-effective AI security"
+            },
+            {
+                "title": "Emerging AI Trends",
+                "description": "\u2022 Explore new AI innovations\n\u2022 Stay updated on AI tools\n\u2022 Discover future AI potential"
             }
         ]
     },
     {
-        "date": "July 16, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "Thinking Machines Inkling",
-                "description": "\u2022 Custom AI App Development\n\u2022 Multimodal Content Generation\n\u2022 Resource-Optimized AI Deployments"
+                "title": "OpenAI GPT-Red System",
+                "description": "\u2022 AI Safety Research\n\u2022 Robustness Testing\n\u2022 Ethical AI Development"
             },
             {
-                "title": "Nokia AI-RAN Platform",
-                "description": "\u2022 Enhance Network Efficiency\n\u2022 Flexible AI Integration\n\u2022 New Telecom Revenue Streams"
+                "title": "Google DeepMind",
+                "description": "\u2022 Novel AI Architecture Dev\n\u2022 Accelerated AI Research\n\u2022 Platform for Future AI"
             },
             {
-                "title": "NVIDIA VSS & DeepStream",
-                "description": "\u2022 Develop Intelligent Vision AI Agents\n\u2022 Automate Large-Scale Video Monitoring\n\u2022 Real-time Multi-Sensor Video Analytics"
+                "title": "OpenAI GPT-Red System",
+                "description": "\u2022 AI Safety Research\n\u2022 Robustness Testing\n\u2022 Ethical AI Development"
+            },
+            {
+                "title": "Google DeepMind",
+                "description": "\u2022 Novel AI Architecture Dev\n\u2022 Accelerated AI Research\n\u2022 Platform for Future AI"
             }
         ]
     },
     {
-        "date": "July 16, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "Meta Business Agent Plat",
-                "description": "\u2022 Build custom AI agents for business.\n\u2022 Automate customer conversations.\n\u2022 Integrate with WhatsApp, Messenger."
+                "title": "Kimi K3 Open-Weight Model",
+                "description": "\u2022 Advance AI capabilities in research\n\u2022 Build tailored business AI solutions\n\u2022 Learn LLM architectures and AI engineering"
             },
             {
-                "title": "Webair AI Company Brain",
-                "description": "\u2022 Text your business for answers.\n\u2022 Private memory from your tools.\n\u2022 Automate daily work tasks."
+                "title": "OpenAI GPT-5.6 Family",
+                "description": "\u2022 Generate creative text and ideas\n\u2022 Summarize long documents quickly\n\u2022 Assist with coding and debugging tasks"
             },
             {
-                "title": "Gemini 3.5 Live Translate",
-                "description": "\u2022 Real-time speech translation.\n\u2022 Supports 70+ languages.\n\u2022 Natural, continuous dialogue."
-            }
-        ]
-    },
-    {
-        "date": "July 15, 2026",
-        "items": [
-            {
-                "title": "OpenAI GPT Live",
-                "description": "\u2022 Natural, real-time voice chat\n\u2022 Eliminates awkward pauses\n\u2022 Enhances conversational AI"
+                "title": "xAI Grok 4.5",
+                "description": "\u2022 Real-time news analysis and summaries\n\u2022 Engage in dynamic, open-ended discussions\n\u2022 Explore complex topics with varied perspectives"
             },
             {
                 "title": "Meta Muse Spark 1.1",
-                "description": "\u2022 Builds autonomous AI agents\n\u2022 Automates complex workflows\n\u2022 Expands compute capacity"
-            },
-            {
-                "title": "AWS Security Hub Update",
-                "description": "\u2022 Monitors Azure resources\n\u2022 Protects AI workloads\n\u2022 Enhances multi-cloud security"
+                "description": "\u2022 Create custom images from text descriptions\n\u2022 Edit and enhance existing photos easily\n\u2022 Generate unique visual concepts quickly"
             }
         ]
     },
     {
-        "date": "July 14, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "ChatGPT Work",
-                "description": "\u2022 Gathers info across apps/files.\n\u2022 Generates spreadsheets, slides, docs.\n\u2022 Stays with tasks for extended periods."
+                "title": "Kimi K3 by Moonshot AI",
+                "description": "\u2022 Advanced front-end code development & debugging\n\u2022 General purpose AI tasks for complex conversations\n\u2022 Extensive context for analytical tasks"
             },
             {
-                "title": "Apple Siri AI",
-                "description": "\u2022 Improved personal context.\n\u2022 More natural conversations.\n\u2022 Testable via public beta."
+                "title": "CardiOmicScore",
+                "description": "\u2022 Detects 6 major heart diseases up to 15 years early\n\u2022 Personalized health risk assessment via biomarkers\n\u2022 Guides preventative medical interventions & lifestyle"
             },
             {
-                "title": "Cloudflare x402 Gateway",
-                "description": "\u2022 Automates online payments.\n\u2022 Instant payments for digital services.\n\u2022 Enables AI agent monetization."
+                "title": "Accenture Edge & Google",
+                "description": "\u2022 Automates cybersecurity for midmarket companies\n\u2022 Enhances customer experience with deployable AI\n\u2022 Simplifies AI adoption for organizational workforces"
+            },
+            {
+                "title": "Qwen3.8 Max by Alibaba",
+                "description": "\u2022 Tackles highly complex, large-scale AI tasks\n\u2022 Foundation model for advanced AI research & dev\n\u2022 Competitive frontier AI model for enterprises"
             }
         ]
     },
     {
-        "date": "July 13, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "Akillion",
-                "description": "\u2022 Run custom LLMs and AI bots\n\u2022 Personalized voter communication\n\u2022 Gather data on voter preferences"
+                "title": "Kimi K3",
+                "description": "\u2022 Generates & debugs complex code\n\u2022 Powers vision-based AI apps\n\u2022 Processes extremely long documents (1M tokens)"
             },
             {
-                "title": "Claude Sonnet 5",
-                "description": "\u2022 Achieves Opus-class reasoning\n\u2022 Agentic mid-tier model for tasks\n\u2022 Features 1M token context window"
+                "title": "Nvidia Cosmos 3 Edge",
+                "description": "\u2022 Real-time AI on edge devices\n\u2022 Enhances robotics & autonomous systems\n\u2022 Personalized AI on smart devices"
             },
             {
-                "title": "Kimi K2.7 in Copilot",
-                "description": "\u2022 Open-weight model for coding\n\u2022 Integrated directly into GitHub Copilot\n\u2022 Offers flexible access for developers"
+                "title": "Stello AI Flow Tech",
+                "description": "\u2022 Transmits drone video over narrow satellite bands\n\u2022 Aids disaster response & remote monitoring\n\u2022 Secures military & security surveillance"
+            },
+            {
+                "title": "Google Antigravity",
+                "description": "\u2022 Accelerates scientific discovery\n\u2022 Next-gen engineering design & prototyping\n\u2022 Models & optimizes complex systems"
             }
         ]
     },
     {
-        "date": "July 12, 2026",
+        "date": "July 20, 2026",
         "items": [
             {
-                "title": "Gemini 3.5 Flash Comp Use",
-                "description": "\u2022 Automate browser tasks\n\u2022 Control software interfaces\n\u2022 Build fast AI agents"
+                "title": "Seedance 2.0",
+                "description": "\u2022 Generate marketing videos from text and images.\n\u2022 Create explainer videos for educational content.\n\u2022 Produce short-form video for product showcases."
             },
             {
-                "title": "Gemma 4 12B",
-                "description": "\u2022 Multimodal data handling\n\u2022 Streamlined architecture\n\u2022 Compact model size"
+                "title": "Photo to 3D",
+                "description": "\u2022 Enhance e-commerce photos into 3D assets.\n\u2022 Create immersive visuals for architecture.\n\u2022 Transform historical photos for digital exhibits."
             },
             {
-                "title": "Lucid Smart Eyewear AI",
-                "description": "\u2022 Hands-free AI queries\n\u2022 Image/document analysis\n\u2022 Switch AI models easily"
+                "title": "MS Project Perception",
+                "description": "\u2022 Identify software vulnerabilities in code.\n\u2022 Detect weaknesses in cloud environments.\n\u2022 Propose concrete security fixes for systems."
+            },
+            {
+                "title": "Emdoor Ailyn",
+                "description": "\u2022 Unify intelligence across personal devices.\n\u2022 Orchestrate AI models on edge devices.\n\u2022 Manage smart homes with integrated AI features."
+            }
+        ]
+    },
+    {
+        "date": "July 20, 2026",
+        "items": [
+            {
+                "title": "CardiOmicScore",
+                "description": "\u2022 Early detection of heart disease (up to 15 years ahead)\n\u2022 Personalized risk for 6 major heart conditions\n\u2022 Dynamic health snapshot based on lifestyle"
+            },
+            {
+                "title": "Neo",
+                "description": "\u2022 Real-time security for agentic AI across enterprise\n\u2022 Secure AI agents and AI-enabled applications\n\u2022 Policy control for autonomous software behavior"
+            },
+            {
+                "title": "d1g1t MCP Server",
+                "description": "\u2022 Automates daily morning briefings for advisors\n\u2022 Summarizes client info for meeting prep\n\u2022 On-demand client reports via natural language"
             }
         ]
     }

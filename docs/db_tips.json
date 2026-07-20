@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 20, 2026",
+        "items": [
+            {
+                "title": "# Summarize Your Emails",
+                "content": "Tell AI to \"Act as a professional summarizer.\" Paste a long email and ask for main points. This quickly gets you the core message, saving valuable reading time."
+            },
+            {
+                "title": "# Generate Fresh Ideas",
+                "content": "Prompt AI with \"Act as a creative marketing expert.\" Ask it to brainstorm new ideas for your projects. This helps you overcome creative blocks quickly and efficiently."
+            },
+            {
+                "title": "# Polish Your Writing",
+                "content": "Instruct AI to \"Act as a meticulous proofreader.\" Provide your text and ask it to check for grammar and clarity. This ensures your writing is always polished and error-free."
+            },
+            {
+                "title": "# Organize Raw Data",
+                "content": "Assign AI the role of \"data organizer.\" Give it unformatted information and request it to arrange it into a table. This makes complex data easy to understand at a glance."
+            }
+        ]
+    },
+    {
         "date": "July 15, 2026",
         "items": [
             {
@@ -98,23 +119,6 @@
             {
                 "title": "#UnderstandComplexCode",
                 "content": "Encountered unfamiliar code? Paste it into an AI tool and ask for an explanation. It can break down complex logic into simple terms, helping you learn faster."
-            }
-        ]
-    },
-    {
-        "date": "July 09, 2026",
-        "items": [
-            {
-                "title": "#Summarize Any Text",
-                "content": "Paste long articles or notes into an AI tool and ask for a summary. This quickly extracts key points, saving you time and helping you grasp core ideas faster."
-            },
-            {
-                "title": "#Explain Complex Ideas",
-                "content": "Input a difficult concept or jargon into AI and ask it to explain it simply. It breaks down complex topics into easy-to-understand language, perfect for quick learning."
-            },
-            {
-                "title": "#Generate Study Questions",
-                "content": "Feed your study materials into an AI and ask it to create quiz questions or flashcards. This helps test your understanding and reinforces what you've learned effectively."
             }
         ]
     }
