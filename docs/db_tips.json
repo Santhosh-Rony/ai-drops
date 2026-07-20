@@ -3,6 +3,27 @@
         "date": "July 20, 2026",
         "items": [
             {
+                "title": "# Summarize My Inbox",
+                "content": "Ask AI to act as an executive assistant. Give it a long email and instruct it to summarize key points into a brief bullet list, saving you reading time."
+            },
+            {
+                "title": "# Generate Content Ideas",
+                "content": "Tell AI to be a creative marketing specialist. Ask for five social media post ideas about a specific topic, getting fresh angles fast."
+            },
+            {
+                "title": "# Format Data Instantly",
+                "content": "Instruct AI to act as a meticulous data entry clerk. Provide unorganized text and ask it to neatly organize it into a table format for clarity."
+            },
+            {
+                "title": "# Simplify Complex Topics",
+                "content": "Ask AI to take on the role of a patient teacher. Give it a complex concept and request a simple explanation, tailored for a beginner to understand easily."
+            }
+        ]
+    },
+    {
+        "date": "July 20, 2026",
+        "items": [
+            {
                 "title": "# Summarize Your Emails",
                 "content": "Tell AI to \"Act as a professional summarizer.\" Paste a long email and ask for main points. This quickly gets you the core message, saving valuable reading time."
             },
@@ -102,23 +123,6 @@
             {
                 "title": "#Generate Fresh Ideas",
                 "content": "Engage an AI agent to brainstorm diverse ideas for projects, campaigns, or problem-solving by offering various perspectives. This helps overcome creative blocks and expands your thought process"
-            }
-        ]
-    },
-    {
-        "date": "July 10, 2026",
-        "items": [
-            {
-                "title": "#DebugCodeFaster",
-                "content": "Stuck on an error? Ask AI to review your code and suggest fixes. It can quickly pinpoint issues and explain solutions, saving you hours of frustration."
-            },
-            {
-                "title": "#GenerateBoilerplateCode",
-                "content": "Need a quick script or a basic function? Describe what you need in plain language. AI can generate starting code, giving you a strong foundation to build upon."
-            },
-            {
-                "title": "#UnderstandComplexCode",
-                "content": "Encountered unfamiliar code? Paste it into an AI tool and ask for an explanation. It can break down complex logic into simple terms, helping you learn faster."
             }
         ]
     }
