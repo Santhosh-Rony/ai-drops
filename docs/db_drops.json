@@ -3,6 +3,27 @@
         "date": "July 20, 2026",
         "items": [
             {
+                "title": "Moonshot AI's Kimi K3",
+                "description": "\u2022 Advanced coding & agentic benchmarks\n\u2022 Multimodal with 1M-token context\n\u2022 Largest open-source AI model"
+            },
+            {
+                "title": "TechMynt AI Business",
+                "description": "\u2022 Automates customer engagement (CRM)\n\u2022 Streamlines MSME operations\n\u2022 Reduces costs, accelerates growth"
+            },
+            {
+                "title": "Xometry AI Model Upgrade",
+                "description": "\u2022 Improved manufacturing recommendations\n\u2022 Enhanced CNC pricing accuracy (15%)\n\u2022 Efficient supplier matching"
+            },
+            {
+                "title": "No New Tool Found",
+                "description": "\u2022 Only 3 tools met criteria\n\u2022 Strict 24-hour release window\n\u2022 No verifiable 4th update"
+            }
+        ]
+    },
+    {
+        "date": "July 20, 2026",
+        "items": [
+            {
                 "title": "Kimi K3",
                 "description": "\u2022 Long-context reasoning\n\u2022 Complex problem-solving\n\u2022 Aids coding & agent workflows"
             },
@@ -122,23 +143,6 @@
             {
                 "title": "Emdoor Ailyn",
                 "description": "\u2022 Unify intelligence across personal devices.\n\u2022 Orchestrate AI models on edge devices.\n\u2022 Manage smart homes with integrated AI features."
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "CardiOmicScore",
-                "description": "\u2022 Early detection of heart disease (up to 15 years ahead)\n\u2022 Personalized risk for 6 major heart conditions\n\u2022 Dynamic health snapshot based on lifestyle"
-            },
-            {
-                "title": "Neo",
-                "description": "\u2022 Real-time security for agentic AI across enterprise\n\u2022 Secure AI agents and AI-enabled applications\n\u2022 Policy control for autonomous software behavior"
-            },
-            {
-                "title": "d1g1t MCP Server",
-                "description": "\u2022 Automates daily morning briefings for advisors\n\u2022 Summarizes client info for meeting prep\n\u2022 On-demand client reports via natural language"
             }
         ]
     }
