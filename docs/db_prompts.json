@@ -4,6 +4,27 @@
         "items": [
             {
                 "title": "# Craft Engaging Captions",
+                "content": "Write an Instagram caption for a post about [Topic]. Make it [Tone] and include a call to action asking [Call to Action]. Target [Audience]."
+            },
+            {
+                "title": "# Promote Product Easily",
+                "content": "Create an Instagram caption to promote [Product/Service]. Highlight [Benefit 1] and [Benefit 2]. Use an encouraging tone and ask users to [Call to Action]."
+            },
+            {
+                "title": "# Share Personal Stories",
+                "content": "Generate an Instagram caption telling a short story about [Experience/Event]. Focus on [Key Emotion]. End with a question to engage followers."
+            },
+            {
+                "title": "# Educate Your Audience",
+                "content": "Draft an informative Instagram caption explaining [Concept/Tip] in simple terms. Include 3 key takeaways. Encourage discussion in the comments."
+            }
+        ]
+    },
+    {
+        "date": "July 20, 2026",
+        "items": [
+            {
+                "title": "# Craft Engaging Captions",
                 "content": "Write an Instagram caption for a photo of [Photo Description]. Make it [Tone] and include a call to action to [Call to Action]. Keep it under 2200 characters."
             },
             {
@@ -102,23 +123,6 @@
             {
                 "title": "# Creative Content Creator",
                 "content": "Develop an AI agent to generate [content type] for [purpose]. Define its persona, tone, and the steps it takes from initial input to final output. Include example prompts."
-            }
-        ]
-    },
-    {
-        "date": "July 10, 2026",
-        "items": [
-            {
-                "title": "# Bullet Point Summary",
-                "content": "Summarize the following text into 5-7 key bullet points, focusing on main ideas and essential details for [Topic]: [Paste Text Here]"
-            },
-            {
-                "title": "# Generate Study Questions",
-                "content": "From the following [Topic] material, generate 10 detailed study questions and their answers. Format as Q: [Question] A: [Answer]. [Paste Text Here]"
-            },
-            {
-                "title": "# Comprehensive Study Guide",
-                "content": "Create a detailed study guide for [Exam/Subject] covering [Key Concepts]. Include definitions, important formulas/theories, and examples relevant to [Your Learning Goal]. Use clear headings."
             }
         ]
     }
