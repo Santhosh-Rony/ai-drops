@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 21, 2026",
+        "items": [
+            {
+                "title": "# Format Data Fast",
+                "content": "Show the AI 2-3 examples of how you want your data formatted, then give it your messy data. It will follow your pattern precisely, saving you manual effort."
+            },
+            {
+                "title": "# Summarize Specific Style",
+                "content": "Provide a couple of examples of how you like summaries (e.g., short bullet points). Then, ask it to summarize new text in that style."
+            },
+            {
+                "title": "# Brainstorm Creative Ideas",
+                "content": "Give the AI two examples of the type of ideas you're looking for. It will generate new, similar ideas following your examples more accurately."
+            },
+            {
+                "title": "# Rewrite With Tone",
+                "content": "Show the AI a few sentences rewritten in your desired tone. Then, ask it to rephrase your text, mimicking that tone perfectly for consistent output."
+            }
+        ]
+    },
+    {
         "date": "July 20, 2026",
         "items": [
             {
@@ -106,23 +127,6 @@
             {
                 "title": "#BroadenAIPerspective",
                 "content": "AI's answers reflect its training data, which can have biases or be incomplete. Provide specific context or ask for opposing viewpoints to get a more balanced and accurate response."
-            }
-        ]
-    },
-    {
-        "date": "July 11, 2026",
-        "items": [
-            {
-                "title": "#Digest Long Emails",
-                "content": "Use an AI agent to quickly read through lengthy email threads or documents and extract key decisions. This saves time sifting through details, letting you focus on what truly matters."
-            },
-            {
-                "title": "#Format Messy Data",
-                "content": "Deploy an AI agent to clean up inconsistent spreadsheet data, standardize formats, or categorize information automatically. It transforms raw data into usable formats, reducing manual effort and"
-            },
-            {
-                "title": "#Generate Fresh Ideas",
-                "content": "Engage an AI agent to brainstorm diverse ideas for projects, campaigns, or problem-solving by offering various perspectives. This helps overcome creative blocks and expands your thought process"
             }
         ]
     }
