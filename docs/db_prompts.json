@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 21, 2026",
+        "items": [
+            {
+                "title": "# Outline Blog Post",
+                "content": "Create a blog post outline for an article about [Topic] for [Audience]. Include an intro, 3 main sections with sub-points, and a conclusion. Suggest a catchy title."
+            },
+            {
+                "title": "# Draft Blog Content",
+                "content": "Write a 500-word blog post about [Topic] for [Audience]. Use a [Tone] tone. Include a clear call to action at the end, encouraging readers to [Action]."
+            },
+            {
+                "title": "# Generate Blog Ideas",
+                "content": "Generate 10 blog post ideas for a blog focused on [Niche] and targeting [Audience]. Ensure the ideas are engaging and cover various aspects of the topic."
+            },
+            {
+                "title": "# Craft Blog Intro",
+                "content": "Write a compelling blog post introduction and 5 headline options for an article about [Topic] for [Audience]. The intro should hook readers and state the article's value."
+            }
+        ]
+    },
+    {
         "date": "July 20, 2026",
         "items": [
             {
@@ -106,23 +127,6 @@
             {
                 "title": "# Networking Message Draft",
                 "content": "Draft a personalized outreach message (2-3 sentences) to [Name/Role] at [Company]. Express interest in [Specific Area] and suggest a brief virtual coffee chat. My goal is [Your Goal]."
-            }
-        ]
-    },
-    {
-        "date": "July 11, 2026",
-        "items": [
-            {
-                "title": "# Task Assistant Agent",
-                "content": "Design an AI agent for [specific task]. Define its goal, required capabilities, and output format. Detail its interaction style for a [target user] and key steps it takes."
-            },
-            {
-                "title": "# Research Bot Blueprint",
-                "content": "Outline an AI agent for researching [topic]. Specify its data sources, information synthesis process, and how it presents findings. Define its persona for a [user type]."
-            },
-            {
-                "title": "# Creative Content Creator",
-                "content": "Develop an AI agent to generate [content type] for [purpose]. Define its persona, tone, and the steps it takes from initial input to final output. Include example prompts."
             }
         ]
     }
