@@ -36,8 +36,163 @@ def perform_gemini_research(research_prompt: str) -> str:
         logger.warning(f"Failed to perform Gemini research. Error: {e}")
         raise
 
+def _normalize(name: str) -> str:
+    """Normalize a tool name for deduplication comparison."""
+    return name.strip().lower()
+
+def _call_gemini_for_tools(dynamic_prompt: str, count: int) -> list[dict]:
+    """
+    Makes a single Gemini call that returns a flat list of tool dicts.
+    Uses the new 'tools' array format in the JSON schema.
+    """
+    client = genai.Client(api_key=Config.GEMINI_API_KEY)
+    
+    # Schema expects a 'tools' array of N items
+    gemini_schema = {
+        "type": "OBJECT",
+        "properties": {
+            "header": {"type": "STRING"},
+            "tools": {
+                "type": "ARRAY",
+                "items": {
+                    "type": "OBJECT",
+                    "properties": {
+                        "title": {"type": "STRING"},
+                        "point_1": {"type": "STRING"},
+                        "point_2": {"type": "STRING"},
+                        "point_3": {"type": "STRING"},
+                        "passage": {"type": "STRING"}
+                    },
+                    "required": ["title"]
+                }
+            },
+            "caption": {"type": "STRING"},
+            "hashtags": {"type": "STRING"}
+        },
+        "required": ["header", "tools", "caption", "hashtags"]
+    }
+    
+    full_prompt = f"SYSTEM INSTRUCTIONS:\n{SYSTEM_PROMPT}\n\nUSER REQUEST:\n{dynamic_prompt}"
+    config_kwargs = {
+        "temperature": 0.9,  # Slightly higher temp for more diverse repair rounds
+        "response_mime_type": "application/json",
+        "response_schema": gemini_schema
+    }
+    
+    response = client.models.generate_content(
+        model='gemini-2.5-flash',
+        contents=full_prompt,
+        config=types.GenerateContentConfig(**config_kwargs)
+    )
+    
+    content_text = response.text
+    if not content_text:
+        raise ValueError("Empty response from Gemini.")
+    
+    start_idx = content_text.find('{')
+    end_idx = content_text.rfind('}')
+    if start_idx == -1 or end_idx == -1 or end_idx <= start_idx:
+        raise ValueError("No JSON object found in Gemini response.")
+    
+    data = json.loads(content_text[start_idx:end_idx + 1])
+    tools = data.get("tools", [])
+    
+    # Store caption/hashtags on first call so we can attach to final PostContent
+    return tools, data.get("caption", ""), data.get("hashtags", "")
+
+
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
-def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> PostContent:
+def _generate_drops_with_gemini(now_iso: str, research_notes: str, past_tools: list[str], target_count: int = 4, max_repair_rounds: int = 2) -> "PostContent":
+    """
+    Implements local-dedupe + repair-only pattern:
+    1. First pass: ask for full target_count.
+    2. Keep only unique tools (normalized), discard dupes silently.
+    3. If shortfall > 0, call again asking only for the missing count,
+       feeding back an explicit exclusion list.
+    4. Cap repair rounds to avoid infinite loops.
+    5. After all rounds, warn and continue with what we have (never fail the whole run).
+    """
+    from prompt import get_ai_drops_prompt
+    
+    seen: dict[str, dict] = {}  # normalized_name -> tool dict
+    exclude: list[str] = list(past_tools)  # Start with historical exclusions
+    caption = ""
+    hashtags = ""
+    
+    # --- First pass ---
+    logger.info(f"Drops generation: first pass requesting {target_count} tools...")
+    prompt = get_ai_drops_prompt(now_iso, research_notes, excluded_tools=exclude, count=target_count)
+    tools_raw, caption, hashtags = _call_gemini_for_tools(prompt, target_count)
+    
+    for tool in tools_raw:
+        key = _normalize(tool.get("title", ""))
+        if key and key not in seen:
+            seen[key] = tool
+            exclude.append(tool["title"])
+        elif key in seen:
+            logger.warning(f"Duplicate in first pass: '{tool.get('title')}' — skipping.")
+    
+    logger.info(f"First pass: accepted {len(seen)}/{target_count} unique tools.")
+    
+    # --- Repair passes ---
+    for repair_round in range(max_repair_rounds):
+        missing = target_count - len(seen)
+        if missing <= 0:
+            break
+        logger.info(f"Repair round {repair_round + 1}: requesting {missing} replacement tool(s). Exclusion list: {exclude}")
+        repair_prompt = get_ai_drops_prompt(now_iso, research_notes, excluded_tools=exclude, count=missing)
+        try:
+            repair_tools, _, _ = _call_gemini_for_tools(repair_prompt, missing)
+            for tool in repair_tools:
+                key = _normalize(tool.get("title", ""))
+                if key and key not in seen:
+                    seen[key] = tool
+                    exclude.append(tool["title"])
+                else:
+                    logger.warning(f"Repair round {repair_round + 1}: still got duplicate '{tool.get('title')}' — skipping.")
+            logger.info(f"After repair round {repair_round + 1}: {len(seen)}/{target_count} unique tools collected.")
+        except Exception as e:
+            logger.warning(f"Repair round {repair_round + 1} failed: {e}")
+            break
+    
+    final_tools = list(seen.values())[:target_count]
+    
+    if len(final_tools) < target_count:
+        logger.warning(f"Could only collect {len(final_tools)}/{target_count} unique tools after all repair rounds. Continuing with available tools.")
+    
+    # Pad to target_count with empty blocks if somehow still short (prevents downstream crash)
+    while len(final_tools) < target_count:
+        final_tools.append({"title": "—", "point_1": "", "point_2": "", "point_3": ""})
+    
+    # Assemble into PostContent using positional tool slots
+    from models import PostContent, ContentBlock
+    
+    def make_block(t: dict) -> ContentBlock:
+        block = ContentBlock(
+            title=t.get("title", ""),
+            point_1=t.get("point_1", ""),
+            point_2=t.get("point_2", ""),
+            point_3=t.get("point_3", ""),
+        )
+        block.trim_to_limits(is_passage=False)
+        return block
+    
+    post_content = PostContent(
+        header="AI DROPS",
+        tool_1=make_block(final_tools[0]),
+        tool_2=make_block(final_tools[1]),
+        tool_3=make_block(final_tools[2]),
+        tool_4=make_block(final_tools[3]),
+        caption=caption,
+        hashtags=hashtags
+    )
+    
+    logger.info("Content generation completed successfully using Gemini (with local dedup).")
+    return post_content
+
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10), reraise=True)
+def _generate_with_gemini(dynamic_prompt: str, is_passage: bool) -> "PostContent":
     logger.info("GEMINI_API_KEY found. Attempting generation with Gemini...")
     client = genai.Client(api_key=Config.GEMINI_API_KEY)
     

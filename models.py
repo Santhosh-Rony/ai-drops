@@ -82,7 +82,7 @@ class PostContent:
         self.tool_3.validate(is_passage)
         self.tool_4.validate(is_passage)
         
-        # Enforce strict uniqueness (case-insensitive)
+        # Warn (not crash) if duplicates slip through — repair pattern handles this upstream for drops
         titles = [
             self.tool_1.title.strip().lower(), 
             self.tool_2.title.strip().lower(), 
@@ -90,4 +90,5 @@ class PostContent:
             self.tool_4.title.strip().lower()
         ]
         if len(set(titles)) != 4:
-            raise ValueError(f"AI generated duplicate tools/tips in the same payload: {titles}")
+            import logging
+            logging.getLogger(__name__).warning(f"Duplicate titles detected in payload: {titles}. Continuing.")

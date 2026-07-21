@@ -12,6 +12,7 @@ from database import save_to_database
 from state_manager import get_next_idea_index
 from core_ideas import AI_TIPS_IDEAS, AI_PROMPTS_IDEAS
 from prompt import get_ai_drops_prompt, get_ai_tips_prompt, get_ai_prompts_prompt
+from ai_content_generator import generate_ai_content, _generate_drops_with_gemini
 
 def cleanup_old_images(prefix: str):
     """
@@ -69,37 +70,41 @@ def main():
             research_prompt = get_ai_drops_research_prompt(now_iso, excluded_tools=past_tools)
             research_notes = perform_gemini_research(research_prompt)
             
-            # Call 2: JSON Formatting
-            dynamic_prompt = get_ai_drops_prompt(now_iso, research_notes, excluded_tools=past_tools)
+            # Call 2: Generate with local dedup + repair pattern
+            post_content = _generate_drops_with_gemini(
+                now_iso=now_iso,
+                research_notes=research_notes,
+                past_tools=past_tools,
+                target_count=4,
+                max_repair_rounds=2
+            )
+            
+            # Save the 4 tool names to history to avoid repeats tomorrow
+            new_tool_names = [
+                post_content.tool_1.title,
+                post_content.tool_2.title,
+                post_content.tool_3.title,
+                post_content.tool_4.title
+            ]
+            # Filter out placeholder padding (—) before saving
+            new_tool_names = [t for t in new_tool_names if t and t != "—"]
+            save_history(new_tool_names)
         elif post_type == "tips":
             is_passage = True
             idx = get_next_idea_index("tips", len(AI_TIPS_IDEAS))
             core_idea = AI_TIPS_IDEAS[idx]
             logger.info(f"Selected Core Idea for Tips (Index {idx}): {core_idea}")
             dynamic_prompt = get_ai_tips_prompt(core_idea)
+            post_content = generate_ai_content(dynamic_prompt=dynamic_prompt, is_passage=is_passage)
         elif post_type == "prompts":
             is_passage = True
             idx = get_next_idea_index("prompts", len(AI_PROMPTS_IDEAS))
             core_idea = AI_PROMPTS_IDEAS[idx]
             logger.info(f"Selected Core Idea for Prompts (Index {idx}): {core_idea}")
             dynamic_prompt = get_ai_prompts_prompt(core_idea)
+            post_content = generate_ai_content(dynamic_prompt=dynamic_prompt, is_passage=is_passage)
         else:
             raise ValueError(f"Unknown POST_TYPE: {post_type}")
-        
-        # 3. Discover & Generate Content
-        post_content = generate_ai_content(dynamic_prompt=dynamic_prompt, is_passage=is_passage)
-        
-        # Save newly generated tools to history (Only for Drops)
-        if post_type == "drops":
-            new_tool_names = [post_content.tool_1.title, post_content.tool_2.title, post_content.tool_3.title, post_content.tool_4.title]
-            
-            # Strict Programmatic Deduplication Check
-            normalized_past = [t.lower().strip() for t in load_history()]
-            for new_tool in new_tool_names:
-                if new_tool.lower().strip() in normalized_past:
-                    raise RuntimeError(f"Duplicate Catch! AI hallucinated an old tool '{new_tool}' despite strict prompts. Failing pipeline safely.")
-                    
-            save_history(new_tool_names)
         
         # 4. Select the correct background template based on the day of the week
         template_path, region_config = get_template_for_day()

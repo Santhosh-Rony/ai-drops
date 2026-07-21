@@ -26,10 +26,10 @@ Return your findings as plain text research notes. For each tool, include the ve
 </output_format>
 """
 
-def get_ai_drops_prompt(now_iso: str, research_notes: str, excluded_tools: list[str] = None) -> str:
+def get_ai_drops_prompt(now_iso: str, research_notes: str, excluded_tools: list[str] = None, count: int = 4) -> str:
     exclusion_text = ""
     if excluded_tools:
-        exclusion_text = "\n<critical_rule>\nDO NOT include any of the following tools:\n"
+        exclusion_text = "\n<critical_rule>\nDO NOT include any of the following tools. They have already been used and must NOT appear in your output:\n"
         for tool in excluded_tools:
             exclusion_text += f"- {tool}\n"
         exclusion_text += "</critical_rule>\n"
@@ -39,7 +39,7 @@ You are a strict data formatter. Your job is to format the provided research not
 </role>
 
 <task>
-Format exactly 4 AI tools from the provided research notes.
+Format exactly {count} AI tool(s) from the provided research notes.
 Current Time: {now_iso}
 {exclusion_text}
 </task>
@@ -53,8 +53,8 @@ CRITICAL: You MUST ONLY use the tools present in the <research_notes> block. Und
 </strict_formatting_rules>
 
 <constraints>
-1. Exactly 4 tools are required. Pick the best 4 from the research notes.
-2. CRITICAL: All 4 tools MUST be completely unique. Do NOT repeat the same tool twice.
+1. Exactly {count} tool(s) are required. Pick the best {count} from the research notes.
+2. CRITICAL: All tools MUST be completely unique from each other AND from any tools in the exclusion list above.
 3. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
 4. For each tool, provide exactly 3 use-cases or benefits.
 5. Each use-case MUST be extremely concise, plain English, and fit within 60 characters maximum.
@@ -65,30 +65,14 @@ CRITICAL: You MUST ONLY use the tools present in the <research_notes> block. Und
 <json_format>
 {{
     "header": "AI DROPS",
-    "tool_1": {{
-        "title": "<Tool Name (max 25 chars)>",
-        "point_1": "<Benefit 1 (max 60 chars)>",
-        "point_2": "<Benefit 2 (max 60 chars)>",
-        "point_3": "<Benefit 3 (max 60 chars)>"
-    }},
-    "tool_2": {{
-        "title": "<Tool Name (max 25 chars)>",
-        "point_1": "<Benefit 1 (max 60 chars)>",
-        "point_2": "<Benefit 2 (max 60 chars)>",
-        "point_3": "<Benefit 3 (max 60 chars)>"
-    }},
-    "tool_3": {{
-        "title": "<Tool Name (max 25 chars)>",
-        "point_1": "<Benefit 1 (max 60 chars)>",
-        "point_2": "<Benefit 2 (max 60 chars)>",
-        "point_3": "<Benefit 3 (max 60 chars)>"
-    }},
-    "tool_4": {{
-        "title": "<Tool Name (max 25 chars)>",
-        "point_1": "<Benefit 1 (max 60 chars)>",
-        "point_2": "<Benefit 2 (max 60 chars)>",
-        "point_3": "<Benefit 3 (max 60 chars)>"
-    }},
+    "tools": [
+        {{
+            "title": "<Tool Name (max 25 chars)>",
+            "point_1": "<Benefit 1 (max 60 chars)>",
+            "point_2": "<Benefit 2 (max 60 chars)>",
+            "point_3": "<Benefit 3 (max 60 chars)>"
+        }}
+    ],
     "caption": "<Engaging, jargon-free Instagram caption>",
     "hashtags": "#aidrops #ai #artificialintelligence"
 }}
