@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 21, 2026",
+        "items": [
+            {
+                "title": "MarketBlazer AI Chat Bot",
+                "description": "\u2022 Automate website conversations 24/7.\n\u2022 Answer customer questions instantly.\n\u2022 Capture leads and qualify prospects."
+            },
+            {
+                "title": "Skippr AI",
+                "description": "\u2022 Embed AI agent for contextual user interaction.\n\u2022 Demonstrate workflows and features directly.\n\u2022 AI operates product for user with approval."
+            },
+            {
+                "title": "Loova Ads Studio",
+                "description": "\u2022 Generate diverse ad creatives from prompts.\n\u2022 Create personalized commercials at scale.\n\u2022 Produce static ads for various platforms."
+            },
+            {
+                "title": "Bluehost AI Business Plat",
+                "description": "\u2022 Build on-brand websites in minutes with AI.\n\u2022 Manage online stores, products, and sales.\n\u2022 AI agent captures leads, answers, books apps."
+            }
+        ]
+    },
+    {
         "date": "July 20, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Google Antigravity",
                 "description": "\u2022 Accelerates scientific discovery\n\u2022 Next-gen engineering design & prototyping\n\u2022 Models & optimizes complex systems"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Seedance 2.0",
-                "description": "\u2022 Generate marketing videos from text and images.\n\u2022 Create explainer videos for educational content.\n\u2022 Produce short-form video for product showcases."
-            },
-            {
-                "title": "Photo to 3D",
-                "description": "\u2022 Enhance e-commerce photos into 3D assets.\n\u2022 Create immersive visuals for architecture.\n\u2022 Transform historical photos for digital exhibits."
-            },
-            {
-                "title": "MS Project Perception",
-                "description": "\u2022 Identify software vulnerabilities in code.\n\u2022 Detect weaknesses in cloud environments.\n\u2022 Propose concrete security fixes for systems."
-            },
-            {
-                "title": "Emdoor Ailyn",
-                "description": "\u2022 Unify intelligence across personal devices.\n\u2022 Orchestrate AI models on edge devices.\n\u2022 Manage smart homes with integrated AI features."
             }
         ]
     }
