@@ -1,9 +1,5 @@
 {
     "tools": [
-        "webair ai company brain",
-        "gemini 3.5 live translate",
-        "thinking machines inkling",
-        "nokia ai-ran platform",
         "nvidia vss & deepstream",
         "anthropic claude 5",
         "ibm power auton. ops",
@@ -14,6 +10,10 @@
         "marketblazer ai chat bot",
         "skippr ai",
         "loova ads studio",
-        "bluehost ai business plat"
+        "bluehost ai business plat",
+        "gemini 3.6 flash/3.5",
+        "microsoft + mistral",
+        "medtronic touch surgery",
+        "applied intuition dana"
     ]
 }

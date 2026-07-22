@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 22, 2026",
+        "items": [
+            {
+                "title": "Gemini 3.6 Flash/3.5",
+                "description": "\u2022 Build efficient, scalable AI agents with high token\n\u2022 Enhance cybersecurity: identify and fix vulnerabilities.\n\u2022 Reduce costs for AI workflows, agentic tasks."
+            },
+            {
+                "title": "Microsoft + Mistral",
+                "description": "\u2022 Develop advanced AI apps with Mistral Medium 3.5/OCR 4.\n\u2022 Automate document processing, data extraction.\n\u2022 Deploy AI with data control, even in disconnected envs."
+            },
+            {
+                "title": "Medtronic Touch Surgery",
+                "description": "\u2022 Real-time surgical intelligence from video & data.\n\u2022 Automated operating room assistance that learns.\n\u2022 Enhance robotic-assisted surgery (RAS) systems."
+            },
+            {
+                "title": "Applied Intuition Dana",
+                "description": "\u2022 Accelerate autonomous vehicle AI development.\n\u2022 Create and deploy intelligent machines & fleets.\n\u2022 Develop safety-critical physical AI for industries."
+            }
+        ]
+    },
+    {
         "date": "July 21, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Qwen3.8 Max by Alibaba",
                 "description": "\u2022 Tackles highly complex, large-scale AI tasks\n\u2022 Foundation model for advanced AI research & dev\n\u2022 Competitive frontier AI model for enterprises"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Kimi K3",
-                "description": "\u2022 Generates & debugs complex code\n\u2022 Powers vision-based AI apps\n\u2022 Processes extremely long documents (1M tokens)"
-            },
-            {
-                "title": "Nvidia Cosmos 3 Edge",
-                "description": "\u2022 Real-time AI on edge devices\n\u2022 Enhances robotics & autonomous systems\n\u2022 Personalized AI on smart devices"
-            },
-            {
-                "title": "Stello AI Flow Tech",
-                "description": "\u2022 Transmits drone video over narrow satellite bands\n\u2022 Aids disaster response & remote monitoring\n\u2022 Secures military & security surveillance"
-            },
-            {
-                "title": "Google Antigravity",
-                "description": "\u2022 Accelerates scientific discovery\n\u2022 Next-gen engineering design & prototyping\n\u2022 Models & optimizes complex systems"
             }
         ]
     }
