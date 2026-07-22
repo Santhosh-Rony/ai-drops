@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 22, 2026",
+        "items": [
+            {
+                "title": "# Project Breakdown Plan",
+                "content": "Give AI a big project and ask it to list the key stages and actions needed. This helps you see the whole picture and tackle it one step at a time."
+            },
+            {
+                "title": "# Solve Issues Stepwise",
+                "content": "When facing a problem, ask AI to outline potential causes and a step-by-step troubleshooting guide. This provides a clear path to finding a solution efficiently."
+            },
+            {
+                "title": "# Outline Your Content",
+                "content": "Before writing, ask AI to create a detailed outline for your topic. Then, expand on each point, ensuring logical flow and comprehensive coverage."
+            },
+            {
+                "title": "# Learn Anything Easily",
+                "content": "To grasp a new topic, prompt AI to explain it in simple, sequential steps. This breaks down complex information into digestible, easy-to-understand parts."
+            }
+        ]
+    },
+    {
         "date": "July 21, 2026",
         "items": [
             {
@@ -110,23 +131,6 @@
             {
                 "title": "#Summarize Health Articles",
                 "content": "Paste long health articles or research papers into an AI to get quick summaries. Understand complex information faster without reading everything."
-            }
-        ]
-    },
-    {
-        "date": "July 12, 2026",
-        "items": [
-            {
-                "title": "#VerifyAIFacts",
-                "content": "AI can sometimes invent information, known as hallucination. Always double-check critical details with reliable sources before trusting them, especially for important decisions."
-            },
-            {
-                "title": "#ChallengeAIAnswers",
-                "content": "If an AI sounds too confident but feels off, ask it for its sources or to explain its reasoning step-by-step. This helps uncover made-up details or logical errors."
-            },
-            {
-                "title": "#BroadenAIPerspective",
-                "content": "AI's answers reflect its training data, which can have biases or be incomplete. Provide specific context or ask for opposing viewpoints to get a more balanced and accurate response."
             }
         ]
     }
