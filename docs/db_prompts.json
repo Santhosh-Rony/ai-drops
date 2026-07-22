@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 22, 2026",
+        "items": [
+            {
+                "title": "# Tutorial Script Outline",
+                "content": "Create a YouTube script for a tutorial on [Topic]. Include an intro, 3 main steps, and a conclusion. Target [Audience] and keep it under [Duration] minutes."
+            },
+            {
+                "title": "# Product Review Script",
+                "content": "Write a YouTube script for a review of [Product Name]. Highlight its [Key Feature 1] and [Key Feature 2]. Include pros, cons, and a final recommendation for [Audience]."
+            },
+            {
+                "title": "# Engaging Story Script",
+                "content": "Generate a YouTube script for a storytelling video about [Personal Experience/Topic]. Structure it with a hook, rising action, climax, and resolution. Aim for an emotional connection with [Audience]."
+            },
+            {
+                "title": "# Explainer Video Script",
+                "content": "Draft a YouTube script explaining [Complex Concept] simply. Break it down into 3-4 easy-to-understand sections. Use analogies if possible. Target a beginner [Audience] in [Tone]."
+            }
+        ]
+    },
+    {
         "date": "July 21, 2026",
         "items": [
             {
@@ -110,23 +131,6 @@
             {
                 "title": "# Craft Follow-Up Email",
                 "content": "Write a polite follow-up email to my manager, [Manager's Name], after our salary discussion yesterday. Reiterate my interest in the role and express enthusiasm for a positive outcome."
-            }
-        ]
-    },
-    {
-        "date": "July 12, 2026",
-        "items": [
-            {
-                "title": "# Content Calendar Ideas",
-                "content": "Generate 10 engaging social media post ideas for a personal brand focused on [Your Niche/Industry]. Include hooks and calls to action. Target audience: [Your Audience]."
-            },
-            {
-                "title": "# Craft Professional Bio",
-                "content": "Write a concise, impactful professional bio (150 words) for [Your Name]. Highlight my expertise in [Key Skills] and passion for [Your Mission]. Intended for [Platform, e.g., LinkedIn/Website]."
-            },
-            {
-                "title": "# Networking Message Draft",
-                "content": "Draft a personalized outreach message (2-3 sentences) to [Name/Role] at [Company]. Express interest in [Specific Area] and suggest a brief virtual coffee chat. My goal is [Your Goal]."
             }
         ]
     }
