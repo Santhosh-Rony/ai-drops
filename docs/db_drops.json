@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 23, 2026",
+        "items": [
+            {
+                "title": "OpenAI Presence",
+                "description": "\u2022 Automate customer support tasks.\n\u2022 Qualify sales leads with AI agents.\n\u2022 Streamline internal IT service requests."
+            },
+            {
+                "title": "Agibot Embodied AI Portf.",
+                "description": "\u2022 Guide visitors using humanoid robots.\n\u2022 Facilitate AI/robotics research & dev.\n\u2022 Automate industrial tasks with robots."
+            },
+            {
+                "title": "MS Office 2026 AI",
+                "description": "\u2022 Boost Word productivity with AI writing.\n\u2022 Automate Excel data analysis & insights.\n\u2022 Summarize Teams meetings automatically."
+            },
+            {
+                "title": "Carpe Claims",
+                "description": "\u2022 Unify claims workspace with AI insight.\n\u2022 Detect fraud with AI image forensics.\n\u2022 Monitor litigation trends via ad watch."
+            }
+        ]
+    },
+    {
         "date": "July 22, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Meta Muse Spark 1.1",
                 "description": "\u2022 Create custom images from text descriptions\n\u2022 Edit and enhance existing photos easily\n\u2022 Generate unique visual concepts quickly"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Kimi K3 by Moonshot AI",
-                "description": "\u2022 Advanced front-end code development & debugging\n\u2022 General purpose AI tasks for complex conversations\n\u2022 Extensive context for analytical tasks"
-            },
-            {
-                "title": "CardiOmicScore",
-                "description": "\u2022 Detects 6 major heart diseases up to 15 years early\n\u2022 Personalized health risk assessment via biomarkers\n\u2022 Guides preventative medical interventions & lifestyle"
-            },
-            {
-                "title": "Accenture Edge & Google",
-                "description": "\u2022 Automates cybersecurity for midmarket companies\n\u2022 Enhances customer experience with deployable AI\n\u2022 Simplifies AI adoption for organizational workforces"
-            },
-            {
-                "title": "Qwen3.8 Max by Alibaba",
-                "description": "\u2022 Tackles highly complex, large-scale AI tasks\n\u2022 Foundation model for advanced AI research & dev\n\u2022 Competitive frontier AI model for enterprises"
             }
         ]
     }
