@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 23, 2026",
+        "items": [
+            {
+                "title": "# Summarize Emails Quickly",
+                "content": "Ask AI to summarize long emails into bullet points. This helps you grasp key information fast without reading every detail."
+            },
+            {
+                "title": "# Format Data Tables",
+                "content": "Input raw data and tell AI to organize it into a table. This saves time on manual formatting for reports or presentations."
+            },
+            {
+                "title": "# Brainstorm Idea Lists",
+                "content": "Generate ideas for content or projects by asking AI for a numbered list. It provides structured inspiration instantly."
+            },
+            {
+                "title": "# Create Meeting Agendas",
+                "content": "Prompt AI to create a clear meeting agenda with specific sections. This ensures all key topics are covered efficiently."
+            }
+        ]
+    },
+    {
         "date": "July 22, 2026",
         "items": [
             {
@@ -114,23 +135,6 @@
             {
                 "title": "# Generate Packing List",
                 "content": "Have AI generate a packing list based on your destination, trip duration, and planned activities. It can even suggest items based on local weather forecasts."
-            }
-        ]
-    },
-    {
-        "date": "July 13, 2026",
-        "items": [
-            {
-                "title": "#Personalized Workout Plans",
-                "content": "Ask AI to create a workout routine tailored to your goals and available equipment. It can suggest exercises, sets, and reps for you."
-            },
-            {
-                "title": "#Meal Prep Ideas",
-                "content": "Use AI to generate healthy meal ideas based on your dietary preferences or restrictions. It can help you plan your weekly grocery list efficiently."
-            },
-            {
-                "title": "#Summarize Health Articles",
-                "content": "Paste long health articles or research papers into an AI to get quick summaries. Understand complex information faster without reading everything."
             }
         ]
     }
