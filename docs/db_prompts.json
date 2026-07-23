@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 23, 2026",
+        "items": [
+            {
+                "title": "# Enhance My Resume",
+                "content": "Rewrite my resume for a [Job Title] role. Focus on [Key Skills] and quantify achievements. My current resume: [Paste Resume Here]"
+            },
+            {
+                "title": "# Tailor Cover Letter",
+                "content": "Draft a cover letter for the [Job Title] position at [Company Name]. Highlight my experience in [Relevant Experience] and explain why I'm a good fit. My resume: [Paste Resume]"
+            },
+            {
+                "title": "# Optimize Bullet Points",
+                "content": "Improve these resume bullet points to be more action-oriented and results-driven for a [Industry] role: [List Bullet Points]. Make them concise and impactful."
+            },
+            {
+                "title": "# Identify Skill Gaps",
+                "content": "Analyze this [Job Description] and my resume: [Paste Resume]. Identify any missing key skills or experiences I should consider developing or highlighting."
+            }
+        ]
+    },
+    {
         "date": "July 22, 2026",
         "items": [
             {
@@ -114,23 +135,6 @@
             {
                 "title": "# Network With Experts",
                 "content": "Generate a polite cold email to [Expert Name] about their work on [Specific Topic]. Express genuine interest in [Specific Detail/Project] and ask if they'd be open to a brief virtual coffee chat. Be"
-            }
-        ]
-    },
-    {
-        "date": "July 13, 2026",
-        "items": [
-            {
-                "title": "# Script Salary Discussion",
-                "content": "Draft a script for a salary raise discussion with my manager. I want to ask for [desired percentage/amount]. Highlight my recent achievements: [List 2-3 achievements relevant to your request]."
-            },
-            {
-                "title": "# Research Salary Ranges",
-                "content": "What is the average salary range for a [Your Job Title] in [Your City/Region] with [Number] years of experience? Provide data sources if possible to support your findings."
-            },
-            {
-                "title": "# Craft Follow-Up Email",
-                "content": "Write a polite follow-up email to my manager, [Manager's Name], after our salary discussion yesterday. Reiterate my interest in the role and express enthusiasm for a positive outcome."
             }
         ]
     }
