@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 24, 2026",
+        "items": [
+            {
+                "title": "# Refine Initial Drafts",
+                "content": "After getting a first draft, ask AI to \"make it more concise\" or \"expand on point X.\" This helps you quickly tailor the output to your exact needs without starting over."
+            },
+            {
+                "title": "# Clarify Complex Ideas",
+                "content": "If an AI explanation is unclear, ask \"Can you explain that like I'm five?\" or \"Give me an example.\" This simplifies complex topics for better understanding."
+            },
+            {
+                "title": "# Explore More Options",
+                "content": "If you need more ideas, ask \"Give me 5 more suggestions\" or \"What are some alternatives?\" This pushes the AI to generate a wider range of possibilities for your task."
+            },
+            {
+                "title": "# Format Data Better",
+                "content": "After getting raw information, ask AI to \"put this into a table\" or \"summarize these points.\" This quickly organizes data into a usable format."
+            }
+        ]
+    },
+    {
         "date": "July 23, 2026",
         "items": [
             {
@@ -118,23 +139,6 @@
             {
                 "title": "# Create Smart Budgets",
                 "content": "Ask AI for personalized budget ideas based on your income and goals. It can suggest practical ways to save and manage debt."
-            }
-        ]
-    },
-    {
-        "date": "July 14, 2026",
-        "items": [
-            {
-                "title": "# Plan Trip Itinerary",
-                "content": "Ask AI to create a detailed daily itinerary for your destination, including activities and estimated times. Specify your interests and budget for a personalized travel plan."
-            },
-            {
-                "title": "# Find Local Eateries",
-                "content": "Prompt AI for recommendations on authentic local restaurants or hidden attractions near your hotel. Include your dietary preferences or specific interests for tailored suggestions."
-            },
-            {
-                "title": "# Generate Packing List",
-                "content": "Have AI generate a packing list based on your destination, trip duration, and planned activities. It can even suggest items based on local weather forecasts."
             }
         ]
     }
