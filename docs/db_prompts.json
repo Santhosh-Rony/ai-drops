@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 24, 2026",
+        "items": [
+            {
+                "title": "# Draft New Letter",
+                "content": "Write a cover letter for the [Job Title] position at [Company Name]. My resume is: [Paste Resume Text]. The job description is: [Paste Job Description Text]."
+            },
+            {
+                "title": "# Tailor Existing Letter",
+                "content": "Refine this cover letter for the [New Job Title] at [New Company Name]. Focus on these requirements: [List key requirements]. Here is the original letter: [Paste Original Letter Text]."
+            },
+            {
+                "title": "# Emphasize Key Skills",
+                "content": "Generate a cover letter for [Job Title] at [Company Name]. Highlight my [Skill 1], [Skill 2], and [Skill 3] from my resume: [Paste Relevant Resume Section]. Job description: [Paste Job Description]."
+            },
+            {
+                "title": "# Address Career Gap",
+                "content": "Draft a cover letter for a [Job Title] role, explaining a [Reason for gap, e.g., career break, career change]. Emphasize my [Relevant past experience] and future goals. Job description: [Paste Job"
+            }
+        ]
+    },
+    {
         "date": "July 23, 2026",
         "items": [
             {
@@ -118,23 +139,6 @@
             {
                 "title": "# Estimate Trip Costs",
                 "content": "Estimate a budget for a [Number]-day trip to [Destination] for [Number] adults. Include flights, accommodation, food, activities, and transport. Provide low/mid/high ranges."
-            }
-        ]
-    },
-    {
-        "date": "July 14, 2026",
-        "items": [
-            {
-                "title": "# Connect With Recruiters",
-                "content": "Write a cold DM to a recruiter on [Platform] for the [Job Title] role. Mention my experience in [Relevant Experience] and ask for a brief chat. Keep it concise and professional."
-            },
-            {
-                "title": "# Pitch New Clients",
-                "content": "Draft a cold email to [Company Name]'s [Contact Person/Role]. Introduce my service, [Your Service], and explain how it solves [Their Problem]. Suggest a 15-min call. Be direct and value-focused."
-            },
-            {
-                "title": "# Network With Experts",
-                "content": "Generate a polite cold email to [Expert Name] about their work on [Specific Topic]. Express genuine interest in [Specific Detail/Project] and ask if they'd be open to a brief virtual coffee chat. Be"
             }
         ]
     }
