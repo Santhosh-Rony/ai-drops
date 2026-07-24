@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 24, 2026",
+        "items": [
+            {
+                "title": "Weka NeuralMesh & WekaPOD",
+                "description": "\u2022 Accelerate AI inference data movement.\n\u2022 Address AI system data bottlenecks.\n\u2022 Optimize storage for high-perf AI."
+            },
+            {
+                "title": "AMD Helios Rackscale",
+                "description": "\u2022 Deploy gigawatt-scale AI workloads.\n\u2022 Power next-gen agentic AI apps.\n\u2022 Maximize large AI model performance."
+            },
+            {
+                "title": "ARBOR COMX-C710 AI Module",
+                "description": "\u2022 Low-latency, power-efficient edge AI.\n\u2022 Real-time AI for medical devices.\n\u2022 Intelligent automation for industrial AI."
+            },
+            {
+                "title": "DevRev Voice AI for",
+                "description": "\u2022 Self-service voice support with memory.\n\u2022 Understand context across business systems.\n\u2022 Resolve problems on first contact."
+            }
+        ]
+    },
+    {
         "date": "July 23, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Google DeepMind",
                 "description": "\u2022 Novel AI Architecture Dev\n\u2022 Accelerated AI Research\n\u2022 Platform for Future AI"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Kimi K3 Open-Weight Model",
-                "description": "\u2022 Advance AI capabilities in research\n\u2022 Build tailored business AI solutions\n\u2022 Learn LLM architectures and AI engineering"
-            },
-            {
-                "title": "OpenAI GPT-5.6 Family",
-                "description": "\u2022 Generate creative text and ideas\n\u2022 Summarize long documents quickly\n\u2022 Assist with coding and debugging tasks"
-            },
-            {
-                "title": "xAI Grok 4.5",
-                "description": "\u2022 Real-time news analysis and summaries\n\u2022 Engage in dynamic, open-ended discussions\n\u2022 Explore complex topics with varied perspectives"
-            },
-            {
-                "title": "Meta Muse Spark 1.1",
-                "description": "\u2022 Create custom images from text descriptions\n\u2022 Edit and enhance existing photos easily\n\u2022 Generate unique visual concepts quickly"
             }
         ]
     }
