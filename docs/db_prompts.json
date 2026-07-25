@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 25, 2026",
+        "items": [
+            {
+                "title": "# Master Behavioral Questions",
+                "content": "Act as an interviewer. Ask me 3 common behavioral questions for a [Job Role] interview. I will answer, then you provide constructive feedback on my response."
+            },
+            {
+                "title": "# Summarize Company Info",
+                "content": "Analyze this company website: [Company Website URL]. Summarize their mission, recent news, and key values in bullet points. Focus on details relevant to a [Job Role] interview."
+            },
+            {
+                "title": "# Generate Interview Questions",
+                "content": "Based on this job description: [Paste Job Description Here], generate 5 specific interview questions that an interviewer might ask for this [Job Role]. Include a mix of technical and soft skills."
+            },
+            {
+                "title": "# Refine My Answers",
+                "content": "I'm preparing for a [Job Role] interview. Here's my answer to '[Interview Question]': [Your Answer]. Evaluate my answer for clarity, conciseness, and relevance. Suggest improvements."
+            }
+        ]
+    },
+    {
         "date": "July 24, 2026",
         "items": [
             {
@@ -122,23 +143,6 @@
             {
                 "title": "# Share Personal Story",
                 "content": "Write an Instagram caption sharing a brief personal story about [Topic/Experience]. Focus on [Emotion/Lesson Learned]. Ask a question to encourage engagement in the comments."
-            }
-        ]
-    },
-    {
-        "date": "July 15, 2026",
-        "items": [
-            {
-                "title": "# Plan Daily Itinerary",
-                "content": "Create a 3-day itinerary for [City] for [Number] people, focused on [Interests]. Include [Number] activities/day, meal suggestions, and travel times. Output as a bulleted list."
-            },
-            {
-                "title": "# Generate Packing List",
-                "content": "Generate a packing list for a [Number]-day trip to [Destination] in [Month/Season]. Consider [Activities] and weather. Categorize items."
-            },
-            {
-                "title": "# Estimate Trip Costs",
-                "content": "Estimate a budget for a [Number]-day trip to [Destination] for [Number] adults. Include flights, accommodation, food, activities, and transport. Provide low/mid/high ranges."
             }
         ]
     }
