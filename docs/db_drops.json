@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 25, 2026",
+        "items": [
+            {
+                "title": "Inkling Model",
+                "description": "\u2022 Customize underlying AI systems for specific apps\n\u2022 Open-weight alternative to costly closed models\n\u2022 Seamless integration into developer workflows"
+            },
+            {
+                "title": "ChatGPT Voice AI Upgrade",
+                "description": "\u2022 More human-like AI conversations\n\u2022 Intuitive voice assistants for tasks & smart home\n\u2022 Accessible interface via voice commands"
+            },
+            {
+                "title": "Kimi K3",
+                "description": "\u2022 Superior performance in front-end coding tasks\n\u2022 Processes vast text & images with 1M token window\n\u2022 Rivals top models for general AI applications"
+            },
+            {
+                "title": "Miivo Customer Insights",
+                "description": "\u2022 Automates online reputation management\n\u2022 Analyzes reviews for CX improvement & retention\n\u2022 Drafts on-brand replies to customer feedback"
+            }
+        ]
+    },
+    {
         "date": "July 24, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Emerging AI Trends",
                 "description": "\u2022 Explore new AI innovations\n\u2022 Stay updated on AI tools\n\u2022 Discover future AI potential"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "OpenAI GPT-Red System",
-                "description": "\u2022 AI Safety Research\n\u2022 Robustness Testing\n\u2022 Ethical AI Development"
-            },
-            {
-                "title": "Google DeepMind",
-                "description": "\u2022 Novel AI Architecture Dev\n\u2022 Accelerated AI Research\n\u2022 Platform for Future AI"
-            },
-            {
-                "title": "OpenAI GPT-Red System",
-                "description": "\u2022 AI Safety Research\n\u2022 Robustness Testing\n\u2022 Ethical AI Development"
-            },
-            {
-                "title": "Google DeepMind",
-                "description": "\u2022 Novel AI Architecture Dev\n\u2022 Accelerated AI Research\n\u2022 Platform for Future AI"
             }
         ]
     }

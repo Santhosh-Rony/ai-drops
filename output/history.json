@@ -1,9 +1,5 @@
 {
     "tools": [
-        "skippr ai",
-        "loova ads studio",
-        "bluehost ai business plat",
-        "gemini 3.6 flash/3.5",
         "microsoft + mistral",
         "medtronic touch surgery",
         "applied intuition dana",
@@ -14,6 +10,10 @@
         "weka neuralmesh & wekapod",
         "amd helios rackscale",
         "arbor comx-c710 ai module",
-        "devrev voice ai for"
+        "devrev voice ai for",
+        "inkling model",
+        "chatgpt voice ai upgrade",
+        "kimi k3",
+        "miivo customer insights"
     ]
 }
