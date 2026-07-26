@@ -1,9 +1,5 @@
 {
     "tools": [
-        "microsoft + mistral",
-        "medtronic touch surgery",
-        "applied intuition dana",
-        "openai presence",
         "agibot embodied ai portf.",
         "ms office 2026 ai",
         "carpe claims",
@@ -14,6 +10,10 @@
         "inkling model",
         "chatgpt voice ai upgrade",
         "kimi k3",
-        "miivo customer insights"
+        "miivo customer insights",
+        "anthropic claude opus 5",
+        "alibaba qwen-image-3.0",
+        "sakana ai fugu-cyber",
+        "io.net agent cloud"
     ]
 }

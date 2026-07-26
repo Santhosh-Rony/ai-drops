@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 26, 2026",
+        "items": [
+            {
+                "title": "Anthropic Claude Opus 5",
+                "description": "\u2022 Advanced text generation & conversations\n\u2022 Complex reasoning for research\n\u2022 Enhanced code generation & debugging"
+            },
+            {
+                "title": "Alibaba Qwen-Image-3.0",
+                "description": "\u2022 Generate document layouts accurately\n\u2022 Render small text (10px) in 12 languages\n\u2022 Simulate UI & connect for real-time content"
+            },
+            {
+                "title": "Sakana AI Fugu-Cyber",
+                "description": "\u2022 Orchestrate cybersecurity defense systems\n\u2022 Automate threat detection & response\n\u2022 Enhance security analysis & risk management"
+            },
+            {
+                "title": "io.net Agent Cloud",
+                "description": "\u2022 Rapid compute for AI agent workloads\n\u2022 Autonomous AI agent resource management\n\u2022 Pay-for-work billing for AI compute tasks"
+            }
+        ]
+    },
+    {
         "date": "July 25, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "No New Tool Found",
                 "description": "\u2022 Only 3 tools met criteria\n\u2022 Strict 24-hour release window\n\u2022 No verifiable 4th update"
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Kimi K3",
-                "description": "\u2022 Long-context reasoning\n\u2022 Complex problem-solving\n\u2022 Aids coding & agent workflows"
-            },
-            {
-                "title": "Qwen3.8 Max AI Model",
-                "description": "\u2022 Powerful global AI model\n\u2022 Enhances enterprise AI apps\n\u2022 High computational power"
-            },
-            {
-                "title": "Project Perception",
-                "description": "\u2022 Finds software vulnerabilities\n\u2022 Fixes code & cloud issues\n\u2022 Cost-effective AI security"
-            },
-            {
-                "title": "Emerging AI Trends",
-                "description": "\u2022 Explore new AI innovations\n\u2022 Stay updated on AI tools\n\u2022 Discover future AI potential"
             }
         ]
     }
