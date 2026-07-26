@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 26, 2026",
+        "items": [
+            {
+                "title": "# Write Professional Email",
+                "content": "Draft a professional email to [Recipient Name/Role] regarding [Topic]. The purpose is to [Purpose]. Keep it concise and polite."
+            },
+            {
+                "title": "# Craft Outreach Email",
+                "content": "Write a compelling outreach email to [Potential Client/Partner] about [Product/Service]. Highlight [Benefit 1] and [Benefit 2]. Include a clear call to action: [Call to Action]."
+            },
+            {
+                "title": "# Send Follow-up Email",
+                "content": "Generate a polite follow-up email to [Recipient Name] about [Previous Interaction/Topic]. Remind them of [Key Point] and ask for [Desired Action/Information]."
+            },
+            {
+                "title": "# Draft Apology Email",
+                "content": "Create a sensitive email apologizing to [Recipient Name] for [Specific Action/Issue]. Express regret, explain briefly, and propose [Solution/Next Steps]. Maintain a respectful tone."
+            }
+        ]
+    },
+    {
         "date": "July 25, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Educate Your Audience",
                 "content": "Draft an informative Instagram caption explaining [Concept/Tip] in simple terms. Include 3 key takeaways. Encourage discussion in the comments."
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "# Craft Engaging Captions",
-                "content": "Write an Instagram caption for a photo of [Photo Description]. Make it [Tone] and include a call to action to [Call to Action]. Keep it under 2200 characters."
-            },
-            {
-                "title": "# Launch Product Buzz",
-                "content": "Generate an Instagram caption announcing the launch of [Product Name]. Highlight [Key Benefit 1] and [Key Benefit 2]. Encourage users to [Call to Action]. Use emojis."
-            },
-            {
-                "title": "# Promote Event Hype",
-                "content": "Create an Instagram caption to promote [Event Name] on [Date] at [Location]. Describe why people should attend. Include relevant hashtags and a link to [Registration Link]."
-            },
-            {
-                "title": "# Share Personal Story",
-                "content": "Write an Instagram caption sharing a brief personal story about [Topic/Experience]. Focus on [Emotion/Lesson Learned]. Ask a question to encourage engagement in the comments."
             }
         ]
     }
