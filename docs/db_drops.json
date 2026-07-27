@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 27, 2026",
+        "items": [
+            {
+                "title": "Synopsys Auto Eng Work",
+                "description": "\u2022 Accelerate chip design verification 50X faster\n\u2022 Automate analog and mixed-signal design\n\u2022 Orchestrate complex multi-step analog flows"
+            },
+            {
+                "title": "NVIDIA Agent Toolkit",
+                "description": "\u2022 Empower agents with advanced AI physics skills\n\u2022 Provide accelerated sparse solvers for efficiency\n\u2022 Enable sophisticated quantum chemistry capabilities"
+            },
+            {
+                "title": "Siemens Self-Verify AI",
+                "description": "\u2022 Assist semiconductor teams for reliable outcomes\n\u2022 Validate AI agent decisions via EDA engines\n\u2022 Enhance PCB design with trustworthy AI assistance"
+            },
+            {
+                "title": "Siemens Agentic AI Wkflws",
+                "description": "\u2022 Helps chip teams get reliable, validated designs\n\u2022 AI agents validate decisions via physics-based EDA\n\u2022 Boosts PCB design with trustworthy AI assistance"
+            }
+        ]
+    },
+    {
         "date": "July 26, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Bluehost AI Business Plat",
                 "description": "\u2022 Build on-brand websites in minutes with AI.\n\u2022 Manage online stores, products, and sales.\n\u2022 AI agent captures leads, answers, books apps."
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "Moonshot AI's Kimi K3",
-                "description": "\u2022 Advanced coding & agentic benchmarks\n\u2022 Multimodal with 1M-token context\n\u2022 Largest open-source AI model"
-            },
-            {
-                "title": "TechMynt AI Business",
-                "description": "\u2022 Automates customer engagement (CRM)\n\u2022 Streamlines MSME operations\n\u2022 Reduces costs, accelerates growth"
-            },
-            {
-                "title": "Xometry AI Model Upgrade",
-                "description": "\u2022 Improved manufacturing recommendations\n\u2022 Enhanced CNC pricing accuracy (15%)\n\u2022 Efficient supplier matching"
-            },
-            {
-                "title": "No New Tool Found",
-                "description": "\u2022 Only 3 tools met criteria\n\u2022 Strict 24-hour release window\n\u2022 No verifiable 4th update"
             }
         ]
     }
