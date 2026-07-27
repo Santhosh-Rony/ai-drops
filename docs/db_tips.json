@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 27, 2026",
+        "items": [
+            {
+                "title": "# Summarize Long Emails",
+                "content": "Paste lengthy emails or articles into an AI tool. Ask it to provide the main points in a few sentences, saving you time from reading everything."
+            },
+            {
+                "title": "# Generate Content Ideas",
+                "content": "Stuck for ideas? Prompt AI with your topic and audience. It can quickly suggest engaging blog posts, social media captions, or video scripts."
+            },
+            {
+                "title": "# Rephrase Your Text",
+                "content": "Need to make your writing clearer or change its tone? Paste your draft and ask AI to rephrase it. It helps refine your message effortlessly."
+            },
+            {
+                "title": "# Polish Your Writing",
+                "content": "Before sending, let AI proofread your documents. It catches grammar errors, spelling mistakes, and suggests improvements for better clarity."
+            }
+        ]
+    },
+    {
         "date": "July 26, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Rewrite With Tone",
                 "content": "Show the AI a few sentences rewritten in your desired tone. Then, ask it to rephrase your text, mimicking that tone perfectly for consistent output."
-            }
-        ]
-    },
-    {
-        "date": "July 20, 2026",
-        "items": [
-            {
-                "title": "# Summarize My Inbox",
-                "content": "Ask AI to act as an executive assistant. Give it a long email and instruct it to summarize key points into a brief bullet list, saving you reading time."
-            },
-            {
-                "title": "# Generate Content Ideas",
-                "content": "Tell AI to be a creative marketing specialist. Ask for five social media post ideas about a specific topic, getting fresh angles fast."
-            },
-            {
-                "title": "# Format Data Instantly",
-                "content": "Instruct AI to act as a meticulous data entry clerk. Provide unorganized text and ask it to neatly organize it into a table format for clarity."
-            },
-            {
-                "title": "# Simplify Complex Topics",
-                "content": "Ask AI to take on the role of a patient teacher. Give it a complex concept and request a simple explanation, tailored for a beginner to understand easily."
             }
         ]
     }
