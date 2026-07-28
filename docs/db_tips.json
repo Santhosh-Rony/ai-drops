@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 28, 2026",
+        "items": [
+            {
+                "title": "# Summarize Long Emails",
+                "content": "Paste lengthy emails into your AI to get key takeaways instantly. This saves you time by quickly grasping the main points without reading everything."
+            },
+            {
+                "title": "# Draft Quick Replies",
+                "content": "Tell your AI the context and what you want to say. It will generate a professional draft, speeding up your response time significantly."
+            },
+            {
+                "title": "# Refine Email Tone",
+                "content": "Ask your AI to rewrite a draft to be more formal, friendly, or concise. It helps ensure your message is always clear and appropriate."
+            },
+            {
+                "title": "# Brainstorm Email Ideas",
+                "content": "Stuck on what to write? Give your AI a topic and audience, and it will suggest various content angles or subject lines to get you started."
+            }
+        ]
+    },
+    {
         "date": "July 27, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Learn Anything Easily",
                 "content": "To grasp a new topic, prompt AI to explain it in simple, sequential steps. This breaks down complex information into digestible, easy-to-understand parts."
-            }
-        ]
-    },
-    {
-        "date": "July 21, 2026",
-        "items": [
-            {
-                "title": "# Format Data Fast",
-                "content": "Show the AI 2-3 examples of how you want your data formatted, then give it your messy data. It will follow your pattern precisely, saving you manual effort."
-            },
-            {
-                "title": "# Summarize Specific Style",
-                "content": "Provide a couple of examples of how you like summaries (e.g., short bullet points). Then, ask it to summarize new text in that style."
-            },
-            {
-                "title": "# Brainstorm Creative Ideas",
-                "content": "Give the AI two examples of the type of ideas you're looking for. It will generate new, similar ideas following your examples more accurately."
-            },
-            {
-                "title": "# Rewrite With Tone",
-                "content": "Show the AI a few sentences rewritten in your desired tone. Then, ask it to rephrase your text, mimicking that tone perfectly for consistent output."
             }
         ]
     }
