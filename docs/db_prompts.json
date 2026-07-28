@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 28, 2026",
+        "items": [
+            {
+                "title": "# Define Your Niche",
+                "content": "Analyze my business idea: [Idea]. Who is the ideal target audience? Describe their demographics, pain points, and needs in detail."
+            },
+            {
+                "title": "# Assess Market Demand",
+                "content": "For my business idea: [Idea], what is the current market demand? Identify potential competitors and suggest ways to differentiate."
+            },
+            {
+                "title": "# Uncover Business Hurdles",
+                "content": "Evaluate the feasibility of my business idea: [Idea]. What are the biggest challenges or risks? Suggest mitigation strategies."
+            },
+            {
+                "title": "# Craft Value Proposition",
+                "content": "Help me articulate a clear value proposition for my business idea: [Idea]. What unique problem does it solve for [Target Audience]?"
+            }
+        ]
+    },
+    {
         "date": "July 27, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Explainer Video Script",
                 "content": "Draft a YouTube script explaining [Complex Concept] simply. Break it down into 3-4 easy-to-understand sections. Use analogies if possible. Target a beginner [Audience] in [Tone]."
-            }
-        ]
-    },
-    {
-        "date": "July 21, 2026",
-        "items": [
-            {
-                "title": "# Outline Blog Post",
-                "content": "Create a blog post outline for an article about [Topic] for [Audience]. Include an intro, 3 main sections with sub-points, and a conclusion. Suggest a catchy title."
-            },
-            {
-                "title": "# Draft Blog Content",
-                "content": "Write a 500-word blog post about [Topic] for [Audience]. Use a [Tone] tone. Include a clear call to action at the end, encouraging readers to [Action]."
-            },
-            {
-                "title": "# Generate Blog Ideas",
-                "content": "Generate 10 blog post ideas for a blog focused on [Niche] and targeting [Audience]. Ensure the ideas are engaging and cover various aspects of the topic."
-            },
-            {
-                "title": "# Craft Blog Intro",
-                "content": "Write a compelling blog post introduction and 5 headline options for an article about [Topic] for [Audience]. The intro should hook readers and state the article's value."
             }
         ]
     }
