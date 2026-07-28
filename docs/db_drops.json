@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 28, 2026",
+        "items": [
+            {
+                "title": "Meta AI in Threads DMs",
+                "description": "\u2022 Share Threads content for AI analysis\n\u2022 Ask questions about shared content\n\u2022 Get context or generate related content"
+            },
+            {
+                "title": "Gemini 3.5 Flash-Lite",
+                "description": "\u2022 High-speed AI search results\n\u2022 Faster planning for agentic search\n\u2022 Improved coding benchmarks and tasks"
+            },
+            {
+                "title": "Schr\u00f6dinger Bunsen Agent",
+                "description": "\u2022 Simplifies complex scientific software\n\u2022 Manipulate molecular structures efficiently\n\u2022 Accelerates drug discovery workflows"
+            },
+            {
+                "title": "NVIDIA NOOA Framework",
+                "description": "\u2022 Develop more secure AI agents\n\u2022 Detect attacks against AI systems\n\u2022 Build secure AI agent stack components"
+            }
+        ]
+    },
+    {
         "date": "July 27, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Applied Intuition Dana",
                 "description": "\u2022 Accelerate autonomous vehicle AI development.\n\u2022 Create and deploy intelligent machines & fleets.\n\u2022 Develop safety-critical physical AI for industries."
-            }
-        ]
-    },
-    {
-        "date": "July 21, 2026",
-        "items": [
-            {
-                "title": "MarketBlazer AI Chat Bot",
-                "description": "\u2022 Automate website conversations 24/7.\n\u2022 Answer customer questions instantly.\n\u2022 Capture leads and qualify prospects."
-            },
-            {
-                "title": "Skippr AI",
-                "description": "\u2022 Embed AI agent for contextual user interaction.\n\u2022 Demonstrate workflows and features directly.\n\u2022 AI operates product for user with approval."
-            },
-            {
-                "title": "Loova Ads Studio",
-                "description": "\u2022 Generate diverse ad creatives from prompts.\n\u2022 Create personalized commercials at scale.\n\u2022 Produce static ads for various platforms."
-            },
-            {
-                "title": "Bluehost AI Business Plat",
-                "description": "\u2022 Build on-brand websites in minutes with AI.\n\u2022 Manage online stores, products, and sales.\n\u2022 AI agent captures leads, answers, books apps."
             }
         ]
     }

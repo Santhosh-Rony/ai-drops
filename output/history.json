@@ -1,9 +1,5 @@
 {
     "tools": [
-        "amd helios rackscale",
-        "arbor comx-c710 ai module",
-        "devrev voice ai for",
-        "inkling model",
         "chatgpt voice ai upgrade",
         "kimi k3",
         "miivo customer insights",
@@ -14,6 +10,10 @@
         "synopsys auto eng work",
         "nvidia agent toolkit",
         "siemens self-verify ai",
-        "siemens agentic ai wkflws"
+        "siemens agentic ai wkflws",
+        "meta ai in threads dms",
+        "gemini 3.5 flash-lite",
+        "schr\u00f6dinger bunsen agent",
+        "nvidia nooa framework"
     ]
 }
