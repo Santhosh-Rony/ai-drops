@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 29, 2026",
+        "items": [
+            {
+                "title": "# Analyze Competitors Fast",
+                "content": "Identify [Number] key competitors for [Product/Service] in the [Industry] market. For each, list their strengths, weaknesses, target audience, and unique selling propositions."
+            },
+            {
+                "title": "# Create Buyer Persona",
+                "content": "Develop a detailed buyer persona for [Product/Service]. Include demographic info, goals, pain points, preferred communication channels, and how [Product/Service] addresses their needs."
+            },
+            {
+                "title": "# Spot Market Trends",
+                "content": "List the top 5 emerging market trends in the [Industry] sector. Explain how each trend could impact businesses and suggest potential opportunities for [Your Company/Product]."
+            },
+            {
+                "title": "# Gather Product Feedback",
+                "content": "Design a survey with 5 open-ended questions to gather feedback on [Product Feature/New Idea] from [Target Audience]. Focus on usability, value, and areas for improvement."
+            }
+        ]
+    },
+    {
         "date": "July 28, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Identify Skill Gaps",
                 "content": "Analyze this [Job Description] and my resume: [Paste Resume]. Identify any missing key skills or experiences I should consider developing or highlighting."
-            }
-        ]
-    },
-    {
-        "date": "July 22, 2026",
-        "items": [
-            {
-                "title": "# Tutorial Script Outline",
-                "content": "Create a YouTube script for a tutorial on [Topic]. Include an intro, 3 main steps, and a conclusion. Target [Audience] and keep it under [Duration] minutes."
-            },
-            {
-                "title": "# Product Review Script",
-                "content": "Write a YouTube script for a review of [Product Name]. Highlight its [Key Feature 1] and [Key Feature 2]. Include pros, cons, and a final recommendation for [Audience]."
-            },
-            {
-                "title": "# Engaging Story Script",
-                "content": "Generate a YouTube script for a storytelling video about [Personal Experience/Topic]. Structure it with a hook, rising action, climax, and resolution. Aim for an emotional connection with [Audience]."
-            },
-            {
-                "title": "# Explainer Video Script",
-                "content": "Draft a YouTube script explaining [Complex Concept] simply. Break it down into 3-4 easy-to-understand sections. Use analogies if possible. Target a beginner [Audience] in [Tone]."
             }
         ]
     }
