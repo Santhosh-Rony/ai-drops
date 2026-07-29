@@ -1,9 +1,5 @@
 {
     "tools": [
-        "chatgpt voice ai upgrade",
-        "kimi k3",
-        "miivo customer insights",
-        "anthropic claude opus 5",
         "alibaba qwen-image-3.0",
         "sakana ai fugu-cyber",
         "io.net agent cloud",
@@ -14,6 +10,10 @@
         "meta ai in threads dms",
         "gemini 3.5 flash-lite",
         "schr\u00f6dinger bunsen agent",
-        "nvidia nooa framework"
+        "nvidia nooa framework",
+        "perplexity ai comet",
+        "openai chatgpt work",
+        "weride witt",
+        "stellora.ai quantum flow"
     ]
 }
