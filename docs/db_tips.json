@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 29, 2026",
+        "items": [
+            {
+                "title": "# Summarize Meeting Notes",
+                "content": "Use AI to condense lengthy meeting transcripts or notes into key takeaways. This helps you quickly recall decisions and action items without rereading everything."
+            },
+            {
+                "title": "# Extract Action Items",
+                "content": "Feed your meeting summary to an AI and ask it to list all action items with assigned owners and deadlines. This ensures nothing is missed and responsibilities are clear."
+            },
+            {
+                "title": "# Generate Follow-up Emails",
+                "content": "After a meeting, ask AI to draft a follow-up email based on the summary and action items. This saves time and ensures consistent communication to all participants."
+            },
+            {
+                "title": "# Identify Key Decisions",
+                "content": "Upload your meeting minutes and prompt the AI to highlight all major decisions made during the discussion. This makes it easy to track progress and refer back to critical agreements."
+            }
+        ]
+    },
+    {
         "date": "July 28, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Create Meeting Agendas",
                 "content": "Prompt AI to create a clear meeting agenda with specific sections. This ensures all key topics are covered efficiently."
-            }
-        ]
-    },
-    {
-        "date": "July 22, 2026",
-        "items": [
-            {
-                "title": "# Project Breakdown Plan",
-                "content": "Give AI a big project and ask it to list the key stages and actions needed. This helps you see the whole picture and tackle it one step at a time."
-            },
-            {
-                "title": "# Solve Issues Stepwise",
-                "content": "When facing a problem, ask AI to outline potential causes and a step-by-step troubleshooting guide. This provides a clear path to finding a solution efficiently."
-            },
-            {
-                "title": "# Outline Your Content",
-                "content": "Before writing, ask AI to create a detailed outline for your topic. Then, expand on each point, ensuring logical flow and comprehensive coverage."
-            },
-            {
-                "title": "# Learn Anything Easily",
-                "content": "To grasp a new topic, prompt AI to explain it in simple, sequential steps. This breaks down complex information into digestible, easy-to-understand parts."
             }
         ]
     }
