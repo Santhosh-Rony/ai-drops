@@ -1,9 +1,5 @@
 {
     "tools": [
-        "alibaba qwen-image-3.0",
-        "sakana ai fugu-cyber",
-        "io.net agent cloud",
-        "synopsys auto eng work",
         "nvidia agent toolkit",
         "siemens self-verify ai",
         "siemens agentic ai wkflws",
@@ -14,6 +10,10 @@
         "perplexity ai comet",
         "openai chatgpt work",
         "weride witt",
-        "stellora.ai quantum flow"
+        "stellora.ai quantum flow",
+        "kimi k3",
+        "leidos parcata",
+        "nimble web search agents",
+        "powered by daydream"
     ]
 }
