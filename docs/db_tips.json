@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 30, 2026",
+        "items": [
+            {
+                "title": "# Content Idea Generator",
+                "content": "Stuck on what to write? Ask AI to brainstorm fresh ideas for your blog, video, or social media based on a topic you provide. It saves time and sparks creativity instantly."
+            },
+            {
+                "title": "# Outline Your Content",
+                "content": "Need a structure for your next article or presentation? AI can quickly generate a detailed outline with key sections and points. This helps organize your thoughts efficiently."
+            },
+            {
+                "title": "# Simplify Complex Text",
+                "content": "If your writing is too technical, use AI to rephrase it into simpler, more accessible language for your audience. It makes complex concepts easy to understand for everyone."
+            },
+            {
+                "title": "# Create Social Posts",
+                "content": "Quickly generate engaging captions and short posts for social media platforms. Just give AI your main message or a link, and it will craft several options for you."
+            }
+        ]
+    },
+    {
         "date": "July 29, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Format Data Better",
                 "content": "After getting raw information, ask AI to \"put this into a table\" or \"summarize these points.\" This quickly organizes data into a usable format."
-            }
-        ]
-    },
-    {
-        "date": "July 23, 2026",
-        "items": [
-            {
-                "title": "# Summarize Emails Quickly",
-                "content": "Ask AI to summarize long emails into bullet points. This helps you grasp key information fast without reading every detail."
-            },
-            {
-                "title": "# Format Data Tables",
-                "content": "Input raw data and tell AI to organize it into a table. This saves time on manual formatting for reports or presentations."
-            },
-            {
-                "title": "# Brainstorm Idea Lists",
-                "content": "Generate ideas for content or projects by asking AI for a numbered list. It provides structured inspiration instantly."
-            },
-            {
-                "title": "# Create Meeting Agendas",
-                "content": "Prompt AI to create a clear meeting agenda with specific sections. This ensures all key topics are covered efficiently."
             }
         ]
     }
