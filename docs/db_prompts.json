@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 31, 2026",
+        "items": [
+            {
+                "title": "# Launch New Product",
+                "content": "Generate a marketing campaign for [Product/Service] targeting [Audience] to achieve [Goal]. Suggest 3 channels and core messages."
+            },
+            {
+                "title": "# Social Media Strategy",
+                "content": "Develop a social media campaign for [Company Name] to increase engagement among [Target Demographic]. Provide 3 platform-specific content ideas for [Platform]."
+            },
+            {
+                "title": "# Lead Generation Funnel",
+                "content": "Create a lead generation campaign for [Industry] focusing on [Specific Product/Service]. Outline 3 actionable strategies to attract and convert new prospects."
+            },
+            {
+                "title": "# Customer Retention Plan",
+                "content": "Design a customer retention campaign for [Business Type] to improve loyalty. Suggest 3 personalized communication ideas and a simple loyalty program concept."
+            }
+        ]
+    },
+    {
         "date": "July 30, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Refine My Answers",
                 "content": "I'm preparing for a [Job Role] interview. Here's my answer to '[Interview Question]': [Your Answer]. Evaluate my answer for clarity, conciseness, and relevance. Suggest improvements."
-            }
-        ]
-    },
-    {
-        "date": "July 24, 2026",
-        "items": [
-            {
-                "title": "# Draft New Letter",
-                "content": "Write a cover letter for the [Job Title] position at [Company Name]. My resume is: [Paste Resume Text]. The job description is: [Paste Job Description Text]."
-            },
-            {
-                "title": "# Tailor Existing Letter",
-                "content": "Refine this cover letter for the [New Job Title] at [New Company Name]. Focus on these requirements: [List key requirements]. Here is the original letter: [Paste Original Letter Text]."
-            },
-            {
-                "title": "# Emphasize Key Skills",
-                "content": "Generate a cover letter for [Job Title] at [Company Name]. Highlight my [Skill 1], [Skill 2], and [Skill 3] from my resume: [Paste Relevant Resume Section]. Job description: [Paste Job Description]."
-            },
-            {
-                "title": "# Address Career Gap",
-                "content": "Draft a cover letter for a [Job Title] role, explaining a [Reason for gap, e.g., career break, career change]. Emphasize my [Relevant past experience] and future goals. Job description: [Paste Job"
             }
         ]
     }
