@@ -1,9 +1,5 @@
 {
     "tools": [
-        "nvidia agent toolkit",
-        "siemens self-verify ai",
-        "siemens agentic ai wkflws",
-        "meta ai in threads dms",
         "gemini 3.5 flash-lite",
         "schr\u00f6dinger bunsen agent",
         "nvidia nooa framework",
@@ -14,6 +10,10 @@
         "kimi k3",
         "leidos parcata",
         "nimble web search agents",
-        "powered by daydream"
+        "powered by daydream",
+        "iflytek digital humans",
+        "openai chatgpt academics",
+        "google deepmind lyria 3.5",
+        "advisorpilot"
     ]
 }

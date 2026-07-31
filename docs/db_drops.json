@@ -1,5 +1,26 @@
 [
     {
+        "date": "July 31, 2026",
+        "items": [
+            {
+                "title": "iFlytek Digital Humans",
+                "description": "\u2022 Automated customer service with lifelike agents\n\u2022 Create digital presenters for live streams\n\u2022 Interactive staff for retail & info kiosks"
+            },
+            {
+                "title": "OpenAI ChatGPT Academics",
+                "description": "\u2022 100K scientists get free GPT-5.6 Sol Pro\n\u2022 Accelerate research with advanced reasoning\n\u2022 Collaborate securely; data not used for training"
+            },
+            {
+                "title": "Google DeepMind Lyria 3.5",
+                "description": "\u2022 Generate music with rich melodies, clear vocals\n\u2022 Create dynamic soundtracks for games/videos\n\u2022 Rapidly prototype musical ideas and vocal styles"
+            },
+            {
+                "title": "AdvisorPilot",
+                "description": "\u2022 Automate portfolio reviews for financial advisors\n\u2022 Improve client engagement with custom deliverables\n\u2022 Boost operational efficiency for wealth firms"
+            }
+        ]
+    },
+    {
         "date": "July 30, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Miivo Customer Insights",
                 "description": "\u2022 Automates online reputation management\n\u2022 Analyzes reviews for CX improvement & retention\n\u2022 Drafts on-brand replies to customer feedback"
-            }
-        ]
-    },
-    {
-        "date": "July 24, 2026",
-        "items": [
-            {
-                "title": "Weka NeuralMesh & WekaPOD",
-                "description": "\u2022 Accelerate AI inference data movement.\n\u2022 Address AI system data bottlenecks.\n\u2022 Optimize storage for high-perf AI."
-            },
-            {
-                "title": "AMD Helios Rackscale",
-                "description": "\u2022 Deploy gigawatt-scale AI workloads.\n\u2022 Power next-gen agentic AI apps.\n\u2022 Maximize large AI model performance."
-            },
-            {
-                "title": "ARBOR COMX-C710 AI Module",
-                "description": "\u2022 Low-latency, power-efficient edge AI.\n\u2022 Real-time AI for medical devices.\n\u2022 Intelligent automation for industrial AI."
-            },
-            {
-                "title": "DevRev Voice AI for",
-                "description": "\u2022 Self-service voice support with memory.\n\u2022 Understand context across business systems.\n\u2022 Resolve problems on first contact."
             }
         ]
     }
