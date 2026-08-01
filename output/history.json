@@ -1,9 +1,5 @@
 {
     "tools": [
-        "gemini 3.5 flash-lite",
-        "schr\u00f6dinger bunsen agent",
-        "nvidia nooa framework",
-        "perplexity ai comet",
         "openai chatgpt work",
         "weride witt",
         "stellora.ai quantum flow",
@@ -14,6 +10,10 @@
         "iflytek digital humans",
         "openai chatgpt academics",
         "google deepmind lyria 3.5",
-        "advisorpilot"
+        "advisorpilot",
+        "minimax h3",
+        "gemini robotics 2",
+        "deepseek-v4-flash",
+        "varyence ai ops"
     ]
 }
