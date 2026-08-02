@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 02, 2026",
+        "items": [
+            {
+                "title": "# Tailor Your Resume",
+                "content": "Paste a job description and your resume. Ask AI to highlight gaps or suggest improvements to better match the role. This saves time customizing for each application."
+            },
+            {
+                "title": "# Polish Bullet Points",
+                "content": "Provide your resume bullet points to AI. Ask it to rephrase them using stronger action verbs and quantifiable results. This makes your achievements more impactful."
+            },
+            {
+                "title": "# Draft Cover Letters",
+                "content": "Give AI the job description and your resume. Request a draft cover letter highlighting relevant skills and experiences. Always review and personalize it before sending."
+            },
+            {
+                "title": "# Proofread For Errors",
+                "content": "Paste your entire resume into an AI tool. Ask it to check for grammar, spelling, and punctuation mistakes. A polished resume shows attention to detail."
+            }
+        ]
+    },
+    {
         "date": "August 01, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Polish Your Writing",
                 "content": "Before sending, let AI proofread your documents. It catches grammar errors, spelling mistakes, and suggests improvements for better clarity."
-            }
-        ]
-    },
-    {
-        "date": "July 26, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Articles",
-                "content": "Paste long articles or reports into an AI tool to get a quick summary. This saves time by giving you the main points without reading everything."
-            },
-            {
-                "title": "# Generate Research Questions",
-                "content": "Stuck on where to start? Ask AI to brainstorm potential research questions or angles on a topic. It provides a great starting point for your investigation."
-            },
-            {
-                "title": "# Extract Key Data",
-                "content": "Upload unstructured text or tables to AI and ask it to pull out specific data points. This quickly organizes information, making it easier to analyze."
-            },
-            {
-                "title": "# Simplify Complex Topics",
-                "content": "Feed AI a dense academic paper or technical concept and ask for a simple explanation. It helps you grasp difficult ideas faster and clarify understanding."
             }
         ]
     }
