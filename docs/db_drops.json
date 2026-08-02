@@ -3,6 +3,27 @@
         "date": "August 02, 2026",
         "items": [
             {
+                "title": "No New Tool Found 1",
+                "description": "\u2022 Research notes indicated no new tools\n\u2022 Notes stated tools were on exclusion list\n\u2022 Or were quickly rolled back features"
+            },
+            {
+                "title": "No New Tool Found 2",
+                "description": "\u2022 Research notes indicated no new tools\n\u2022 Notes stated tools were on exclusion list\n\u2022 Or were quickly rolled back features"
+            },
+            {
+                "title": "No New Tool Found 3",
+                "description": "\u2022 Research notes indicated no new tools\n\u2022 Notes stated tools were on exclusion list\n\u2022 Or were quickly rolled back features"
+            },
+            {
+                "title": "No New Tool Found 4",
+                "description": "\u2022 Research notes indicated no new tools\n\u2022 Notes stated tools were on exclusion list\n\u2022 Or were quickly rolled back features"
+            }
+        ]
+    },
+    {
+        "date": "August 02, 2026",
+        "items": [
+            {
                 "title": "Coforge Momentuum AI",
                 "description": "\u2022 Scale AI for enterprise operations\n\u2022 Integrate AI for growth & insights\n\u2022 Develop LLM solutions for automation"
             },
@@ -122,27 +143,6 @@
             {
                 "title": "NVIDIA NOOA Framework",
                 "description": "\u2022 Develop more secure AI agents\n\u2022 Detect attacks against AI systems\n\u2022 Build secure AI agent stack components"
-            }
-        ]
-    },
-    {
-        "date": "July 27, 2026",
-        "items": [
-            {
-                "title": "Synopsys Auto Eng Work",
-                "description": "\u2022 Accelerate chip design verification 50X faster\n\u2022 Automate analog and mixed-signal design\n\u2022 Orchestrate complex multi-step analog flows"
-            },
-            {
-                "title": "NVIDIA Agent Toolkit",
-                "description": "\u2022 Empower agents with advanced AI physics skills\n\u2022 Provide accelerated sparse solvers for efficiency\n\u2022 Enable sophisticated quantum chemistry capabilities"
-            },
-            {
-                "title": "Siemens Self-Verify AI",
-                "description": "\u2022 Assist semiconductor teams for reliable outcomes\n\u2022 Validate AI agent decisions via EDA engines\n\u2022 Enhance PCB design with trustworthy AI assistance"
-            },
-            {
-                "title": "Siemens Agentic AI Wkflws",
-                "description": "\u2022 Helps chip teams get reliable, validated designs\n\u2022 AI agents validate decisions via physics-based EDA\n\u2022 Boosts PCB design with trustworthy AI assistance"
             }
         ]
     }
