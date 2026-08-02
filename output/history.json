@@ -1,6 +1,5 @@
 {
     "tools": [
-        "openai chatgpt work",
         "weride witt",
         "stellora.ai quantum flow",
         "kimi k3",
@@ -14,6 +13,7 @@
         "minimax h3",
         "gemini robotics 2",
         "deepseek-v4-flash",
-        "varyence ai ops"
+        "varyence ai ops",
+        "coforge momentuum ai"
     ]
 }

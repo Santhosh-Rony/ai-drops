@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 02, 2026",
+        "items": [
+            {
+                "title": "Coforge Momentuum AI",
+                "description": "\u2022 Scale AI for enterprise operations\n\u2022 Integrate AI for growth & insights\n\u2022 Develop LLM solutions for automation"
+            },
+            {
+                "title": "\u2014",
+                "description": "\u2022 \n\u2022 \n\u2022 "
+            },
+            {
+                "title": "\u2014",
+                "description": "\u2022 \n\u2022 \n\u2022 "
+            },
+            {
+                "title": "\u2014",
+                "description": "\u2022 \n\u2022 \n\u2022 "
+            }
+        ]
+    },
+    {
         "date": "August 01, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Siemens Agentic AI Wkflws",
                 "description": "\u2022 Helps chip teams get reliable, validated designs\n\u2022 AI agents validate decisions via physics-based EDA\n\u2022 Boosts PCB design with trustworthy AI assistance"
-            }
-        ]
-    },
-    {
-        "date": "July 26, 2026",
-        "items": [
-            {
-                "title": "Anthropic Claude Opus 5",
-                "description": "\u2022 Advanced text generation & conversations\n\u2022 Complex reasoning for research\n\u2022 Enhanced code generation & debugging"
-            },
-            {
-                "title": "Alibaba Qwen-Image-3.0",
-                "description": "\u2022 Generate document layouts accurately\n\u2022 Render small text (10px) in 12 languages\n\u2022 Simulate UI & connect for real-time content"
-            },
-            {
-                "title": "Sakana AI Fugu-Cyber",
-                "description": "\u2022 Orchestrate cybersecurity defense systems\n\u2022 Automate threat detection & response\n\u2022 Enhance security analysis & risk management"
-            },
-            {
-                "title": "io.net Agent Cloud",
-                "description": "\u2022 Rapid compute for AI agent workloads\n\u2022 Autonomous AI agent resource management\n\u2022 Pay-for-work billing for AI compute tasks"
             }
         ]
     }
