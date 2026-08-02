@@ -3,6 +3,27 @@
         "date": "August 02, 2026",
         "items": [
             {
+                "title": "DeepSeek V4 Flash 0731",
+                "description": "\u2022 High-perf coding assistant\n\u2022 Cost-effective AI integration\n\u2022 Open-weight model development"
+            },
+            {
+                "title": "MS VS Pro 2026 w/ AI",
+                "description": "\u2022 Intelligent code suggestions\n\u2022 Enhanced code understanding\n\u2022 Accelerated software dev"
+            },
+            {
+                "title": "Visual Studio Pro 2026 AI",
+                "description": "\u2022 Intelligent code completion & suggestions\n\u2022 Enhanced code understanding & navigation\n\u2022 Accelerated software development"
+            },
+            {
+                "title": "Microsoft VS Pro 2026 AI",
+                "description": "\u2022 AI-powered code suggestions for faster, error-free coding.\n\u2022 AI augments CodeLens for better code context & insights.\n\u2022 Streamlines development from coding to maintenance."
+            }
+        ]
+    },
+    {
+        "date": "August 02, 2026",
+        "items": [
+            {
                 "title": "No New Tool Found 1",
                 "description": "\u2022 Research notes indicated no new tools\n\u2022 Notes stated tools were on exclusion list\n\u2022 Or were quickly rolled back features"
             },
@@ -122,27 +143,6 @@
             {
                 "title": "Stellora.AI Quantum Flow",
                 "description": "\u2022 Convert research to quantum circuits\n\u2022 Generate and validate quantum code\n\u2022 Bridge quantum research and impact"
-            }
-        ]
-    },
-    {
-        "date": "July 28, 2026",
-        "items": [
-            {
-                "title": "Meta AI in Threads DMs",
-                "description": "\u2022 Share Threads content for AI analysis\n\u2022 Ask questions about shared content\n\u2022 Get context or generate related content"
-            },
-            {
-                "title": "Gemini 3.5 Flash-Lite",
-                "description": "\u2022 High-speed AI search results\n\u2022 Faster planning for agentic search\n\u2022 Improved coding benchmarks and tasks"
-            },
-            {
-                "title": "Schr\u00f6dinger Bunsen Agent",
-                "description": "\u2022 Simplifies complex scientific software\n\u2022 Manipulate molecular structures efficiently\n\u2022 Accelerates drug discovery workflows"
-            },
-            {
-                "title": "NVIDIA NOOA Framework",
-                "description": "\u2022 Develop more secure AI agents\n\u2022 Detect attacks against AI systems\n\u2022 Build secure AI agent stack components"
             }
         ]
     }
