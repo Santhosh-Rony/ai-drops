@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 03, 2026",
+        "items": [
+            {
+                "title": "# Structure Your Talk",
+                "content": "Create a detailed presentation outline on [Topic] for a [Audience] that includes an introduction, 3 main points with sub-bullets, and a conclusion. Suggest visuals for each section."
+            },
+            {
+                "title": "# Draft Slide Content",
+                "content": "Generate content for 5 slides about [Specific Aspect of Topic]. Each slide should have a title, 3-4 bullet points, and a brief speaker note. Target a [Time] minute segment for [Audience]."
+            },
+            {
+                "title": "# Prepare Q and A",
+                "content": "Based on a presentation about [Topic] for [Audience], list 5 potential challenging questions and provide concise, expert answers for each. Focus on common concerns or misunderstandings."
+            },
+            {
+                "title": "# Boost Audience Engagement",
+                "content": "Suggest a captivating opening hook and a memorable closing statement for a presentation on [Topic] to [Audience]. Include a short anecdote or relatable example for the introduction."
+            }
+        ]
+    },
+    {
         "date": "August 02, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Craft Value Proposition",
                 "content": "Help me articulate a clear value proposition for my business idea: [Idea]. What unique problem does it solve for [Target Audience]?"
-            }
-        ]
-    },
-    {
-        "date": "July 27, 2026",
-        "items": [
-            {
-                "title": "# Craft Cold Outreach",
-                "content": "Draft a personalized cold email for [Prospect Name] about [Product/Service]. Highlight [Specific Benefit 1] and [Specific Benefit 2]. Keep it concise and professional."
-            },
-            {
-                "title": "# Write Follow Up",
-                "content": "Write a polite follow-up email to [Prospect Name] regarding our previous conversation about [Topic]. Reiterate [Key Value Proposition] and suggest [Next Step]."
-            },
-            {
-                "title": "# Develop Value Pitch",
-                "content": "Create a compelling, benefit-driven pitch for [Company Name] focusing on how [Product/Service] solves [Specific Problem] for their [Target Audience]. Emphasize [Key Outcome]."
-            },
-            {
-                "title": "# Address Sales Objections",
-                "content": "Provide three concise and effective responses to the sales objection: \"[Specific Objection]\". Focus on empathy, reframing, and offering solutions."
             }
         ]
     }
