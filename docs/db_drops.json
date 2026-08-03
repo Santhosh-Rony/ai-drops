@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 03, 2026",
+        "items": [
+            {
+                "title": "OpenAI Astra",
+                "description": "\u2022 Solve complex problems & reason across domains.\n\u2022 Generate creative content: text, code, multimedia.\n\u2022 Analyze data, find subtle patterns in large sets."
+            },
+            {
+                "title": "Klaviyo Composer Retail",
+                "description": "\u2022 Automate customer inquiries for order tracking.\n\u2022 Streamline returns & exchanges with AI agents.\n\u2022 Manage subscriptions & loyalty programs via AI."
+            },
+            {
+                "title": "GPT-5.6 Sol Fast mode",
+                "description": "\u2022 Faster processing for quick AI agent responses.\n\u2022 Accelerate high-volume agentic workflows.\n\u2022 Rapid data analysis in time-critical tasks."
+            },
+            {
+                "title": "GPT-5.6 Luna/Terra Price",
+                "description": "\u2022 Cost-effective high-volume AI workflows.\n\u2022 Lower barrier for startups to access frontier AI.\n\u2022 Enable broader AI experimentation & deployment."
+            }
+        ]
+    },
+    {
         "date": "August 02, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Powered by Daydream",
                 "description": "\u2022 Search products using natural language\n\u2022 Get personalized product recommendations\n\u2022 Improve e-commerce conversion rates"
-            }
-        ]
-    },
-    {
-        "date": "July 29, 2026",
-        "items": [
-            {
-                "title": "Perplexity AI Comet",
-                "description": "\u2022 AI web searches in browser\n\u2022 Summarize long articles\n\u2022 Answer questions from multiple sources"
-            },
-            {
-                "title": "OpenAI ChatGPT Work",
-                "description": "\u2022 Automate multi-step tasks\n\u2022 Break down ambitious projects\n\u2022 Coordinate AI capabilities and tools"
-            },
-            {
-                "title": "WeRide WITT",
-                "description": "\u2022 Convert driving data to knowledge\n\u2022 Train autonomous systems accurately\n\u2022 Enhance self-driving safety"
-            },
-            {
-                "title": "Stellora.AI Quantum Flow",
-                "description": "\u2022 Convert research to quantum circuits\n\u2022 Generate and validate quantum code\n\u2022 Bridge quantum research and impact"
             }
         ]
     }
