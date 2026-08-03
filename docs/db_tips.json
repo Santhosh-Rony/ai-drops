@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 03, 2026",
+        "items": [
+            {
+                "title": "# Tailor Your Resume",
+                "content": "Paste the job description and your resume into an AI. Ask it to highlight keywords and suggest improvements to align your experience. This makes your application stand out."
+            },
+            {
+                "title": "# Practice Interview Questions",
+                "content": "Ask AI to generate common interview questions for your target role. Practice your answers aloud. You can even ask the AI for feedback on your responses."
+            },
+            {
+                "title": "# Research Companies Faster",
+                "content": "Give AI a company's website or recent news articles. Ask it to summarize their mission, recent projects, and culture. This helps you show genuine interest."
+            },
+            {
+                "title": "# Draft Thank You Notes",
+                "content": "After an interview, provide AI with key discussion points. Ask it to draft a personalized thank-you email. This shows professionalism and reinforces your fit."
+            }
+        ]
+    },
+    {
         "date": "August 02, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Brainstorm Email Ideas",
                 "content": "Stuck on what to write? Give your AI a topic and audience, and it will suggest various content angles or subject lines to get you started."
-            }
-        ]
-    },
-    {
-        "date": "July 27, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Emails",
-                "content": "Paste lengthy emails or articles into an AI tool. Ask it to provide the main points in a few sentences, saving you time from reading everything."
-            },
-            {
-                "title": "# Generate Content Ideas",
-                "content": "Stuck for ideas? Prompt AI with your topic and audience. It can quickly suggest engaging blog posts, social media captions, or video scripts."
-            },
-            {
-                "title": "# Rephrase Your Text",
-                "content": "Need to make your writing clearer or change its tone? Paste your draft and ask AI to rephrase it. It helps refine your message effortlessly."
-            },
-            {
-                "title": "# Polish Your Writing",
-                "content": "Before sending, let AI proofread your documents. It catches grammar errors, spelling mistakes, and suggests improvements for better clarity."
             }
         ]
     }
