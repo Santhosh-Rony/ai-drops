@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 04, 2026",
+        "items": [
+            {
+                "title": "# Summarize Complex Readings",
+                "content": "Paste lengthy articles or book chapters into AI. It will extract the main ideas, saving you hours of reading time. This helps you grasp core concepts quickly."
+            },
+            {
+                "title": "# Explain Tricky Concepts",
+                "content": "Struggling with a tough concept? Ask AI to explain it simply or provide an analogy. It can break down complex ideas into easy-to-understand pieces."
+            },
+            {
+                "title": "# Generate Study Questions",
+                "content": "Give AI your notes or a study guide and ask it to create practice questions. This is perfect for self-testing and preparing for exams efficiently."
+            },
+            {
+                "title": "# Practice New Languages",
+                "content": "Use AI to practice grammar, translate phrases, or even simulate conversations in a new language. It provides instant feedback and helps build fluency faster."
+            }
+        ]
+    },
+    {
         "date": "August 03, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Identify Key Decisions",
                 "content": "Upload your meeting minutes and prompt the AI to highlight all major decisions made during the discussion. This makes it easy to track progress and refer back to critical agreements."
-            }
-        ]
-    },
-    {
-        "date": "July 28, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Emails",
-                "content": "Paste lengthy emails into your AI to get key takeaways instantly. This saves you time by quickly grasping the main points without reading everything."
-            },
-            {
-                "title": "# Draft Quick Replies",
-                "content": "Tell your AI the context and what you want to say. It will generate a professional draft, speeding up your response time significantly."
-            },
-            {
-                "title": "# Refine Email Tone",
-                "content": "Ask your AI to rewrite a draft to be more formal, friendly, or concise. It helps ensure your message is always clear and appropriate."
-            },
-            {
-                "title": "# Brainstorm Email Ideas",
-                "content": "Stuck on what to write? Give your AI a topic and audience, and it will suggest various content angles or subject lines to get you started."
             }
         ]
     }
