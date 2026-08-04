@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 04, 2026",
+        "items": [
+            {
+                "title": "# Explain Code Logic",
+                "content": "Explain the following [programming language] code snippet step-by-step for a [beginner/intermediate] developer. Focus on its purpose and functionality. Code: [Paste Code Here]"
+            },
+            {
+                "title": "# Generate Code Snippet",
+                "content": "Write a [programming language] function that [describe functionality, e.g., sorts an array of numbers]. Include example usage, comments, and handle common edge cases."
+            },
+            {
+                "title": "# Debug My Code",
+                "content": "Identify and fix any bugs in this [programming language] code. Explain the errors clearly and provide the corrected code. Code: [Paste Code Here]"
+            },
+            {
+                "title": "# Refactor For Clarity",
+                "content": "Refactor the following [programming language] code to improve readability and efficiency, without changing its core functionality. Explain your changes. Code: [Paste Code Here]"
+            }
+        ]
+    },
+    {
         "date": "August 03, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Gather Product Feedback",
                 "content": "Design a survey with 5 open-ended questions to gather feedback on [Product Feature/New Idea] from [Target Audience]. Focus on usability, value, and areas for improvement."
-            }
-        ]
-    },
-    {
-        "date": "July 28, 2026",
-        "items": [
-            {
-                "title": "# Define Your Niche",
-                "content": "Analyze my business idea: [Idea]. Who is the ideal target audience? Describe their demographics, pain points, and needs in detail."
-            },
-            {
-                "title": "# Assess Market Demand",
-                "content": "For my business idea: [Idea], what is the current market demand? Identify potential competitors and suggest ways to differentiate."
-            },
-            {
-                "title": "# Uncover Business Hurdles",
-                "content": "Evaluate the feasibility of my business idea: [Idea]. What are the biggest challenges or risks? Suggest mitigation strategies."
-            },
-            {
-                "title": "# Craft Value Proposition",
-                "content": "Help me articulate a clear value proposition for my business idea: [Idea]. What unique problem does it solve for [Target Audience]?"
             }
         ]
     }
