@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 04, 2026",
+        "items": [
+            {
+                "title": "Qwen3.8-Max",
+                "description": "\u2022 Autonomous programming & code generation.\n\u2022 Deep research & info synthesis.\n\u2022 Handles long-horizon tasks autonomously."
+            },
+            {
+                "title": "SK hynix HBF Specs",
+                "description": "\u2022 Overcomes AI data center memory bottlenecks.\n\u2022 Improves AI inference efficiency & scalability.\n\u2022 Enables new AI infra for agentic apps."
+            },
+            {
+                "title": "Check Point AI Firewall",
+                "description": "\u2022 Controls employee AI use, prevents data loss.\n\u2022 Secures Model Context Protocol (MCP) comms.\n\u2022 Blocks prompt injection & adversarial inputs."
+            },
+            {
+                "title": "AMCAP Agentic AI Plat.",
+                "description": "\u2022 Autonomous global market analysis.\n\u2022 Automated portfolio rebalancing & risk monitoring.\n\u2022 24/7 AI client assistant for HNWIs."
+            }
+        ]
+    },
+    {
         "date": "August 03, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AdvisorPilot",
                 "description": "\u2022 Automate portfolio reviews for financial advisors\n\u2022 Improve client engagement with custom deliverables\n\u2022 Boost operational efficiency for wealth firms"
-            }
-        ]
-    },
-    {
-        "date": "July 30, 2026",
-        "items": [
-            {
-                "title": "Kimi K3",
-                "description": "\u2022 Generate long articles with complex visuals\n\u2022 Analyze vast datasets for deep insights\n\u2022 Solve multi-step engineering problems"
-            },
-            {
-                "title": "Leidos Parcata",
-                "description": "\u2022 Automatically fix zero-day vulnerabilities\n\u2022 Scan code for security flaws proactively\n\u2022 Secure third-party software components"
-            },
-            {
-                "title": "Nimble Web Search Agents",
-                "description": "\u2022 Conduct targeted market analysis\n\u2022 Automate lead information gathering\n\u2022 Curate relevant content efficiently"
-            },
-            {
-                "title": "Powered by Daydream",
-                "description": "\u2022 Search products using natural language\n\u2022 Get personalized product recommendations\n\u2022 Improve e-commerce conversion rates"
             }
         ]
     }
