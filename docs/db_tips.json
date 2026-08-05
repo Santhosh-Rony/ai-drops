@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 05, 2026",
+        "items": [
+            {
+                "title": "# Fix Code Errors",
+                "content": "Paste your problematic code into an AI tool and ask it to identify and explain errors. This saves time by quickly pinpointing issues and suggesting corrections, making debugging much faster."
+            },
+            {
+                "title": "# Generate Boilerplate Code",
+                "content": "Describe the function or component you need, and AI can write basic code snippets for you. Use this for repetitive tasks like setting up common functions or classes, speeding up development."
+            },
+            {
+                "title": "# Understand Complex Code",
+                "content": "If you encounter unfamiliar code, ask AI to explain its purpose line by line or section by section. This helps you quickly grasp new projects or legacy systems without extensive manual research."
+            },
+            {
+                "title": "# Refactor Code Easily",
+                "content": "Provide your existing code to an AI and ask for suggestions to make it more efficient, readable, or follow best practices. It can help improve performance and maintainability effortlessly."
+            }
+        ]
+    },
+    {
         "date": "August 04, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Create Social Posts",
                 "content": "Quickly generate engaging captions and short posts for social media platforms. Just give AI your main message or a link, and it will craft several options for you."
-            }
-        ]
-    },
-    {
-        "date": "July 29, 2026",
-        "items": [
-            {
-                "title": "# Summarize Meeting Notes",
-                "content": "Use AI to condense lengthy meeting transcripts or notes into key takeaways. This helps you quickly recall decisions and action items without rereading everything."
-            },
-            {
-                "title": "# Extract Action Items",
-                "content": "Feed your meeting summary to an AI and ask it to list all action items with assigned owners and deadlines. This ensures nothing is missed and responsibilities are clear."
-            },
-            {
-                "title": "# Generate Follow-up Emails",
-                "content": "After a meeting, ask AI to draft a follow-up email based on the summary and action items. This saves time and ensures consistent communication to all participants."
-            },
-            {
-                "title": "# Identify Key Decisions",
-                "content": "Upload your meeting minutes and prompt the AI to highlight all major decisions made during the discussion. This makes it easy to track progress and refer back to critical agreements."
             }
         ]
     }
