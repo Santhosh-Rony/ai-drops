@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 05, 2026",
+        "items": [
+            {
+                "title": "# Explain Code Error",
+                "content": "Explain this error message: [Paste error message here]. What causes it and how can I fix it in [Programming Language]?"
+            },
+            {
+                "title": "# Refine My Code",
+                "content": "Review this [Programming Language] code for bugs, inefficiencies, and suggest improvements for readability and performance. Code: [Paste code here]."
+            },
+            {
+                "title": "# Find Logic Flaws",
+                "content": "I'm trying to achieve [Desired outcome] with this [Programming Language] code, but it's not working as expected. Find any logical errors. Code: [Paste code here]."
+            },
+            {
+                "title": "# Generate Test Cases",
+                "content": "For this [Programming Language] function, generate 3 unit test cases that could help me identify edge cases or bugs. Function: [Paste function here]."
+            }
+        ]
+    },
+    {
         "date": "August 04, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Pricing Strategy Deepdive",
                 "content": "Describe the pricing strategy of [Competitor Name] for their [Product/Service]. Include pricing tiers, discounts, and value propositions. Suggest potential counter-strategies."
-            }
-        ]
-    },
-    {
-        "date": "July 29, 2026",
-        "items": [
-            {
-                "title": "# Analyze Competitors Fast",
-                "content": "Identify [Number] key competitors for [Product/Service] in the [Industry] market. For each, list their strengths, weaknesses, target audience, and unique selling propositions."
-            },
-            {
-                "title": "# Create Buyer Persona",
-                "content": "Develop a detailed buyer persona for [Product/Service]. Include demographic info, goals, pain points, preferred communication channels, and how [Product/Service] addresses their needs."
-            },
-            {
-                "title": "# Spot Market Trends",
-                "content": "List the top 5 emerging market trends in the [Industry] sector. Explain how each trend could impact businesses and suggest potential opportunities for [Your Company/Product]."
-            },
-            {
-                "title": "# Gather Product Feedback",
-                "content": "Design a survey with 5 open-ended questions to gather feedback on [Product Feature/New Idea] from [Target Audience]. Focus on usability, value, and areas for improvement."
             }
         ]
     }
