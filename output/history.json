@@ -1,9 +1,5 @@
 {
     "tools": [
-        "no new tool found 2",
-        "no new tool found 3",
-        "no new tool found 4",
-        "deepseek v4 flash 0731",
         "ms vs pro 2026 w/ ai",
         "visual studio pro 2026 ai",
         "microsoft vs pro 2026 ai",
@@ -14,6 +10,10 @@
         "qwen3.8-max",
         "sk hynix hbf specs",
         "check point ai firewall",
-        "amcap agentic ai plat."
+        "amcap agentic ai plat.",
+        "rokt brain v4",
+        "unity ai gateway",
+        "xai grok voice tf 2.0",
+        "rubrik agent identity"
     ]
 }

@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 05, 2026",
+        "items": [
+            {
+                "title": "Rokt Brain V4",
+                "description": "\u2022 Optimize e-commerce customer experiences with offers\n\u2022 Accelerate e-commerce innovation & model evolution\n\u2022 Increase online revenue by personalizing transactions"
+            },
+            {
+                "title": "Unity AI Gateway",
+                "description": "\u2022 Govern AI spend, security, and access for enterprises\n\u2022 Observe, control costs, and route AI for maximum value\n\u2022 Enforce runtime guardrails and policies for AI agents"
+            },
+            {
+                "title": "xAI Grok Voice TF 2.0",
+                "description": "\u2022 Generate accurate speech-to-speech AI conversations\n\u2022 Improve transcription accuracy across 24 languages\n\u2022 Faster initial audio responses (0.2s) for better UX"
+            },
+            {
+                "title": "Rubrik Agent Identity",
+                "description": "\u2022 Discover & inventory all AI agents and MCP servers\n\u2022 Implement least-privilege access for AI tools security\n\u2022 Secure AI agents in real-time with new cloud controls"
+            }
+        ]
+    },
+    {
         "date": "August 04, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Varyence AI Ops",
                 "description": "\u2022 Automate finance tasks: invoices, expenses\n\u2022 Streamline sales: lead qualification, CRM\n\u2022 Enhance HR: onboarding, employee queries"
-            }
-        ]
-    },
-    {
-        "date": "July 31, 2026",
-        "items": [
-            {
-                "title": "iFlytek Digital Humans",
-                "description": "\u2022 Automated customer service with lifelike agents\n\u2022 Create digital presenters for live streams\n\u2022 Interactive staff for retail & info kiosks"
-            },
-            {
-                "title": "OpenAI ChatGPT Academics",
-                "description": "\u2022 100K scientists get free GPT-5.6 Sol Pro\n\u2022 Accelerate research with advanced reasoning\n\u2022 Collaborate securely; data not used for training"
-            },
-            {
-                "title": "Google DeepMind Lyria 3.5",
-                "description": "\u2022 Generate music with rich melodies, clear vocals\n\u2022 Create dynamic soundtracks for games/videos\n\u2022 Rapidly prototype musical ideas and vocal styles"
-            },
-            {
-                "title": "AdvisorPilot",
-                "description": "\u2022 Automate portfolio reviews for financial advisors\n\u2022 Improve client engagement with custom deliverables\n\u2022 Boost operational efficiency for wealth firms"
             }
         ]
     }
