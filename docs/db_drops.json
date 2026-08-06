@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 06, 2026",
+        "items": [
+            {
+                "title": "NVIDIA Video Detector",
+                "description": "\u2022 Identify deepfakes in news & social media\n\u2022 Authenticate video for legal cases\n\u2022 Flag & remove AI-generated malicious content"
+            },
+            {
+                "title": "Pentera AI Web App",
+                "description": "\u2022 Continuously test web apps for vulnerabilities\n\u2022 Assess access control & business logic\n\u2022 Chain weaknesses to show business impact"
+            },
+            {
+                "title": "Meta Muse Code (Beta)",
+                "description": "\u2022 Handle full software engineering tasks\n\u2022 Agents build context across sessions\n\u2022 Parallelize coding jobs with sub-agents"
+            },
+            {
+                "title": "Cloudflare AI Gateway",
+                "description": "\u2022 Attach verified identity to AI requests\n\u2022 Set spending limits for AI model usage\n\u2022 Flag risky content to prevent data leaks"
+            }
+        ]
+    },
+    {
         "date": "August 05, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "\u2014",
                 "description": "\u2022 \n\u2022 \n\u2022 "
-            }
-        ]
-    },
-    {
-        "date": "August 01, 2026",
-        "items": [
-            {
-                "title": "MiniMax H3",
-                "description": "\u2022 Create 2K video ads with synced audio\n\u2022 Generate training simulations with actions\n\u2022 Produce short films with aligned audio/video"
-            },
-            {
-                "title": "Gemini Robotics 2",
-                "description": "\u2022 Robots perform complex tasks in manufacturing\n\u2022 Multi-robot collaboration & real-time vision\n\u2022 Whole-body control for humanoid robots"
-            },
-            {
-                "title": "DeepSeek-V4-Flash",
-                "description": "\u2022 Power advanced customer service agents\n\u2022 Develop efficient software engineering agents\n\u2022 Create intelligent personal assistants"
-            },
-            {
-                "title": "Varyence AI Ops",
-                "description": "\u2022 Automate finance tasks: invoices, expenses\n\u2022 Streamline sales: lead qualification, CRM\n\u2022 Enhance HR: onboarding, employee queries"
             }
         ]
     }

@@ -1,9 +1,5 @@
 {
     "tools": [
-        "ms vs pro 2026 w/ ai",
-        "visual studio pro 2026 ai",
-        "microsoft vs pro 2026 ai",
-        "openai astra",
         "klaviyo composer retail",
         "gpt-5.6 sol fast mode",
         "gpt-5.6 luna/terra price",
@@ -14,6 +10,10 @@
         "rokt brain v4",
         "unity ai gateway",
         "xai grok voice tf 2.0",
-        "rubrik agent identity"
+        "rubrik agent identity",
+        "nvidia video detector",
+        "pentera ai web app",
+        "meta muse code (beta)",
+        "cloudflare ai gateway"
     ]
 }
