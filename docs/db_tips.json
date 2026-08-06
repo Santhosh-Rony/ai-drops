@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 06, 2026",
+        "items": [
+            {
+                "title": "# Draft Quick Emails",
+                "content": "Use an AI agent to draft routine emails like meeting recaps or follow-ups. Provide key points, and it will generate a professional message, saving you significant typing time."
+            },
+            {
+                "title": "# Summarize Meeting Notes",
+                "content": "Feed long meeting transcripts or notes to an AI agent. It can quickly extract key decisions, action items, and important discussions, giving you a concise summary."
+            },
+            {
+                "title": "# Brainstorm Content Ideas",
+                "content": "Stuck on content ideas? Ask an AI agent to brainstorm topics for your blog, social media, or presentations based on your industry and target audience. It offers fresh perspectives fast."
+            },
+            {
+                "title": "# Organize Data Instantly",
+                "content": "Upload unorganized lists or data to an AI agent. It can sort, categorize, or reformat information into structured tables or summaries, making sense of chaos in seconds."
+            }
+        ]
+    },
+    {
         "date": "August 05, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Create Brand Identity",
                 "content": "Have AI suggest catchy business names and memorable slogans for your new venture. It offers diverse options, helping you establish a strong brand presence quickly."
-            }
-        ]
-    },
-    {
-        "date": "July 30, 2026",
-        "items": [
-            {
-                "title": "# Content Idea Generator",
-                "content": "Stuck on what to write? Ask AI to brainstorm fresh ideas for your blog, video, or social media based on a topic you provide. It saves time and sparks creativity instantly."
-            },
-            {
-                "title": "# Outline Your Content",
-                "content": "Need a structure for your next article or presentation? AI can quickly generate a detailed outline with key sections and points. This helps organize your thoughts efficiently."
-            },
-            {
-                "title": "# Simplify Complex Text",
-                "content": "If your writing is too technical, use AI to rephrase it into simpler, more accessible language for your audience. It makes complex concepts easy to understand for everyone."
-            },
-            {
-                "title": "# Create Social Posts",
-                "content": "Quickly generate engaging captions and short posts for social media platforms. Just give AI your main message or a link, and it will craft several options for you."
             }
         ]
     }
