@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 06, 2026",
+        "items": [
+            {
+                "title": "# Explain Any Skill",
+                "content": "Explain [Skill Name] to me as if I'm a [Target Audience]. Focus on core concepts and practical applications. Provide a simple exercise to get started."
+            },
+            {
+                "title": "# Create Learning Plan",
+                "content": "Create a beginner's 5-step learning plan for [Skill Name], including recommended resources and practice tasks for each step. Assume I have no prior experience."
+            },
+            {
+                "title": "# Overcome Skill Hurdles",
+                "content": "What are common challenges when learning [Skill Name], and how can I effectively overcome them? Give practical tips and strategies for success."
+            },
+            {
+                "title": "# Build Skill Projects",
+                "content": "Suggest a small project I can complete to learn and practice [Skill Name]. Include project steps, required tools, and expected outcomes for a beginner."
+            }
+        ]
+    },
+    {
         "date": "August 05, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Customer Retention Plan",
                 "content": "Design a customer retention campaign for [Business Type] to improve loyalty. Suggest 3 personalized communication ideas and a simple loyalty program concept."
-            }
-        ]
-    },
-    {
-        "date": "July 30, 2026",
-        "items": [
-            {
-                "title": "# Marketing Tactic Breakdown",
-                "content": "Analyze [Competitor Name]'s marketing for [Product/Service]. Identify key channels, messaging, and target audience. List strengths and weaknesses."
-            },
-            {
-                "title": "# SWOT Competitor Analysis",
-                "content": "Perform a SWOT analysis for [Competitor Name] regarding their [Product/Service]. Focus on their current market position and recent activities."
-            },
-            {
-                "title": "# Feature Comparison Grid",
-                "content": "Create a feature comparison table between our [Product Name] and [Competitor Product Name]. Include [3-5 Key Features] and highlight differences."
-            },
-            {
-                "title": "# Pricing Strategy Deepdive",
-                "content": "Describe the pricing strategy of [Competitor Name] for their [Product/Service]. Include pricing tiers, discounts, and value propositions. Suggest potential counter-strategies."
             }
         ]
     }
