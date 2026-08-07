@@ -1,9 +1,5 @@
 {
     "tools": [
-        "klaviyo composer retail",
-        "gpt-5.6 sol fast mode",
-        "gpt-5.6 luna/terra price",
-        "qwen3.8-max",
         "sk hynix hbf specs",
         "check point ai firewall",
         "amcap agentic ai plat.",
@@ -14,6 +10,10 @@
         "nvidia video detector",
         "pentera ai web app",
         "meta muse code (beta)",
-        "cloudflare ai gateway"
+        "cloudflare ai gateway",
+        "gpt-5.6 sol & luna update",
+        "ibm apptio ai value & roi",
+        "definitive health ai",
+        "nouscoder-14b"
     ]
 }
