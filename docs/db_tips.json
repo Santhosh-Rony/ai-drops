@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 08, 2026",
+        "items": [
+            {
+                "title": "# Meal Plan Creator",
+                "content": "Ask AI to generate a personalized meal plan based on your dietary preferences, allergies, and fitness goals. It saves time and ensures balanced nutrition."
+            },
+            {
+                "title": "# Workout Routine Builder",
+                "content": "Describe your fitness level and available equipment to AI. It can create custom workout routines, helping you stay motivated and target specific muscle groups effectively."
+            },
+            {
+                "title": "# Symptom Checker Assistant",
+                "content": "Use AI to research potential causes for general symptoms, but always remember it's not a substitute for professional medical advice. It can help you prepare questions for your doctor."
+            },
+            {
+                "title": "# Healthy Recipe Adjuster",
+                "content": "Input any recipe and ask AI to make it healthier by reducing sugar, fat, or calories, or by suggesting ingredient substitutions. It helps you enjoy favorites guilt-free."
+            }
+        ]
+    },
+    {
         "date": "August 07, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Proofread For Errors",
                 "content": "Paste your entire resume into an AI tool. Ask it to check for grammar, spelling, and punctuation mistakes. A polished resume shows attention to detail."
-            }
-        ]
-    },
-    {
-        "date": "August 01, 2026",
-        "items": [
-            {
-                "title": "# Content Idea Generator",
-                "content": "Stuck on what to post? Ask AI to brainstorm fresh content ideas for your social media, blog, or email campaigns based on your niche and audience. It saves time and sparks creativity."
-            },
-            {
-                "title": "# Draft Social Posts",
-                "content": "Generate quick drafts for social media captions across different platforms. Provide your key message and target audience, and AI will create engaging text ready for a quick review."
-            },
-            {
-                "title": "# Rewrite Marketing Copy",
-                "content": "Improve your existing marketing text. Ask AI to rephrase headlines, product descriptions, or ad copy to be more compelling, concise, or to fit a specific tone. Get better results faster."
-            },
-            {
-                "title": "# Analyze Customer Feedback",
-                "content": "Quickly understand customer sentiment from reviews or survey responses. AI can summarize common themes and identify key positive or negative feedback, helping you tailor your marketing messages."
             }
         ]
     }
