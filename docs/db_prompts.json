@@ -3,6 +3,27 @@
         "date": "August 08, 2026",
         "items": [
             {
+                "title": "# Build Buyer Profile",
+                "content": "Create a detailed customer persona for my product/service: [Product/Service]. Include demographics, goals, pain points, and preferred communication channels. Name the persona."
+            },
+            {
+                "title": "# Target Content Creator",
+                "content": "Develop a customer persona for [Content Topic] content. Focus on their information needs, preferred content formats, and where they consume content online. Give them a name and brief backstory."
+            },
+            {
+                "title": "# Marketing Strategy Persona",
+                "content": "Generate a customer persona for a marketing campaign targeting [Specific Goal, e.g., 'new software users']. Detail their motivations, objections, and what kind of messaging resonates. Assign a name."
+            },
+            {
+                "title": "# Innovate Product User",
+                "content": "Outline a customer persona for a new [Product Type] feature. Describe their current challenges, desired outcomes, and what features would be most valuable to them. Include a name and age range."
+            }
+        ]
+    },
+    {
+        "date": "August 08, 2026",
+        "items": [
+            {
                 "title": "# Marketing Strategy Agent",
                 "content": "Design an AI agent for [small business] to manage [social media marketing]. Detail its role, goals, and core functions for engaging [target audience]."
             },
@@ -122,27 +143,6 @@
             {
                 "title": "# Boost Audience Engagement",
                 "content": "Suggest a captivating opening hook and a memorable closing statement for a presentation on [Topic] to [Audience]. Include a short anecdote or relatable example for the introduction."
-            }
-        ]
-    },
-    {
-        "date": "August 02, 2026",
-        "items": [
-            {
-                "title": "# Quick Meeting Recap",
-                "content": "Summarize the following meeting transcript into 3-5 key bullet points, including any action items and owners. Transcript: [Paste meeting transcript here]"
-            },
-            {
-                "title": "# Audience Specific Summary",
-                "content": "Summarize the key decisions and next steps from this meeting transcript for a [Audience, e.g., executive, technical team] audience. Transcript: [Paste meeting transcript here]"
-            },
-            {
-                "title": "# Decisions Next Steps",
-                "content": "Extract all decisions made and identified next steps from the following meeting transcript. List them clearly with responsible parties and deadlines if mentioned. Transcript: [Paste transcript]"
-            },
-            {
-                "title": "# Key Discussion Points",
-                "content": "Analyze the following meeting transcript and identify the top 3-5 most important discussion points and any unresolved questions. Present as bullet points. Transcript: [Paste transcript]"
             }
         ]
     }
