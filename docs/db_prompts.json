@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 08, 2026",
+        "items": [
+            {
+                "title": "# Marketing Strategy Agent",
+                "content": "Design an AI agent for [small business] to manage [social media marketing]. Detail its role, goals, and core functions for engaging [target audience]."
+            },
+            {
+                "title": "# Personal Tutor Agent",
+                "content": "Create an AI tutor agent for [subject, e.g., calculus] for [high school students]. Specify its teaching style and how it handles errors."
+            },
+            {
+                "title": "# Customer Service Agent",
+                "content": "Outline an AI customer support agent for [e-commerce store]. Describe its personality, escalation path, and knowledge source for FAQs."
+            },
+            {
+                "title": "# Research Assistant Agent",
+                "content": "Formulate an AI research assistant for [academic field]. Detail its information gathering strategy, data synthesis, and output format for [reports]."
+            }
+        ]
+    },
+    {
         "date": "August 07, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Key Discussion Points",
                 "content": "Analyze the following meeting transcript and identify the top 3-5 most important discussion points and any unresolved questions. Present as bullet points. Transcript: [Paste transcript]"
-            }
-        ]
-    },
-    {
-        "date": "August 01, 2026",
-        "items": [
-            {
-                "title": "# Address Common Issues",
-                "content": "Draft a polite and helpful customer support reply addressing a common issue with [Product/Service] regarding [Specific Problem]. Focus on empathy and providing a clear solution."
-            },
-            {
-                "title": "# Thank Happy Customers",
-                "content": "Write a warm and appreciative customer support response to a positive review about [Product/Service] from [Customer Name/User ID]. Encourage continued engagement."
-            },
-            {
-                "title": "# Manage Refund Requests",
-                "content": "Generate a customer support email for a refund request for [Product/Service]. State the policy clearly, offer alternatives if possible, and maintain a respectful tone."
-            },
-            {
-                "title": "# Explain Service Delays",
-                "content": "Create a concise customer support message explaining a recent service delay or outage for [Product/Service]. Apologize, state the impact, and provide an estimated resolution time if known."
             }
         ]
     }
