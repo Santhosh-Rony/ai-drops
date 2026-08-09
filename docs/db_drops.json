@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 09, 2026",
+        "items": [
+            {
+                "title": "NVIDIA NOOA Agent Fmwk",
+                "description": "\u2022 Automate software dev & bug fixing\n\u2022 Boost cybersecurity with autonomous testing\n\u2022 Build & deploy custom AI agents in Python"
+            },
+            {
+                "title": "Rippling AI Spend Console",
+                "description": "\u2022 Track & monitor AI spending organization-wide\n\u2022 Identify high-spending AI users/teams\n\u2022 Align AI investments with business goals"
+            },
+            {
+                "title": "Anthropic Cowork",
+                "description": "\u2022 Automate knowledge tasks on local files\n\u2022 Process & analyze multiple documents for research\n\u2022 Create & edit content using Claude on desktop"
+            },
+            {
+                "title": "Cloudflare AI Infra Suite",
+                "description": "\u2022 Host & manage AI agents securely\n\u2022 Detect & mitigate threats from malicious AI agents\n\u2022 Deploy & secure AI agent apps reliably"
+            }
+        ]
+    },
+    {
         "date": "August 08, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "GPT-5.6 Luna/Terra Price",
                 "description": "\u2022 Cost-effective high-volume AI workflows.\n\u2022 Lower barrier for startups to access frontier AI.\n\u2022 Enable broader AI experimentation & deployment."
-            }
-        ]
-    },
-    {
-        "date": "August 02, 2026",
-        "items": [
-            {
-                "title": "DeepSeek V4 Flash 0731",
-                "description": "\u2022 High-perf coding assistant\n\u2022 Cost-effective AI integration\n\u2022 Open-weight model development"
-            },
-            {
-                "title": "MS VS Pro 2026 w/ AI",
-                "description": "\u2022 Intelligent code suggestions\n\u2022 Enhanced code understanding\n\u2022 Accelerated software dev"
-            },
-            {
-                "title": "Visual Studio Pro 2026 AI",
-                "description": "\u2022 Intelligent code completion & suggestions\n\u2022 Enhanced code understanding & navigation\n\u2022 Accelerated software development"
-            },
-            {
-                "title": "Microsoft VS Pro 2026 AI",
-                "description": "\u2022 AI-powered code suggestions for faster, error-free coding.\n\u2022 AI augments CodeLens for better code context & insights.\n\u2022 Streamlines development from coding to maintenance."
             }
         ]
     }

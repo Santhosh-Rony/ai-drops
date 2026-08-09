@@ -1,9 +1,5 @@
 {
     "tools": [
-        "unity ai gateway",
-        "xai grok voice tf 2.0",
-        "rubrik agent identity",
-        "nvidia video detector",
         "pentera ai web app",
         "meta muse code (beta)",
         "cloudflare ai gateway",
@@ -14,6 +10,10 @@
         "alibaba qwen 3.8-max",
         "google gemini 3.6/3.5",
         "adobe chatgpt plugin",
-        "realanalytica atlas"
+        "realanalytica atlas",
+        "nvidia nooa agent fmwk",
+        "rippling ai spend console",
+        "anthropic cowork",
+        "cloudflare ai infra suite"
     ]
 }
