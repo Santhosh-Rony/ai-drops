@@ -3,6 +3,27 @@
         "date": "August 09, 2026",
         "items": [
             {
+                "title": "Human: Resume Writing",
+                "description": "\u2022 Hours spent agonizing over wording and formatting.\n\u2022 Misses keywords; hard to tailor for each job.\n\u2022 Deeply understands personal story, career goals."
+            },
+            {
+                "title": "AI: Resume Writing",
+                "description": "\u2022 Drafts quickly, suggests tailored content in minutes.\n\u2022 Optimizes keywords for Applicant Tracking Systems.\n\u2022 Lacks personal touch; can sound generic or fake."
+            },
+            {
+                "title": "Human: Translating Text",
+                "description": "\u2022 Time-consuming; requires fluency and cultural insight.\n\u2022 Can miss subtle nuances, cultural context, idioms.\n\u2022 Captures emotion, tone, and cultural subtleties."
+            },
+            {
+                "title": "AI: Translating Text",
+                "description": "\u2022 Instant translation of large texts, many languages.\n\u2022 Handles repetitive, factual text with high speed.\n\u2022 Struggles with slang, humor, deep cultural context."
+            }
+        ]
+    },
+    {
+        "date": "August 09, 2026",
+        "items": [
+            {
                 "title": "NVIDIA NOOA Agent Fmwk",
                 "description": "\u2022 Automate software dev & bug fixing\n\u2022 Boost cybersecurity with autonomous testing\n\u2022 Build & deploy custom AI agents in Python"
             },
@@ -122,27 +143,6 @@
             {
                 "title": "AMCAP Agentic AI Plat.",
                 "description": "\u2022 Autonomous global market analysis.\n\u2022 Automated portfolio rebalancing & risk monitoring.\n\u2022 24/7 AI client assistant for HNWIs."
-            }
-        ]
-    },
-    {
-        "date": "August 03, 2026",
-        "items": [
-            {
-                "title": "OpenAI Astra",
-                "description": "\u2022 Solve complex problems & reason across domains.\n\u2022 Generate creative content: text, code, multimedia.\n\u2022 Analyze data, find subtle patterns in large sets."
-            },
-            {
-                "title": "Klaviyo Composer Retail",
-                "description": "\u2022 Automate customer inquiries for order tracking.\n\u2022 Streamline returns & exchanges with AI agents.\n\u2022 Manage subscriptions & loyalty programs via AI."
-            },
-            {
-                "title": "GPT-5.6 Sol Fast mode",
-                "description": "\u2022 Faster processing for quick AI agent responses.\n\u2022 Accelerate high-volume agentic workflows.\n\u2022 Rapid data analysis in time-critical tasks."
-            },
-            {
-                "title": "GPT-5.6 Luna/Terra Price",
-                "description": "\u2022 Cost-effective high-volume AI workflows.\n\u2022 Lower barrier for startups to access frontier AI.\n\u2022 Enable broader AI experimentation & deployment."
             }
         ]
     }
