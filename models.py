@@ -59,7 +59,7 @@ class PostContent:
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "PostContent":
         return cls(
-            header=data.get("header", "AI DROPS"),
+            header=data.get("header", "HUMANS vs AI"),
             tool_1=ContentBlock(**data.get("tool_1", {})),
             tool_2=ContentBlock(**data.get("tool_2", {})),
             tool_3=ContentBlock(**data.get("tool_3", {})),

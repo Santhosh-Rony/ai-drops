@@ -10,7 +10,7 @@ from image_uploader import upload_image
 from database import save_to_database
 from state_manager import get_next_idea_index
 from core_ideas import AI_TIPS_IDEAS, AI_PROMPTS_IDEAS
-from prompt import get_ai_drops_prompt, get_ai_tips_prompt, get_ai_prompts_prompt
+from prompt import get_ai_tips_prompt, get_ai_prompts_prompt
 
 def cleanup_old_images(prefix: str):
     """
