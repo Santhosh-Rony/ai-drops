@@ -7,12 +7,10 @@ from config import Config
 from ai_content_generator import generate_ai_content
 from template_renderer import get_template_for_day, render_post
 from image_uploader import upload_image
-from history import load_history, save_history
 from database import save_to_database
 from state_manager import get_next_idea_index
 from core_ideas import AI_TIPS_IDEAS, AI_PROMPTS_IDEAS
 from prompt import get_ai_drops_prompt, get_ai_tips_prompt, get_ai_prompts_prompt
-from ai_content_generator import generate_ai_content, _generate_drops_with_gemini
 
 def cleanup_old_images(prefix: str):
     """
@@ -59,36 +57,21 @@ def main():
         dynamic_prompt = ""
         
         if post_type == "drops":
-            from prompt import get_ai_drops_research_prompt
-            from ai_content_generator import perform_gemini_research
-            from datetime import datetime, timezone
+            from core_ideas import HUMANS_VS_AI_IDEAS
+            from prompt import get_humans_vs_ai_prompt
             
-            past_tools = load_history()
-            now_iso = datetime.now(timezone.utc).isoformat()
+            is_passage = False
             
-            # Call 1: Grounded Research
-            research_prompt = get_ai_drops_research_prompt(now_iso, excluded_tools=past_tools)
-            research_notes = perform_gemini_research(research_prompt)
+            # Fetch 2 tasks for the showdown
+            idx1 = get_next_idea_index("drops", len(HUMANS_VS_AI_IDEAS), increment=1)
+            idx2 = get_next_idea_index("drops", len(HUMANS_VS_AI_IDEAS), increment=1)
             
-            # Call 2: Generate with local dedup + repair pattern
-            post_content = _generate_drops_with_gemini(
-                now_iso=now_iso,
-                research_notes=research_notes,
-                past_tools=past_tools,
-                target_count=4,
-                max_repair_rounds=2
-            )
+            task_1 = HUMANS_VS_AI_IDEAS[idx1]
+            task_2 = HUMANS_VS_AI_IDEAS[idx2]
+            logger.info(f"Selected Tasks for Humans vs AI: 1) {task_1} 2) {task_2}")
             
-            # Save the 4 tool names to history to avoid repeats tomorrow
-            new_tool_names = [
-                post_content.tool_1.title,
-                post_content.tool_2.title,
-                post_content.tool_3.title,
-                post_content.tool_4.title
-            ]
-            # Filter out placeholder padding (—) before saving
-            new_tool_names = [t for t in new_tool_names if t and t != "—"]
-            save_history(new_tool_names)
+            dynamic_prompt = get_humans_vs_ai_prompt(task_1, task_2)
+            post_content = generate_ai_content(dynamic_prompt=dynamic_prompt, is_passage=is_passage)
         elif post_type == "tips":
             is_passage = True
             idx = get_next_idea_index("tips", len(AI_TIPS_IDEAS))

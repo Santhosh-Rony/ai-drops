@@ -1,83 +1,70 @@
-def get_ai_drops_research_prompt(now_iso: str, excluded_tools: list[str] = None) -> str:
-    exclusion_text = ""
-    if excluded_tools:
-        exclusion_text = "\n<critical_rule>\nDO NOT include any of the following tools, as they have already been covered recently:\n"
-        for tool in excluded_tools:
-            exclusion_text += f"- {tool}\n"
-        exclusion_text += "</critical_rule>\n"
-            
+def get_humans_vs_ai_prompt(task_1: str, task_2: str) -> str:
     return f"""<role>
-You are an expert AI industry researcher. Your job is to search the web and find the 4 most impactful, useful, and recent AI tools, chatbots, or models.
+You are an expert at comparing how humans traditionally handle everyday tasks versus how AI handles the same tasks. You write balanced, honest, and practical content.
 </role>
 
 <task>
-Perform a web search to find exactly 4 genuinely new AI tools or products.
-Today's Date/Time is: {now_iso}.
-{exclusion_text}
+Create a "HUMANS vs AI" comparison post for exactly 2 tasks: "{task_1}" and "{task_2}".
+For each task, generate 2 blocks:
+- Block 1: "Human:" perspective — how a normal person does this task (time, effort, common mistakes)
+- Block 2: "AI:" perspective — how AI handles the same task (speed, accuracy, limitations)
 </task>
 
-<strict_time_constraint>
-CRITICAL: You MUST ONLY select tools that were released or significantly updated within the LAST 24 HOURS based on the current time ({now_iso}).
-If fewer than 4 genuinely new tools exist, you MUST explicitly admit it in your notes rather than padding the list with older tools from your memory.
-</strict_time_constraint>
-
-<output_format>
-Return your findings as plain text research notes. For each tool, include the verified release date and 3 practical use-cases.
-</output_format>
-"""
-
-def get_ai_drops_prompt(now_iso: str, research_notes: str, excluded_tools: list[str] = None, count: int = 4) -> str:
-    exclusion_text = ""
-    if excluded_tools:
-        exclusion_text = "\n<critical_rule>\nDO NOT include any of the following tools. They have already been used and must NOT appear in your output:\n"
-        for tool in excluded_tools:
-            exclusion_text += f"- {tool}\n"
-        exclusion_text += "</critical_rule>\n"
-            
-    return f"""<role>
-You are a strict data formatter. Your job is to format the provided research notes into a strict JSON schema.
-</role>
-
-<task>
-Format exactly {count} AI tool(s) from the provided research notes.
-Current Time: {now_iso}
-{exclusion_text}
-</task>
-
-<research_notes>
-{research_notes}
-</research_notes>
-
-<strict_formatting_rules>
-CRITICAL: You MUST ONLY use the tools present in the <research_notes> block. Under no circumstances are you allowed to pull tools from your own training memory.
-</strict_formatting_rules>
+<guidelines>
+- Be HONEST and BALANCED. Show where humans struggle AND where AI has limitations.
+- Write for normal, non-technical people. Use simple, clear English.
+- Each point should be a punchy, specific observation — not generic fluff.
+- The human perspective should feel relatable ("we've all been there").
+- The AI perspective should feel practical ("here's what it actually does").
+- Do NOT just praise AI. Include real AI weaknesses (hallucination, lack of emotion, no real-time data, etc.)
+</guidelines>
 
 <constraints>
-1. Exactly {count} tool(s) are required. Pick the best {count} from the research notes.
-2. CRITICAL: All tools MUST be completely unique from each other AND from any tools in the exclusion list above.
-3. Shorten tool names to a maximum of 25 characters. Use widely recognized abbreviations if necessary.
-4. For each tool, provide exactly 3 use-cases or benefits.
-5. Each use-case MUST be extremely concise, plain English, and fit within 60 characters maximum.
-6. The header MUST be exactly "AI DROPS".
-7. The caption MUST be highly optimized for Instagram Reels. Keep it very short (under 3 sentences), start with a punchy hook, and include a clear call-to-action (e.g. "Save this reel!" or "Drop a 🚀"). Avoid cringey marketing buzzwords.
+1. The header MUST be exactly "HUMANS vs AI".
+2. Exactly 4 blocks are required in this exact order:
+   - tool_1: Human perspective on "{task_1}" (title MUST start with "Human:")
+   - tool_2: AI perspective on "{task_1}" (title MUST start with "AI:")
+   - tool_3: Human perspective on "{task_2}" (title MUST start with "Human:")
+   - tool_4: AI perspective on "{task_2}" (title MUST start with "AI:")
+3. CRITICAL: Each title MUST be maximum 25 characters including the "Human: " or "AI: " prefix. Keep task names very short.
+4. Each point (point_1, point_2, point_3) MUST be under 60 characters.
+5. The caption MUST be engaging for Instagram. Keep it under 3 sentences. Start with a hook, end with a call-to-action (e.g. "Who wins? Comment below! 👇" or "Save this for later! 🔖"). Include relevant emojis.
 </constraints>
 
 <json_format>
 {{
-    "header": "AI DROPS",
-    "tools": [
-        {{
-            "title": "<Tool Name (max 25 chars)>",
-            "point_1": "<Benefit 1 (max 60 chars)>",
-            "point_2": "<Benefit 2 (max 60 chars)>",
-            "point_3": "<Benefit 3 (max 60 chars)>"
-        }}
-    ],
-    "caption": "<Engaging, jargon-free Instagram caption>",
-    "hashtags": "#aidrops #ai #artificialintelligence"
+    "header": "HUMANS vs AI",
+    "tool_1": {{
+        "title": "Human: {task_1[:15]}",
+        "point_1": "<How humans approach this task — time/effort (max 60 chars)>",
+        "point_2": "<Common human mistakes or frustrations (max 60 chars)>",
+        "point_3": "<What humans do better than AI here (max 60 chars)>"
+    }},
+    "tool_2": {{
+        "title": "AI: {task_1[:18]}",
+        "point_1": "<How AI handles this task — speed/accuracy (max 60 chars)>",
+        "point_2": "<What AI does better than humans here (max 60 chars)>",
+        "point_3": "<AI's real limitation or weakness here (max 60 chars)>"
+    }},
+    "tool_3": {{
+        "title": "Human: {task_2[:15]}",
+        "point_1": "<How humans approach this task — time/effort (max 60 chars)>",
+        "point_2": "<Common human mistakes or frustrations (max 60 chars)>",
+        "point_3": "<What humans do better than AI here (max 60 chars)>"
+    }},
+    "tool_4": {{
+        "title": "AI: {task_2[:18]}",
+        "point_1": "<How AI handles this task — speed/accuracy (max 60 chars)>",
+        "point_2": "<What AI does better than humans here (max 60 chars)>",
+        "point_3": "<AI's real limitation or weakness here (max 60 chars)>"
+    }},
+    "caption": "<Engaging Instagram caption with emojis and CTA>",
+    "hashtags": "#HumansVsAI #AI #artificialintelligence #aihacks #productivity"
 }}
 </json_format>
 """
+
+
 
 def get_ai_tips_prompt(core_idea: str) -> str:
     return f"""<role>
