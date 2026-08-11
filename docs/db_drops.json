@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 11, 2026",
+        "items": [
+            {
+                "title": "Human: Trip Planning",
+                "description": "\u2022 Hours of research, comparing flights & hotels manually.\n\u2022 Overwhelmed by choices, missing deals, forgetting details.\n\u2022 Intuitive understanding of personal preferences & mood."
+            },
+            {
+                "title": "AI: Trip Planning",
+                "description": "\u2022 Generates itineraries, suggests activities in seconds.\n\u2022 Rapidly sifts through vast amounts of location data.\n\u2022 Lacks real-time pricing; can 'hallucinate' places."
+            },
+            {
+                "title": "Human: Email Drafting",
+                "description": "\u2022 Takes time to find right words, proofread, ensure tone.\n\u2022 Writer's block, typos, unclear messages, wrong tone.\n\u2022 Genuine empathy, nuanced emotional understanding, personal"
+            },
+            {
+                "title": "AI: Email Drafting",
+                "description": "\u2022 Drafts emails quickly for various purposes and tones.\n\u2022 Ensures grammar, spelling, and consistent professional tone.\n\u2022 Can sound generic or lack true human emotion/context."
+            }
+        ]
+    },
+    {
         "date": "August 10, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Cloudflare AI Gateway",
                 "description": "\u2022 Attach verified identity to AI requests\n\u2022 Set spending limits for AI model usage\n\u2022 Flag risky content to prevent data leaks"
-            }
-        ]
-    },
-    {
-        "date": "August 05, 2026",
-        "items": [
-            {
-                "title": "Rokt Brain V4",
-                "description": "\u2022 Optimize e-commerce customer experiences with offers\n\u2022 Accelerate e-commerce innovation & model evolution\n\u2022 Increase online revenue by personalizing transactions"
-            },
-            {
-                "title": "Unity AI Gateway",
-                "description": "\u2022 Govern AI spend, security, and access for enterprises\n\u2022 Observe, control costs, and route AI for maximum value\n\u2022 Enforce runtime guardrails and policies for AI agents"
-            },
-            {
-                "title": "xAI Grok Voice TF 2.0",
-                "description": "\u2022 Generate accurate speech-to-speech AI conversations\n\u2022 Improve transcription accuracy across 24 languages\n\u2022 Faster initial audio responses (0.2s) for better UX"
-            },
-            {
-                "title": "Rubrik Agent Identity",
-                "description": "\u2022 Discover & inventory all AI agents and MCP servers\n\u2022 Implement least-privilege access for AI tools security\n\u2022 Secure AI agents in real-time with new cloud controls"
             }
         ]
     }
