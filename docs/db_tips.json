@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 12, 2026",
+        "items": [
+            {
+                "title": "# Spot AI Bias",
+                "content": "AI models learn from data, and if that data is skewed, the AI will be too. Always question AI outputs, especially for critical decisions, to ensure they are fair and accurate."
+            },
+            {
+                "title": "# Diverse Data Matters",
+                "content": "AI bias often starts with unrepresentative training data. Encourage and seek out AI tools that are built on diverse and inclusive datasets to get more balanced results."
+            },
+            {
+                "title": "# Human Oversight Is Key",
+                "content": "Even the best AI can make mistakes or reflect hidden biases. Always use human judgment to review AI-generated content or decisions, especially in sensitive areas."
+            },
+            {
+                "title": "# Ask AI Questions",
+                "content": "When an AI gives an answer, ask it 'Why did you say that?' or 'What assumptions are you making?'. This helps uncover potential biases or limitations in its reasoning."
+            }
+        ]
+    },
+    {
         "date": "August 11, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Organize Data Instantly",
                 "content": "Upload unorganized lists or data to an AI agent. It can sort, categorize, or reformat information into structured tables or summaries, making sense of chaos in seconds."
-            }
-        ]
-    },
-    {
-        "date": "August 05, 2026",
-        "items": [
-            {
-                "title": "# Fix Code Errors",
-                "content": "Paste your problematic code into an AI tool and ask it to identify and explain errors. This saves time by quickly pinpointing issues and suggesting corrections, making debugging much faster."
-            },
-            {
-                "title": "# Generate Boilerplate Code",
-                "content": "Describe the function or component you need, and AI can write basic code snippets for you. Use this for repetitive tasks like setting up common functions or classes, speeding up development."
-            },
-            {
-                "title": "# Understand Complex Code",
-                "content": "If you encounter unfamiliar code, ask AI to explain its purpose line by line or section by section. This helps you quickly grasp new projects or legacy systems without extensive manual research."
-            },
-            {
-                "title": "# Refactor Code Easily",
-                "content": "Provide your existing code to an AI and ask for suggestions to make it more efficient, readable, or follow best practices. It can help improve performance and maintainability effortlessly."
             }
         ]
     }
