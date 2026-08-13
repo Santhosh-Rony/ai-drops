@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 13, 2026",
+        "items": [
+            {
+                "title": "Human: Photo Editing",
+                "description": "\u2022 Manual adjustments; takes time to learn software.\n\u2022 Inconsistent results; easily overwhelmed by options.\n\u2022 Applies unique creative vision and emotional depth."
+            },
+            {
+                "title": "AI: Photo Editing",
+                "description": "\u2022 Instant fixes: removes objects, enhances colors fast.\n\u2022 Automates repetitive tasks with high consistency.\n\u2022 Lacks artistic judgment; can over-process images."
+            },
+            {
+                "title": "Human: Budget Planning",
+                "description": "\u2022 Manual tracking, often tedious and time-consuming.\n\u2022 Forgetting expenses; emotional spending decisions.\n\u2022 Adapts to life changes; understands personal values."
+            },
+            {
+                "title": "AI: Budget Planning",
+                "description": "\u2022 Analyzes spending patterns; suggests savings fast.\n\u2022 Identifies trends and potential overspending quickly.\n\u2022 Limited by data; no empathy for real-life situations."
+            }
+        ]
+    },
+    {
         "date": "August 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "RealAnalytica Atlas",
                 "description": "\u2022 Automate lead follow-up & client engagement.\n\u2022 Assists with listing analysis & transaction management.\n\u2022 Generate marketing materials; manage real estate tasks."
-            }
-        ]
-    },
-    {
-        "date": "August 07, 2026",
-        "items": [
-            {
-                "title": "GPT-5.6 Sol & Luna Update",
-                "description": "\u2022 Get more reliable facts and focused answers\n\u2022 Adjust reasoning for complex research\n\u2022 Free users get unlimited text chats"
-            },
-            {
-                "title": "IBM Apptio AI Value & ROI",
-                "description": "\u2022 Track AI investment ROI across business metrics\n\u2022 Optimize AI spending by linking costs to outcomes\n\u2022 Make data-driven decisions on future AI projects"
-            },
-            {
-                "title": "Definitive Health AI",
-                "description": "\u2022 Size healthcare market opportunities with AI\n\u2022 Optimize sales territories, identify decision-makers\n\u2022 Reduce patient leakage for health systems"
-            },
-            {
-                "title": "NousCoder-14B",
-                "description": "\u2022 Open-source coding assistance for developers\n\u2022 Automate repetitive coding tasks efficiently\n\u2022 Integrate into smaller coding agents"
             }
         ]
     }
