@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 13, 2026",
+        "items": [
+            {
+                "title": "# Write Website Copy",
+                "content": "Provide AI with your key information and purpose. It can quickly generate various text options, saving you significant writing time."
+            },
+            {
+                "title": "# Brainstorm Design Layouts",
+                "content": "Ask AI for creative suggestions on how to arrange elements and content. This helps visualize different website layouts and features."
+            },
+            {
+                "title": "# Boost Search Ranking",
+                "content": "Use AI to identify popular search terms for your niche. It can then craft meta descriptions that attract more clicks from search results."
+            },
+            {
+                "title": "# Generate Image AltText",
+                "content": "Submit your images to AI for precise alt text. This makes your site more inclusive for screen readers and improves its SEO performance."
+            }
+        ]
+    },
+    {
         "date": "August 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Human Review Essential",
                 "content": "Never publish or act on AI-generated content without a human review. A quick read-through can prevent errors and ensure accuracy."
-            }
-        ]
-    },
-    {
-        "date": "August 06, 2026",
-        "items": [
-            {
-                "title": "# Draft Quick Emails",
-                "content": "Use an AI agent to draft routine emails like meeting recaps or follow-ups. Provide key points, and it will generate a professional message, saving you significant typing time."
-            },
-            {
-                "title": "# Summarize Meeting Notes",
-                "content": "Feed long meeting transcripts or notes to an AI agent. It can quickly extract key decisions, action items, and important discussions, giving you a concise summary."
-            },
-            {
-                "title": "# Brainstorm Content Ideas",
-                "content": "Stuck on content ideas? Ask an AI agent to brainstorm topics for your blog, social media, or presentations based on your industry and target audience. It offers fresh perspectives fast."
-            },
-            {
-                "title": "# Organize Data Instantly",
-                "content": "Upload unorganized lists or data to an AI agent. It can sort, categorize, or reformat information into structured tables or summaries, making sense of chaos in seconds."
             }
         ]
     }
