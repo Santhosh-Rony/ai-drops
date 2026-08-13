@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 13, 2026",
+        "items": [
+            {
+                "title": "# Craft Invitations Easily",
+                "content": "Draft a fun and engaging birthday party invitation for a [Age]th birthday. Include details for [Date], [Time], [Location], [RSVP Contact], and [Theme]."
+            },
+            {
+                "title": "# Brainstorm Party Themes",
+                "content": "Suggest 5 unique and fun birthday party themes for a [Age]-year-old, along with 3 simple decoration ideas for each theme. Focus on [Child's Interests]."
+            },
+            {
+                "title": "# Plan Fun Games",
+                "content": "Generate 3 interactive and age-appropriate game ideas for a [Age]-year-old's birthday party with a [Theme]. Include brief instructions for each game."
+            },
+            {
+                "title": "# Create Party Menu",
+                "content": "Propose a simple and kid-friendly birthday party menu for [Number] guests, considering [Dietary Restrictions, e.g., nut-free]. Include appetizers, main dishes, and dessert options."
+            }
+        ]
+    },
+    {
         "date": "August 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Research Assistant Agent",
                 "content": "Formulate an AI research assistant for [academic field]. Detail its information gathering strategy, data synthesis, and output format for [reports]."
-            }
-        ]
-    },
-    {
-        "date": "August 07, 2026",
-        "items": [
-            {
-                "title": "# Condense Key Information",
-                "content": "Summarize the following text into 5-7 key bullet points, highlighting the most important concepts and definitions: [Paste Text Here]"
-            },
-            {
-                "title": "# Generate Flashcards Easily",
-                "content": "Create 10 flashcard questions and answers from this text. Format each as Q: [Question] A: [Answer]. Focus on essential facts: [Paste Text Here]"
-            },
-            {
-                "title": "# Simplify Tough Concepts",
-                "content": "Explain [Complex Topic] in simple terms, as if to a [Target Audience, e.g., high school student], using analogies. Focus on core ideas."
-            },
-            {
-                "title": "# Practice Exam Questions",
-                "content": "Generate 5 multiple-choice questions with answers, and 2 short-answer questions based on the following study material: [Paste Study Material Here]"
             }
         ]
     }
