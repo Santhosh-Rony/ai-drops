@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 14, 2026",
+        "items": [
+            {
+                "title": "# Brainstorm Gift Ideas",
+                "content": "I need gift ideas for [Recipient's Relationship, e.g., my mom, my friend]. They enjoy [Hobbies/Interests] and their personality is [Personality Traits]. Suggest 5 unique gift ideas under [Budget]."
+            },
+            {
+                "title": "# Experience Gift Ideas",
+                "content": "Suggest 3 experience-based gift ideas for [Recipient's Relationship]. They live in [City/Region] and are interested in [Activity Types, e.g., cooking, adventure, relaxation]. Focus on memorable"
+            },
+            {
+                "title": "# Personalized Gift Ideas",
+                "content": "I want to create a personalized gift for [Recipient's Relationship]. They appreciate [Type of personalization, e.g., handmade, sentimental, humorous]. Give me 3 DIY gift ideas I can make or customize."
+            },
+            {
+                "title": "# Last Minute Gifts",
+                "content": "I need quick, last-minute gift ideas for [Recipient's Relationship] for [Occasion]. I have [Timeframe, e.g., 2 hours, tomorrow morning] and a budget of [Budget]. Suggest 3 easy-to-acquire gifts."
+            }
+        ]
+    },
+    {
         "date": "August 13, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Innovate Product User",
                 "content": "Outline a customer persona for a new [Product Type] feature. Describe their current challenges, desired outcomes, and what features would be most valuable to them. Include a name and age range."
-            }
-        ]
-    },
-    {
-        "date": "August 08, 2026",
-        "items": [
-            {
-                "title": "# Marketing Strategy Agent",
-                "content": "Design an AI agent for [small business] to manage [social media marketing]. Detail its role, goals, and core functions for engaging [target audience]."
-            },
-            {
-                "title": "# Personal Tutor Agent",
-                "content": "Create an AI tutor agent for [subject, e.g., calculus] for [high school students]. Specify its teaching style and how it handles errors."
-            },
-            {
-                "title": "# Customer Service Agent",
-                "content": "Outline an AI customer support agent for [e-commerce store]. Describe its personality, escalation path, and knowledge source for FAQs."
-            },
-            {
-                "title": "# Research Assistant Agent",
-                "content": "Formulate an AI research assistant for [academic field]. Detail its information gathering strategy, data synthesis, and output format for [reports]."
             }
         ]
     }
