@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 14, 2026",
+        "items": [
+            {
+                "title": "# Outline Your Script",
+                "content": "Use AI to quickly generate a structured outline for your podcast or video. This saves brainstorming time and ensures a logical flow for your content."
+            },
+            {
+                "title": "# Generate Episode Ideas",
+                "content": "Ask AI for fresh topic ideas based on your niche or previous episodes. It can help overcome creative blocks and keep your content engaging."
+            },
+            {
+                "title": "# Write Intro Outros",
+                "content": "Let AI craft compelling intros and outros for your episodes. This ensures a consistent brand voice and hooks your audience from the start."
+            },
+            {
+                "title": "# Draft Show Notes",
+                "content": "Use AI to draft detailed show notes or video descriptions from your script. This helps with SEO and gives listeners a quick summary of key points."
+            }
+        ]
+    },
+    {
         "date": "August 13, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Healthy Recipe Adjuster",
                 "content": "Input any recipe and ask AI to make it healthier by reducing sugar, fat, or calories, or by suggesting ingredient substitutions. It helps you enjoy favorites guilt-free."
-            }
-        ]
-    },
-    {
-        "date": "August 07, 2026",
-        "items": [
-            {
-                "title": "# Verify AI Facts",
-                "content": "AI can confidently make up information. Always double-check critical details, like dates, names, or statistics, with a reliable source before trusting them."
-            },
-            {
-                "title": "# Cross-Reference AI Answers",
-                "content": "If an AI provides a surprising or unusual answer, ask it the same question in a different way or use another AI tool. This helps catch inconsistencies."
-            },
-            {
-                "title": "# Use AI for Ideas",
-                "content": "Treat AI as a brainstorming partner, not a definitive expert. Its strength is generating concepts, not always providing perfectly accurate data."
-            },
-            {
-                "title": "# Human Review Essential",
-                "content": "Never publish or act on AI-generated content without a human review. A quick read-through can prevent errors and ensure accuracy."
             }
         ]
     }
