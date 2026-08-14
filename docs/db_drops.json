@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 14, 2026",
+        "items": [
+            {
+                "title": "Human: Recipe Finding",
+                "description": "\u2022 Scroll endless blogs, cookbooks, family recipes.\n\u2022 Ingredient substitutions are a nightmare.\n\u2022 Intuitive sense for what 'looks good'."
+            },
+            {
+                "title": "AI: Recipe Finding",
+                "description": "\u2022 Generates recipes instantly based on criteria.\n\u2022 Suggests substitutions, adjusts portions easily.\n\u2022 Lacks emotional connection to food memories."
+            },
+            {
+                "title": "Human: Job Searching",
+                "description": "\u2022 Hours scrolling job boards, tailoring resumes.\n\u2022 Missing hidden gems, feeling overwhelmed.\n\u2022 Networking and building real connections."
+            },
+            {
+                "title": "AI: Job Searching",
+                "description": "\u2022 Scans thousands of listings, customizes docs.\n\u2022 Finds niche jobs, optimizes resume keywords.\n\u2022 Lacks intuition for cultural fit or 'vibe'."
+            }
+        ]
+    },
+    {
         "date": "August 13, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "Cloudflare AI Infra Suite",
                 "description": "\u2022 Host & manage AI agents securely\n\u2022 Detect & mitigate threats from malicious AI agents\n\u2022 Deploy & secure AI agent apps reliably"
-            }
-        ]
-    },
-    {
-        "date": "August 08, 2026",
-        "items": [
-            {
-                "title": "Alibaba Qwen 3.8-Max",
-                "description": "\u2022 Advanced agentic computer use for complex tasks.\n\u2022 General reasoning and problem-solving capabilities.\n\u2022 Multimodal inputs: text, image, and video processing."
-            },
-            {
-                "title": "Google Gemini 3.6/3.5",
-                "description": "\u2022 Enhanced coding, advanced reasoning, multimodal tasks.\n\u2022 Identifies & fixes software vulnerabilities (Cyber).\n\u2022 Cost-effective, efficient scaling for AI agents."
-            },
-            {
-                "title": "Adobe ChatGPT Plugin",
-                "description": "\u2022 Edit images, PDFs; generate graphics in ChatGPT.\n\u2022 Streamline creative workflows from start to finish.\n\u2022 Quick content generation for marketing & design."
-            },
-            {
-                "title": "RealAnalytica Atlas",
-                "description": "\u2022 Automate lead follow-up & client engagement.\n\u2022 Assists with listing analysis & transaction management.\n\u2022 Generate marketing materials; manage real estate tasks."
             }
         ]
     }
