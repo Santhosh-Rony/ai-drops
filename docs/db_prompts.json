@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 15, 2026",
+        "items": [
+            {
+                "title": "# Outline My Statement",
+                "content": "Generate a detailed outline for a graduate school personal statement for [Program Name] at [University Name]. Focus on my unique experiences in [Field/Skill] and future goals."
+            },
+            {
+                "title": "# Draft My Intro",
+                "content": "Write a compelling introductory paragraph for a personal statement for [Program Name]. I want to highlight [Key Achievement] and my passion for [Specific Area]."
+            },
+            {
+                "title": "# Connect My Experiences",
+                "content": "Help me narrate how my experience in [Previous Role/Project] directly prepared me for [Specific Aspect of Grad Program]. Emphasize skills like [Skill 1] and [Skill 2]."
+            },
+            {
+                "title": "# Refine My Essay",
+                "content": "Review this personal statement draft for clarity, conciseness, and impact. Suggest improvements for flow, grammar, and stronger vocabulary. [Paste your draft here]"
+            }
+        ]
+    },
+    {
         "date": "August 14, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Craft Survey Intro",
                 "content": "Write a polite and concise introduction for a survey about [Survey Topic] aimed at [Audience]. Explain the survey's purpose and estimated completion time. Also, write a thank you closing statement."
-            }
-        ]
-    },
-    {
-        "date": "August 08, 2026",
-        "items": [
-            {
-                "title": "# Build Buyer Profile",
-                "content": "Create a detailed customer persona for my product/service: [Product/Service]. Include demographics, goals, pain points, and preferred communication channels. Name the persona."
-            },
-            {
-                "title": "# Target Content Creator",
-                "content": "Develop a customer persona for [Content Topic] content. Focus on their information needs, preferred content formats, and where they consume content online. Give them a name and brief backstory."
-            },
-            {
-                "title": "# Marketing Strategy Persona",
-                "content": "Generate a customer persona for a marketing campaign targeting [Specific Goal, e.g., 'new software users']. Detail their motivations, objections, and what kind of messaging resonates. Assign a name."
-            },
-            {
-                "title": "# Innovate Product User",
-                "content": "Outline a customer persona for a new [Product Type] feature. Describe their current challenges, desired outcomes, and what features would be most valuable to them. Include a name and age range."
             }
         ]
     }
