@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 15, 2026",
+        "items": [
+            {
+                "title": "# Summarize Long Emails",
+                "content": "Paste lengthy emails or documents into an AI tool to get a concise summary. This quickly extracts the main points, helping you understand crucial information and respond faster."
+            },
+            {
+                "title": "# Brainstorm Content Ideas",
+                "content": "Stuck on what to write or create next? Ask an AI to brainstorm ideas based on your topic. It rapidly generates diverse suggestions, saving you hours of thinking time."
+            },
+            {
+                "title": "# Format Messy Data",
+                "content": "Have unorganized text or lists from various sources? Ask AI to format it into a table or specific structure. This quickly makes your data usable and presentable, avoiding manual cleanup."
+            },
+            {
+                "title": "# Draft Quick Responses",
+                "content": "Need to reply to a message but short on time? Ask an AI to draft a polite, professional response based on a few keywords. This speeds up communication and reduces writing effort."
+            }
+        ]
+    },
+    {
         "date": "August 14, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Generate FAQ Section",
                 "content": "Feed your existing documentation to an AI and ask it to generate a list of potential frequently asked questions. This helps anticipate user queries and improve clarity."
-            }
-        ]
-    },
-    {
-        "date": "August 08, 2026",
-        "items": [
-            {
-                "title": "# Meal Plan Creator",
-                "content": "Ask AI to generate a personalized meal plan based on your dietary preferences, allergies, and fitness goals. It saves time and ensures balanced nutrition."
-            },
-            {
-                "title": "# Workout Routine Builder",
-                "content": "Describe your fitness level and available equipment to AI. It can create custom workout routines, helping you stay motivated and target specific muscle groups effectively."
-            },
-            {
-                "title": "# Symptom Checker Assistant",
-                "content": "Use AI to research potential causes for general symptoms, but always remember it's not a substitute for professional medical advice. It can help you prepare questions for your doctor."
-            },
-            {
-                "title": "# Healthy Recipe Adjuster",
-                "content": "Input any recipe and ask AI to make it healthier by reducing sugar, fat, or calories, or by suggesting ingredient substitutions. It helps you enjoy favorites guilt-free."
             }
         ]
     }
