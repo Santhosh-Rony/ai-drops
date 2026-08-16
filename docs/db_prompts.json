@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 16, 2026",
+        "items": [
+            {
+                "title": "# Analyze Both Sides",
+                "content": "Analyze the topic '[Topic]' by presenting strong arguments for and against it. Provide key points for each side to help me understand the full scope."
+            },
+            {
+                "title": "# Generate Counterpoints",
+                "content": "Given the main argument: '[Your Main Argument]', generate three potential counter-arguments that an opponent might raise. For each, suggest a brief rebuttal."
+            },
+            {
+                "title": "# Structure Your Debate",
+                "content": "Help me structure an argument for '[Topic]' for an audience of '[Audience]'. Outline a clear introduction, 3 main points with supporting evidence, and a strong conclusion."
+            },
+            {
+                "title": "# Spot Logical Fallacies",
+                "content": "Review this statement/argument: '[Opponent's Argument]'. Identify any logical fallacies present and explain why they are fallacious in simple terms."
+            }
+        ]
+    },
+    {
         "date": "August 15, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Organize Virtual Events",
                 "content": "Provide a complete checklist for planning and executing a successful [Type of Virtual Event, e.g., webinar, online workshop] for [Number] attendees. Focus on technical and engagement aspects."
-            }
-        ]
-    },
-    {
-        "date": "August 09, 2026",
-        "items": [
-            {
-                "title": "# Design New Survey",
-                "content": "Design 5 survey questions about [Topic] for [Audience]. Ensure they are clear, unbiased, and easy to answer. Include a mix of multiple-choice and open-ended questions."
-            },
-            {
-                "title": "# Refine Survey Questions",
-                "content": "Review these survey questions: '[List of questions]'. Identify any potential biases or ambiguities and suggest improvements to make them more neutral and clear for [Audience]."
-            },
-            {
-                "title": "# Generate Question Types",
-                "content": "Create 3 different types of survey questions (e.g., Likert scale, ranking, open-ended) to gather feedback on [Product/Service]. Target [Audience] and keep questions concise."
-            },
-            {
-                "title": "# Craft Survey Intro",
-                "content": "Write a polite and concise introduction for a survey about [Survey Topic] aimed at [Audience]. Explain the survey's purpose and estimated completion time. Also, write a thank you closing statement."
             }
         ]
     }
