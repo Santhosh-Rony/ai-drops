@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 16, 2026",
+        "items": [
+            {
+                "title": "Human: Data Analysis",
+                "description": "\u2022 Hours spent manually sifting through spreadsheets.\n\u2022 Easy to miss trends or make calculation errors.\n\u2022 Deep contextual understanding of business goals."
+            },
+            {
+                "title": "AI: Data Analysis",
+                "description": "\u2022 Analyzes huge datasets in seconds; high accuracy.\n\u2022 Finds hidden patterns and correlations quickly.\n\u2022 Lacks human intuition; needs clear instructions."
+            },
+            {
+                "title": "Human: Gift Ideas",
+                "description": "\u2022 Brainstorming takes time, often stressful under pressure.\n\u2022 Can overthink, leading to generic or unsuitable gifts.\n\u2022 Understands emotional connection, personal history."
+            },
+            {
+                "title": "AI: Gift Ideas",
+                "description": "\u2022 Generates many ideas instantly based on criteria.\n\u2022 Good for broad suggestions; discovers unique items.\n\u2022 No empathy; can suggest impersonal or odd items."
+            }
+        ]
+    },
+    {
         "date": "August 15, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Meal Planning",
                 "description": "\u2022 Generates diverse plans quickly based on criteria.\n\u2022 Considers diet, allergies, budget, calorie count easily.\n\u2022 Lacks intuition for mood, specific fresh produce"
-            }
-        ]
-    },
-    {
-        "date": "August 09, 2026",
-        "items": [
-            {
-                "title": "Human: Resume Writing",
-                "description": "\u2022 Hours spent agonizing over wording and formatting.\n\u2022 Misses keywords; hard to tailor for each job.\n\u2022 Deeply understands personal story, career goals."
-            },
-            {
-                "title": "AI: Resume Writing",
-                "description": "\u2022 Drafts quickly, suggests tailored content in minutes.\n\u2022 Optimizes keywords for Applicant Tracking Systems.\n\u2022 Lacks personal touch; can sound generic or fake."
-            },
-            {
-                "title": "Human: Translating Text",
-                "description": "\u2022 Time-consuming; requires fluency and cultural insight.\n\u2022 Can miss subtle nuances, cultural context, idioms.\n\u2022 Captures emotion, tone, and cultural subtleties."
-            },
-            {
-                "title": "AI: Translating Text",
-                "description": "\u2022 Instant translation of large texts, many languages.\n\u2022 Handles repetitive, factual text with high speed.\n\u2022 Struggles with slang, humor, deep cultural context."
             }
         ]
     }
