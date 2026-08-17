@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 17, 2026",
+        "items": [
+            {
+                "title": "# Weekly Meal Planner",
+                "content": "Create a 5-day meal plan for [number] people, including breakfast, lunch, and dinner. Generate a categorized grocery list based on this plan. I prefer [cuisine type] cuisine and have [dietary"
+            },
+            {
+                "title": "# Invent Recipes Now",
+                "content": "I have the following ingredients: [list ingredients]. Suggest 3 dinner recipes I can make, along with a brief instruction for each. Focus on [cooking style/difficulty]."
+            },
+            {
+                "title": "# Budget Grocery Guide",
+                "content": "Generate a grocery list for [number] days of meals for [number] people, focusing on budget-friendly ingredients. Prioritize [protein source] and include [number] snacks. List items by aisle."
+            },
+            {
+                "title": "# Healthy Prep Ideas",
+                "content": "I want to meal prep healthy lunches for 4 days. Suggest 3 different recipes that are easy to make ahead and list the ingredients needed for each. Focus on [dietary goal, e.g., high protein, low carb]."
+            }
+        ]
+    },
+    {
         "date": "August 16, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Couple's Thank You",
                 "content": "Generate a short thank-you speech for [Couple's Names] to deliver at their wedding reception. Express gratitude to guests, family, and vendors, and include a brief shared sentiment."
-            }
-        ]
-    },
-    {
-        "date": "August 10, 2026",
-        "items": [
-            {
-                "title": "# Plan Any Event",
-                "content": "Create a comprehensive planning checklist for a [Type of Event, e.g., birthday party, conference] for [Number] guests. Include pre-event, during-event, and post-event tasks."
-            },
-            {
-                "title": "# Budget Your Event",
-                "content": "Generate a detailed budget checklist for a [Type of Event, e.g., charity gala] with an estimated budget of [Amount]. List all potential expenses and categories."
-            },
-            {
-                "title": "# Promote Your Event",
-                "content": "Develop a marketing and promotion checklist for a [Type of Event, e.g., product launch] targeting [Target Audience]. Include digital and traditional strategies."
-            },
-            {
-                "title": "# Organize Virtual Events",
-                "content": "Provide a complete checklist for planning and executing a successful [Type of Virtual Event, e.g., webinar, online workshop] for [Number] attendees. Focus on technical and engagement aspects."
             }
         ]
     }
