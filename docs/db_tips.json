@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 17, 2026",
+        "items": [
+            {
+                "title": "# Shorter Prompts Save",
+                "content": "Think of tokens as word chunks. Keeping your prompts concise helps the AI process faster and stay within its memory limits."
+            },
+            {
+                "title": "# AI's Short Memory",
+                "content": "The context window is the AI's working memory for your conversation. If a chat gets too long, the AI might \"forget\" earlier details."
+            },
+            {
+                "title": "# Summarize Long Chats",
+                "content": "For long documents or chats, ask the AI to summarize key points regularly. This refreshes its memory and keeps the conversation focused."
+            },
+            {
+                "title": "# Break Down Tasks",
+                "content": "If you have a complex task or long text, break it into smaller parts. Process each part separately to avoid exceeding the AI's context limit."
+            }
+        ]
+    },
+    {
         "date": "August 16, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Critical Information Check",
                 "content": "For legal advice, medical diagnoses, or financial planning, never rely solely on AI. Always consult human experts for sensitive or high-stakes decisions to avoid errors."
-            }
-        ]
-    },
-    {
-        "date": "August 10, 2026",
-        "items": [
-            {
-                "title": "# Phishing Email Detector",
-                "content": "Use AI to quickly analyze suspicious emails for common phishing signs like strange links or urgent language. It helps you identify threats before clicking, keeping your inbox safer."
-            },
-            {
-                "title": "# Password Strength Checker",
-                "content": "Input your password ideas into an AI tool to get instant feedback on their strength and common vulnerabilities. This helps you create stronger, harder-to-guess passwords."
-            },
-            {
-                "title": "# Privacy Policy Summarizer",
-                "content": "Paste long, complex privacy policies into an AI to get a clear, concise summary of key data practices. Understand what you're agreeing to without reading pages of legal text."
-            },
-            {
-                "title": "# Fake News Spotter",
-                "content": "Use AI to analyze news articles or social media posts for inconsistencies, biased language, or questionable sources. This helps you identify misinformation and stay informed responsibly."
             }
         ]
     }
