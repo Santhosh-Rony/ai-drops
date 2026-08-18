@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 18, 2026",
+        "items": [
+            {
+                "title": "# Simple Budget Template",
+                "content": "Create a basic household budget spreadsheet with columns for Income (Source, Amount), Fixed Expenses (Rent, Utilities, Subscriptions), Variable Expenses (Groceries, Entertainment), and Savings."
+            },
+            {
+                "title": "# Track Spending Categories",
+                "content": "Generate a spreadsheet for tracking monthly expenses, including columns for Date, Category (e.g., Food, Transport, Shopping), Item, Amount, and Payment Method."
+            },
+            {
+                "title": "# Savings Goal Planner",
+                "content": "Design a spreadsheet to help me budget for a [Specific Savings Goal, e.g., vacation, down payment]. Include sections for goal amount, target date, current savings, and monthly contribution needed."
+            },
+            {
+                "title": "# Income Expense Overview",
+                "content": "Provide a simple spreadsheet template to compare total monthly income against total monthly expenses. Include a 'Difference' column to show surplus or deficit."
+            }
+        ]
+    },
+    {
         "date": "August 17, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Rhyming Sleep Story",
                 "content": "Write a soothing, rhyming bedtime story, approximately [number] paragraphs long, about a [object/concept, e.g., cloud, moon] drifting to sleep. Use simple language for [age group]."
-            }
-        ]
-    },
-    {
-        "date": "August 11, 2026",
-        "items": [
-            {
-                "title": "# Best Man Jokes",
-                "content": "Write a witty, heartfelt Best Man speech for [Groom's Name] and [Bride's Name]. Include 2-3 funny anecdotes about [Groom's Name] and a sincere toast. Keep it under 500 words."
-            },
-            {
-                "title": "# Maid of Honor",
-                "content": "Draft a warm Maid of Honor speech for [Bride's Name] and [Groom's Name]. Share a sweet memory about [Bride's Name] and offer well wishes. Aim for a heartfelt, engaging tone."
-            },
-            {
-                "title": "# Parent's Wedding Toast",
-                "content": "Create a loving wedding speech from the perspective of [Parent/Parents] of [Child's Name]. Share a brief, touching childhood story and welcome [Partner's Name] to the family."
-            },
-            {
-                "title": "# Couple's Thank You",
-                "content": "Generate a short thank-you speech for [Couple's Names] to deliver at their wedding reception. Express gratitude to guests, family, and vendors, and include a brief shared sentiment."
             }
         ]
     }
