@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 19, 2026",
+        "items": [
+            {
+                "title": "Human: Writing Essays",
+                "description": "\u2022 Hours of research, outlining, and drafting.\n\u2022 Writer's block, inconsistent tone, poor citations.\n\u2022 Injects personal voice, unique insights, emotion."
+            },
+            {
+                "title": "AI: Writing Essays",
+                "description": "\u2022 Generates drafts in minutes, structured content.\n\u2022 Fast brainstorming, outlines, grammar checks.\n\u2022 Lacks original thought, can 'hallucinate' facts."
+            },
+            {
+                "title": "Human: Music Discovery",
+                "description": "\u2022 Slow, relies on friends, radio, or deep dives.\n\u2022 Stuck in a rut, missing out on niche genres.\n\u2022 Connects emotionally, finds truly unexpected gems."
+            },
+            {
+                "title": "AI: Music Discovery",
+                "description": "\u2022 Instant playlists based on mood, genre, artist.\n\u2022 Analyzes listening habits to suggest new tracks.\n\u2022 Can feel repetitive, misses cultural context."
+            }
+        ]
+    },
+    {
         "date": "August 18, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Budget Planning",
                 "description": "\u2022 Analyzes spending patterns; suggests savings fast.\n\u2022 Identifies trends and potential overspending quickly.\n\u2022 Limited by data; no empathy for real-life situations."
-            }
-        ]
-    },
-    {
-        "date": "August 12, 2026",
-        "items": [
-            {
-                "title": "Human: Learning a Lang",
-                "description": "\u2022 Years of study, inconsistent practice, slow progress.\n\u2022 Fear of speaking, forgetting grammar, limited immersion.\n\u2022 Real-time cultural nuance, emotional connection, fluency."
-            },
-            {
-                "title": "AI: Learning a Languag",
-                "description": "\u2022 Instant translations, grammar checks, practice scenarios.\n\u2022 Consistent feedback, vast vocabulary, custom lessons.\n\u2022 Lacks real conversation flow, cultural depth, empathy."
-            },
-            {
-                "title": "Human: Tax Filing Help",
-                "description": "\u2022 Hours of document gathering, complex forms, high stress.\n\u2022 Calculation errors, missing deductions, audit anxiety.\n\u2022 Expert advice for complex cases, personal financial plan."
-            },
-            {
-                "title": "AI: Tax Filing Help",
-                "description": "\u2022 Quick calculation, form population, basic deduction tips.\n\u2022 Automates data entry, identifies common deductions fast.\n\u2022 No legal advice, can't verify external data, privacy risk."
             }
         ]
     }
