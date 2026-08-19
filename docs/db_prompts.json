@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 19, 2026",
+        "items": [
+            {
+                "title": "# Compare Car Models",
+                "content": "Compare [Car Model 1] vs. [Car Model 2]. Focus on [safety features, fuel efficiency, tech, reliability]. Provide pros and cons for each and a recommendation for a [family, commuter, enthusiast]."
+            },
+            {
+                "title": "# Budget Car Finder",
+                "content": "I need car recommendations under $[Budget] that are [new/used]. My priorities are [fuel economy, cargo space, AWD, low maintenance]. List 3 options with key specs and why they fit."
+            },
+            {
+                "title": "# Understand Car Features",
+                "content": "Explain [feature name, e.g., 'adaptive cruise control', 'CVT transmission'] in simple terms. How does it work, what are its benefits, and are there any downsides? Give a real-world example."
+            },
+            {
+                "title": "# Negotiate Car Deal",
+                "content": "I'm buying a [Car Model, Year] with [Mileage, Trim]. What are common negotiation tactics for dealers? What fair price range should I aim for, and what questions should I ask before signing?"
+            }
+        ]
+    },
+    {
         "date": "August 18, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Create Party Menu",
                 "content": "Propose a simple and kid-friendly birthday party menu for [Number] guests, considering [Dietary Restrictions, e.g., nut-free]. Include appetizers, main dishes, and dessert options."
-            }
-        ]
-    },
-    {
-        "date": "August 12, 2026",
-        "items": [
-            {
-                "title": "# Create Custom Story",
-                "content": "Write a short bedtime story for a [age group] child about a [animal/character] who learns about [moral/theme]. Include [specific details/setting]."
-            },
-            {
-                "title": "# Adventures Of [Character]",
-                "content": "Generate a bedtime story where [child's name/character] goes on an adventure to [place] to find [object]. Make it gentle and reassuring for a [age] year old."
-            },
-            {
-                "title": "# Interactive Story Time",
-                "content": "Craft a simple interactive bedtime story for a [age] year old. Present two choices at the end of each short paragraph, leading to different gentle outcomes."
-            },
-            {
-                "title": "# Rhyming Sleep Story",
-                "content": "Write a soothing, rhyming bedtime story, approximately [number] paragraphs long, about a [object/concept, e.g., cloud, moon] drifting to sleep. Use simple language for [age group]."
             }
         ]
     }
