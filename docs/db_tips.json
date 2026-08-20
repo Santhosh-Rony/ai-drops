@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 20, 2026",
+        "items": [
+            {
+                "title": "# Summarize My Inbox",
+                "content": "Set custom instructions to always summarize long emails into 3 bullet points, highlighting key actions. This saves time by getting straight to what matters most for your day."
+            },
+            {
+                "title": "# Consistent Content Style",
+                "content": "Use custom instructions to define your target audience and content style. The AI will consistently generate relevant ideas tailored to your brand's specific voice."
+            },
+            {
+                "title": "# Format Data Outputs",
+                "content": "Tell the AI in custom instructions to always output data in a specific format like JSON or a table. This ensures consistent, ready-to-use data every single time."
+            },
+            {
+                "title": "# Personalized Writing Assistant",
+                "content": "Configure custom instructions to reflect your preferred tone, vocabulary, and common phrases. Your AI will then write in a style that truly sounds like you, effortlessly."
+            }
+        ]
+    },
+    {
         "date": "August 19, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Draft Show Notes",
                 "content": "Use AI to draft detailed show notes or video descriptions from your script. This helps with SEO and gives listeners a quick summary of key points."
-            }
-        ]
-    },
-    {
-        "date": "August 13, 2026",
-        "items": [
-            {
-                "title": "# Write Website Copy",
-                "content": "Provide AI with your key information and purpose. It can quickly generate various text options, saving you significant writing time."
-            },
-            {
-                "title": "# Brainstorm Design Layouts",
-                "content": "Ask AI for creative suggestions on how to arrange elements and content. This helps visualize different website layouts and features."
-            },
-            {
-                "title": "# Boost Search Ranking",
-                "content": "Use AI to identify popular search terms for your niche. It can then craft meta descriptions that attract more clicks from search results."
-            },
-            {
-                "title": "# Generate Image AltText",
-                "content": "Submit your images to AI for precise alt text. This makes your site more inclusive for screen readers and improves its SEO performance."
             }
         ]
     }
