@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 21, 2026",
+        "items": [
+            {
+                "title": "Human: Shopping Compar",
+                "description": "\u2022 Hours spent on tabs, comparing prices.\n\u2022 Easy to miss better deals or features.\n\u2022 Understands personal needs and preferences."
+            },
+            {
+                "title": "AI: Shopping Compariso",
+                "description": "\u2022 Instant summaries of product info & prices.\n\u2022 Processes vast data quickly for comparisons.\n\u2022 Lacks real-time prices; misses personal nuance."
+            },
+            {
+                "title": "Human: Story Writing",
+                "description": "\u2022 Takes significant time to draft and edit.\n\u2022 Writer's block is common; inconsistent tone.\n\u2022 Injects genuine emotion, unique voice, life experience."
+            },
+            {
+                "title": "AI: Story Writing",
+                "description": "\u2022 Generates full drafts or ideas in seconds.\n\u2022 Quickly creates diverse plots, characters, settings.\n\u2022 Can sound generic; struggles with deep emotion."
+            }
+        ]
+    },
+    {
         "date": "August 20, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Customer Support",
                 "description": "\u2022 24/7 instant answers for common questions.\n\u2022 Always consistent, never gets frustrated or tired.\n\u2022 Lacks empathy, struggles with complex or new problems."
-            }
-        ]
-    },
-    {
-        "date": "August 14, 2026",
-        "items": [
-            {
-                "title": "Human: Recipe Finding",
-                "description": "\u2022 Scroll endless blogs, cookbooks, family recipes.\n\u2022 Ingredient substitutions are a nightmare.\n\u2022 Intuitive sense for what 'looks good'."
-            },
-            {
-                "title": "AI: Recipe Finding",
-                "description": "\u2022 Generates recipes instantly based on criteria.\n\u2022 Suggests substitutions, adjusts portions easily.\n\u2022 Lacks emotional connection to food memories."
-            },
-            {
-                "title": "Human: Job Searching",
-                "description": "\u2022 Hours scrolling job boards, tailoring resumes.\n\u2022 Missing hidden gems, feeling overwhelmed.\n\u2022 Networking and building real connections."
-            },
-            {
-                "title": "AI: Job Searching",
-                "description": "\u2022 Scans thousands of listings, customizes docs.\n\u2022 Finds niche jobs, optimizes resume keywords.\n\u2022 Lacks intuition for cultural fit or 'vibe'."
             }
         ]
     }
