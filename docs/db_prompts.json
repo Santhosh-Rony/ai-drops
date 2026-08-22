@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 22, 2026",
+        "items": [
+            {
+                "title": "# General Tax Prep",
+                "content": "Create a comprehensive tax filing checklist for individuals in [Country] for the [Year] tax season. Include key documents, deadlines, and essential steps."
+            },
+            {
+                "title": "# Freelancer Tax List",
+                "content": "Generate a tax preparation checklist specifically for freelance or gig workers in [Country] for [Year], focusing on income tracking, business expenses, and estimated taxes."
+            },
+            {
+                "title": "# Maximize Tax Deductions",
+                "content": "List common tax deductions and credits available for [Individuals/Families/Small Businesses] in [Country] for the [Year] tax year. Provide brief explanations for each."
+            },
+            {
+                "title": "# Organize Tax Documents",
+                "content": "Provide a step-by-step guide on how to organize tax documents for easy filing and record-keeping for [Year]. Suggest both digital and physical organization methods."
+            }
+        ]
+    },
+    {
         "date": "August 21, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Spot Logical Fallacies",
                 "content": "Review this statement/argument: '[Opponent's Argument]'. Identify any logical fallacies present and explain why they are fallacious in simple terms."
-            }
-        ]
-    },
-    {
-        "date": "August 15, 2026",
-        "items": [
-            {
-                "title": "# Outline My Statement",
-                "content": "Generate a detailed outline for a graduate school personal statement for [Program Name] at [University Name]. Focus on my unique experiences in [Field/Skill] and future goals."
-            },
-            {
-                "title": "# Draft My Intro",
-                "content": "Write a compelling introductory paragraph for a personal statement for [Program Name]. I want to highlight [Key Achievement] and my passion for [Specific Area]."
-            },
-            {
-                "title": "# Connect My Experiences",
-                "content": "Help me narrate how my experience in [Previous Role/Project] directly prepared me for [Specific Aspect of Grad Program]. Emphasize skills like [Skill 1] and [Skill 2]."
-            },
-            {
-                "title": "# Refine My Essay",
-                "content": "Review this personal statement draft for clarity, conciseness, and impact. Suggest improvements for flow, grammar, and stronger vocabulary. [Paste your draft here]"
             }
         ]
     }
