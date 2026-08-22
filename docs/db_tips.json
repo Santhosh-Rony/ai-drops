@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 22, 2026",
+        "items": [
+            {
+                "title": "# Simplify Tough Topics",
+                "content": "Ask AI to explain complex subjects like photosynthesis or fractions in simple terms. It can break down information into easy-to-understand language for your child."
+            },
+            {
+                "title": "# Create Practice Quizzes",
+                "content": "Provide AI with a topic or text and ask it to generate practice questions. This helps children test their understanding before a big exam."
+            },
+            {
+                "title": "# Brainstorm Project Ideas",
+                "content": "Stuck on a science fair or history project? Ask AI for creative ideas based on the assignment. It can spark unique approaches for your child."
+            },
+            {
+                "title": "# Grammar Check Homework",
+                "content": "After your child writes an essay, use AI to check for grammar and spelling errors. This helps them learn from mistakes without rewriting the whole paper."
+            }
+        ]
+    },
+    {
         "date": "August 21, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Refine Your Writing",
                 "content": "Paste your rough notes or drafts into AI and ask it to improve clarity, grammar, or conciseness. This polishes your content for better understanding and recall later."
-            }
-        ]
-    },
-    {
-        "date": "August 15, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Emails",
-                "content": "Paste lengthy emails or documents into an AI tool to get a concise summary. This quickly extracts the main points, helping you understand crucial information and respond faster."
-            },
-            {
-                "title": "# Brainstorm Content Ideas",
-                "content": "Stuck on what to write or create next? Ask an AI to brainstorm ideas based on your topic. It rapidly generates diverse suggestions, saving you hours of thinking time."
-            },
-            {
-                "title": "# Format Messy Data",
-                "content": "Have unorganized text or lists from various sources? Ask AI to format it into a table or specific structure. This quickly makes your data usable and presentable, avoiding manual cleanup."
-            },
-            {
-                "title": "# Draft Quick Responses",
-                "content": "Need to reply to a message but short on time? Ask an AI to draft a polite, professional response based on a few keywords. This speeds up communication and reduces writing effort."
             }
         ]
     }
