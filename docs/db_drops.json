@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 22, 2026",
+        "items": [
+            {
+                "title": "Human: Scheduling Task",
+                "description": "\u2022 Manual entry, cross-referencing calendars. Takes time.\n\u2022 Forgetting appointments, double-booking, burnout.\n\u2022 Understands nuanced social cues and personal preferences."
+            },
+            {
+                "title": "AI: Scheduling Tasks",
+                "description": "\u2022 Instantly finds optimal times, sends invites automatically.\n\u2022 Processes many calendars/preferences without error.\n\u2022 Lacks context for last-minute changes or emotional needs."
+            },
+            {
+                "title": "Human: Homework Help",
+                "description": "\u2022 Explains concepts patiently, offers moral support.\n\u2022 May have outdated info, gets tired, or makes small errors.\n\u2022 Provides empathy, adapts teaching style to student's mood."
+            },
+            {
+                "title": "AI: Homework Help",
+                "description": "\u2022 Provides instant answers, explanations, and examples.\n\u2022 Accesses vast info, works 24/7 without fatigue.\n\u2022 Can hallucinate facts, no real emotional connection."
+            }
+        ]
+    },
+    {
         "date": "August 21, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Gift Ideas",
                 "description": "\u2022 Generates many ideas instantly based on criteria.\n\u2022 Good for broad suggestions; discovers unique items.\n\u2022 No empathy; can suggest impersonal or odd items."
-            }
-        ]
-    },
-    {
-        "date": "August 15, 2026",
-        "items": [
-            {
-                "title": "Human: Proofreading Text",
-                "description": "\u2022 Slow, tedious, eyes get tired easily.\n\u2022 Often misses own mistakes; biased perspective.\n\u2022 Grasps context, tone, and writer's specific intent."
-            },
-            {
-                "title": "AI: Proofreading Text",
-                "description": "\u2022 Scans instantly; catches most grammar & spelling.\n\u2022 Unbiased, never tires, consistent error detection.\n\u2022 Can miss nuance, creative flair, or subtle context."
-            },
-            {
-                "title": "Human: Customer Support",
-                "description": "\u2022 Offers empathy, builds trust, handles complex cases.\n\u2022 Can be slow, inconsistent, or get emotional.\n\u2022 Understandable for unique, sensitive, or new issues."
-            },
-            {
-                "title": "AI: Customer Support",
-                "description": "\u2022 24/7 instant answers for common questions.\n\u2022 Always consistent, never gets frustrated or tired.\n\u2022 Lacks empathy, struggles with complex or new problems."
             }
         ]
     }
