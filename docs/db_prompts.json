@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 23, 2026",
+        "items": [
+            {
+                "title": "# Simplify Legal Jargon",
+                "content": "Explain this rental agreement in simple terms, highlighting any clauses that might be confusing for a first-time renter. [Paste agreement text here]"
+            },
+            {
+                "title": "# Spot Hidden Fees",
+                "content": "Review this rental agreement specifically for any hidden fees, unusual charges, or unexpected costs. List them clearly. [Paste agreement text here]"
+            },
+            {
+                "title": "# Summarize Key Clauses",
+                "content": "Provide a bullet-point summary of the most important clauses in this rental agreement, focusing on tenant rights and responsibilities. [Paste agreement text here]"
+            },
+            {
+                "title": "# Clarify Maintenance Rules",
+                "content": "Extract all information regarding maintenance responsibilities (tenant vs. landlord) and repair procedures from this rental agreement. [Paste agreement text here]"
+            }
+        ]
+    },
+    {
         "date": "August 22, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Healthy Prep Ideas",
                 "content": "I want to meal prep healthy lunches for 4 days. Suggest 3 different recipes that are easy to make ahead and list the ingredients needed for each. Focus on [dietary goal, e.g., high protein, low carb]."
-            }
-        ]
-    },
-    {
-        "date": "August 16, 2026",
-        "items": [
-            {
-                "title": "# Analyze Both Sides",
-                "content": "Analyze the topic '[Topic]' by presenting strong arguments for and against it. Provide key points for each side to help me understand the full scope."
-            },
-            {
-                "title": "# Generate Counterpoints",
-                "content": "Given the main argument: '[Your Main Argument]', generate three potential counter-arguments that an opponent might raise. For each, suggest a brief rebuttal."
-            },
-            {
-                "title": "# Structure Your Debate",
-                "content": "Help me structure an argument for '[Topic]' for an audience of '[Audience]'. Outline a clear introduction, 3 main points with supporting evidence, and a strong conclusion."
-            },
-            {
-                "title": "# Spot Logical Fallacies",
-                "content": "Review this statement/argument: '[Opponent's Argument]'. Identify any logical fallacies present and explain why they are fallacious in simple terms."
             }
         ]
     }
