@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 23, 2026",
+        "items": [
+            {
+                "title": "# Summarize Long Articles",
+                "content": "Paste lengthy articles or emails into an AI. Ask it to \"Summarize this for me in two sentences.\" This quickly gives you the main points without reading everything."
+            },
+            {
+                "title": "# Explain Complex Topics",
+                "content": "If you encounter a confusing term or concept online, ask an AI, \"Explain [topic] to me like I'm 10.\" It simplifies complex ideas into easy-to-understand language."
+            },
+            {
+                "title": "# Draft Quick Emails",
+                "content": "Need to send a short email? Tell the AI what you want to say, for example, \"Write an email thanking my friend for dinner.\" It creates a draft you can quickly send."
+            },
+            {
+                "title": "# Create Simple Lists",
+                "content": "Use AI to help organize daily tasks or shopping lists. Just say, \"Make a grocery list for dinner tonight with chicken and vegetables.\" It provides a helpful starting point."
+            }
+        ]
+    },
+    {
         "date": "August 22, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Break Down Tasks",
                 "content": "If you have a complex task or long text, break it into smaller parts. Process each part separately to avoid exceeding the AI's context limit."
-            }
-        ]
-    },
-    {
-        "date": "August 16, 2026",
-        "items": [
-            {
-                "title": "# Summarize Key Notes",
-                "content": "Paste long meeting notes or articles into AI. Ask it to extract the main points or create a concise summary, saving time and helping you quickly grasp important information."
-            },
-            {
-                "title": "# Expand Your Ideas",
-                "content": "If you have a few bullet points for a project, ask AI to brainstorm related concepts or different angles. This helps generate fresh perspectives for your notes and second brain."
-            },
-            {
-                "title": "# Structure Your Thoughts",
-                "content": "Give AI unstructured notes and ask it to organize them into a logical outline or categories. This creates a clear framework for your second brain, making information easier to find."
-            },
-            {
-                "title": "# Refine Your Writing",
-                "content": "Paste your rough notes or drafts into AI and ask it to improve clarity, grammar, or conciseness. This polishes your content for better understanding and recall later."
             }
         ]
     }
