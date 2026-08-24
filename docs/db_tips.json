@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 24, 2026",
+        "items": [
+            {
+                "title": "# Custom Bedtime Stories",
+                "content": "Ask AI to create a unique, calming bedtime story tailored to your interests. It helps quiet your mind and drift off peacefully."
+            },
+            {
+                "title": "# Generate Guided Meditations",
+                "content": "Prompt AI to write a short, guided meditation script focused on relaxation or stress relief. Read it aloud or listen to a text-to-speech version."
+            },
+            {
+                "title": "# Create Relaxing Sounds",
+                "content": "Describe your ideal calming soundscape to AI (e.g., \"forest rain with distant chimes\"). Use its description to find or create the perfect audio."
+            },
+            {
+                "title": "# Design Evening Routine",
+                "content": "Ask AI to suggest a simple, effective evening wind-down routine based on your preferred activities. It helps signal your body it's time to rest."
+            }
+        ]
+    },
+    {
         "date": "August 23, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Generate New Ideas",
                 "content": "Need fresh ideas for content or projects? Just ask the AI directly for suggestions. Zero-shot prompting works well for creative brainstorming where a specific format isn't critical."
-            }
-        ]
-    },
-    {
-        "date": "August 17, 2026",
-        "items": [
-            {
-                "title": "# Shorter Prompts Save",
-                "content": "Think of tokens as word chunks. Keeping your prompts concise helps the AI process faster and stay within its memory limits."
-            },
-            {
-                "title": "# AI's Short Memory",
-                "content": "The context window is the AI's working memory for your conversation. If a chat gets too long, the AI might \"forget\" earlier details."
-            },
-            {
-                "title": "# Summarize Long Chats",
-                "content": "For long documents or chats, ask the AI to summarize key points regularly. This refreshes its memory and keeps the conversation focused."
-            },
-            {
-                "title": "# Break Down Tasks",
-                "content": "If you have a complex task or long text, break it into smaller parts. Process each part separately to avoid exceeding the AI's context limit."
             }
         ]
     }
