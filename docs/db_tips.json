@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 25, 2026",
+        "items": [
+            {
+                "title": "# Plan Your Meals",
+                "content": "Ask AI to create a weekly meal plan tailored to your diet, available ingredients, or preferred cuisine. It saves time and helps you stick to your goals."
+            },
+            {
+                "title": "# Adjust Any Recipe",
+                "content": "Need to make a recipe vegan or gluten-free? AI can instantly adapt ingredients and instructions for specific dietary needs or different serving sizes."
+            },
+            {
+                "title": "# Smart Ingredient Swaps",
+                "content": "Ran out of an ingredient? Ask AI for suitable substitutions based on flavor, texture, and function. Never interrupt your cooking again."
+            },
+            {
+                "title": "# Generate Grocery Lists",
+                "content": "Give AI your meal plan or desired recipes, and it will compile a comprehensive shopping list. This ensures you buy exactly what you need."
+            }
+        ]
+    },
+    {
         "date": "August 24, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Draft Personalized Messages",
                 "content": "Tell AI who you're writing to and the message's purpose. It can draft tailored emails or replies for various situations, ensuring the right tone and content."
-            }
-        ]
-    },
-    {
-        "date": "August 18, 2026",
-        "items": [
-            {
-                "title": "# Quick Summaries",
-                "content": "For simple tasks like summarizing text, just tell the AI what to do. This 'zero-shot' approach works best when the request is clear and doesn't need a specific style."
-            },
-            {
-                "title": "# Specific Output Style",
-                "content": "When you need a specific style or format, give the AI a few examples first. This 'few-shot' method helps the AI understand your exact expectations, like formatting a list."
-            },
-            {
-                "title": "# Extract Key Info",
-                "content": "To extract specific data, show the AI an example of the input and the exact output you want. This teaches it the pattern for consistent information retrieval from new text."
-            },
-            {
-                "title": "# Generate New Ideas",
-                "content": "Need fresh ideas for content or projects? Just ask the AI directly for suggestions. Zero-shot prompting works well for creative brainstorming where a specific format isn't critical."
             }
         ]
     }
