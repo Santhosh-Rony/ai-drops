@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 25, 2026",
+        "items": [
+            {
+                "title": "# Write Welcome Letter",
+                "content": "Draft a warm welcome email for a new [Job Title] joining [Company Name]. Include info on their start date, manager, and first day instructions. Emphasize team support."
+            },
+            {
+                "title": "# Summarize Company Culture",
+                "content": "Create a brief overview of our company culture at [Company Name]. Highlight our core values: [Value 1], [Value 2], [Value 3]. Explain what new hires can expect."
+            },
+            {
+                "title": "# Generate First-Day Checklist",
+                "content": "Generate a comprehensive checklist for a new employee's first day as a [Job Title]. Include items like meeting the team, setting up equipment, and essential HR paperwork."
+            },
+            {
+                "title": "# Explain Employee Benefits",
+                "content": "Explain our company's key employee benefits (health insurance, PTO, 401k, professional development) in simple, easy-to-understand language for new hires."
+            }
+        ]
+    },
+    {
         "date": "August 24, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Negotiate Car Deal",
                 "content": "I'm buying a [Car Model, Year] with [Mileage, Trim]. What are common negotiation tactics for dealers? What fair price range should I aim for, and what questions should I ask before signing?"
-            }
-        ]
-    },
-    {
-        "date": "August 18, 2026",
-        "items": [
-            {
-                "title": "# Simple Budget Template",
-                "content": "Create a basic household budget spreadsheet with columns for Income (Source, Amount), Fixed Expenses (Rent, Utilities, Subscriptions), Variable Expenses (Groceries, Entertainment), and Savings."
-            },
-            {
-                "title": "# Track Spending Categories",
-                "content": "Generate a spreadsheet for tracking monthly expenses, including columns for Date, Category (e.g., Food, Transport, Shopping), Item, Amount, and Payment Method."
-            },
-            {
-                "title": "# Savings Goal Planner",
-                "content": "Design a spreadsheet to help me budget for a [Specific Savings Goal, e.g., vacation, down payment]. Include sections for goal amount, target date, current savings, and monthly contribution needed."
-            },
-            {
-                "title": "# Income Expense Overview",
-                "content": "Provide a simple spreadsheet template to compare total monthly income against total monthly expenses. Include a 'Difference' column to show surplus or deficit."
             }
         ]
     }
