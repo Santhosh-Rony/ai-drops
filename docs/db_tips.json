@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 26, 2026",
+        "items": [
+            {
+                "title": "# Project Plan Creator",
+                "content": "Ask AI to break down any home repair or DIY task into clear, actionable steps. It can list all necessary tools and materials, making your project planning much simpler."
+            },
+            {
+                "title": "# Troubleshoot Appliance Issues",
+                "content": "Describe a malfunctioning appliance to AI and ask for common issues and potential fixes. This helps you diagnose problems quickly before calling a professional."
+            },
+            {
+                "title": "# Material Estimator Tool",
+                "content": "Provide project dimensions to AI and ask it to estimate material quantities like paint, flooring, or lumber. This ensures you buy just what you need, saving time and money."
+            },
+            {
+                "title": "# Safety Check Assistant",
+                "content": "Before starting a new DIY project, ask AI for potential safety hazards and recommended precautions. It helps ensure you're working safely and avoiding common mistakes."
+            }
+        ]
+    },
+    {
         "date": "August 25, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Personalized Writing Assistant",
                 "content": "Configure custom instructions to reflect your preferred tone, vocabulary, and common phrases. Your AI will then write in a style that truly sounds like you, effortlessly."
-            }
-        ]
-    },
-    {
-        "date": "August 19, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Emails",
-                "content": "Paste lengthy emails or articles into AI. Ask it to summarize the key points or action items in a few sentences. This saves you reading time instantly."
-            },
-            {
-                "title": "# Format Data Quickly",
-                "content": "Give AI messy notes or data and specify how you want it organized, like a table or bullet points. It will structure your information perfectly, saving manual effort."
-            },
-            {
-                "title": "# Generate Content Ideas",
-                "content": "Provide AI with a topic and your target audience. Ask it to brainstorm blog posts or social media ideas with specific angles. You'll get fresh ideas fast."
-            },
-            {
-                "title": "# Draft Personalized Messages",
-                "content": "Tell AI who you're writing to and the message's purpose. It can draft tailored emails or replies for various situations, ensuring the right tone and content."
             }
         ]
     }
