@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 26, 2026",
+        "items": [
+            {
+                "title": "# Highlight Employee Achievements",
+                "content": "Write a performance review for [Employee Name] highlighting their excellent performance in [Key Area 1] and [Key Area 2]. Provide specific examples of their contributions."
+            },
+            {
+                "title": "# Give Growth Feedback",
+                "content": "Draft a section of a performance review for [Employee Name] focusing on constructive feedback for improvement in [Area for Development]. Suggest actionable steps."
+            },
+            {
+                "title": "# Craft Your Self-Review",
+                "content": "Help me write a self-performance review. I achieved [Achievement 1] and [Achievement 2]. I want to improve [Area for Development]."
+            },
+            {
+                "title": "# Set Future Goals",
+                "content": "Generate a performance review section for [Employee Name] that summarizes their performance and sets 2-3 SMART goals for the next review period, focusing on [Specific Skill/Project]."
+            }
+        ]
+    },
+    {
         "date": "August 25, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Select Eco-Friendly Materials",
                 "content": "Recommend [number] eco-friendly and durable material options for [Specific area, e.g., bathroom flooring] suitable for a [Style, e.g., minimalist] design. List pros and cons for each suggestion."
-            }
-        ]
-    },
-    {
-        "date": "August 19, 2026",
-        "items": [
-            {
-                "title": "# Compare Car Models",
-                "content": "Compare [Car Model 1] vs. [Car Model 2]. Focus on [safety features, fuel efficiency, tech, reliability]. Provide pros and cons for each and a recommendation for a [family, commuter, enthusiast]."
-            },
-            {
-                "title": "# Budget Car Finder",
-                "content": "I need car recommendations under $[Budget] that are [new/used]. My priorities are [fuel economy, cargo space, AWD, low maintenance]. List 3 options with key specs and why they fit."
-            },
-            {
-                "title": "# Understand Car Features",
-                "content": "Explain [feature name, e.g., 'adaptive cruise control', 'CVT transmission'] in simple terms. How does it work, what are its benefits, and are there any downsides? Give a real-world example."
-            },
-            {
-                "title": "# Negotiate Car Deal",
-                "content": "I'm buying a [Car Model, Year] with [Mileage, Trim]. What are common negotiation tactics for dealers? What fair price range should I aim for, and what questions should I ask before signing?"
             }
         ]
     }
