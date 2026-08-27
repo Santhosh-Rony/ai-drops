@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 27, 2026",
+        "items": [
+            {
+                "title": "Human: Learning a Lang",
+                "description": "\u2022 Takes years of dedication, classes, and practice.\n\u2022 Frustrating plateaus, grammar rules, forgetting words.\n\u2022 Real-world immersion, cultural context, emotional depth."
+            },
+            {
+                "title": "AI: Learning a Languag",
+                "description": "\u2022 Instant translation, practice sentences, vocabulary drill.\n\u2022 Personalized lessons, immediate feedback, 24/7 access.\n\u2022 Lacks real conversation, cultural nuance, emotional tone."
+            },
+            {
+                "title": "Human: Tax Filing Help",
+                "description": "\u2022 Gathers documents, reads complex rules, fills forms.\n\u2022 Misses deductions, calculation errors, high stress.\n\u2022 Handles unique situations, provides assurance, legal advice."
+            },
+            {
+                "title": "AI: Tax Filing Help",
+                "description": "\u2022 Answers questions, explains terms, checks basic forms.\n\u2022 Quick info retrieval, complex calculations, error spotting.\n\u2022 No legal advice, can hallucinate, lacks personalized"
+            }
+        ]
+    },
+    {
         "date": "August 26, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Story Writing",
                 "description": "\u2022 Generates full drafts or ideas in seconds.\n\u2022 Quickly creates diverse plots, characters, settings.\n\u2022 Can sound generic; struggles with deep emotion."
-            }
-        ]
-    },
-    {
-        "date": "August 20, 2026",
-        "items": [
-            {
-                "title": "Human: Legal Research",
-                "description": "\u2022 Hours spent sifting through dense documents & cases\n\u2022 Missing key precedents, misinterpreting jargon\n\u2022 Nuanced interpretation, ethical judgment, context"
-            },
-            {
-                "title": "AI: Legal Research",
-                "description": "\u2022 Scans vast legal databases in seconds for relevance\n\u2022 Rapidly identifies patterns, trends, and relevant cases\n\u2022 Can 'hallucinate' cases; no real legal advice; outdated"
-            },
-            {
-                "title": "Human: Presentation",
-                "description": "\u2022 Hours crafting slides, content, design, and flow\n\u2022 Writer's block, inconsistent design, boring visuals\n\u2022 Emotional connection, dynamic storytelling, audience read"
-            },
-            {
-                "title": "AI: Presentation Making",
-                "description": "\u2022 Generates full outlines, draft text, and image ideas fast\n\u2022 Automates initial content, suggests structures & visuals\n\u2022 Content can be generic; lacks originality or deep insight"
             }
         ]
     }
