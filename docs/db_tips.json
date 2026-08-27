@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 27, 2026",
+        "items": [
+            {
+                "title": "# Identify Your Plants",
+                "content": "Upload a photo of an unknown plant to an AI image recognition tool. It will quickly tell you its name and basic care needs for successful growth."
+            },
+            {
+                "title": "# Diagnose Plant Problems",
+                "content": "Describe symptoms or upload a photo of a sick plant to AI. Get instant suggestions for identifying common pests or diseases and potential treatment options."
+            },
+            {
+                "title": "# Personalized Garden Plan",
+                "content": "Input your location and desired plants into an AI gardening app. It can generate a custom planting and harvesting schedule tailored to your specific climate."
+            },
+            {
+                "title": "# Soil Health Insights",
+                "content": "Describe your soil type and current plant issues to an AI chatbot. It can offer general advice on amendments and potential nutrient deficiencies."
+            }
+        ]
+    },
+    {
         "date": "August 26, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Simplify Complex Text",
                 "content": "Input long articles or documents into an AI to get a simplified summary. This makes dense information more manageable and easier to process for all readers."
-            }
-        ]
-    },
-    {
-        "date": "August 20, 2026",
-        "items": [
-            {
-                "title": "# Summarize My Inbox",
-                "content": "Set custom instructions to always summarize long emails into 3 bullet points, highlighting key actions. This saves time by getting straight to what matters most for your day."
-            },
-            {
-                "title": "# Consistent Content Style",
-                "content": "Use custom instructions to define your target audience and content style. The AI will consistently generate relevant ideas tailored to your brand's specific voice."
-            },
-            {
-                "title": "# Format Data Outputs",
-                "content": "Tell the AI in custom instructions to always output data in a specific format like JSON or a table. This ensures consistent, ready-to-use data every single time."
-            },
-            {
-                "title": "# Personalized Writing Assistant",
-                "content": "Configure custom instructions to reflect your preferred tone, vocabulary, and common phrases. Your AI will then write in a style that truly sounds like you, effortlessly."
             }
         ]
     }
