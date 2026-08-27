@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 27, 2026",
+        "items": [
+            {
+                "title": "# Summarize Daily Standup",
+                "content": "Summarize the following standup notes into three sections: 'What I did yesterday', 'What I'll do today', and 'Any blockers'. Notes: [Paste notes here]"
+            },
+            {
+                "title": "# Draft Standup Updates",
+                "content": "Expand these bullet points into concise, professional standup notes: [List bullet points here]. Focus on clarity and brevity for a team update."
+            },
+            {
+                "title": "# Extract Standup Points",
+                "content": "From this meeting transcript, extract key updates for a standup meeting, categorized by 'Done', 'Doing', 'Blockers'. Transcript: [Paste transcript here]"
+            },
+            {
+                "title": "# Plan Future Standups",
+                "content": "Based on my tasks for the next day: [List tasks], draft my 'What I'll do today' section for tomorrow's standup. Keep it actionable and clear."
+            }
+        ]
+    },
+    {
         "date": "August 26, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Analyze Policy Value",
                 "content": "Analyze the value of [Policy Name/Type] based on its monthly premium of [Amount] and coverage limits for [Specific Risks]. Is it a good deal for [My Situation]?"
-            }
-        ]
-    },
-    {
-        "date": "August 20, 2026",
-        "items": [
-            {
-                "title": "# Plan Renovation Budget",
-                "content": "Create a detailed budget breakdown for a [Room Name] renovation. Include categories like [Materials], [Labor], [Permits], and [Contingency]. Estimate costs for a [Budget Level, e.g., moderate]"
-            },
-            {
-                "title": "# Generate Design Ideas",
-                "content": "Provide [number] design ideas for a [Room Name] with a [Style, e.g., modern farmhouse] aesthetic. Consider [Specific elements, e.g., natural light, storage]. Suggest color palettes and material"
-            },
-            {
-                "title": "# Outline Project Timeline",
-                "content": "Draft a step-by-step project timeline for a [Type of renovation, e.g., kitchen remodel] lasting [Duration, e.g., 6 weeks]. Include key milestones, tasks, and estimated durations for each stage."
-            },
-            {
-                "title": "# Select Eco-Friendly Materials",
-                "content": "Recommend [number] eco-friendly and durable material options for [Specific area, e.g., bathroom flooring] suitable for a [Style, e.g., minimalist] design. List pros and cons for each suggestion."
             }
         ]
     }
