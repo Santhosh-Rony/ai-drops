@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 28, 2026",
+        "items": [
+            {
+                "title": "# Find Code Bugs",
+                "content": "Review this [programming language] code for potential bugs, syntax errors, and logical issues. Explain any findings clearly. Code: [Paste Code Here]"
+            },
+            {
+                "title": "# Improve Code Readability",
+                "content": "Analyze this [programming language] code for readability and best practices. Suggest improvements for clarity, conciseness, and maintainability. Code: [Paste Code Here]"
+            },
+            {
+                "title": "# Check Code Security",
+                "content": "Examine this [programming language] code for common security vulnerabilities (e.g., SQL injection, XSS). Highlight risks and suggest fixes. Code: [Paste Code Here]"
+            },
+            {
+                "title": "# Optimize Code Performance",
+                "content": "Review this [programming language] code for performance bottlenecks. Suggest ways to optimize its execution speed and resource usage. Code: [Paste Code Here]"
+            }
+        ]
+    },
+    {
         "date": "August 27, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Organize Tax Documents",
                 "content": "Provide a step-by-step guide on how to organize tax documents for easy filing and record-keeping for [Year]. Suggest both digital and physical organization methods."
-            }
-        ]
-    },
-    {
-        "date": "August 21, 2026",
-        "items": [
-            {
-                "title": "# Compare Policy Features",
-                "content": "Compare Policy A features to Policy B features for [Type of Insurance]. List key differences and similarities in a table format."
-            },
-            {
-                "title": "# Find Best Coverage",
-                "content": "Recommend the best [Type of Insurance] policy for a [Your Situation, e.g., young family, single professional] considering [Key Priorities, e.g., low premium, comprehensive coverage]."
-            },
-            {
-                "title": "# Explain Policy Terms",
-                "content": "Explain the following terms from my [Type of Insurance] policy in simple language for a beginner: [List terms, e.g., deductible, premium, rider, co-insurance]."
-            },
-            {
-                "title": "# Analyze Policy Value",
-                "content": "Analyze the value of [Policy Name/Type] based on its monthly premium of [Amount] and coverage limits for [Specific Risks]. Is it a good deal for [My Situation]?"
             }
         ]
     }
