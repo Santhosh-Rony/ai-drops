@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 29, 2026",
+        "items": [
+            {
+                "title": "# Plan Car Service",
+                "content": "Ask AI to create a personalized car maintenance schedule based on your car model and mileage. It helps you remember what's due and when."
+            },
+            {
+                "title": "# Understand Dashboard Lights",
+                "content": "Describe a dashboard warning light to an AI. It can often explain what it means and suggest initial steps, saving you a trip to the manual."
+            },
+            {
+                "title": "# Compare Repair Quotes",
+                "content": "Input multiple mechanic quotes into an AI. It can help you identify common services, spot discrepancies, and estimate fair pricing."
+            },
+            {
+                "title": "# Find DIY Guides",
+                "content": "Ask AI for simple step-by-step guides for basic car tasks like checking tire pressure or changing wiper blades. Always prioritize safety."
+            }
+        ]
+    },
+    {
         "date": "August 28, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Create Simple Lists",
                 "content": "Use AI to help organize daily tasks or shopping lists. Just say, \"Make a grocery list for dinner tonight with chicken and vegetables.\" It provides a helpful starting point."
-            }
-        ]
-    },
-    {
-        "date": "August 22, 2026",
-        "items": [
-            {
-                "title": "# Simplify Tough Topics",
-                "content": "Ask AI to explain complex subjects like photosynthesis or fractions in simple terms. It can break down information into easy-to-understand language for your child."
-            },
-            {
-                "title": "# Create Practice Quizzes",
-                "content": "Provide AI with a topic or text and ask it to generate practice questions. This helps children test their understanding before a big exam."
-            },
-            {
-                "title": "# Brainstorm Project Ideas",
-                "content": "Stuck on a science fair or history project? Ask AI for creative ideas based on the assignment. It can spark unique approaches for your child."
-            },
-            {
-                "title": "# Grammar Check Homework",
-                "content": "After your child writes an essay, use AI to check for grammar and spelling errors. This helps them learn from mistakes without rewriting the whole paper."
             }
         ]
     }
