@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 29, 2026",
+        "items": [
+            {
+                "title": "# Explain API Endpoint",
+                "content": "Write clear documentation for an API endpoint that [functionality, e.g., retrieves user data]. Include its purpose, method (GET/POST), and required parameters for [audience, e.g., mobile app"
+            },
+            {
+                "title": "# Create API Example",
+                "content": "Generate a full request and response example for an API endpoint that [functionality, e.g., creates a new product]. Provide JSON payloads and explain each field for [audience, e.g., backend"
+            },
+            {
+                "title": "# Document API Errors",
+                "content": "Detail common error codes (e.g., 400, 401, 500) for an API endpoint that [functionality, e.g., processes user logins]. For each, describe the cause and suggest resolution steps for [audience]."
+            },
+            {
+                "title": "# Describe API Security",
+                "content": "Draft an authentication section for an API using [auth method, e.g., API Keys]. Explain how to generate, store, and use the keys securely in requests for [audience, e.g., third-party integrators]."
+            }
+        ]
+    },
+    {
         "date": "August 28, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Clarify Maintenance Rules",
                 "content": "Extract all information regarding maintenance responsibilities (tenant vs. landlord) and repair procedures from this rental agreement. [Paste agreement text here]"
-            }
-        ]
-    },
-    {
-        "date": "August 22, 2026",
-        "items": [
-            {
-                "title": "# General Tax Prep",
-                "content": "Create a comprehensive tax filing checklist for individuals in [Country] for the [Year] tax season. Include key documents, deadlines, and essential steps."
-            },
-            {
-                "title": "# Freelancer Tax List",
-                "content": "Generate a tax preparation checklist specifically for freelance or gig workers in [Country] for [Year], focusing on income tracking, business expenses, and estimated taxes."
-            },
-            {
-                "title": "# Maximize Tax Deductions",
-                "content": "List common tax deductions and credits available for [Individuals/Families/Small Businesses] in [Country] for the [Year] tax year. Provide brief explanations for each."
-            },
-            {
-                "title": "# Organize Tax Documents",
-                "content": "Provide a step-by-step guide on how to organize tax documents for easy filing and record-keeping for [Year]. Suggest both digital and physical organization methods."
             }
         ]
     }
