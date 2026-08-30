@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 30, 2026",
+        "items": [
+            {
+                "title": "# Retrieve Specific Data",
+                "content": "Generate a SQL SELECT query to retrieve [columns] from the [table_name] table, filtering by [condition]. The database is [SQL dialect, e.g., PostgreSQL]."
+            },
+            {
+                "title": "# Add New Records",
+                "content": "Create an SQL INSERT statement to add new data into the [table_name] table. The columns are [column1, column2, ...]. The values for these columns are [value1, value2, ...]. Database is [SQL dialect]."
+            },
+            {
+                "title": "# Modify Existing Entries",
+                "content": "Write an SQL UPDATE statement for the [table_name] table. Set [column_to_update] to [new_value] where [condition]. Specify the SQL dialect, e.g., MySQL."
+            },
+            {
+                "title": "# Link Related Tables",
+                "content": "Generate a SQL query to join [table1] and [table2] on [join_condition]. Select [columns_to_retrieve]. Include a WHERE clause for [filter_condition]. Database: [SQL dialect]."
+            }
+        ]
+    },
+    {
         "date": "August 29, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Outcome Based Description",
                 "content": "Develop a performance-based job description for a [Job Title]. Focus on the key outcomes and achievements expected in the first 30, 60, and 90 days, rather than just tasks. Use action verbs."
-            }
-        ]
-    },
-    {
-        "date": "August 23, 2026",
-        "items": [
-            {
-                "title": "# Simplify Legal Jargon",
-                "content": "Explain this rental agreement in simple terms, highlighting any clauses that might be confusing for a first-time renter. [Paste agreement text here]"
-            },
-            {
-                "title": "# Spot Hidden Fees",
-                "content": "Review this rental agreement specifically for any hidden fees, unusual charges, or unexpected costs. List them clearly. [Paste agreement text here]"
-            },
-            {
-                "title": "# Summarize Key Clauses",
-                "content": "Provide a bullet-point summary of the most important clauses in this rental agreement, focusing on tenant rights and responsibilities. [Paste agreement text here]"
-            },
-            {
-                "title": "# Clarify Maintenance Rules",
-                "content": "Extract all information regarding maintenance responsibilities (tenant vs. landlord) and repair procedures from this rental agreement. [Paste agreement text here]"
             }
         ]
     }
