@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 30, 2026",
+        "items": [
+            {
+                "title": "Human: Proofreading Te",
+                "description": "\u2022 Slow, tedious; needs fresh eyes and focus.\n\u2022 Misses own typos, gets tired, subjective style.\n\u2022 Understands nuance, intent, and subtle tone."
+            },
+            {
+                "title": "AI: Proofreading Text",
+                "description": "\u2022 Instant, consistent; checks grammar and spelling.\n\u2022 Catches common errors fast; objective; never tires.\n\u2022 Misses subtle humor; can change meaning unintentionally."
+            },
+            {
+                "title": "Human: Customer Suppor",
+                "description": "\u2022 Time-consuming calls; empathy, complex problem-solving.\n\u2022 Inconsistent answers, long waits, mood-dependent.\n\u2022 Shows genuine empathy; handles unique, emotional issues."
+            },
+            {
+                "title": "AI: Customer Support",
+                "description": "\u2022 24/7 instant replies; handles common, repetitive questions.\n\u2022 Fast, consistent info; never gets frustrated or tired.\n\u2022 Lacks real empathy; struggles with unique or emotional"
+            }
+        ]
+    },
+    {
         "date": "August 29, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Translating Text",
                 "description": "\u2022 Instant translation for large volumes of text.\n\u2022 Handles many languages, offers quick comprehension.\n\u2022 Struggles with idioms, slang, deep cultural context."
-            }
-        ]
-    },
-    {
-        "date": "August 23, 2026",
-        "items": [
-            {
-                "title": "Human: Speech Writing",
-                "description": "\u2022 Hours spent brainstorming, drafting, and editing.\n\u2022 Writer's block, repetitive phrasing, losing audience focus.\n\u2022 Genuine emotion, personal anecdotes, nuanced delivery."
-            },
-            {
-                "title": "AI: Speech Writing",
-                "description": "\u2022 Generates full drafts in minutes, consistent tone.\n\u2022 Quick outlines, diverse vocabulary, structure suggestions.\n\u2022 Lacks true empathy, may sound generic, no real experience."
-            },
-            {
-                "title": "Human: Negotiation Prep",
-                "description": "\u2022 Researching parties, predicting reactions, emotional toll.\n\u2022 Overlooking key data, emotional bias, missing leverage.\n\u2022 Adapting to real-time cues, building rapport, intuition."
-            },
-            {
-                "title": "AI: Negotiation Prep",
-                "description": "\u2022 Analyzes data, identifies patterns, suggests counter-offers.\n\u2022 Summarizes complex info, finds hidden data, objective view.\n\u2022 No emotional intelligence, can't read body language."
             }
         ]
     }
