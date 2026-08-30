@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 30, 2026",
+        "items": [
+            {
+                "title": "# Compare Product Specs",
+                "content": "Paste product details from several items into an AI. Ask it to highlight key differences and recommend the best fit for your needs. This helps you choose faster."
+            },
+            {
+                "title": "# Summarize Customer Reviews",
+                "content": "Copy and paste many customer reviews into an AI. Ask it to summarize common pros and cons, saving you hours of reading. Get the real scoop quickly."
+            },
+            {
+                "title": "# Find Best Deals",
+                "content": "Describe the item you want to an AI. Ask it to search for the best current prices or deals across different retailers. It helps you avoid overpaying."
+            },
+            {
+                "title": "# Generate Gift Ideas",
+                "content": "Tell an AI about a person's interests and your budget. It can suggest personalized gift ideas, saving you time and stress during holidays or special occasions."
+            }
+        ]
+    },
+    {
         "date": "August 29, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Design Evening Routine",
                 "content": "Ask AI to suggest a simple, effective evening wind-down routine based on your preferred activities. It helps signal your body it's time to rest."
-            }
-        ]
-    },
-    {
-        "date": "August 23, 2026",
-        "items": [
-            {
-                "title": "# Summarize Long Articles",
-                "content": "Paste lengthy articles or emails into an AI. Ask it to \"Summarize this for me in two sentences.\" This quickly gives you the main points without reading everything."
-            },
-            {
-                "title": "# Explain Complex Topics",
-                "content": "If you encounter a confusing term or concept online, ask an AI, \"Explain [topic] to me like I'm 10.\" It simplifies complex ideas into easy-to-understand language."
-            },
-            {
-                "title": "# Draft Quick Emails",
-                "content": "Need to send a short email? Tell the AI what you want to say, for example, \"Write an email thanking my friend for dinner.\" It creates a draft you can quickly send."
-            },
-            {
-                "title": "# Create Simple Lists",
-                "content": "Use AI to help organize daily tasks or shopping lists. Just say, \"Make a grocery list for dinner tonight with chicken and vegetables.\" It provides a helpful starting point."
             }
         ]
     }
