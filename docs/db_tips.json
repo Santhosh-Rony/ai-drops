@@ -1,5 +1,26 @@
 [
     {
+        "date": "August 31, 2026",
+        "items": [
+            {
+                "title": "# Tax Deduction Ideas",
+                "content": "Use AI to brainstorm potential tax deductions based on your job or lifestyle. It can help you remember overlooked expenses to discuss with your accountant."
+            },
+            {
+                "title": "# Summarize Policy Documents",
+                "content": "Upload lengthy insurance policies or tax documents to AI. Ask it to summarize key dates, coverage limits, or filing instructions in simple terms."
+            },
+            {
+                "title": "# Compare Insurance Quotes",
+                "content": "Provide AI with details from multiple insurance quotes. Ask it to highlight the differences in coverage, deductibles, and premiums clearly."
+            },
+            {
+                "title": "# Understand Tax Jargon",
+                "content": "Encounter confusing tax terms? Ask AI for plain language explanations of concepts like capital gains or adjusted gross income, making complex ideas simple."
+            }
+        ]
+    },
+    {
         "date": "August 30, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Generate Grocery Lists",
                 "content": "Give AI your meal plan or desired recipes, and it will compile a comprehensive shopping list. This ensures you buy exactly what you need."
-            }
-        ]
-    },
-    {
-        "date": "August 24, 2026",
-        "items": [
-            {
-                "title": "# Custom Bedtime Stories",
-                "content": "Ask AI to create a unique, calming bedtime story tailored to your interests. It helps quiet your mind and drift off peacefully."
-            },
-            {
-                "title": "# Generate Guided Meditations",
-                "content": "Prompt AI to write a short, guided meditation script focused on relaxation or stress relief. Read it aloud or listen to a text-to-speech version."
-            },
-            {
-                "title": "# Create Relaxing Sounds",
-                "content": "Describe your ideal calming soundscape to AI (e.g., \"forest rain with distant chimes\"). Use its description to find or create the perfect audio."
-            },
-            {
-                "title": "# Design Evening Routine",
-                "content": "Ask AI to suggest a simple, effective evening wind-down routine based on your preferred activities. It helps signal your body it's time to rest."
             }
         ]
     }
