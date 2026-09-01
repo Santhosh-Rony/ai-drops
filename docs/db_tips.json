@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 01, 2026",
+        "items": [
+            {
+                "title": "# Summarize Legal Texts",
+                "content": "Upload a lengthy contract or terms of service to an AI. Ask it to summarize the key points and obligations, saving you hours of reading."
+            },
+            {
+                "title": "# Explain Legal Jargon",
+                "content": "Paste confusing legal terms or clauses into an AI. Request a plain English explanation to quickly grasp complex concepts without a dictionary."
+            },
+            {
+                "title": "# Find Specific Clauses",
+                "content": "Ask AI to locate specific clauses, like \"termination conditions\" or \"liability limits,\" within a long document. This helps you pinpoint critical information instantly."
+            },
+            {
+                "title": "# Compare Document Versions",
+                "content": "Upload two versions of a legal document and ask the AI to highlight the differences. This quickly shows changes between drafts or agreements."
+            }
+        ]
+    },
+    {
         "date": "August 31, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Safety Check Assistant",
                 "content": "Before starting a new DIY project, ask AI for potential safety hazards and recommended precautions. It helps ensure you're working safely and avoiding common mistakes."
-            }
-        ]
-    },
-    {
-        "date": "August 25, 2026",
-        "items": [
-            {
-                "title": "# Plan Your Meals",
-                "content": "Ask AI to create a weekly meal plan tailored to your diet, available ingredients, or preferred cuisine. It saves time and helps you stick to your goals."
-            },
-            {
-                "title": "# Adjust Any Recipe",
-                "content": "Need to make a recipe vegan or gluten-free? AI can instantly adapt ingredients and instructions for specific dietary needs or different serving sizes."
-            },
-            {
-                "title": "# Smart Ingredient Swaps",
-                "content": "Ran out of an ingredient? Ask AI for suitable substitutions based on flavor, texture, and function. Never interrupt your cooking again."
-            },
-            {
-                "title": "# Generate Grocery Lists",
-                "content": "Give AI your meal plan or desired recipes, and it will compile a comprehensive shopping list. This ensures you buy exactly what you need."
             }
         ]
     }
