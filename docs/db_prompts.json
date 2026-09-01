@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 01, 2026",
+        "items": [
+            {
+                "title": "# Sum Average Count",
+                "content": "Generate an Excel formula to [calculate the sum/average/count] of values in column [Column Letter] from row [Start Row] to [End Row]."
+            },
+            {
+                "title": "# Conditional Format Logic",
+                "content": "Create an Excel formula that applies conditional formatting to highlight cells in column [Column Letter] if their value is [greater than/less than/equal to] [Value]."
+            },
+            {
+                "title": "# Lookup Data Match",
+                "content": "Write an Excel VLOOKUP formula to find the [return value column] from [lookup table range] matching [lookup value cell] in the first column. Use exact match."
+            },
+            {
+                "title": "# Manipulate Text Strings",
+                "content": "Provide an Excel formula to extract the [first/last] [Number] characters from the text in cell [Cell Reference]. Alternatively, combine text from [Cell 1] and [Cell 2] with a space."
+            }
+        ]
+    },
+    {
         "date": "August 31, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Set Future Goals",
                 "content": "Generate a performance review section for [Employee Name] that summarizes their performance and sets 2-3 SMART goals for the next review period, focusing on [Specific Skill/Project]."
-            }
-        ]
-    },
-    {
-        "date": "August 25, 2026",
-        "items": [
-            {
-                "title": "# Write Welcome Letter",
-                "content": "Draft a warm welcome email for a new [Job Title] joining [Company Name]. Include info on their start date, manager, and first day instructions. Emphasize team support."
-            },
-            {
-                "title": "# Summarize Company Culture",
-                "content": "Create a brief overview of our company culture at [Company Name]. Highlight our core values: [Value 1], [Value 2], [Value 3]. Explain what new hires can expect."
-            },
-            {
-                "title": "# Generate First-Day Checklist",
-                "content": "Generate a comprehensive checklist for a new employee's first day as a [Job Title]. Include items like meeting the team, setting up equipment, and essential HR paperwork."
-            },
-            {
-                "title": "# Explain Employee Benefits",
-                "content": "Explain our company's key employee benefits (health insurance, PTO, 401k, professional development) in simple, easy-to-understand language for new hires."
             }
         ]
     }
