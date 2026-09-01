@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 01, 2026",
+        "items": [
+            {
+                "title": "Human: Event Planning",
+                "description": "\u2022 Weeks of searching venues, caterers, and RSVPs.\n\u2022 Overlooked details, budget creep, and high stress.\n\u2022 Personal touch, emotional connection, real-time adapting."
+            },
+            {
+                "title": "AI: Event Planning",
+                "description": "\u2022 Generates themes, guest lists, and budget ideas fast.\n\u2022 Provides quick initial drafts and vendor suggestions.\n\u2022 Lacks intuition, can't handle last-minute human changes."
+            },
+            {
+                "title": "Human: Medical Research",
+                "description": "\u2022 Slow, detailed reading of studies, journals, textbooks.\n\u2022 Information overload, bias, missing new research.\n\u2022 Critical thinking, ethical judgment, patient empathy."
+            },
+            {
+                "title": "AI: Medical Research",
+                "description": "\u2022 Summarizes complex papers and finds relevant studies fast.\n\u2022 Efficiently cross-references data, identifies trends.\n\u2022 Risks hallucination, no clinical judgment, data cutoff."
+            }
+        ]
+    },
+    {
         "date": "August 31, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Email Drafting",
                 "description": "\u2022 Drafts emails instantly, suggests subject lines and tone.\n\u2022 Quickly generates professional, clear, concise messages.\n\u2022 Can sound generic, misses emotional context, lacks empathy."
-            }
-        ]
-    },
-    {
-        "date": "August 25, 2026",
-        "items": [
-            {
-                "title": "Human: Debugging Code",
-                "description": "\u2022 Can take hours, frustrating trial and error.\n\u2022 Overlooking simple typos, getting stuck on one idea.\n\u2022 Deeply understands project goals and user intent."
-            },
-            {
-                "title": "AI: Debugging Code",
-                "description": "\u2022 Instantly scans code, suggests common fixes quickly.\n\u2022 Catches syntax errors fast, explains potential issues.\n\u2022 Misses complex logic, no real understanding of context."
-            },
-            {
-                "title": "Human: Meal Planning",
-                "description": "\u2022 Time-consuming brainstorming, checking ingredients.\n\u2022 Forgetting items, repetitive meals, food waste.\n\u2022 Adapts to mood, cravings, social plans, local sales."
-            },
-            {
-                "title": "AI: Meal Planning",
-                "description": "\u2022 Generates varied plans instantly, applies dietary rules.\n\u2022 Offers new recipes, manages allergies, nutritional data.\n\u2022 Lacks personal taste, can't check fridge for leftovers."
             }
         ]
     }
