@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 03, 2026",
+        "items": [
+            {
+                "title": "# Clean Text Entries",
+                "content": "Standardize this list of [data type, e.g., names, addresses] by [rule, e.g., capitalizing first letters, removing extra spaces]: [List of data]"
+            },
+            {
+                "title": "# Extract Key Data",
+                "content": "From the following text, extract all [specific data type, e.g., email addresses, dates, prices] and list them clearly: [Text data]"
+            },
+            {
+                "title": "# Format Data Table",
+                "content": "Convert the following unstructured data into a [format, e.g., JSON array, CSV, markdown table] with columns for [Column 1], [Column 2], [Column 3]: [Unstructured data]"
+            },
+            {
+                "title": "# Spot Data Errors",
+                "content": "Review the following dataset for common data entry errors like duplicates, inconsistent formatting, or missing values. Suggest corrections: [Dataset]"
+            }
+        ]
+    },
+    {
         "date": "September 01, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Plan Future Standups",
                 "content": "Based on my tasks for the next day: [List tasks], draft my 'What I'll do today' section for tomorrow's standup. Keep it actionable and clear."
-            }
-        ]
-    },
-    {
-        "date": "August 26, 2026",
-        "items": [
-            {
-                "title": "# Highlight Employee Achievements",
-                "content": "Write a performance review for [Employee Name] highlighting their excellent performance in [Key Area 1] and [Key Area 2]. Provide specific examples of their contributions."
-            },
-            {
-                "title": "# Give Growth Feedback",
-                "content": "Draft a section of a performance review for [Employee Name] focusing on constructive feedback for improvement in [Area for Development]. Suggest actionable steps."
-            },
-            {
-                "title": "# Craft Your Self-Review",
-                "content": "Help me write a self-performance review. I achieved [Achievement 1] and [Achievement 2]. I want to improve [Area for Development]."
-            },
-            {
-                "title": "# Set Future Goals",
-                "content": "Generate a performance review section for [Employee Name] that summarizes their performance and sets 2-3 SMART goals for the next review period, focusing on [Specific Skill/Project]."
             }
         ]
     }
