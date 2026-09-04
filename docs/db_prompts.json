@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 04, 2026",
+        "items": [
+            {
+                "title": "# Support Chat Script",
+                "content": "Create a customer support chatbot script for [Product/Service]. Include greetings, FAQs for [Topic 1], [Topic 2], and a clear process for escalating to a human agent if needed."
+            },
+            {
+                "title": "# Qualify Sales Leads",
+                "content": "Design a lead generation chatbot script for [Company/Industry]. The bot should ask about [Lead Qualifier 1] and [Lead Qualifier 2], then offer to schedule a [Demo/Call]."
+            },
+            {
+                "title": "# Onboard New Users",
+                "content": "Develop an onboarding chatbot script for users of [App/Platform]. Guide them through setting up [Feature 1], understanding [Feature 2], and provide tips for initial use."
+            },
+            {
+                "title": "# Teach With Chat",
+                "content": "Generate an interactive learning chatbot script on [Simple Topic]. Include 3 short lessons, each followed by a simple question to check understanding. Keep the tone friendly and encouraging."
+            }
+        ]
+    },
+    {
         "date": "September 03, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Optimize Code Performance",
                 "content": "Review this [programming language] code for performance bottlenecks. Suggest ways to optimize its execution speed and resource usage. Code: [Paste Code Here]"
-            }
-        ]
-    },
-    {
-        "date": "August 27, 2026",
-        "items": [
-            {
-                "title": "# Summarize Daily Standup",
-                "content": "Summarize the following standup notes into three sections: 'What I did yesterday', 'What I'll do today', and 'Any blockers'. Notes: [Paste notes here]"
-            },
-            {
-                "title": "# Draft Standup Updates",
-                "content": "Expand these bullet points into concise, professional standup notes: [List bullet points here]. Focus on clarity and brevity for a team update."
-            },
-            {
-                "title": "# Extract Standup Points",
-                "content": "From this meeting transcript, extract key updates for a standup meeting, categorized by 'Done', 'Doing', 'Blockers'. Transcript: [Paste transcript here]"
-            },
-            {
-                "title": "# Plan Future Standups",
-                "content": "Based on my tasks for the next day: [List tasks], draft my 'What I'll do today' section for tomorrow's standup. Keep it actionable and clear."
             }
         ]
     }
