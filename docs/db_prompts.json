@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 05, 2026",
+        "items": [
+            {
+                "title": "# Craft Benefit Headlines",
+                "content": "Write 5 compelling headlines for a landing page about [Product/Service]. Focus on benefits for [Target Audience] and include a strong call to action. Keep them under 10 words."
+            },
+            {
+                "title": "# Generate Feature Descriptions",
+                "content": "For a landing page, describe the [Number] key features of [Product/Service]. For each feature, explain what it does and its main benefit for [Target Audience] in 1-2 sentences."
+            },
+            {
+                "title": "# Write Persuasive CTAs",
+                "content": "Generate 5 unique Call-to-Action buttons for a landing page promoting [Product/Service]. Make them action-oriented, urgent, and appealing to [Target Audience]. Examples: 'Start Free Trial'."
+            },
+            {
+                "title": "# Draft Problem Solution",
+                "content": "Write a short section for a landing page that identifies a common problem for [Target Audience] related to [Industry/Topic] and immediately presents [Product/Service] as the ideal solution. Max 80"
+            }
+        ]
+    },
+    {
         "date": "September 04, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Describe API Security",
                 "content": "Draft an authentication section for an API using [auth method, e.g., API Keys]. Explain how to generate, store, and use the keys securely in requests for [audience, e.g., third-party integrators]."
-            }
-        ]
-    },
-    {
-        "date": "August 28, 2026",
-        "items": [
-            {
-                "title": "# Find Code Bugs",
-                "content": "Review this [programming language] code for potential bugs, syntax errors, and logical issues. Explain any findings clearly. Code: [Paste Code Here]"
-            },
-            {
-                "title": "# Improve Code Readability",
-                "content": "Analyze this [programming language] code for readability and best practices. Suggest improvements for clarity, conciseness, and maintainability. Code: [Paste Code Here]"
-            },
-            {
-                "title": "# Check Code Security",
-                "content": "Examine this [programming language] code for common security vulnerabilities (e.g., SQL injection, XSS). Highlight risks and suggest fixes. Code: [Paste Code Here]"
-            },
-            {
-                "title": "# Optimize Code Performance",
-                "content": "Review this [programming language] code for performance bottlenecks. Suggest ways to optimize its execution speed and resource usage. Code: [Paste Code Here]"
             }
         ]
     }
