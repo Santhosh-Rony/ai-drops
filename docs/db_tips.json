@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 05, 2026",
+        "items": [
+            {
+                "title": "# Clean Your Data",
+                "content": "Use AI tools to quickly identify and fix inconsistencies, remove duplicates, or reformat data in your spreadsheets. This saves hours of manual cleanup for better analysis."
+            },
+            {
+                "title": "# Generate Spreadsheet Formulas",
+                "content": "Describe what you want to achieve in plain English, and AI can generate complex spreadsheet formulas for you. This eliminates the need to remember syntax or search for functions."
+            },
+            {
+                "title": "# Summarize Data Insights",
+                "content": "Upload your dataset or paste key findings into an AI tool to get a plain-language summary of trends and insights. Understand complex data without deep statistical knowledge."
+            },
+            {
+                "title": "# Categorize Text Data",
+                "content": "Use AI to automatically sort and categorize free-form text from surveys or comments into predefined groups. This helps analyze qualitative feedback much faster."
+            }
+        ]
+    },
+    {
         "date": "September 04, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Generate Gift Ideas",
                 "content": "Tell an AI about a person's interests and your budget. It can suggest personalized gift ideas, saving you time and stress during holidays or special occasions."
-            }
-        ]
-    },
-    {
-        "date": "August 29, 2026",
-        "items": [
-            {
-                "title": "# Plan Car Service",
-                "content": "Ask AI to create a personalized car maintenance schedule based on your car model and mileage. It helps you remember what's due and when."
-            },
-            {
-                "title": "# Understand Dashboard Lights",
-                "content": "Describe a dashboard warning light to an AI. It can often explain what it means and suggest initial steps, saving you a trip to the manual."
-            },
-            {
-                "title": "# Compare Repair Quotes",
-                "content": "Input multiple mechanic quotes into an AI. It can help you identify common services, spot discrepancies, and estimate fair pricing."
-            },
-            {
-                "title": "# Find DIY Guides",
-                "content": "Ask AI for simple step-by-step guides for basic car tasks like checking tire pressure or changing wiper blades. Always prioritize safety."
             }
         ]
     }
