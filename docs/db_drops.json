@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 06, 2026",
+        "items": [
+            {
+                "title": "Human: Shopping Compar",
+                "description": "\u2022 Hours spent researching, opening many tabs.\n\u2022 Overwhelmed by choices, missing deals, decision fatigue.\n\u2022 Can feel textures, try on clothes, trust intuition."
+            },
+            {
+                "title": "AI: Shopping Compariso",
+                "description": "\u2022 Instantly finds product details, prices, reviews.\n\u2022 Processes vast data, identifies patterns quickly.\n\u2022 Lacks real-time pricing, can't feel product quality."
+            },
+            {
+                "title": "Human: Story Writing",
+                "description": "\u2022 Takes days/weeks for plot, characters, emotions.\n\u2022 Writer's block, inconsistent tone, character development.\n\u2022 Deep personal experience, unique voice, raw emotion."
+            },
+            {
+                "title": "AI: Story Writing",
+                "description": "\u2022 Generates plots, characters, dialogue in seconds.\n\u2022 Overcomes writer's block, ensures structural consistency.\n\u2022 Often generic, lacks true originality or human depth."
+            }
+        ]
+    },
+    {
         "date": "September 05, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Customer Support",
                 "description": "\u2022 24/7 instant replies; handles common, repetitive questions.\n\u2022 Fast, consistent info; never gets frustrated or tired.\n\u2022 Lacks real empathy; struggles with unique or emotional"
-            }
-        ]
-    },
-    {
-        "date": "August 29, 2026",
-        "items": [
-            {
-                "title": "Human: Recipe Finding",
-                "description": "\u2022 Endless scrolling through blogs, sifting for gems.\n\u2022 Dietary needs ignored, missing key ingredients often.\n\u2022 Adapts to what's on hand, real-time taste adjustments."
-            },
-            {
-                "title": "AI: Recipe Finding",
-                "description": "\u2022 Generates tailored recipes instantly based on input.\n\u2022 Filters by diet, ingredients, skill level in seconds.\n\u2022 No real taste judgment, can suggest unavailable items."
-            },
-            {
-                "title": "Human: Job Searching",
-                "description": "\u2022 Hours browsing job boards, customizing each application.\n\u2022 Missing keywords, feeling overwhelmed, rejection fatigue.\n\u2022 Networking, emotional intelligence in interviews."
-            },
-            {
-                "title": "AI: Job Searching",
-                "description": "\u2022 Scans thousands of listings, drafts tailored resumes.\n\u2022 Matches skills to roles precisely, finds hidden jobs.\n\u2022 Lacks personal touch, can't network, misses human nuance."
             }
         ]
     }
