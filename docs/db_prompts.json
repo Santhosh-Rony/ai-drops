@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 06, 2026",
+        "items": [
+            {
+                "title": "# Core App Features",
+                "content": "Brainstorm core features for a new [App Type] app for [Target Audience]. The app's main goal is to [App Goal]. Provide a list of 5-7 key features and a brief description for each."
+            },
+            {
+                "title": "# Unique Feature Ideas",
+                "content": "Suggest 3 unique, innovative features for an existing [Type of App, e.g., social media] app. These features should target [Specific Problem/Niche] and differentiate it from competitors. Explain each"
+            },
+            {
+                "title": "# Solve User Problems",
+                "content": "My users are struggling with [Specific User Problem] in my [App Name] app. Brainstorm 3-5 new features or improvements that directly address this pain point. Focus on user-friendly solutions."
+            },
+            {
+                "title": "# Monetization Features Brainstorm",
+                "content": "Brainstorm 3-4 potential monetization features for a free [App Type] app. These should enhance user experience while generating revenue. Provide a brief explanation for each feature."
+            }
+        ]
+    },
+    {
         "date": "September 05, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Link Related Tables",
                 "content": "Generate a SQL query to join [table1] and [table2] on [join_condition]. Select [columns_to_retrieve]. Include a WHERE clause for [filter_condition]. Database: [SQL dialect]."
-            }
-        ]
-    },
-    {
-        "date": "August 29, 2026",
-        "items": [
-            {
-                "title": "# Explain API Endpoint",
-                "content": "Write clear documentation for an API endpoint that [functionality, e.g., retrieves user data]. Include its purpose, method (GET/POST), and required parameters for [audience, e.g., mobile app"
-            },
-            {
-                "title": "# Create API Example",
-                "content": "Generate a full request and response example for an API endpoint that [functionality, e.g., creates a new product]. Provide JSON payloads and explain each field for [audience, e.g., backend"
-            },
-            {
-                "title": "# Document API Errors",
-                "content": "Detail common error codes (e.g., 400, 401, 500) for an API endpoint that [functionality, e.g., processes user logins]. For each, describe the cause and suggest resolution steps for [audience]."
-            },
-            {
-                "title": "# Describe API Security",
-                "content": "Draft an authentication section for an API using [auth method, e.g., API Keys]. Explain how to generate, store, and use the keys securely in requests for [audience, e.g., third-party integrators]."
             }
         ]
     }
