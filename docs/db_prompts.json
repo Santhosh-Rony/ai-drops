@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 07, 2026",
+        "items": [
+            {
+                "title": "# Define Startup Problem",
+                "content": "Create a slide for a startup pitch deck that clearly outlines the [Target Audience]'s main problem and how [Your Solution] solves it. Keep it concise."
+            },
+            {
+                "title": "# Show Market Size",
+                "content": "Generate a pitch deck slide detailing the total addressable market (TAM) for [Your Product/Service]. Include key statistics and growth potential for [Industry]."
+            },
+            {
+                "title": "# Explain Revenue Plan",
+                "content": "Draft a slide explaining the business model for [Your Startup]. Describe how revenue will be generated, including pricing strategy and key channels."
+            },
+            {
+                "title": "# Introduce Your Team",
+                "content": "Outline a pitch deck slide introducing the core team members of [Your Startup], highlighting their relevant experience. Also, state the 'ask' (e.g., funding amount and use)."
+            }
+        ]
+    },
+    {
         "date": "September 06, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Recognize Date Formats",
                 "content": "Design a regex to identify dates in MM/DD/YYYY format. Ensure it handles leading zeros for months and days."
-            }
-        ]
-    },
-    {
-        "date": "August 30, 2026",
-        "items": [
-            {
-                "title": "# Retrieve Specific Data",
-                "content": "Generate a SQL SELECT query to retrieve [columns] from the [table_name] table, filtering by [condition]. The database is [SQL dialect, e.g., PostgreSQL]."
-            },
-            {
-                "title": "# Add New Records",
-                "content": "Create an SQL INSERT statement to add new data into the [table_name] table. The columns are [column1, column2, ...]. The values for these columns are [value1, value2, ...]. Database is [SQL dialect]."
-            },
-            {
-                "title": "# Modify Existing Entries",
-                "content": "Write an SQL UPDATE statement for the [table_name] table. Set [column_to_update] to [new_value] where [condition]. Specify the SQL dialect, e.g., MySQL."
-            },
-            {
-                "title": "# Link Related Tables",
-                "content": "Generate a SQL query to join [table1] and [table2] on [join_condition]. Select [columns_to_retrieve]. Include a WHERE clause for [filter_condition]. Database: [SQL dialect]."
             }
         ]
     }
