@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 07, 2026",
+        "items": [
+            {
+                "title": "Human: Scheduling Tasks",
+                "description": "\u2022 Manual entry is slow; easy to overlook details.\n\u2022 Overlapping appointments; missed follow-ups occur.\n\u2022 Understands subtle social cues; adapts to mood."
+            },
+            {
+                "title": "AI: Scheduling Tasks",
+                "description": "\u2022 Instantly finds optimal slots; avoids conflicts.\n\u2022 Integrates multiple calendars; sends reminders.\n\u2022 Can't handle last-minute human mood changes."
+            },
+            {
+                "title": "Human: Homework Help",
+                "description": "\u2022 Parents spend hours explaining complex concepts.\n\u2022 Personal biases; limited knowledge in some areas.\n\u2022 Offers emotional support; builds critical thinking."
+            },
+            {
+                "title": "AI: Homework Help",
+                "description": "\u2022 Provides instant explanations; step-by-step solutions.\n\u2022 Available 24/7; covers vast subjects instantly.\n\u2022 Can 'hallucinate' wrong answers; no true understanding."
+            }
+        ]
+    },
+    {
         "date": "September 06, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Gift Ideas",
                 "description": "\u2022 Generates diverse ideas quickly from simple prompts.\n\u2022 Suggests options based on preferences and budget.\n\u2022 Lacks emotional intelligence; can't feel empathy."
-            }
-        ]
-    },
-    {
-        "date": "August 30, 2026",
-        "items": [
-            {
-                "title": "Human: Proofreading Te",
-                "description": "\u2022 Slow, tedious; needs fresh eyes and focus.\n\u2022 Misses own typos, gets tired, subjective style.\n\u2022 Understands nuance, intent, and subtle tone."
-            },
-            {
-                "title": "AI: Proofreading Text",
-                "description": "\u2022 Instant, consistent; checks grammar and spelling.\n\u2022 Catches common errors fast; objective; never tires.\n\u2022 Misses subtle humor; can change meaning unintentionally."
-            },
-            {
-                "title": "Human: Customer Suppor",
-                "description": "\u2022 Time-consuming calls; empathy, complex problem-solving.\n\u2022 Inconsistent answers, long waits, mood-dependent.\n\u2022 Shows genuine empathy; handles unique, emotional issues."
-            },
-            {
-                "title": "AI: Customer Support",
-                "description": "\u2022 24/7 instant replies; handles common, repetitive questions.\n\u2022 Fast, consistent info; never gets frustrated or tired.\n\u2022 Lacks real empathy; struggles with unique or emotional"
             }
         ]
     }
