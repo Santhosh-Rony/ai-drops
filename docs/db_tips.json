@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 07, 2026",
+        "items": [
+            {
+                "title": "# Interpret Error Messages",
+                "content": "Paste confusing error messages into AI. It explains what they mean simply and suggests initial troubleshooting steps, saving time deciphering jargon."
+            },
+            {
+                "title": "# Suggest Code Fixes",
+                "content": "Share your problematic code snippet and the error you're getting. AI can identify potential issues and propose corrections or alternative approaches to resolve the bug quickly."
+            },
+            {
+                "title": "# Refactor Code Clarity",
+                "content": "If your code is hard to read, ask AI to refactor it for better understanding. Clearer code is easier to debug and maintain, preventing future issues."
+            },
+            {
+                "title": "# Generate Test Cases",
+                "content": "Provide a function or small piece of code and ask AI to generate basic test cases. This helps verify functionality and catch bugs before they become bigger problems."
+            }
+        ]
+    },
+    {
         "date": "September 06, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Compare Document Versions",
                 "content": "Upload two versions of a legal document and ask the AI to highlight the differences. This quickly shows changes between drafts or agreements."
-            }
-        ]
-    },
-    {
-        "date": "August 31, 2026",
-        "items": [
-            {
-                "title": "# Tax Deduction Ideas",
-                "content": "Use AI to brainstorm potential tax deductions based on your job or lifestyle. It can help you remember overlooked expenses to discuss with your accountant."
-            },
-            {
-                "title": "# Summarize Policy Documents",
-                "content": "Upload lengthy insurance policies or tax documents to AI. Ask it to summarize key dates, coverage limits, or filing instructions in simple terms."
-            },
-            {
-                "title": "# Compare Insurance Quotes",
-                "content": "Provide AI with details from multiple insurance quotes. Ask it to highlight the differences in coverage, deductibles, and premiums clearly."
-            },
-            {
-                "title": "# Understand Tax Jargon",
-                "content": "Encounter confusing tax terms? Ask AI for plain language explanations of concepts like capital gains or adjusted gross income, making complex ideas simple."
             }
         ]
     }
