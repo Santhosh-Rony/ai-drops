@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 08, 2026",
+        "items": [
+            {
+                "title": "Human: Speech Writing",
+                "description": "\u2022 Brainstorming, drafting, editing takes hours of effort.\n\u2022 Writer's block, repetitive ideas, inconsistent tone.\n\u2022 Deep emotional connection, personal stories, real charisma."
+            },
+            {
+                "title": "AI: Speech Writing",
+                "description": "\u2022 Generates full speech drafts quickly with good structure.\n\u2022 Breaks writer's block, offers diverse stylistic options.\n\u2022 Lacks genuine emotion, personal touch, can hallucinate"
+            },
+            {
+                "title": "Human: Negotiation Pre",
+                "description": "\u2022 Researching parties, positions, goals is time-consuming.\n\u2022 Missing key info, emotional bias, poor strategy planning.\n\u2022 Reads body language, adapts strategy in real-time context."
+            },
+            {
+                "title": "AI: Negotiation Prep",
+                "description": "\u2022 Summarizes data, suggests talking points & scenarios fast.\n\u2022 Processes vast amounts of data quickly, identifies patterns.\n\u2022 No real-time social cues, cannot build rapport or trust."
+            }
+        ]
+    },
+    {
         "date": "September 07, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Medical Research",
                 "description": "\u2022 Summarizes complex papers and finds relevant studies fast.\n\u2022 Efficiently cross-references data, identifies trends.\n\u2022 Risks hallucination, no clinical judgment, data cutoff."
-            }
-        ]
-    },
-    {
-        "date": "August 31, 2026",
-        "items": [
-            {
-                "title": "Human: Data Analysis",
-                "description": "\u2022 Manual data entry is slow and error-prone.\n\u2022 Struggles with large datasets; easily overwhelmed.\n\u2022 Understands business context and future implications."
-            },
-            {
-                "title": "AI: Data Analysis",
-                "description": "\u2022 Analyzes vast datasets in seconds, finds patterns.\n\u2022 Automates report generation and trend identification.\n\u2022 Can't interpret nuanced context or question data quality."
-            },
-            {
-                "title": "Human: Gift Ideas",
-                "description": "\u2022 Spends hours brainstorming, often feels stressed.\n\u2022 Forgets past gifts, struggles with unique ideas.\n\u2022 Knows personal history, inside jokes, and emotions."
-            },
-            {
-                "title": "AI: Gift Ideas",
-                "description": "\u2022 Generates diverse ideas quickly from simple prompts.\n\u2022 Suggests options based on preferences and budget.\n\u2022 Lacks emotional intelligence; can't feel empathy."
             }
         ]
     }
