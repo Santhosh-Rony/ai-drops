@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 08, 2026",
+        "items": [
+            {
+                "title": "# Create Buyer Persona",
+                "content": "Generate a detailed buyer persona for [Product/Service] targeting [Target Demographic]. Include demographics, pain points, goals, and preferred communication channels."
+            },
+            {
+                "title": "# Identify Customer Pains",
+                "content": "Create a customer persona for [Industry/Niche]. Focus on their top 3 challenges, how they currently solve them, and what an ideal solution looks like."
+            },
+            {
+                "title": "# Develop Marketing Angle",
+                "content": "Based on [Product/Service], describe a customer persona most receptive to its benefits. Detail their interests, online behavior, and key motivators."
+            },
+            {
+                "title": "# Map User Journey",
+                "content": "Outline a customer persona for [Specific Scenario, e.g., first-time homebuyer]. Detail their journey from initial need to purchase, including touchpoints and emotions."
+            }
+        ]
+    },
+    {
         "date": "September 07, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Manipulate Text Strings",
                 "content": "Provide an Excel formula to extract the [first/last] [Number] characters from the text in cell [Cell Reference]. Alternatively, combine text from [Cell 1] and [Cell 2] with a space."
-            }
-        ]
-    },
-    {
-        "date": "August 31, 2026",
-        "items": [
-            {
-                "title": "# Validate Email Addresses",
-                "content": "Create a regex pattern to validate standard email addresses, including common formats like user@domain.com and sub.domain.co.uk."
-            },
-            {
-                "title": "# Extract Phone Numbers",
-                "content": "Generate a regex to extract phone numbers from text, considering formats like (XXX) XXX-XXXX, XXX-XXX-XXXX, and XXXXXXXXXX."
-            },
-            {
-                "title": "# Match URLs Exactly",
-                "content": "Provide a regex that matches full URLs, starting with http:// or https://, including subdomains and paths."
-            },
-            {
-                "title": "# Recognize Date Formats",
-                "content": "Design a regex to identify dates in MM/DD/YYYY format. Ensure it handles leading zeros for months and days."
             }
         ]
     }
