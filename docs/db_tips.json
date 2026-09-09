@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 09, 2026",
+        "items": [
+            {
+                "title": "# Spot Phishing Scams",
+                "content": "Paste suspicious emails into an AI to check for red flags like strange links or urgent demands. It helps identify potential phishing attempts before you click."
+            },
+            {
+                "title": "# Boost Password Security",
+                "content": "Use AI to brainstorm strong, unique password ideas that are hard to guess. Never share your actual passwords, but use AI for inspiration on complex combinations."
+            },
+            {
+                "title": "# Understand Security Terms",
+                "content": "Ask an AI to explain complex cybersecurity jargon in simple language. This helps you grasp important concepts without getting overwhelmed."
+            },
+            {
+                "title": "# Summarize Security News",
+                "content": "Feed long articles about recent data breaches or security updates to an AI. Get the key takeaways quickly to stay informed without reading every detail."
+            }
+        ]
+    },
+    {
         "date": "September 08, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Analyze Market Trends",
                 "content": "Ask AI to summarize industry reports or identify emerging product trends. This helps you make informed decisions about inventory and marketing strategies without extensive manual research."
-            }
-        ]
-    },
-    {
-        "date": "September 02, 2026",
-        "items": [
-            {
-                "title": "# Content Idea Generator",
-                "content": "Use AI to brainstorm endless content ideas for blogs, social media, or marketing campaigns. It helps overcome creative blocks and keeps your content fresh."
-            },
-            {
-                "title": "# Summarize Client Emails",
-                "content": "Paste long client emails into an AI to get instant summaries of key points and action items. This saves time and ensures you never miss important details."
-            },
-            {
-                "title": "# Draft Marketing Copy",
-                "content": "Let AI draft initial versions of social media posts, ad copy, or website descriptions. You can then quickly refine them, speeding up your marketing efforts."
-            },
-            {
-                "title": "# Research Market Trends",
-                "content": "Ask AI to identify current market trends or competitor activities relevant to your niche. This provides quick insights for business strategy without extensive manual searching."
             }
         ]
     }
