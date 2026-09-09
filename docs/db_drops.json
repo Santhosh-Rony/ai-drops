@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 09, 2026",
+        "items": [
+            {
+                "title": "Human: Resume Writing",
+                "description": "\u2022 Hours spent perfecting wording and formatting\n\u2022 Easy to miss typos or sound generic\n\u2022 Adds unique personal stories and experiences"
+            },
+            {
+                "title": "AI: Resume Writing",
+                "description": "\u2022 Generates tailored drafts in seconds\n\u2022 Optimizes for keywords, ensures consistent format\n\u2022 Can lack unique voice, sometimes generic phrases"
+            },
+            {
+                "title": "Human: Translating Text",
+                "description": "\u2022 Requires deep language knowledge, can be slow\n\u2022 May miss subtle cultural nuances or idioms\n\u2022 Understands context, emotion, and local slang"
+            },
+            {
+                "title": "AI: Translating Text",
+                "description": "\u2022 Instant translation for any volume of text\n\u2022 Consistent terminology across large documents\n\u2022 Struggles with humor, idioms, and deep context"
+            }
+        ]
+    },
+    {
         "date": "September 08, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Fitness Coaching",
                 "description": "\u2022 Creates custom plans fast, tracks progress diligently.\n\u2022 Offers data-driven insights, 24/7 access to guidance.\n\u2022 Can't see your form, lacks human empathy/motivation."
-            }
-        ]
-    },
-    {
-        "date": "September 01, 2026",
-        "items": [
-            {
-                "title": "Human: Event Planning",
-                "description": "\u2022 Weeks of searching venues, caterers, and RSVPs.\n\u2022 Overlooked details, budget creep, and high stress.\n\u2022 Personal touch, emotional connection, real-time adapting."
-            },
-            {
-                "title": "AI: Event Planning",
-                "description": "\u2022 Generates themes, guest lists, and budget ideas fast.\n\u2022 Provides quick initial drafts and vendor suggestions.\n\u2022 Lacks intuition, can't handle last-minute human changes."
-            },
-            {
-                "title": "Human: Medical Research",
-                "description": "\u2022 Slow, detailed reading of studies, journals, textbooks.\n\u2022 Information overload, bias, missing new research.\n\u2022 Critical thinking, ethical judgment, patient empathy."
-            },
-            {
-                "title": "AI: Medical Research",
-                "description": "\u2022 Summarizes complex papers and finds relevant studies fast.\n\u2022 Efficiently cross-references data, identifies trends.\n\u2022 Risks hallucination, no clinical judgment, data cutoff."
             }
         ]
     }
