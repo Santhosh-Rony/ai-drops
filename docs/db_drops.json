@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 10, 2026",
+        "items": [
+            {
+                "title": "Human: Debugging Code",
+                "description": "\u2022 Hours spent staring at screen, trial and error.\n\u2022 Frustration, overlooking simple typos or logic errors.\n\u2022 Deep context, understanding intent, creative solutions."
+            },
+            {
+                "title": "AI: Debugging Code",
+                "description": "\u2022 Scans code instantly, suggests fixes based on patterns.\n\u2022 Finds syntax errors, common logic flaws, missing imports.\n\u2022 Lacks intuition for complex bugs, may suggest incorrect"
+            },
+            {
+                "title": "Human: Meal Planning",
+                "description": "\u2022 Takes time, balancing tastes, nutrition, and budget.\n\u2022 Forgetting ingredients, repetitive meals, food waste.\n\u2022 Adapts to mood, cravings, social events, personal touch."
+            },
+            {
+                "title": "AI: Meal Planning",
+                "description": "\u2022 Generates diverse plans fast, considers diet/allergies.\n\u2022 Provides recipes, grocery lists, nutritional breakdowns.\n\u2022 No real-time pantry check, lacks emotional connection to"
+            }
+        ]
+    },
+    {
         "date": "September 09, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Music Discovery",
                 "description": "\u2022 Instant recommendations based on listening data.\n\u2022 Efficiently finds similar artists/genres, highly\n\u2022 Misses context, can be repetitive, lacks emotional depth."
-            }
-        ]
-    },
-    {
-        "date": "September 02, 2026",
-        "items": [
-            {
-                "title": "Human: Interior Design",
-                "description": "\u2022 Spend weeks browsing, measuring, second-guessing.\n\u2022 Struggle to visualize, fear clashing colors/styles.\n\u2022 Understand personal style, feeling, and flow intuitively."
-            },
-            {
-                "title": "AI: Interior Design",
-                "description": "\u2022 Generates concepts/layouts in seconds from photos.\n\u2022 Offers endless variations, instant style exploration.\n\u2022 Lacks true empathy, struggles with unique personal taste."
-            },
-            {
-                "title": "Human: Fitness Coaching",
-                "description": "\u2022 Requires consistent effort, often hit plateaus alone.\n\u2022 Easy to lose motivation, risk injury with poor form.\n\u2022 Provides emotional support, real-time form correction."
-            },
-            {
-                "title": "AI: Fitness Coaching",
-                "description": "\u2022 Creates custom plans fast, tracks progress diligently.\n\u2022 Offers data-driven insights, 24/7 access to guidance.\n\u2022 Can't see your form, lacks human empathy/motivation."
             }
         ]
     }
