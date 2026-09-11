@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 11, 2026",
+        "items": [
+            {
+                "title": "# Understand Data Bias",
+                "content": "AI learns from the data it's given. If this data reflects existing human prejudices, the AI will learn and repeat those biases in its outputs. Always question the source of the information an AI was"
+            },
+            {
+                "title": "# Spot AI Prejudice",
+                "content": "Biased AI can lead to unfair or inaccurate results, especially in sensitive areas like hiring or loan applications. Look for consistent patterns of exclusion or favoritism in AI-generated content."
+            },
+            {
+                "title": "# Promote Fair AI",
+                "content": "Developers actively work to identify and reduce bias through diverse training data and ethical guidelines. You can help by providing feedback when you notice biased AI behavior in action."
+            },
+            {
+                "title": "# Question AI Results",
+                "content": "Always critically evaluate AI outputs, particularly those impacting individuals or important decisions. Your human judgment is crucial to ensure fairness, accuracy, and ethical use of AI tools."
+            }
+        ]
+    },
+    {
         "date": "September 10, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Categorize Text Data",
                 "content": "Use AI to automatically sort and categorize free-form text from surveys or comments into predefined groups. This helps analyze qualitative feedback much faster."
-            }
-        ]
-    },
-    {
-        "date": "September 04, 2026",
-        "items": [
-            {
-                "title": "# App Idea Brainstorm",
-                "content": "Use AI to brainstorm unique app ideas based on your interests or a problem you want to solve. It can suggest features and target users, kickstarting your no-code project."
-            },
-            {
-                "title": "# Define App Features",
-                "content": "Describe your app's core purpose to AI, then ask it to list essential features. This helps you clarify what your app needs before you start building."
-            },
-            {
-                "title": "# Write User Stories",
-                "content": "Input your app idea and ask AI to generate simple user stories. This helps you understand different user perspectives and how they'll interact with your no-code app."
-            },
-            {
-                "title": "# Plan Data Structure",
-                "content": "Tell AI what data your app will handle (e.g., users, tasks). It can suggest how to organize this data, making your no-code database setup much easier."
             }
         ]
     }
