@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 11, 2026",
+        "items": [
+            {
+                "title": "Human: Trip Planning",
+                "description": "\u2022 Hours of research, comparing flights and hotels.\n\u2022 Overlooked details, decision fatigue, analysis paralysis.\n\u2022 Personal touch, spontaneous changes, gut feelings."
+            },
+            {
+                "title": "AI: Trip Planning",
+                "description": "\u2022 Generates itineraries in seconds, suggests options.\n\u2022 Processes vast data quickly, finds cheapest options.\n\u2022 Lacks real-time data, can hallucinate details."
+            },
+            {
+                "title": "Human: Email Drafting",
+                "description": "\u2022 Takes time to craft tone, check grammar, proofread.\n\u2022 Writer's block, miscommunication, formal tone errors.\n\u2022 Understands nuance, empathy, builds relationships."
+            },
+            {
+                "title": "AI: Email Drafting",
+                "description": "\u2022 Drafts emails in seconds, suggests subject lines.\n\u2022 Ensures grammar/spelling, generates quick responses.\n\u2022 Can sound generic, misses context, lacks emotional depth."
+            }
+        ]
+    },
+    {
         "date": "September 10, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Presentation Makin",
                 "description": "\u2022 Generates slide outlines & content in minutes.\n\u2022 Creates consistent, structured starting points.\n\u2022 Lacks emotional intelligence; generic visuals; no real"
-            }
-        ]
-    },
-    {
-        "date": "September 04, 2026",
-        "items": [
-            {
-                "title": "Human: Writing Essays",
-                "description": "\u2022 Takes hours of research, outlining, and drafting.\n\u2022 Writer's block, accidental plagiarism, inconsistent flow.\n\u2022 Offers true originality, deep personal insight, unique"
-            },
-            {
-                "title": "AI: Writing Essays",
-                "description": "\u2022 Generates full drafts or sections in seconds.\n\u2022 Excellent for quick outlines, grammar, and idea generation.\n\u2022 Can hallucinate facts, lacks true originality or emotion."
-            },
-            {
-                "title": "Human: Music Discovery",
-                "description": "\u2022 Friends' tips, radio, live shows, deep dives on blogs.\n\u2022 Slow, limited to your social bubble, often hit-or-miss.\n\u2022 Finds niche gems, emotional connection, genuine serendipity."
-            },
-            {
-                "title": "AI: Music Discovery",
-                "description": "\u2022 Instant recommendations based on listening data.\n\u2022 Efficiently finds similar artists/genres, highly\n\u2022 Misses context, can be repetitive, lacks emotional depth."
             }
         ]
     }
