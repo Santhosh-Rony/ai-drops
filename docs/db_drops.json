@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 12, 2026",
+        "items": [
+            {
+                "title": "Human: Learning a Lang",
+                "description": "\u2022 Years of dedicated study, classes, practice.\n\u2022 Slow progress, forgetting words, awkward convos.\n\u2022 Emotional connection, cultural nuance, real context."
+            },
+            {
+                "title": "AI: Learning a Languag",
+                "description": "\u2022 Instant translation, grammar checks, vocabulary drills.\n\u2022 Consistent practice, personalized exercises, 24/7.\n\u2022 Lacks natural conversation flow, cultural depth."
+            },
+            {
+                "title": "Human: Tax Filing Help",
+                "description": "\u2022 Hours gathering docs, understanding complex forms.\n\u2022 Missed deductions, calculation errors, audit fear.\n\u2022 Complex unique situations, personal financial advice."
+            },
+            {
+                "title": "AI: Tax Filing Help",
+                "description": "\u2022 Quick data entry, error checking, form population.\n\u2022 Automated calculations, instant form filling, alerts.\n\u2022 No legal advice, can't interpret new tax laws yet."
+            }
+        ]
+    },
+    {
         "date": "September 11, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Story Writing",
                 "description": "\u2022 Generates plots, characters, dialogue in seconds.\n\u2022 Overcomes writer's block, ensures structural consistency.\n\u2022 Often generic, lacks true originality or human depth."
-            }
-        ]
-    },
-    {
-        "date": "September 05, 2026",
-        "items": [
-            {
-                "title": "Human: Legal Research",
-                "description": "\u2022 Hours spent sifting through dense legal texts.\n\u2022 Missing key precedents; interpretation errors.\n\u2022 Nuanced interpretation of complex case facts."
-            },
-            {
-                "title": "AI: Legal Research",
-                "description": "\u2022 Instantly scans vast databases for relevant cases.\n\u2022 Rapidly identifies patterns and relevant statutes.\n\u2022 Cannot provide legal advice; risks factual 'hallucinations'."
-            },
-            {
-                "title": "Human: Presentation Ma",
-                "description": "\u2022 Days crafting slides, designing, writing content.\n\u2022 Inconsistent design, information overload, writer's block.\n\u2022 Deep understanding of audience emotion & flow."
-            },
-            {
-                "title": "AI: Presentation Makin",
-                "description": "\u2022 Generates slide outlines & content in minutes.\n\u2022 Creates consistent, structured starting points.\n\u2022 Lacks emotional intelligence; generic visuals; no real"
             }
         ]
     }
