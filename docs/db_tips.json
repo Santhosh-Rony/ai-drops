@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 13, 2026",
+        "items": [
+            {
+                "title": "# Generate Content Ideas",
+                "content": "Stuck on what to talk about? Ask AI to brainstorm topics for your next podcast or video based on your niche and audience interests. This quickly provides a fresh list of engaging subjects."
+            },
+            {
+                "title": "# Outline Your Script",
+                "content": "Provide AI with your topic and key points, then ask it to create a structured outline for your script. This helps organize your thoughts and ensures a logical flow for your content."
+            },
+            {
+                "title": "# Draft Full Scripts",
+                "content": "Give AI your outline and a specific tone, then have it draft a complete script for your podcast or video. Review and edit the draft to match your unique voice and style."
+            },
+            {
+                "title": "# Summarize Research Notes",
+                "content": "Feed AI your lengthy research notes or articles and ask it to summarize the key takeaways. This saves time on background research, helping you quickly integrate facts into your script."
+            }
+        ]
+    },
+    {
         "date": "September 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Generate Test Cases",
                 "content": "Provide a function or small piece of code and ask AI to generate basic test cases. This helps verify functionality and catch bugs before they become bigger problems."
-            }
-        ]
-    },
-    {
-        "date": "September 06, 2026",
-        "items": [
-            {
-                "title": "# Link AI Apps",
-                "content": "Use tools like Zapier or Make.com to connect AI to your favorite apps. Automate tasks by having AI process data from one app and send it to another."
-            },
-            {
-                "title": "# Automate Summaries",
-                "content": "Set up an automation to send long emails or documents to an AI tool. Get instant summaries delivered directly to your inbox, saving reading time."
-            },
-            {
-                "title": "# Format Data Easily",
-                "content": "Feed messy data into an AI through an automation. AI can clean, categorize, or reformat it instantly, making your spreadsheets tidy without manual effort."
-            },
-            {
-                "title": "# Auto Generate Posts",
-                "content": "Connect an AI to your social media scheduler using an API. Provide a topic, and AI can draft engaging posts automatically, streamlining your content creation."
             }
         ]
     }
