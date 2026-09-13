@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 13, 2026",
+        "items": [
+            {
+                "title": "Human: Photo Editing",
+                "description": "\u2022 Manual adjustments take time, lots of trial & error.\n\u2022 Inconsistent results, difficult to match styles.\n\u2022 Artistic vision, unique style, emotional touch."
+            },
+            {
+                "title": "AI: Photo Editing",
+                "description": "\u2022 Automated fixes in seconds, batch processing.\n\u2022 Quickly remove objects, enhance quality fast.\n\u2022 Lacks true creative intent or subjective taste."
+            },
+            {
+                "title": "Human: Budget Planning",
+                "description": "\u2022 Manual tracking takes effort, easy to forget.\n\u2022 Overlooking small expenses, emotional spending.\n\u2022 Personal goals, understanding life changes."
+            },
+            {
+                "title": "AI: Budget Planning",
+                "description": "\u2022 Analyzes spending fast, identifies trends.\n\u2022 Predicts future costs based on data, unbiased.\n\u2022 No empathy for personal struggles or unique needs."
+            }
+        ]
+    },
+    {
         "date": "September 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Homework Help",
                 "description": "\u2022 Provides instant explanations; step-by-step solutions.\n\u2022 Available 24/7; covers vast subjects instantly.\n\u2022 Can 'hallucinate' wrong answers; no true understanding."
-            }
-        ]
-    },
-    {
-        "date": "September 06, 2026",
-        "items": [
-            {
-                "title": "Human: Shopping Compar",
-                "description": "\u2022 Hours spent researching, opening many tabs.\n\u2022 Overwhelmed by choices, missing deals, decision fatigue.\n\u2022 Can feel textures, try on clothes, trust intuition."
-            },
-            {
-                "title": "AI: Shopping Compariso",
-                "description": "\u2022 Instantly finds product details, prices, reviews.\n\u2022 Processes vast data, identifies patterns quickly.\n\u2022 Lacks real-time pricing, can't feel product quality."
-            },
-            {
-                "title": "Human: Story Writing",
-                "description": "\u2022 Takes days/weeks for plot, characters, emotions.\n\u2022 Writer's block, inconsistent tone, character development.\n\u2022 Deep personal experience, unique voice, raw emotion."
-            },
-            {
-                "title": "AI: Story Writing",
-                "description": "\u2022 Generates plots, characters, dialogue in seconds.\n\u2022 Overcomes writer's block, ensures structural consistency.\n\u2022 Often generic, lacks true originality or human depth."
             }
         ]
     }
