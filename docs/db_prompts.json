@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 13, 2026",
+        "items": [
+            {
+                "title": "# Craft Guest List",
+                "content": "Generate a guest list for a [age/type] birthday party for [person's name]. Include family, close friends, and [number] additional guests. Draft a simple invitation message for digital delivery."
+            },
+            {
+                "title": "# Plan Party Theme",
+                "content": "Suggest 3 unique birthday party themes for a [age/person's interest] celebration. For each theme, list 3 decoration ideas and 2 simple food suggestions."
+            },
+            {
+                "title": "# Organize Party Fun",
+                "content": "Create a menu for a [age/type] birthday party for [number] guests, including main dishes, snacks, and a dessert. Also, suggest 3 engaging activities or games suitable for this group."
+            },
+            {
+                "title": "# Master Party Budget",
+                "content": "Generate a detailed birthday party planning checklist for a [age/type] celebration, covering tasks from 4 weeks out to the day of. Include a simple budget template with common expense categories."
+            }
+        ]
+    },
+    {
         "date": "September 12, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "# Introduce Your Team",
                 "content": "Outline a pitch deck slide introducing the core team members of [Your Startup], highlighting their relevant experience. Also, state the 'ask' (e.g., funding amount and use)."
-            }
-        ]
-    },
-    {
-        "date": "September 06, 2026",
-        "items": [
-            {
-                "title": "# Core App Features",
-                "content": "Brainstorm core features for a new [App Type] app for [Target Audience]. The app's main goal is to [App Goal]. Provide a list of 5-7 key features and a brief description for each."
-            },
-            {
-                "title": "# Unique Feature Ideas",
-                "content": "Suggest 3 unique, innovative features for an existing [Type of App, e.g., social media] app. These features should target [Specific Problem/Niche] and differentiate it from competitors. Explain each"
-            },
-            {
-                "title": "# Solve User Problems",
-                "content": "My users are struggling with [Specific User Problem] in my [App Name] app. Brainstorm 3-5 new features or improvements that directly address this pain point. Focus on user-friendly solutions."
-            },
-            {
-                "title": "# Monetization Features Brainstorm",
-                "content": "Brainstorm 3-4 potential monetization features for a free [App Type] app. These should enhance user experience while generating revenue. Provide a brief explanation for each feature."
             }
         ]
     }
