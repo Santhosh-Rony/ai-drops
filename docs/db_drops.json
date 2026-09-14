@@ -1,5 +1,26 @@
 [
     {
+        "date": "September 14, 2026",
+        "items": [
+            {
+                "title": "Human: Recipe Finding",
+                "description": "\u2022 Scrolls endless blogs, adds to shopping list\n\u2022 Unclear instructions, missing key ingredients\n\u2022 Adapts to taste, uses intuition in the kitchen"
+            },
+            {
+                "title": "AI: Recipe Finding",
+                "description": "\u2022 Generates recipes instantly from ingredients\n\u2022 Customizes for allergies, diets, skill level\n\u2022 Can't taste, may invent bad ingredient combos"
+            },
+            {
+                "title": "Human: Job Searching",
+                "description": "\u2022 Manual search on multiple sites, tailoring CV\n\u2022 Misses opportunities, gets bogged down easily\n\u2022 Networking, understanding company culture fit"
+            },
+            {
+                "title": "AI: Job Searching",
+                "description": "\u2022 Scans thousands of listings for keywords\n\u2022 Optimizes CV for specific job descriptions\n\u2022 Lacks emotional intelligence, interview skills"
+            }
+        ]
+    },
+    {
         "date": "September 13, 2026",
         "items": [
             {
@@ -122,27 +143,6 @@
             {
                 "title": "AI: Negotiation Prep",
                 "description": "\u2022 Summarizes data, suggests talking points & scenarios fast.\n\u2022 Processes vast amounts of data quickly, identifies patterns.\n\u2022 No real-time social cues, cannot build rapport or trust."
-            }
-        ]
-    },
-    {
-        "date": "September 07, 2026",
-        "items": [
-            {
-                "title": "Human: Scheduling Tasks",
-                "description": "\u2022 Manual entry is slow; easy to overlook details.\n\u2022 Overlapping appointments; missed follow-ups occur.\n\u2022 Understands subtle social cues; adapts to mood."
-            },
-            {
-                "title": "AI: Scheduling Tasks",
-                "description": "\u2022 Instantly finds optimal slots; avoids conflicts.\n\u2022 Integrates multiple calendars; sends reminders.\n\u2022 Can't handle last-minute human mood changes."
-            },
-            {
-                "title": "Human: Homework Help",
-                "description": "\u2022 Parents spend hours explaining complex concepts.\n\u2022 Personal biases; limited knowledge in some areas.\n\u2022 Offers emotional support; builds critical thinking."
-            },
-            {
-                "title": "AI: Homework Help",
-                "description": "\u2022 Provides instant explanations; step-by-step solutions.\n\u2022 Available 24/7; covers vast subjects instantly.\n\u2022 Can 'hallucinate' wrong answers; no true understanding."
             }
         ]
     }
